@@ -1,0 +1,609 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Heroes>
+  <!--lords.xml-->
+  <!--OnNewGameCreated is hardcoded to need:
+lord_1_7 , lord_1_1 , lord_4_1 , lord_4_16 , lord_2_1 , lord_3_5
+town_V6 , dead_lord_2_2 and dead_lord_3_1-->
+  <Hero id="main_hero" father="Hero.main_hero_father" mother="Hero.main_hero_mother" faction="Faction.player_faction" />
+  <Hero id="main_hero_father" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_mother" />
+  <Hero id="main_hero_mother" alive="false" faction="Faction.player_faction" spouse="Hero.main_hero_father" />
+  <Hero id="dead_lord_2_1" alive="false" faction="Faction.clan_sturgia_2" text="{=bsOLRZyS}Olek the Old was boyar of the Kuloving, the fiercest and most conservative of the Sturgian noble houses. He fell at the battle of Pendraic, leading from the front - as many say Raganvad should have done." />
+  <Hero id="dead_lord_2_2" alive="false" father="Hero.dead_lord_2_1" faction="Faction.clan_sturgia_2" text="{=QyFdfZrC}Varra was a noblewoman of the Kuloving. She died under mysterious circumstances the year after the battle " />
+  <Hero id="dead_lord_3_1" alive="false" faction="Faction.clan_aserai_2" text="{=D3hGevbL}Nimr was a young warrior of the Banu Sarran who led the Aserai contingent at the battle of Pendraic. He was executed by the Banu Qild after seducing a young woman of that clan." />
+  <Hero id="dead_lord_6_1" alive="false" faction="Faction.clan_khuzait_1" text="{=L4b5EWdD}The great Khan Urkhun conquered the eastern frontiers of the Empire and established the Khuzait khanate. Most remember him as a hero, though some resent how he curtailed the ancient liberties of his people to transform them from nomads into lords of a kingdom." />
+  <Hero id="dead_lord_6_2" alive="false" faction="Faction.clan_khuzait_2" text="{=dfmSNTZk}Solun was the chief noyan of the Khergit and the former husband of Mesui, slain at the battle of Pendraic." />
+  <Hero id="dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" text="{=CCfjl9eU}Kuyug was the chief noyan of the Arkit clan of the Khuzaits." />
+  <Hero id="dead_lord_6_4" father="Hero.dead_lord_6_3" alive="false" faction="Faction.clan_khuzait_3" text="{=f9Ha1S0s}Undul was a Khuzait noble of the Arkit clan." />
+  <!--Andor -->
+  <!-- House Trakand -->
+  <Hero id="lord_1_1" faction="Faction.clan_empire_north_1" text="{=niI9dpuu}The heartland of the Westlands is ruled by Elayne, a charismatic Aes Sedai who represents a longstanding populist trend in monarchs joining the White Tower. She is deeply loved by her soldiers, both for her solid record in winning battles and for her insistence that veterans be compensated in land afterwards. She often demands that the 'people' should settle key issues, but in practice this usually means an assembly of soldiers, where veterans can be counted on to shut down opposition." />
+  <Hero id="lord_1_2" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_1_1" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_1_2" faction="Faction.clan_empire_north_1" spouse="Hero.lord_1_1_3" />
+  <Hero id="lord_1_1_3" faction="Faction.clan_empire_north_1" spouse="Hero.lord_1_1_2" />
+  <Hero id="lord_1_1_4" faction="Faction.clan_empire_north_1" />
+  <Hero id="lord_1_1_5" faction="Faction.clan_empire_north_1" spouse="Hero.lady_1_1_6" />
+  <Hero id="lady_1_1_6" faction="Faction.clan_empire_north_1" spouse="Hero.lord_1_1_5" />
+  <!-- House Norwelyn -->
+  <Hero id="lord_1_1_7" faction="Faction.clan_empire_north_2" text="{=vzR5CfuX}Luans's family, the house of Norwelyn, has taken charge of andor's northwestern defenses for generations. The clan's leaders are more likely to keep the company of border raiders and scouts than senators in the capital. Luan has backed Elayne's claim to the Lion Throne, largely due to his innate sense of loyalty to a fellow comrade-in-arms." />
+  <Hero id="lord_1_1_8" faction="Faction.clan_empire_north_2" spouse="Hero.lady_1_1_9" />
+  <Hero id="lady_1_1_9" faction="Faction.clan_empire_north_2" spouse="Hero.lord_1_1_8" />
+  <Hero id="lord_1_1_10" faction="Faction.clan_empire_north_2" father="Hero.lord_1_1_8" mother="Hero.lady_1_1_9" />
+  <Hero id="lord_1_1_11" faction="Faction.clan_empire_north_2" father="Hero.lord_1_1_8" mother="Hero.lady_1_1_9" />
+  <!-- House Gilyard -->
+  <Hero id="lord_1_1_15" faction="Faction.clan_empire_north_3" />
+  <Hero id="lord_1_1_16" faction="Faction.clan_empire_north_3" spouse="Hero.lord_1_3" />
+  <Hero id="lord_1_3" faction="Faction.clan_empire_north_3" spouse="Hero.lord_1_1_16" />
+  <Hero id="lord_1_4" faction="Faction.clan_empire_north_3" father="Hero.lord_1_3" mother="Hero.lord_1_1_16" />
+  <Hero id="lord_1_5" faction="Faction.clan_empire_north_3" father="Hero.lord_1_3" mother="Hero.lord_1_1_16" />
+  <!--Andor Lesser Nobles -->
+  <Hero id="lord_1_6" faction="Faction.clan_empire_north_4" spouse="Hero.lord_1_7" />
+  <Hero id="lord_1_7" faction="Faction.clan_empire_north_4" spouse="Hero.lord_1_6" />
+  <Hero id="lord_1_8" faction="Faction.clan_empire_north_4" />
+  <Hero id="lord_1_9" faction="Faction.clan_empire_north_4" />
+  <Hero id="lord_1_10" faction="Faction.clan_empire_north_4" />
+  <!-- The White Tower -->
+  <!-- The White Tower -->
+  <Hero id="lord_1_25" faction="Faction.clan_empire_north_5" />
+  <Hero id="lord_1_35" faction="Faction.clan_empire_north_5" />
+  <Hero id="lord_1_11" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_111" />
+  <Hero id="lord_1_111" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_11" />
+  <Hero id="lord_1_12" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_14" />
+  <Hero id="lord_1_14" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_12" />
+  <Hero id="lord_1_15" faction="Faction.clan_empire_north_5" />
+  <Hero id="lord_1_155" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_16" />
+  <Hero id="lord_1_16" faction="Faction.clan_empire_north_5" spouse="Hero.lord_1_155" />
+  <!--Tar Valon Sisters-->
+  <Hero id="lord_1_17" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_177" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_21" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_22" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_75" faction="Faction.clan_empire_north_7" spouse="Hero.lord_1_24" />
+  <Hero id="lord_1_26" faction="Faction.clan_empire_north_7" />
+  <Hero id="lord_1_24" faction="Faction.clan_empire_north_7" spouse="Hero.lord_1_75" />
+  <!--Tar Valon Defenders -->
+  <Hero id="lord_1_27" faction="Faction.clan_empire_north_6" />
+  <Hero id="lord_1_27_1" faction="Faction.clan_empire_north_6" />
+  <Hero id="lord_1_18" faction="Faction.clan_empire_north_6" spouse="Hero.lord_1_27_2" />
+  <Hero id="lord_1_27_2" faction="Faction.clan_empire_north_6" spouse="Hero.lord_1_18" />
+  <!-- The Black Tower -->
+  <!-- The Black Tower -->
+  <Hero id="lord_1_27_3" faction="Faction.clan_empire_north_8" text="{=xL95EfpQ}Mazrim Taim was one of the most power male channelers who declared himself a Dragon reborn. He was instrumental in Rand al'Thor's learning to control his power as his teacher at the Farm." />
+  <Hero id="lord_1_28" faction="Faction.clan_empire_north_8" />
+  <Hero id="lord_1_29" faction="Faction.clan_empire_north_8" />
+  <Hero id="lord_1_31" faction="Faction.clan_empire_north_8" spouse="Hero.lord_1_33" />
+  <Hero id="lord_1_32" faction="Faction.clan_empire_north_8" />
+  <Hero id="lord_1_33" faction="Faction.clan_empire_north_8" spouse="Hero.lord_1_31" />
+  <!-- The Black Tower Loyalists-->
+  <Hero id="lord_1_422" faction="Faction.clan_empire_north_9" />
+  <Hero id="lord_1_34" faction="Faction.clan_empire_north_9" />
+  <Hero id="lord_1_36" faction="Faction.clan_empire_north_9" />
+  <Hero id="lord_1_37" faction="Faction.clan_empire_north_9" />
+  <Hero id="lord_1_38" faction="Faction.clan_empire_north_9" />
+  <!-- Cairhien -->
+  <!--House Riatin -->
+  <Hero id="lord_1_39" faction="Faction.clan_empire_south_1" text="{=WBl5hS0e}The eastern-central part of the Westlands is ruled by Galldrian su Riatin, who represents a long-standing oligarchic trend in intrigue politics. It holds that the game of houses is the best guarantee that the empire will not become a tyranny. Oligarchs like Galldrian also tend to believe that only landowners can have the extensive education, experience in government, and stake in property to really understand and appreciate the law, and thus the Senate should be supreme." spouse="Hero.lord_1_41" />
+  <Hero id="lord_1_41" faction="Faction.clan_empire_south_1" spouse="Hero.lord_1_39" />
+  <Hero id="lord_1_411" faction="Faction.clan_empire_south_1" father="Hero.lord_1_39" mother="Hero.lord_1_41" />
+  <Hero id="lord_1_42" faction="Faction.clan_empire_south_1" />
+  <Hero id="lord_1_43" faction="Faction.clan_empire_south_1" />
+  <Hero id="lord_1_44" faction="Faction.clan_empire_south_1" />
+  <!-- House Damodred -->
+  <Hero id="lord_1_47" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_47_1" faction="Faction.clan_empire_south_2" spouse="Hero.lord_1_47_2" />
+  <Hero id="lord_1_47_2" faction="Faction.clan_empire_south_2" text="{=SeQ5dM4H}Caraline is a noblewoman of the House Damodred, a clan noted for their fanatical loyalty to the aristocratic, oligarchic wing of the Senate and their personal eccentricities. Unlike most of the women of the oligarchs, who tend to be conservative, she trained as a warrior. She took some of her family's famed wealth to raise support the rebellion to oppose the Dragon Reborn." spouse="Hero.lord_1_47_1" />
+  <Hero id="lord_1_47_3" faction="Faction.clan_empire_south_2" />
+  <Hero id="lord_1_49" faction="Faction.clan_empire_south_2" spouse="Hero.lord_1_49_1" />
+  <Hero id="lord_1_49_1" faction="Faction.clan_empire_south_2" spouse="Hero.lord_1_49" />
+  <!-- House Saighan -->
+  <Hero id="lord_1_49_2" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_20" faction="Faction.clan_empire_south_3" spouse="Hero.lord_1_1_12" />
+  <Hero id="lord_1_1_12" faction="Faction.clan_empire_south_3" spouse="Hero.lord_1_20" />
+  <Hero id="lord_1_64" faction="Faction.clan_empire_south_3" />
+  <Hero id="lord_1_1_13" faction="Faction.clan_empire_south_3" />
+  <!-- The Ghealdan -->
+  <!-- Ghealdan Royalty -->
+  <Hero id="lord_1_50" faction="Faction.clan_empire_south_4" text="{=HjGYftkH}Alliandre is the Queen of Ghealdan kingdom. She is tolerated by the Crown High Council for her handling of the prophet far better than her predecessors. The Ghealdan have always stood for a strong monarchy, and she is loathe to return the Ghealdan people to the anarchy that consumed them for much of their history." />
+  <Hero id="lord_1_1_14" faction="Faction.clan_empire_south_4" spouse="Hero.lord_1_58" />
+  <Hero id="lord_1_1_17" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_66" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_51" faction="Faction.clan_empire_south_4" />
+  <Hero id="lord_1_58" faction="Faction.clan_empire_south_4" spouse="Hero.lord_1_1_14" />
+  <!-- Ghealdan Nobles-->
+  <Hero id="lord_1_70" faction="Faction.clan_empire_south_5" spouse="Hero.lord_NE7_u" />
+  <Hero id="lord_NE7_u" faction="Faction.clan_empire_south_5" spouse="Hero.lord_1_70" />
+  <Hero id="lord_1_67" faction="Faction.clan_empire_south_5" />
+  <Hero id="lord_1_40" faction="Faction.clan_empire_south_5" />
+  <Hero id="lord_1_40_1" faction="Faction.clan_empire_south_5" />
+  <!-- Murandy -->
+  <!-- House a'roos  -->
+  <Hero id="lord_1_46" faction="Faction.clan_empire_south_6" spouse="Hero.lord_1_46_1" />
+  <Hero id="lord_1_46_1" faction="Faction.clan_empire_south_6" spouse="Hero.lord_1_46" />
+  <Hero id="lord_1_45" faction="Faction.clan_empire_south_6" spouse="Hero.lord_1_45_1" />
+  <Hero id="lord_1_45_1" faction="Faction.clan_empire_south_6" spouse="Hero.lord_1_45" />
+  <Hero id="lord_1_45_2" faction="Faction.clan_empire_south_6" text="{=uX0dbuLa}The small central nation of the Westlands is ruled by Roedran. His biggest challenge has been to unite the squabbling clans into a cohesive kingdom." />
+  <Hero id="lord_1_45_3" faction="Faction.clan_empire_south_6" />
+  <!-- House a'roihan -->
+  <Hero id="lord_1_57" faction="Faction.clan_empire_south_7" />
+  <Hero id="lord_1_57_1" faction="Faction.clan_empire_south_7" spouse="Hero.lord_1_57_2" />
+  <Hero id="lord_1_57_2" faction="Faction.clan_empire_south_7" spouse="Hero.lord_1_57_1" />
+  <Hero id="lord_1_52" faction="Faction.clan_empire_south_7" spouse="Hero.lord_1_52_1" />
+  <Hero id="lord_1_52_1" faction="Faction.clan_empire_south_7" spouse="Hero.lord_1_52" />
+  <Hero id="lord_1_52_2" faction="Faction.clan_empire_south_7" />
+  <Hero id="lord_1_53" faction="Faction.clan_empire_south_7" />
+  <!-- The Altara -->
+  <!-- Altara Commanders -->
+  <Hero id="lord_1_73_1" faction="Faction.clan_empire_south_8" />
+  <Hero id="lord_1_71" faction="Faction.clan_empire_south_8" />
+  <Hero id="lord_WE8_c" faction="Faction.clan_empire_south_8" />
+  <Hero id="lord_WE8_u" faction="Faction.clan_empire_south_8" />
+  <Hero id="lord_1_73" faction="Faction.clan_empire_south_8" />
+  <!-- Altara Royalty-->
+  <Hero id="lord_1_62" faction="Faction.clan_empire_south_9" />
+  <Hero id="lord_1_62_1" faction="Faction.clan_empire_south_9" mother="Hero.lord_1_62" />
+  <Hero id="lord_1_30" faction="Faction.clan_empire_south_9" />
+  <Hero id="lord_1_30_1" faction="Faction.clan_empire_south_9" />
+  <Hero id="lord_1_30_2" faction="Faction.clan_empire_south_9" />
+  <Hero id="lord_1_30_3" faction="Faction.clan_empire_south_9" />
+  <!-- The Dragonsworn -->
+  <!-- Al'Thor -->
+  <Hero id="lord_1_48" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_48_2" faction="Faction.clan_empire_west_1" spouse="Hero.lord_1_48_1" />
+  <Hero id="lord_1_48_1" faction="Faction.clan_empire_west_1" spouse="Hero.lord_1_48_2" father="Hero.lord_1_48" />
+  <Hero id="lord_1_48_3" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_54" faction="Faction.clan_empire_west_1" />
+  <Hero id="lord_1_54_1" faction="Faction.clan_empire_west_1" spouse="Hero.lord_1_55" />
+  <Hero id="lord_1_55" faction="Faction.clan_empire_west_1" spouse="Hero.lord_1_54_1" />
+  <!-- Dragonsworn -->
+  <Hero id="lord_1_69_2" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_1_72" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_1_72_1" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_SE8_c" faction="Faction.clan_empire_west_4" />
+  <Hero id="lord_1_74" faction="Faction.clan_empire_west_4" spouse="Hero.lord_1_74_1" />
+  <Hero id="lord_1_74_1" faction="Faction.clan_empire_west_4" spouse="Hero.lord_1_74" />
+  <!-- Band of the Red Hand  -->
+  <Hero id="lord_1_55_1" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_63_1" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_63_2" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_63" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_63_3" faction="Faction.clan_empire_west_2" />
+  <Hero id="lord_1_56" faction="Faction.clan_empire_west_2" />
+  <!--Cha Faile (Perrin) -->
+  <Hero id="lord_1_56_1" faction="Faction.clan_empire_west_3" spouse="Hero.lord_1_56_2" />
+  <Hero id="lord_1_56_2" faction="Faction.clan_empire_west_3" spouse="Hero.lord_1_56_1" father="Hero.lord_4_181" mother="Hero.lord_4_19" />
+  <Hero id="lord_1_68" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_68_1" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_69" faction="Faction.clan_empire_west_3" />
+  <Hero id="lord_1_69_1" faction="Faction.clan_empire_west_3" />
+  <!--Dragon Followers-->
+  <Hero id="lord_NE8_l" faction="Faction.clan_empire_west_5" />
+  <Hero id="lord_NE8_s" faction="Faction.clan_empire_west_5" />
+  <Hero id="lord_NE8_c1" faction="Faction.clan_empire_west_5" spouse="Hero.lord_NE8_c2" />
+  <Hero id="lord_NE8_c2" faction="Faction.clan_empire_west_5" spouse="Hero.lord_NE8_c1" />
+  <!-- The Amamdicia-->
+  <!-- King's Forces-->
+  <Hero id="lord_NE9_l" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_NE9_s" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_NE9_d" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_WE9_l" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_WE9_u" faction="Faction.clan_empire_west_6" />
+  <Hero id="lord_WE9_u2" faction="Faction.clan_empire_west_6" />
+  <!-- Children of the Light -->
+  <Hero id="lord_SE9_l" faction="Faction.clan_empire_west_7" />
+  <Hero id="lord_SE9_s" faction="Faction.clan_empire_west_7" />
+  <Hero id="lord_SE9_c1" faction="Faction.clan_empire_west_7" spouse="Hero.lord_2_1" />
+  <Hero id="lord_SE9_c2" faction="Faction.clan_empire_west_7" />
+  <Hero id="lord_2_1" faction="Faction.clan_empire_west_7" spouse="Hero.lord_SE9_c1" />
+  <!-- The Farmadding -->
+  <!--Counsels of Far Madding-->
+  <Hero id="lord_2_2" faction="Faction.clan_empire_west_8" />
+  <Hero id="lord_2_3" faction="Faction.clan_empire_west_8" spouse="Hero.lord_2_4_1" />
+  <Hero id="lord_2_4" faction="Faction.clan_empire_west_8" />
+  <Hero id="lord_2_4_1" faction="Faction.clan_empire_west_8" spouse="Hero.lord_2_3" />
+  <Hero id="lord_2_5" faction="Faction.clan_empire_west_8" mother="Hero.lord_2_2" />
+  <Hero id="lord_2_6" faction="Faction.clan_empire_west_8" />
+  <!--Guardians of Far Madding-->
+  <Hero id="lord_2_7" faction="Faction.clan_empire_west_9" />
+  <Hero id="lord_2_7_1" faction="Faction.clan_empire_west_9" />
+  <Hero id="lord_2_9" faction="Faction.clan_empire_west_9" father="Hero.lord_2_10" mother="Hero.lord_2_8" />
+  <Hero id="lord_2_8" faction="Faction.clan_empire_west_9" spouse="Hero.lord_2_10" />
+  <Hero id="lord_2_10" faction="Faction.clan_empire_west_9" spouse="Hero.lord_2_8" />
+  <!-- The Aiel -->
+  <!-- Tomanelle -->
+  <Hero id="lord_2_16_1" faction="Faction.clan_aserai_4" spouse="Hero.lord_2_16" />
+  <Hero id="lord_2_15_3" faction="Faction.clan_aserai_4" spouse="Hero.lord_2_15_4" />
+  <Hero id="lord_2_15_4" faction="Faction.clan_aserai_4" spouse="Hero.lord_2_15_3" />
+  <Hero id="lord_2_16" faction="Faction.clan_aserai_4" spouse="Hero.lord_2_16_1" />
+  <Hero id="lord_2_17" faction="Faction.clan_aserai_4" />
+  <!-- Shiande -->
+  <Hero id="lord_2_18" faction="Faction.clan_aserai_5" spouse="Hero.lord_2_17_1" />
+  <Hero id="lord_2_17_1" faction="Faction.clan_aserai_5" spouse="Hero.lord_2_18" />
+  <Hero id="lord_2_18_1" faction="Faction.clan_aserai_5" />
+  <Hero id="lord_2_19" faction="Faction.clan_aserai_5" />
+  <Hero id="lord_2_19_1" faction="Faction.clan_aserai_5" />
+  <!-- Shaarad -->
+  <Hero id="lord_2_20" faction="Faction.clan_aserai_6" />
+  <Hero id="lord_2_20_1" faction="Faction.clan_aserai_6" spouse="Hero.lord_S8_u" />
+  <Hero id="lord_S8_u" faction="Faction.clan_aserai_6" spouse="Hero.lord_2_20_1" />
+  <Hero id="lord_2_21" faction="Faction.clan_aserai_6" />
+  <Hero id="lord_2_21_1" faction="Faction.clan_aserai_6" />
+  <!-- Reyn -->
+  <Hero id="lord_3_6" faction="Faction.clan_vlandia_11" spouse="Hero.lord_3_8" />
+  <Hero id="lord_3_7" faction="Faction.clan_vlandia_11" />
+  <Hero id="lord_3_8" faction="Faction.clan_vlandia_11" spouse="Hero.lord_3_6" />
+  <Hero id="lord_3_9" faction="Faction.clan_vlandia_11" />
+  <!-- Taardad -->
+  <Hero id="lord_2_11" faction="Faction.clan_aserai_1" spouse="Hero.lord_2_111" text="{=CzM6y3MT}The current chief of the Aiel is Rhuarc, With the Westerlands in a state of disarray, he dreams of surpassing his ancestor Urkhun and conquering even deeper into the wet lands. Some of the clans have been decimated by the Trolloc wars, however, and feel their sacrifices have not been properly rewarded. They yearn for a chief who is less interested in glory, and more interested in justice." />
+  <Hero id="lord_2_111" faction="Faction.clan_aserai_1" spouse="Hero.lord_2_11" />
+  <Hero id="lord_2_12" faction="Faction.clan_aserai_1" father="Hero.lord_2_11" mother="Hero.lord_2_111"></Hero>
+  <Hero id="lord_2_121" faction="Faction.clan_aserai_1" father="Hero.lord_2_11" mother="Hero.lord_2_111" spouse="Hero.lord_2_13_1" />
+  <Hero id="lord_2_13" faction="Faction.clan_aserai_1" />
+  <Hero id="lord_2_13_1" faction="Faction.clan_aserai_1" spouse="Hero.lord_2_121" />
+  <!-- Chareen -->
+  <Hero id="lord_2_13_2" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_2_13_3" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_2_13_4" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_2_14" faction="Faction.clan_aserai_2" />
+  <Hero id="lord_2_14_1" faction="Faction.clan_aserai_2" />
+  <!-- Codarra -->
+  <Hero id="lord_2_14_2" faction="Faction.clan_aserai_3" spouse="Hero.lord_2_14_3" />
+  <Hero id="lord_2_14_3" faction="Faction.clan_aserai_3" spouse="Hero.lord_2_14_2" />
+  <Hero id="lord_2_15" faction="Faction.clan_aserai_3" spouse="Hero.lord_2_15_1" />
+  <Hero id="lord_2_15_1" faction="Faction.clan_aserai_3" spouse="Hero.lord_2_15" />
+  <Hero id="lord_2_15_2" faction="Faction.clan_aserai_3" />
+  <!-- Daryne -->
+  <Hero id="lord_2_22" faction="Faction.clan_aserai_7" spouse="Hero.lord_2_22_1" />
+  <Hero id="lord_2_22_1" faction="Faction.clan_aserai_7" spouse="Hero.lord_2_22" />
+  <Hero id="lord_2_23" faction="Faction.clan_aserai_7" father="Hero.lord_2_23_1" mother="Hero.lord_2_24" />
+  <Hero id="lord_2_23_1" faction="Faction.clan_aserai_7" spouse="Hero.lord_2_24" />
+  <Hero id="lord_2_24" faction="Faction.clan_aserai_7" spouse="Hero.lord_2_23_1" />
+  <!-- Koltit -->
+  <Hero id="lord_2_24_1" faction="Faction.clan_aserai_8" spouse="Hero.lord_S9_l" />
+  <Hero id="lord_S9_l" faction="Faction.clan_aserai_8" spouse="Hero.lord_2_24_1" />
+  <Hero id="lord_S9_m" faction="Faction.clan_aserai_8" father="Hero.lord_2_24_1" mother="Hero.lord_S9_l" />
+  <Hero id="lord_S9_c" faction="Faction.clan_aserai_8" />
+  <!-- Miagoma -->
+  <Hero id="lord_S9_u" faction="Faction.clan_aserai_9" spouse="Hero.lord_3_1" />
+  <Hero id="lord_3_1" faction="Faction.clan_aserai_9" spouse="Hero.lord_S9_u" />
+  <Hero id="lord_3_2" faction="Faction.clan_aserai_9" />
+  <Hero id="lord_3_3" faction="Faction.clan_aserai_9" />
+  <!-- Nakai -->
+  <Hero id="lord_3_3_1" faction="Faction.clan_vlandia_10" spouse="Hero.lord_3_4" />
+  <Hero id="lord_3_4" faction="Faction.clan_vlandia_10" spouse="Hero.lord_3_3_1" />
+  <Hero id="lord_3_5" faction="Faction.clan_vlandia_10" father="Hero.lord_3_3_1" mother="Hero.lord_3_4" />
+  <Hero id="lord_3_51" faction="Faction.clan_vlandia_10" father="Hero.lord_3_3_1" mother="Hero.lord_3_4" />
+  <!-- Illian -->
+  <!-- Illian High Lords -->
+  <Hero id="lord_3_10" faction="Faction.clan_battania_1" spouse="Hero.lord_3_11" text="{=L90aSR5J}The current King of Illian is Mattin. He wears his authority lightly, preferring to charm rather than to coerce, always deferring to the laws of the Council in his judgments. But there are some who say that the Council is remiss in its duty to administer justice, allowing the wealthiest clans - to use bribes and clever legal arguments to oppress the others." />
+  <Hero id="lord_3_11" faction="Faction.clan_battania_1" spouse="Hero.lord_3_10" />
+  <Hero id="lord_3_12" faction="Faction.clan_battania_1" father="Hero.lord_3_10" mother="Hero.lord_3_11" />
+  <Hero id="lord_3_13" faction="Faction.clan_battania_1" />
+  <Hero id="lord_3_13_1" faction="Faction.clan_battania_1" spouse="Hero.lord_3_13_2" />
+  <Hero id="lord_3_13_2" faction="Faction.clan_battania_1" spouse="Hero.lord_3_13_1" />
+  <!-- Illian Council -->
+  <Hero id="lord_3_14_1" faction="Faction.clan_battania_2" />
+  <Hero id="lord_3_15" faction="Faction.clan_battania_2" />
+  <Hero id="lord_3_14" faction="Faction.clan_battania_2" />
+  <Hero id="lord_3_15_1" faction="Faction.clan_battania_2" />
+  <Hero id="lord_3_15_2" faction="Faction.clan_battania_2" />
+  <!-- Tear -->
+  <!-- House Damara -->
+  <Hero id="lord_3_16" faction="Faction.clan_battania_4" text="{=pl86rbh9}Astoril is patriarch of the House Damara, an Tarien house that owns vast estates on the hot plains of the south. The family has traditionally taken the welfare of its tenants seriously, but expects total loyalty from them. He has little to do with the Senate and the politics of the capital." />
+  <Hero id="lord_3_16_1" faction="Faction.clan_battania_4" spouse="Hero.lord_3_16" />
+  <Hero id="lord_3_17" faction="Faction.clan_battania_4" father="Hero.lord_3_16" spouse="Hero.lord_3_16_1" />
+  <Hero id="lord_3_17_1" faction="Faction.clan_battania_4" spouse="Hero.lord_3_17_2" />
+  <Hero id="lord_3_17_2" faction="Faction.clan_battania_4" father="Hero.lord_3_16" spouse="Hero.lord_3_17_1"></Hero>
+  <Hero id="lord_3_18" faction="Faction.clan_battania_4" father="Hero.lord_3_16" />
+  <Hero id="lord_3_18_1" faction="Faction.clan_battania_4" father="Hero.lord_3_16" />
+  <Hero id="lord_3_18_2" faction="Faction.clan_battania_4" father="Hero.lord_3_16" />
+  <!-- House Sisnera -->
+  <Hero id="lord_3_18_3" faction="Faction.clan_battania_3" />
+  <Hero id="lord_3_18_4" faction="Faction.clan_battania_3" spouse="Hero.lord_3_19" />
+  <Hero id="lord_3_19" faction="Faction.clan_battania_3" spouse="Hero.lord_3_18_4" />
+  <Hero id="lord_3_19_1" faction="Faction.clan_battania_3" spouse="Hero.lord_3_19_2" />
+  <Hero id="lord_3_19_2" faction="Faction.clan_battania_3" spouse="Hero.lord_3_19_1" />
+  <!-- The Mayene -->
+  <!--House Paeron-->
+  <Hero id="lord_3_19_3" father="Hero.dead_lord_6_3" faction="Faction.clan_battania_5" />
+  <Hero id="lord_3_20" faction="Faction.clan_battania_5" />
+  <Hero id="lord_3_20_1" faction="Faction.clan_battania_5" father="Hero.dead_lord_6_3" spouse="Hero.lord_3_20_2" />
+  <Hero id="lord_3_20_2" faction="Faction.clan_battania_5" spouse="Hero.lord_3_20_1" />
+  <Hero id="lord_3_21" faction="Faction.clan_battania_5" father="Hero.dead_lord_6_3" />
+  <Hero id="lord_3_21_1" faction="Faction.clan_battania_5" father="Hero.dead_lord_6_3" />
+  <!--Winged Guard Officers-->
+  <Hero id="lord_3_22" faction="Faction.clan_battania_6" />
+  <Hero id="lord_3_22_1" faction="Faction.clan_battania_6" />
+  <Hero id="lord_3_22_2" faction="Faction.clan_battania_6" />
+  <Hero id="lord_3_22_3" faction="Faction.clan_battania_6" spouse="Hero.lord_3_22_4" />
+  <Hero id="lord_3_22_4" faction="Faction.clan_battania_6" spouse="Hero.lord_3_22_3" />
+  <!-- The Tarabon -->
+  <!-- Tarabon High Lords -->
+  <Hero id="lord_3_23" faction="Faction.clan_battania_7" spouse="Hero.lord_3_23_1" />
+  <Hero id="lord_3_23_1" faction="Faction.clan_battania_7" spouse="Hero.lord_3_23" />
+  <Hero id="lord_A9_l" faction="Faction.clan_battania_7" />
+  <Hero id="lord_A9_s" faction="Faction.clan_battania_7" />
+  <Hero id="lord_A9_c" faction="Faction.clan_battania_7" />
+  <Hero id="lord_A9_u" faction="Faction.clan_battania_7" father="Hero.lord_3_23" mother="Hero.lord_3_23_1" />
+  <Hero id="lord_4_1" faction="Faction.clan_battania_7" />
+  <!--Tarabon Assembly-->
+  <Hero id="lord_4_2" faction="Faction.clan_battania_8" />
+  <Hero id="lord_4_3" faction="Faction.clan_battania_8" />
+  <Hero id="lord_4_3_1" faction="Faction.clan_battania_8" />
+  <Hero id="lord_4_4" faction="Faction.clan_battania_8" />
+  <Hero id="lord_4_5" faction="Faction.clan_battania_8" />
+  <!-- Arad Doman-->
+  <!-- Arad Doman Royal Supporters -->
+  <Hero id="lord_4_6" faction="Faction.clan_vlandia_8" text="{=EHiQI7ps}The current king of the Arad Doman is Alsalam Saeed Almadar." />
+  <Hero id="lord_4_6_1" faction="Faction.clan_vlandia_8" spouse="Hero.lord_4_7" />
+  <Hero id="lord_4_7" faction="Faction.clan_vlandia_8" spouse="Hero.lord_4_6_1" />
+  <Hero id="lord_4_8" faction="Faction.clan_vlandia_8" />
+  <Hero id="lord_4_9" faction="Faction.clan_vlandia_8" />
+  <Hero id="lord_4_10" faction="Faction.clan_vlandia_8" />
+  <Hero id="lord_4_11" faction="Faction.clan_vlandia_8" />
+  <!-- Arad Doman Noble Houses -->
+  <Hero id="lord_4_12" faction="Faction.clan_vlandia_9" />
+  <Hero id="lord_4_121" faction="Faction.clan_vlandia_9" />
+  <Hero id="lord_4_13" faction="Faction.clan_vlandia_9" />
+  <Hero id="lord_4_14" faction="Faction.clan_vlandia_9" />
+  <Hero id="lord_4_141" faction="Faction.clan_vlandia_9" />
+  <!-- Saldea -->
+  <!-- House Gahaur -->
+  <Hero id="lord_4_15" faction="Faction.clan_khuzait_2" spouse="Hero.lord_4_16" />
+  <Hero id="lord_4_16" faction="Faction.clan_khuzait_2" spouse="Hero.lord_4_15"></Hero>
+  <Hero id="lord_4_16_1" faction="Faction.clan_khuzait_2" father="Hero.lord_4_15" mother="Hero.lord_4_16" />
+  <Hero id="lord_4_17" faction="Faction.clan_khuzait_2" father="Hero.lord_4_15" mother="Hero.lord_4_16" />
+  <!-- Saldea High Lords -->
+  <Hero id="lord_4_18" faction="Faction.clan_khuzait_1" text="{=8SiW73EF}The current Queen of Saldea is Tenobia, a brilliant war captain who echoes the legendary Zenobia, queen of the Palmyrene Empire. Despite the doubts around her accession, Tenobia has made herself popular among the lesser clans of the land who admire her, for having secured pacts with the other Borderland kingdoms. Her clan is the House Kazadi, a formerly obscure family now swollen with comrades-in-arms for whom she makes strategic marriage alliances." />
+  <Hero id="lord_4_181" faction="Faction.clan_khuzait_1" spouse="Hero.lord_4_19" />
+  <Hero id="lord_4_19" faction="Faction.clan_khuzait_1" spouse="Hero.lord_4_181" />
+  <Hero id="lord_4_20" faction="Faction.clan_khuzait_1" father="Hero.lord_4_181" mother="Hero.lord_4_19" />
+  <Hero id="lord_4_20_1" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_4_21" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_4_22" faction="Faction.clan_khuzait_1" />
+  <Hero id="lord_4_22_1" faction="Faction.clan_khuzait_1" />
+  <!-- Saldea Officers -->
+  <Hero id="lord_4_23" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_4_23_1" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_4_23_2" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_4_23_3" faction="Faction.clan_khuzait_3" />
+  <Hero id="lord_4_24" faction="Faction.clan_khuzait_3" />
+  <!-- Shienar-->
+  <!--House Yokata-->
+  <Hero id="lord_4_24_1" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_4_24_2" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_4_24_3" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_4_24_4" faction="Faction.clan_khuzait_6" />
+  <Hero id="lord_4_25" faction="Faction.clan_khuzait_6" />
+  <!-- House Jagad-->
+  <Hero id="lord_4_25_1" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_4_26" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_4_27" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_4_27_1" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_V9_u" faction="Faction.clan_khuzait_5" />
+  <Hero id="lord_4_28" faction="Faction.clan_vlandia_5" />
+  <!-- House Togita -->
+  <Hero id="lord_4_28_1" faction="Faction.clan_khuzait_4" text="{=5939sUCg}Easer is patriarch of the Togita, one of the oldest of the Shienar clans, which never really accepted the idea of the monarchy. He believes the boyars should be lords in their own lands. He is famed for once telling the prince, 'Every wound I suffer in battle under your banner is like my wife's caress, but every denar I pay to your treasury in tax is like an arrow in my gut.' He is older now, and keeps his counsel, but few believe that his resentment of princely authority has in any way diminished." />
+  <Hero id="lord_4_28_2" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_V11_l" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_V11_u" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_V11_c1" faction="Faction.clan_khuzait_4" />
+  <Hero id="lord_V11_c2" faction="Faction.clan_khuzait_4" />
+  <!-- The Arafel-->
+  <!-- Arafel Royalty -->
+  <Hero id="lord_5_1" faction="Faction.clan_khuzait_7" spouse="Hero.lord_5_7" />
+  <Hero id="lord_5_7" faction="Faction.clan_khuzait_7" spouse="Hero.lord_5_1" />
+  <Hero id="lord_5_1_1" faction="Faction.clan_khuzait_7" father="Hero.lord_5_1" mother="Hero.lord_5_7" />
+  <Hero id="lord_5_3" faction="Faction.clan_khuzait_7" father="Hero.lord_5_1" mother="Hero.lord_5_7" />
+  <Hero id="lord_5_4" faction="Faction.clan_khuzait_7" />
+  <!-- Arafel Defenders -->
+  <Hero id="lord_5_3_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_3_2" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_5" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_5_1" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_6" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_8" faction="Faction.clan_khuzait_9" />
+  <Hero id="lord_5_9" faction="Faction.clan_khuzait_9" />
+  <!-- Arafel Council -->
+  <Hero id="lord_5_91" faction="Faction.clan_khuzait_8" spouse="Hero.lord_5_12" />
+  <Hero id="lord_5_12" faction="Faction.clan_khuzait_8" spouse="Hero.lord_5_91" />
+  <Hero id="lord_5_10" faction="Faction.clan_khuzait_8" />
+  <Hero id="lord_5_11" faction="Faction.clan_khuzait_8" spouse="Hero.lord_5_13" />
+  <Hero id="lord_5_13" faction="Faction.clan_khuzait_8" spouse="Hero.lord_5_11" />
+  <!-- The Kandor -->
+  <!-- House Demain  -->
+  <Hero id="lord_5_131" faction="Faction.clan_vlandia_7" spouse="Hero.lord_5_13_1" />
+  <Hero id="lord_5_13_1" faction="Faction.clan_vlandia_7" spouse="Hero.lord_5_131" />
+  <Hero id="lord_5_15" faction="Faction.clan_vlandia_7" father="Hero.lord_5_13_1" mother="Hero.lord_5_131" />
+  <Hero id="lord_5_15_1" faction="Faction.clan_vlandia_7" />
+  <Hero id="lord_5_15_2" faction="Faction.clan_vlandia_7" />
+  <!-- House Marcasiev -->
+  <Hero id="lord_5_15_3" faction="Faction.clan_vlandia_6" spouse="Hero.lord_5_14" />
+  <Hero id="lord_5_14" faction="Faction.clan_vlandia_6" spouse="Hero.lord_5_15_3" />
+  <Hero id="lord_5_14_1" faction="Faction.clan_vlandia_6" />
+  <Hero id="lord_5_16" faction="Faction.clan_vlandia_6" />
+  <Hero id="lord_5_16_1" faction="Faction.clan_vlandia_6" />
+  <!-- House Noremaga-->
+  <Hero id="lord_5_16_2" faction="Faction.clan_vlandia_5" text="{=ALtZaRzc}Ethenielle is leader of the House Materasu. Once one of the largest clans in the Kandor confederacy, they suffered many losses during the Trolloc Wars and their lands were subsequently targeted by other tribes. Ethenielle has ruthlessly defended her clan's rights, and frequently complained about the injustices suffered by smaller clans that she says have shed blood for the khanate without reaping any rewards." />
+  <Hero id="lord_5_17" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_5_17_1" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_5_18" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_5_18_1" faction="Faction.clan_vlandia_5" />
+  <Hero id="lord_5_19" faction="Faction.clan_vlandia_5" />
+  <!--Next to do below-->
+  <!-- The Shadow -->
+  <!-- Ishamael -->
+  <Hero id="lord_5_20" faction="Faction.clan_sturgia_1" text="{=LW92PgZz}The current Nae'blis of the Dark One's follower is Ishamael. Harsh and uncompromising, he believes that it is the right of the Nae'blis to command the followers in all things, not just in making war. For the time being they obey him, not least for his ability to call on the power of the Dark One." />
+  <Hero id="lord_5_21" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_5_21_1" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_5_21_2" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_5_22" faction="Faction.clan_sturgia_1" />
+  <Hero id="lord_B8_l" faction="Faction.clan_sturgia_1" />
+  <!--Moghedien-->
+  <Hero id="lord_B8_s" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_B8_c" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_6_1" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_6_2" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_6_3" faction="Faction.clan_sturgia_2" />
+  <Hero id="lord_6_4" faction="Faction.clan_sturgia_2" />
+  <!-- Sammael -->
+  <Hero id="lord_6_5" faction="Faction.clan_sturgia_3" text="{=6lZGNChB}Sammael is one of the thirteen Forsaken who was trapped at Shayol Ghul. He was considered one of the worlds greatest generals before his defection to the Dark One." />
+  <Hero id="lord_6_51" faction="Faction.clan_sturgia_3" spouse="Hero.lord_6_6" />
+  <Hero id="lord_6_6" faction="Faction.clan_sturgia_3" spouse="Hero.lord_6_51" />
+  <Hero id="lord_6_7" faction="Faction.clan_sturgia_3" spouse="Hero.lord_6_8" />
+  <Hero id="lord_6_8" faction="Faction.clan_sturgia_3" spouse="Hero.lord_6_7" />
+  <Hero id="lord_6_81" faction="Faction.clan_sturgia_3" />
+  <!-- Demandred -->
+  <Hero id="lord_6_9" faction="Faction.clan_sturgia_4" />
+  <Hero id="lord_6_10" faction="Faction.clan_sturgia_4" spouse="Hero.lord_6_101" />
+  <Hero id="lord_6_101" faction="Faction.clan_sturgia_4" spouse="Hero.lord_6_10" />
+  <Hero id="lord_6_11" faction="Faction.clan_sturgia_4" spouse="Hero.lord_6_12" />
+  <Hero id="lord_6_12" faction="Faction.clan_sturgia_4" spouse="Hero.lord_6_11" />
+  <Hero id="lord_6_13" faction="Faction.clan_sturgia_4" />
+  <!-- Semirhage -->
+  <Hero id="lord_6_15" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_6_16_2" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_6_15_1" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_6_15_2" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_6_16" faction="Faction.clan_sturgia_5" />
+  <Hero id="lord_6_16_1" faction="Faction.clan_sturgia_5" />
+  <!-- Balthamel -->
+  <Hero id="lord_6_17" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_6_17_1" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_6_17_2" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_6_18" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_6_18_1" faction="Faction.clan_sturgia_6" />
+  <Hero id="lord_6_18_2" faction="Faction.clan_sturgia_6" />
+  <!-- Rahvin -->
+  <Hero id="lord_6_19" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_6_19_1" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_6_19_2" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_6_20" faction="Faction.clan_sturgia_7" />
+  <Hero id="lord_6_20_1" faction="Faction.clan_sturgia_7" spouse="Hero.lord_K8_u" />
+  <Hero id="lord_K8_u" faction="Faction.clan_sturgia_7" spouse="Hero.lord_6_20_1" />
+  <!-- Asmodean -->
+  <Hero id="lord_6_21" faction="Faction.clan_sturgia_8" />
+  <Hero id="lord_6_21_1" faction="Faction.clan_sturgia_8" spouse="Hero.lord_6_22_1" />
+  <Hero id="lord_6_22" faction="Faction.clan_sturgia_8" />
+  <Hero id="lord_6_22_1" faction="Faction.clan_sturgia_8" spouse="Hero.lord_6_21_1" />
+  <Hero id="lord_6_23" faction="Faction.clan_sturgia_8" />
+  <Hero id="lord_6_24" faction="Faction.clan_sturgia_8" />
+  <!--Aginor-->
+  <Hero id="Aginor" faction="Faction.clan_vlandia_4" />
+  <Hero id="Zlatka" faction="Faction.clan_vlandia_4" />
+  <Hero id="Kisha" faction="Faction.clan_vlandia_4" />
+  <Hero id="Dakhila" faction="Faction.clan_vlandia_4" />
+  <Hero id="Khila" faction="Faction.clan_vlandia_4" />
+  <Hero id="Tomira" faction="Faction.clan_vlandia_4" />
+  <!-- Lanfear -->
+  <Hero id="lord_K9_l" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_K9_s" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_K9_c1" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_K9_c2" faction="Faction.clan_sturgia_9" />
+  <Hero id="lord_4_26_1" faction="Faction.clan_sturgia_9" />
+  <Hero id="Olivia" faction="Faction.clan_sturgia_9" />
+  <Hero id="Demsela" faction="Faction.clan_sturgia_9" />
+  <!--Be'lal -->
+  <Hero id="Belal" faction="Faction.clan_vlandia_1" />
+  <Hero id="SergaseMordon" faction="Faction.clan_vlandia_1" spouse="Hero.MacheranHolos" />
+  <Hero id="MacheranHolos" faction="Faction.clan_vlandia_1" spouse="Hero.SergaseMordon" />
+  <Hero id="DuharaBasaheen" faction="Faction.clan_vlandia_1" spouse="Hero.Lavar" />
+  <Hero id="Lavar" faction="Faction.clan_vlandia_1" spouse="Hero.DuharaBasaheen" />
+  <Hero id="FalionBhoda" faction="Faction.clan_vlandia_1" />
+  <!--Messanna-->
+  <Hero id="Mesaanna" faction="Faction.clan_vlandia_2" />
+  <Hero id="Svedorn" faction="Faction.clan_vlandia_2" spouse="Hero.Neva" />
+  <Hero id="Denka" faction="Faction.clan_vlandia_2" />
+  <Hero id="Neva" faction="Faction.clan_vlandia_2" spouse="Hero.Svedorn" />
+  <Hero id="Orina" faction="Faction.clan_vlandia_2" />
+  <Hero id="Galden" faction="Faction.clan_vlandia_2" />
+  <!--Graendal-->
+  <Hero id="Graendal" faction="Faction.clan_vlandia_3" text="{=GraendalHero}Graendal is amongst the strongest female Forsaken, known as 'Heartseeker' to the wolves." />
+  <Hero id="Viva" faction="Faction.clan_vlandia_3" />
+  <Hero id="Hastor" faction="Faction.clan_vlandia_3" spouse="Hero.Velina" />
+  <Hero id="Milanka" faction="Faction.clan_vlandia_3" />
+  <Hero id="Ilanka" faction="Faction.clan_vlandia_3" />
+  <Hero id="Velina" faction="Faction.clan_vlandia_3" spouse="Hero.Hastor" />
+  <!-- Seanchan Heros -->
+  <Hero id="SeanchanTuonAthaemKorePaendrag" faction="Faction.clan_Seanchan1" />
+  <Hero id="AlmuratMor" faction="Faction.clan_Seanchan1" />
+  <Hero id="Essonde" spouse="Hero.Tiras" faction="Faction.clan_Seanchan1" />
+  <Hero id="LunalGalgam" faction="Faction.clan_Seanchan1" />
+  <Hero id="Tiras" spouse="Hero.Essonde" faction="Faction.clan_Seanchan1" />
+  <Hero id="TurakAladon" faction="Faction.clan_Seanchan2" />
+  <Hero id="AmenarShumada" faction="Faction.clan_Seanchan2" />
+  <Hero id="FaverdeNothish" faction="Faction.clan_Seanchan2" />
+  <Hero id="LadyMorsa" faction="Faction.clan_Seanchan2" />
+  <Hero id="LordSarek" spouse="Hero.SurothSabelleMeldrath" faction="Faction.clan_Seanchan2" />
+  <Hero id="SurothSabelleMeldrath" spouse="Hero.LordSarek" faction="Faction.clan_Seanchan2" />
+  <Hero id="BannerFurykKarede" faction="Faction.clan_Seanchan3" />
+  <Hero id="Nadoc" spouse="Hero.Musicar" faction="Faction.clan_Seanchan3" />
+  <Hero id="Daruo" faction="Faction.clan_Seanchan3" father="Hero.LunalGalgam" />
+  <Hero id="Musicar" spouse="Hero.Nadoc" faction="Faction.clan_Seanchan3" />
+  <Hero id="Barrin" faction="Faction.clan_Seanchan3" />
+  <Hero id="TyleeKhirgan" faction="Faction.clan_Seanchan4" />
+  <Hero id="Chianmai" faction="Faction.clan_Seanchan4" />
+  <Hero id="Chisen" faction="Faction.clan_Seanchan4" />
+  <Hero id="Courtani" faction="Faction.clan_Seanchan4" />
+  <Hero id="EfraimYamada" faction="Faction.clan_Seanchan4" />
+  <Hero id="GamelLoune" faction="Faction.clan_Seanchan4" />
+  <Hero id="Gerisch" faction="Faction.clan_Seanchan4" />
+  <Hero id="Makoti" faction="Faction.clan_Seanchan4" />
+  <Hero id="MikhelNajirah" faction="Faction.clan_Seanchan4" />
+  <Hero id="KennarMiraj" faction="Faction.clan_Seanchan4" />
+  <Hero id="Turan" faction="Faction.clan_Seanchan4" />
+  <Hero id="Gurat" faction="Faction.clan_Seanchan5" />
+  <Hero id="Jadranka" faction="Faction.clan_Seanchan5" father="Hero.MikhelNajirah" />
+  <Hero id="AssidBakuun" faction="Faction.clan_Seanchan5" />
+  <Hero id="AbaldarYulan" faction="Faction.clan_Seanchan5" />
+  <Hero id="BakayarMishima" faction="Faction.clan_Seanchan5" />
+  <Hero id="EgeaninSarna" faction="Faction.clan_Seanchan5" />
+  <!-- Merc Heros - cant generate as heroes in 1.3.n commented out
+  <Hero id="Hunterlord1" faction="Faction.eleftheroi" />
+  <Hero id="Hunterlord2" faction="Faction.eleftheroi" />
+  <Hero id="Hunterlord3" faction="Faction.eleftheroi" />
+  <Hero id="Hunterlord4" faction="Faction.eleftheroi" />
+  <Hero id="PadanLord1" faction="Faction.forest_people" />
+  <Hero id="PadanLord2" faction="Faction.forest_people" />
+  <Hero id="PadanLord3" faction="Faction.forest_people" />
+  <Hero id="PadanLord4" faction="Faction.forest_people" />
+  <Hero id="KinLord1" faction="Faction.jawwal" />
+  <Hero id="KinLord2" faction="Faction.jawwal" />
+  <Hero id="KinLord3" faction="Faction.jawwal" />
+  <Hero id="KinLord4" faction="Faction.jawwal" />
+  <Hero id="ILLUminatorLOrd1" faction="Faction.embers_of_flame" />
+  <Hero id="ILLUminatorLOrd2" faction="Faction.embers_of_flame" />
+  <Hero id="ILLUminatorLOrd3" faction="Faction.embers_of_flame" />
+  <Hero id="ILLUminatorLOrd4" faction="Faction.embers_of_flame" />
+  <Hero id="SwordmaidenLord1" faction="Faction.lakepike" />
+  <Hero id="SwordmaidenLord2" faction="Faction.lakepike" />
+  <Hero id="SwordmaidenLord3" faction="Faction.lakepike" />
+  <Hero id="SwordmaidenLord4" faction="Faction.lakepike" />
+  <Hero id="Malkierlord1" faction="Faction.company_of_the_boar" />
+  <Hero id="Malkierlord2" faction="Faction.company_of_the_boar" />
+  <Hero id="Malkierlord3" faction="Faction.company_of_the_boar" />
+  <Hero id="Malkierlord4" faction="Faction.company_of_the_boar" />
+  <Hero id="SharaLord1" faction="Faction.skolderbrotva" />
+  <Hero id="SharaLord2" faction="Faction.skolderbrotva" />
+  <Hero id="SharaLord3" faction="Faction.skolderbrotva" />
+  <Hero id="SharaLord4" faction="Faction.skolderbrotva" />
+  <Hero id="SeafolfLord1" faction="Faction.legion_of_the_betrayed" />
+  <Hero id="SeafolfLord2" faction="Faction.legion_of_the_betrayed" />
+  <Hero id="SeafolfLord3" faction="Faction.legion_of_the_betrayed" />
+  <Hero id="SeafolfLord4" faction="Faction.legion_of_the_betrayed" />
+  <Hero id="LordEladia" faction="Faction.brotherhood_of_woods" />
+  <Hero id="LordGalina" faction="Faction.brotherhood_of_woods" />
+  <Hero id="LordTaleneMinly" faction="Faction.brotherhood_of_woods" />
+  <Hero id="LordYukiriHaruna" faction="Faction.brotherhood_of_woods" />
+  <Hero id="MasemaDagar" faction="Faction.hidden_hand" />
+  <Hero id="Shadiolord1male" faction="Faction.karakhuzaits" />
+  <Hero id="Shadiolord2male" faction="Faction.karakhuzaits" />
+  <Hero id="Shadiolord2wiseone" faction="Faction.karakhuzaits" />
+  <Hero id="Shadiolord13male" faction="Faction.karakhuzaits" />
+-->
+  <!--Hardcoded game needs?
+  <Hero id="lord_1_1" faction="Faction.hidden_hand" text="{=WBl5hS0e}The northern third of the Empire is ruled by Lucon, who represents a long-standing oligarchic trend in imperial politics. It holds that strict adherence to imperial law is the best guarantee that the empire will not become a tyranny. Oligarchs like Lucon also tend to believe that only landowners can have the extensive education, experience in government, and stake in property to really understand and appreciate the law, and thus the Senate should be supreme." />
+  <Hero id="lord_1_7" faction="Faction.brotherhood_of_woods" text="{=niI9dpuu}The western third of the Empire is ruled by Garios, a charismatic general who represents a longstanding populist trend in imperial politics. He is deeply loved by his soldiers, both for his solid record in winning battles and for his insistence that his veterans be compensated in land afterwards. He often demands that the 'people' should settle key issues, but in practice this usually means an assembly of his soldiers, where his veterans can be counted on to shut down opposition." />
+  <Hero id="lord_2_1" faction="Faction.hidden_hand" text="{=LW92PgZz}The current Grand Prince of Sturgia is Raganvad. Harsh and uncompromising, he believes that it is the right of the prince to command the boyars in all things, not just in making war. For the time being they obey him, not least for his ability to call on the kinsmen of his mother, a Nordic princess with ties to the fearsome Skolderbroda mercenary company." />
+  <Hero id="lord_4_1" faction="Faction.brotherhood_of_woods" text="{=EHiQI7ps}The current king of Vlandia is Derthert. In his youth, he dreamt of glorious conquest. In fact he spent most of his reign simply putting down revolts, quashing pretenders, and keeping the fractious barons in line. When possible, he prefers to rule by arbitration, cajoling his vassals to set aside claims to each other's lands and enjoy what they have. But some Vlandians murmur that a warrior people deserve a more virile king." />
+-->
+</Heroes>

@@ -1,0 +1,864 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EquipmentRosters>
+  <EquipmentRoster id="poor_CC_1" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.vlandia_bandit_cape_b" />
+      <Equipment slot="Body" id="Item.vlandia_bandit_c" />
+      <Equipment slot="Leg" id="Item.sturgia_boots_a" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body" id="Item.northern_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="trolloc_CC_1" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.TrollocHev1a" />
+      <Equipment slot="Gloves" id="Item.Trollochands" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.Trollocweapon3" />
+      <Equipment slot="Body" id="Item.TrollocLight1b" />
+      <Equipment slot="Gloves" id="Item.Trollochands" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="middle_CC_1" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.fur_trimmed_tunic" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.short_sword_t3" />
+      <Equipment slot="Body" id="Item.heavy_nordic_tunic" />
+      <Equipment slot="Leg" id="Item.highland_leg_wrappings" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="channeler_CC_1_F" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.BlackAjah" />
+      <Equipment slot="Leg" id="Item.battania_leather_boots" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.celtic_dagger" />
+      <Equipment slot="Body" id="Item.BlackAjah" />
+      <Equipment slot="Leg" id="Item.battania_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="channeler_CC_1_M" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.Aielveilred" />
+      <Equipment slot="Body" id="Item.AielArmor2a" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.Aielveilred" />
+      <Equipment slot="Body" id="Item.AielArmor2a" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="rich_CC_1" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.WotDreadlordLightarmor" />
+      <Equipment slot="Leg" id="Item.battania_leather_boots" />
+      <Equipment slot="Gloves" id="Item.highland_gloves" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body" id="Item.northern_padded_gambeson" />
+      <Equipment slot="Head" id="Item.nordic_fur_cap" />
+      <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+      <Equipment slot="Cape" id="Item.scarf" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="poor_CC_2" culture="Culture.sturgia">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.thick_sleeved_robe" />
+      <Equipment slot="Leg" id="Item.sturgia_boots_d" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+      <Equipment slot="Body" id="Item.northern_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Aiel starting sets from here-->
+  <!--Offshot of a chieftan-->
+  <EquipmentRoster id="rich_CC_chieftan_aiel" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.sturgia_boots_d" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.aserai_female_civil_hscarf" />
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.sturgia_boots_d" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--farmers in a hold-->
+  <EquipmentRoster id="poor_CC_farmers_aiel_F" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.imperial_cloth_coif" />
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.imperial_cloth_coif" />
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="poor_CC_farmers_aiel_M" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.imperial_cloth_coif" />
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.imperial_cloth_coif" />
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--craftsmen in a hold-->
+  <EquipmentRoster id="middle_CC_craftsmen_aiel_F" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Cape" id="Item.female_hood" />
+      <Equipment slot="Body" id="Item.laced_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape" id="Item.female_hood" />
+      <Equipment slot="Body" id="Item.laced_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="middle_CC_craftsmen_aiel_M" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.leather_apron" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.leather_apron" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--wisefolk in a hold-->
+  <EquipmentRoster id="channeler_CC_wisefolk_aiel_F" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.AielWiseOneRobe" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.AielWiseOneRobe" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="channeler_CC_wisefolk_aiel_M" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor2b" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor2a" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--raiders-->
+  <EquipmentRoster id="warrior_CC_raider_aiel_F" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor1b" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor1" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="warrior_CC_raider_aiel_M" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor2a" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.AielHeadwrap1" />
+      <Equipment slot="Body" id="Item.AielArmor2a" />
+      <Equipment slot="Leg" id="Item.AielBoots1" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--traders-->
+  <EquipmentRoster id="rich2_CC_trader_aiel_F" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.layered_robe" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.layered_robe" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="rich2_CC_trader_aiel_M" culture="Culture.aserai">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.desert_cap" />
+      <Equipment slot="Body" id="Item.layered_robe" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.desert_cap" />
+      <Equipment slot="Body" id="Item.layered_robe" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--default-->
+  <!--rich-->
+  <EquipmentRoster id="default_rich_CC_1_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.vlandian_dress" />
+      <Equipment slot="Leg" id="Item.southern_moccasins" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.vlandian_dress" />
+      <Equipment slot="Cape" id="Item.female_scarf" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_rich_CC_1_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.segmented_skullcap_over_laced_coif" />
+      <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
+      <Equipment slot="Leg" id="Item.eastern_leather_boots" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--middle-->
+  <EquipmentRoster id="default_middle_CC_1_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Cape" id="Item.female_scarf" />
+      <Equipment slot="Body" id="Item.heavy_nordic_coat" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.empire_dress" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_middle_CC_1_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.upturned_fur_cap" />
+      <Equipment slot="Body" id="Item.heavy_nordic_coat" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--poor1-->
+  <EquipmentRoster id="default_poor_CC_1_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.female_head_wrap" />
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.female_head_wrap" />
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_poor_CC_1_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--poor2-->
+  <EquipmentRoster id="default_poor_CC_2_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.bandit_envelope_dress_v2" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_poor_CC_2_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+      <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape" id="Item.desert_fabric_shoulderpad" />
+      <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--warrior-->
+  <EquipmentRoster id="default_warrior_CC_1_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.pilgrim_hood" />
+      <Equipment slot="Body" id="Item.fur_skirt_with_tunic" />
+      <Equipment slot="Leg" id="Item.empire_horseman_boots" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.pilgrim_hood" />
+      <Equipment slot="Body" id="Item.fur_skirt_with_tunic" />
+      <Equipment slot="Leg" id="Item.empire_horseman_boots" />
+      <Equipment slot="Item0" id="Item.seax" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_warrior_CC_1_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.padded_leather_cape" />
+      <Equipment slot="Body" id="Item.northern_leather_vest" />
+      <Equipment slot="Leg" id="Item.rough_tied_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.padded_leather_cape" />
+      <Equipment slot="Body" id="Item.northern_leather_vest" />
+      <Equipment slot="Leg" id="Item.rough_tied_boots" />
+      <Equipment slot="Item0" id="Item.seax" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--channeler-->
+  <EquipmentRoster id="default_channeler_CC_1_F" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="default_channeler_CC_1_M" culture="Culture.battania">
+    <EquipmentSet>
+      <Equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+      <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+      <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--white tower additions-->
+  <!--white tower aes sedai offspring-->
+  <EquipmentRoster id="wt_channeler_CC_1_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.AesSedaiAcceptedRobe" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.seax" />
+      <Equipment slot="Body" id="Item.AesSedaiAcceptedRobe" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="wt_channeler_CC_1_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.WarderArmorMediumcheap" />
+      <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
+      <Equipment slot="Cape" id="Item.WarderCloakcheap" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.WarderArmorMediumcheap" />
+      <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
+      <Equipment slot="Cape" id="Item.WarderCloakcheap" />
+      <Equipment slot="Item0" id="Item.hooked_cleaver" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--white tower throw out-->
+  <EquipmentRoster id="wt_channeler_CC_2_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.female_head_wrap" />
+      <Equipment slot="Body" id="Item.AessedaiGreen" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Head" id="Item.female_head_wrap" />
+      <Equipment slot="Body" id="Item.AessedaiGreen" />
+      <Equipment slot="Leg" id="Item.steppe_leather_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="wt_channeler_CC_2_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Gloves" id="Item.armwraps" />
+      <Equipment slot="Body" id="Item.Warder2024newarmor2bcheap" />
+      <Equipment slot="Cape" id="Item.WarderCloakcheap" />
+      <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Gloves" id="Item.armwraps" />
+      <Equipment slot="Body" id="Item.Warder2024newarmor2bcheap" />
+      <Equipment slot="Cape" id="Item.WarderCloakcheap" />
+      <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
+      <Equipment slot="Item0" id="Item.celtic_dagger" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--black tower additions-->
+  <!--black tower iniiate-->
+  <EquipmentRoster id="bt_channeler_CC_1_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="bt_channeler_CC_1_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.Asharmor1Start" />
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Body" id="Item.Asharmor1" />
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--black tower son-->
+  <EquipmentRoster id="bt_channeler_CC_2_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="bt_channeler_CC_2_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+      <Equipment slot="Body" id="Item.northern_tunic" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Leg" id="Item.Asharmorboots" />
+      <Equipment slot="Body" id="Item.northern_tunic" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--borderlands-->
+  <!--warrior/son of a noble arafel-->
+  <EquipmentRoster id="borderlands_warrior_CC_1_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Item3" id="Item.offhandswordWOT" />
+      <Equipment slot="Leg" id="Item.ArafelBoots1Start" />
+      <Equipment slot="Gloves" id="Item.ArafelGloves1" />
+      <Equipment slot="Body" id="Item.ArafelLightArmor1" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.SaldeaBoots1Start" />
+      <Equipment slot="Body" id="Item.SaldeaHeavyArmor1Start" />
+      <Equipment slot="Head" id="Item.Miscwotheadnew1" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.Shiener2024newboots1" />
+      <Equipment slot="Gloves" id="Item.wotmiscpurgloves3" />
+      <Equipment slot="Body" id="Item.ShienerLightArmor1" />
+      <Equipment slot="Head" id="Item.ShienarLighthelmetcheap2" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.KandorHeavyBoots1Start" />
+      <Equipment slot="Gloves" id="Item.ArafelGloves1" />
+      <Equipment slot="Body" id="Item.KandorMediumArmorStart" />
+      <Equipment slot="Head" id="Item.KandorHelm1Start" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.Shiener2024newboots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.SaldeaBoots1Start" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.ArafelBoots1Start" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="borderlands_warrior_CC_1_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Item3" id="Item.offhandswordWOT" />
+      <Equipment slot="Leg" id="Item.ArafelBoots1Start" />
+      <Equipment slot="Gloves" id="Item.ArafelGloves1" />
+      <Equipment slot="Body" id="Item.ArafelLightArmor1" />
+      <Equipment slot="Head" id="Item.ArafelMediumHelmet2Start" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.SaldeaBoots1Start" />
+      <Equipment slot="Head" id="Item.Miscwotheadnew1" />
+      <Equipment slot="Body" id="Item.SaldeaHeavyArmor1Start" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.Shiener2024newboots1" />
+      <Equipment slot="Gloves" id="Item.wotmiscpurgloves3" />
+      <Equipment slot="Body" id="Item.ShienerLightArmor1" />
+      <Equipment slot="Head" id="Item.ShienarLighthelmetcheap2" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.KandorHeavyBoots1Start" />
+      <Equipment slot="Gloves" id="Item.ArafelGloves1" />
+      <Equipment slot="Body" id="Item.KandorMediumArmorStart" />
+      <Equipment slot="Head" id="Item.KandorHelm1Start" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.SaldeaBoots1Start" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.Shiener2024newboots1" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.steppe_armor" />
+      <Equipment slot="Leg" id="Item.ArafelBoots1Start" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--trolloc hunter-->
+  <EquipmentRoster id="borderlands_warrior_CC_2_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.fur_hood" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_furr" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+      <Equipment slot="Body" id="Item.nordic_padded_cloth" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.battania_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_female_civil_b" />
+      <Equipment slot="Cape" id="Item.battania_cloak" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="borderlands_warrior_CC_2_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.fur_hood" />
+      <Equipment slot="Cape" id="Item.battania_shoulder_furr" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+      <Equipment slot="Body" id="Item.nordic_padded_cloth" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.battania_sword_1_t2" />
+      <Equipment slot="Cape" id="Item.battania_civil_cloak" />
+      <Equipment slot="Body" id="Item.battania_civil_a" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--scouts-->
+  <EquipmentRoster id="borderlands_warrior_CC_3_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.padded_coif" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+      <Equipment slot="Body" id="Item.padded_leather_shirt" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_female_civil_b" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="borderlands_warrior_CC_3_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.padded_coif" />
+      <Equipment slot="Leg" id="Item.wrapped_shoes" />
+      <Equipment slot="Body" id="Item.padded_leather_shirt" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Cape" id="Item.battania_civil_cloak" />
+      <Equipment slot="Body" id="Item.battania_civil_a" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--malkier-->
+  <EquipmentRoster id="borderlands_warrior_CC_4_F" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.Malkier2024helmet" />
+      <Equipment slot="Leg" id="Item.Malkierboots" />
+      <Equipment slot="Body" id="Item.MalkierarmorLight" />
+      <Equipment slot="Gloves" id="Item.highland_gloves" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_female_civil_b" />
+      <Equipment slot="Leg" id="Item.Malkierboots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="borderlands_warrior_CC_4_M" culture="Culture.khuzait">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.ArafelMediumHelmet2Start" />
+      <Equipment slot="Leg" id="Item.Malkierboots" />
+      <Equipment slot="Body" id="Item.MalkierarmorLight" />
+      <Equipment slot="Gloves" id="Item.Malkiergloves" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_civil_a" />
+      <Equipment slot="Leg" id="Item.Malkierboots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--seanchan-->
+  <!--deathwatchguard-->
+  <EquipmentRoster id="seanchan_warrior_CC_1_F" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.SeanchanhelmdeathguardheavyCheap" />
+      <Equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
+      <Equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
+      <Equipment slot="Gloves" id="Item.Seanchandeathwatchguardarmorgloves" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.khuzait_dress_b" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="seanchan_warrior_CC_1_M" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.SeanchanhelmdeathguardheavyCheap" />
+      <Equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
+      <Equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
+      <Equipment slot="Gloves" id="Item.Seanchandeathwatchguardarmorgloves" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--recruit-->
+  <EquipmentRoster id="seanchan_warrior_CC_2_F" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.belted_leather_boots" />
+      <Equipment slot="Body" id="Item.Seanchanarmorheavy" />
+      <Equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.khuzait_dress_b" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="seanchan_warrior_CC_2_M" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.Seanchanhelm2Claws" />
+      <Equipment slot="Leg" id="Item.belted_leather_boots" />
+      <Equipment slot="Body" id="Item.Seanchanarmorheavy" />
+      <Equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+      <Equipment slot="Body" id="Item.khuzait_civil_coat_b" />
+      <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--escaped damane-->
+  <EquipmentRoster id="seanchan_channeler_CC_1_F" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.sturgia_boots_a" />
+      <Equipment slot="Body" id="Item.battania_dress_c" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Leg" id="Item.sturgia_boots_a" />
+      <Equipment slot="Body" id="Item.battania_dress_c" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="seanchan_channeler_CC_1_M" culture="Culture.vlandia">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.ragged_boots" />
+      <Equipment slot="Body" id="Item.rough_fur_over_chainCheap" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Leg" id="Item.ragged_boots" />
+      <Equipment slot="Body" id="Item.rough_fur_over_chainCheap" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--Andor-->
+  <!--queensguard-->
+  <EquipmentRoster id="andor_warrior_CC_1_F" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.AndorQueenguardBootsHeavyCheap" />
+      <Equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavyCheap" />
+      <Equipment slot="Body" id="Item.AndorQueenguardheavyCheap" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="andor_warrior_CC_1_M" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.AndorQueenguardBootsHeavyCheap" />
+      <Equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavyCheap" />
+      <Equipment slot="Body" id="Item.AndorQueenguardheavyCheap" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--levy-->
+  <EquipmentRoster id="andor_warrior_CC_2_F" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Leg" id="Item.ragged_boots" />
+      <Equipment slot="Gloves" id="Item.highland_gloves" />
+      <Equipment slot="Body" id="Item.WOTlevyarmor3" />
+      <Equipment slot="Cape" id="Item.desert_leather_shoulderpad" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.battania_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_female_civil_b" />
+      <Equipment slot="Cape" id="Item.female_scarf" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="andor_warrior_CC_2_M" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.peaked_helmet_over_laced_coif" />
+      <Equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <Equipment slot="Gloves" id="Item.guarded_armwraps" />
+      <Equipment slot="Body" id="Item.WOTlevyarmor4e" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.battania_sword_1_t2" />
+      <Equipment slot="Body" id="Item.battania_civil_b" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.highland_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <!--noble-->
+  <EquipmentRoster id="andor_warrior_CC_3_F" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.segmented_skullcap_over_padded_coif" />
+      <Equipment slot="Leg" id="Item.sturgia_boots_a" />
+      <Equipment slot="Gloves" id="Item.rough_tied_bracers" />
+      <Equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.vlandian_dress" />
+      <Equipment slot="Cape" id="Item.female_scarf" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="andor_warrior_CC_3_M" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Head" id="Item.WhitecloakLightHelmet" />
+      <Equipment slot="Leg" id="Item.empire_horseman_boots" />
+      <Equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+      <Equipment slot="Body" id="Item.WOTlevyarmor3med" />
+      <Equipment slot="Horse" id="Item.sumpter_horse" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet civilian="true">
+      <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
+      <Equipment slot="Body" id="Item.tied_cloth_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.leather_shoes" />
+    </EquipmentSet>
+  </EquipmentRoster>
+</EquipmentRosters>

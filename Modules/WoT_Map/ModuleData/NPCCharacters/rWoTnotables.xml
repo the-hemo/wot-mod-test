@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+<!--
+  <NPCCharacter id="marathen" name="Marathen" is_template="false" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Common">
+    <face>
+      <BodyProperties version="4" age="22.8" weight="0.9838" build="0.2269" key="0010140152E4260261F00A410017EA8A1E7EB11495427F01BB97A8B7B4191E610093F60309411C6800000000000000000000000000000000000000007F2C50C6" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="Commander" value="2" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+-->
+  <NPCCharacter id="spc_notable_shadow_0" name="{=!}Cautious Sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_0b" name="{=!}Caustic sturgian merchant" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_0b" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_1" name="{=!}curt sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_1" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Valor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_2" name="{=!}Adventurous sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <!-- TEMPLATE INFO -->
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <!-- CHARACTER -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_2b" name="{=!}Honest Sturgian merchant" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_2b" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="6" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_3b" name="{=!}Affable sturgian merchant" voice="earnest" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3b" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_3" name="{=!}Honorable female sturgian merchant" voice="earnest" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_3c" name="{=!}Devious female sturgian merchant" voice="ironic" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Merchant">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_3c" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- Add skill groups -->
+      <Trait id="Commander" value="2" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_4" name="{=!}Sturgian seer" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_4" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_5" name="{=!}Sturgian female mystic" voice="softspoken" is_template="true" default_group="Infantry" is_female="true" culture="Culture.sturgia" occupation="Preacher">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_5" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_6" name="{=!}Sturgian gang leader" voice="ironic" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_6" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_7" name="{=!}Sturgian female gang leader" voice="ironic" is_template="true" default_group="Infantry" is_female="true" culture="Culture.sturgia" occupation="GangLeader">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_7" faction="Kingdom.sturgia" />-->
+    <skills></skills>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_8" name="{=!}Sturgian artisan" voice="curt" is_template="true" default_group="Infantry" culture="Culture.sturgia" occupation="Artisan">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_8" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_9" name="{=!}Sturgian land captain gruff notable" voice="curt" is_template="true" default_group="Infantry" culture="Culture.sturgia" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_9" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="spc_notable_shadow_10" name="{=!}Sturgian land captain helpful notable" voice="softspoken" is_template="true" default_group="Infantry" culture="Culture.sturgia" occupation="RuralNotable">
+    <face>
+      <face_key_template value="BodyProperty.villager_sturgia" />
+    </face>
+    <!--<Hero id="spc_notable_sturgia_10" faction="Kingdom.sturgia" />-->
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

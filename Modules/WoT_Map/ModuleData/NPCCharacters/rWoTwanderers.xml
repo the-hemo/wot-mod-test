@@ -1,0 +1,1424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+  <NPCCharacter id="wanderer_shadow_0" name="{=yr5pa0hs}{FIRSTNAME} the Trolloc" voice="softspoken" age="28" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="6" /> -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight2" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight3" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight4" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight5" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon3" />
+        <equipment slot="Body" id="Item.TrollocLight6" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight7" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight8" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight9" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight10" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon3" />
+        <equipment slot="Body" id="Item.TrollocLight12" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon3" />
+        <equipment slot="Body" id="Item.TrollocLight13" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight14" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight16" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocLight18" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon3" />
+        <equipment slot="Body" id="Item.TrollocLight20" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon3" />
+        <equipment slot="Body" id="Item.TrollocLight22" />
+        <equipment slot="Gloves" id="Item.Trollochands1" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_seanchan_0" name="{=WOTwand1}Ihaka Shumada" age="28" voice="earnest" culture="Culture.vlandia" default_group="Infantry" is_female="false" is_template="true" is_hero="false" occupation="Wanderer">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+      <hair_tags>
+        <hair_tag name="Tousled" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags>
+    </face>
+    <skills>
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="150" />
+      <skill id="Throwing" value="150" />
+      <skill id="Riding" value="200" />
+      <skill id="Athletics" value="250" />
+      <skill id="Crafting" value="25" />
+      <skill id="Scouting" value="140" />
+      <skill id="Tactics" value="250" />
+      <skill id="Charm" value="50" />
+      <skill id="Leadership" value="250" />
+      <skill id="Trade" value="25" />
+      <skill id="Steward" value="50" />
+      <skill id="Medicine" value="100" />
+    </skills>
+    <Traits>
+      <Trait id="Honor" value="2" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="2" />
+      <Trait id="Valor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Cape" id="Item.Elfrangerhoodandcloak2" />
+        <equipment slot="Body" id="Item.Elfassasinarmor3" />
+        <equipment slot="Leg" id="Item.Elfboots3" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Cape" id="Item.Elfrangerhoodandcloak1" />
+        <equipment slot="Body" id="Item.Elfassasinarmor3" />
+        <equipment slot="Leg" id="Item.Elfboots3b" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
+        <equipment slot="Body" id="Item.khuzait_belt_leather" />
+        <equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_altara_0" name="{=WOTwand2}{FIRSTNAME} the Gleeman" voice="curt" age="32" is_female="false" default_group="Ranged" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_cairhien_0" name="{=WOTwand3}{FIRSTNAME} the Gleeman" voice="curt" age="31" is_female="false" default_group="Ranged" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_empire" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_ghealdan_0" name="{=WOTwand4}{FIRSTNAME} the Gleeman" voice="curt" age="30" is_female="false" default_group="Ranged" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_vlandia" />
+    </face>
+    <Traits>
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_dragonsworn_0" name="{=WOTwand5}Wisdom {FIRSTNAME}" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="6" /> -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_wisdom" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_wisdom" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="wanderer_aiel_0" name="{=WOTwand6}Wise One {FIRSTNAME}" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai" />
+    </face>
+    <Traits>
+      <Trait id="Calculating" value="2" />
+      <Trait id="Honor" value="2" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_w" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_w" />
+    </Equipments>
+  </NPCCharacter>
+  <!--BASE COPY OF WANDERER CHARACTERS BEGIN -->
+  <!-- WANDERERS OF EMPIRE -->
+  <!--Andor - Engineer who refused to comply with guild backscratching -->
+  <NPCCharacter id="spc_wanderer_empire_0" name="{=bvjFhiDr}{FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="BalancedFightingSkills" value="2" />
+      <Trait id="EngineerSkills" value="6" /> -->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tarabon - Very boastful -->
+  <NPCCharacter id="spc_wanderer_empire_1" name="{=xTQPfmS9}{FIRSTNAME} of Elmora" voice="earnest" age="29" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Amamdicia - Family lost military land grant, must work for merchants -->
+  <NPCCharacter id="spc_wanderer_empire_2" name="{=Ivx4uJVp}{FIRSTNAME} the Disillusioned" voice="softspoken" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Whitetower - Warder -->
+  <NPCCharacter id="spc_wanderer_empire_3" name="{=1OZBZZCi}{FIRSTNAME} the Warder" voice="ironic" age="40" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.white" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" />
+      <Trait id="EngineerSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Murandy - Bandit who found bandits too sociopathic -->
+  <NPCCharacter id="spc_wanderer_empire_4" name="{=t9e34kgH}{FIRSTNAME} the Thief" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <!--<Hero id="spc_wanderer_empire_4" faction="Kingdom.empire" />-->
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="6" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--BlackTower - a deserter, doesn't give much away about himself -->
+  <NPCCharacter id="spc_wanderer_empire_5" name="{=pZSAdyC0}{FIRSTNAME} the Deserter" voice="curt" age="30" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.black" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="6" /> -->
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Dragonsworn - maquisard, ex-messianic rebel turned mafiosi -->
+  <NPCCharacter id="spc_wanderer_empire_6" name="{=OArAImbM}{FIRSTNAME} of the Hills" voice="curt" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="4" />
+      <Trait id="RogueSkills" value="2" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--FarMadding - posed as man to join army. needed the money -->
+  <NPCCharacter id="spc_wanderer_empire_7" name="{=28tWEFNi}{FIRSTNAME} the Wanderer" voice="ironic" age="24" is_template="true" default_group="Infantry" is_female="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="HopliteFightingSkills" value="3" />
+      <Trait id="Blacksmith" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Cairhien - merchant-class dispossessed. family was in sacked city, followed in wake of refugee columns.  -->
+  <NPCCharacter id="spc_wanderer_empire_8" name="{=PQkMcfAW}{FIRSTNAME} the Refugee" voice="curt" age="23" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="RogueSkills" value="4" />
+      <Trait id="Trader" value="8" /> -->
+      <!--<Trait id="Manager" value="4" />-->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--AradDoman - female outlaw. Mascot, used as assassin as girl. Got older, men's antics not as funny. Gang leader nemesis -->
+  <NPCCharacter id="spc_wanderer_empire_9" name="{=7apnGFz7}{FIRSTNAME} the Blackwidow" voice="curt" age="21" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!-- <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Seanchan - Doctor, forced to torture -->
+  <NPCCharacter id="spc_wanderer_empire_10" name="{=cud22JY1}{FIRSTNAME} the Surgeon" voice="ironic" is_template="true" age="31" default_group="Infantry" is_hero="false" culture="Culture.vlandia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_10_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <Traits>
+      <Trait id="RomanHair" value="1" />
+      <!--
+      <Trait id="BalancedFightingSkills" value="3" />
+      <Trait id="Surgeon" value="7" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Mayene - upper-class dispossessed, refused a bad marriage -->
+  <NPCCharacter id="spc_wanderer_empire_11" name="{=e84pvBYI}{FIRSTNAME} the Disowned" voice="earnest" age="28" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_11_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_empire" />
+    </face>
+    <Traits>
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <Trait id="RomanHair" value="1" />
+      <!--
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Manager" value="7" />
+      <Trait id="Politician" value="6" /> -->
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_empire" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- WANDERERS OF STURGIA -->
+  <!--Shadow - Herbalist, female, driven from village-->
+  <NPCCharacter id="spc_wanderer_sturgia_0" name="{=yr5pa0hs}{FIRSTNAME} the Herb Dealer" voice="softspoken" age="28" is_template="true" is_female="true" default_group="Infantry" is_hero="false" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="6" /> -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Saldea - braggart backstory - claims he found skolderbrotva too soft -->
+  <NPCCharacter id="spc_wanderer_sturgia_1" name="{=W7aa22Yl}{FIRSTNAME} the Trolloc Slayer" voice="earnest" age="27" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- <Trait id="HuscarlFightingSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tear - enterprising young would-be raider, wants to do his father proud -->
+  <NPCCharacter id="spc_wanderer_sturgia_2" name="{=aE8abvsQ}{FIRSTNAME} the Lucky" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- 
+      <Trait id="HuscarlFightingSkills" value="3" />
+      <Trait id="Commander" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Kandor - vaegir guard veteran backstory - bitter about riots -->
+  <NPCCharacter id="spc_wanderer_sturgia_3" name="{=LmlL8fVu}{FIRSTNAME} Blight Hunter" voice="curt" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <Trait id="RusHair" value="1" />
+      <!-- 
+      <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="3" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--AradDoman - outlaw backstory,  easily angered  -->
+  <NPCCharacter id="spc_wanderer_sturgia_4" name="{=WU5GnkvR}{FIRSTNAME} the Finger" voice="softspoken" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="6" /> -->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Honor" value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shadow - coalbiter backstory -->
+  <NPCCharacter id="spc_wanderer_sturgia_5" name="{=NSaetzNJ}{FIRSTNAME} the Darkfriend" voice="curt" age="30" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="HuscarlFightingSkills" value="5" />
+      <Trait id="Blacksmith" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shadow - icebeard - mossbeard. Simple misanthrope, cheated in marriage by brother-in-law, went to woods -->
+  <NPCCharacter id="spc_wanderer_sturgia_6" name="{=zXjdb1zT}{FIRSTNAME} the Darkfriend" voice="curt" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <Traits>
+      <!-- decent archer, good scout-->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shadow - dispossessed because of birthmark -->
+  <NPCCharacter id="spc_wanderer_sturgia_7" name="{=QyQPJJ9B}{FIRSTNAME} the Cursed" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <!-- <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="EngineerSkills" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sturgia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - Spear maiden -->
+  <NPCCharacter id="spc_wanderer_sturgia_8" name="{=rtsnnL2J}{FIRSTNAME} the Spearmaiden" voice="curt" age="29" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+      <!-- <Trait id="HuscarlFightingSkills" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_f" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_f" />
+    </Equipments>
+  </NPCCharacter>
+  <!--WhiteTower - proud hireling who will do any task, values professionalism -->
+  <NPCCharacter id="spc_wanderer_sturgia_9" name="{=akALDUs0}{FIRSTNAME} Sedai" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.white" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_sturgia_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_sturgia" />
+    </face>
+    <Traits>
+      <!-- Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="6" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sedai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sedai" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- WANDERERS OF BATTANIA -->
+  <!--FarMadding - formerly the ornery, merlin-type. 'By the time I became a woman I was sick of filthy huts and puking babies.' -->
+  <NPCCharacter id="spc_wanderer_battania_0" name="{=G8mawcBV}{FIRSTNAME} the Healer" voice="ironic" age="30" is_female="true" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_battania" />
+    </face>
+    <Traits>
+      <!-- <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Surgeon" value="7" />
+      <Trait id="ScoutSkills" value="4" /> -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tarabon - boastful, keeps a collection of his enemies' heads  -->
+  <NPCCharacter id="spc_wanderer_battania_1" name="{=qslA0bVb}{FIRSTNAME} the Red" voice="earnest" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!-- <Trait id="HuscarlFightingSkills" value="4" />
+      <Trait id="Politician" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Dragonsworn - Set up to die in a duel by his stepfather, but won the duels -->
+  <NPCCharacter id="spc_wanderer_battania_2" name="{=2U2Hy2Su}{FIRSTNAME} the Lucky" voice="ironic" age="28" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!-- <Trait id="HopliteFightingSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--BlackTower - the grey, professional veteran. fought for the empire -->
+  <NPCCharacter id="spc_wanderer_battania_3" name="{=pTuZB1Hj}{FIRSTNAME} of The Tower" voice="ironic" age="35" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.black" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!-- <Trait id="PeltastFightingSkills" value="5" />
+      <Trait id="SergeantCommandSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shienar - horsethief, boastful -->
+  <NPCCharacter id="spc_wanderer_battania_4" name="{=fJmGKlaO}{FIRSTNAME} of Malkier" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="ScoutSkills" value="5" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Dragonsworn - loner, deserted the wolfskins -->
+  <NPCCharacter id="spc_wanderer_battania_5" name="{=CQOlMayc}{FIRSTNAME} the Despondent" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="3" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - talkative bandit, of the hills -->
+  <NPCCharacter id="spc_wanderer_battania_6" name="{=nqE62lQW}{FIRSTNAME} of the Salt Flat Sept" voice="ironic" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="Trader" value="7" />
+      <Trait id="RogueSkills" value="2" />
+      <Trait id="ScoutSkills" value="2" /> -->
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - female, the wanderer. killed a chief's son who pestered her -->
+  <NPCCharacter id="spc_wanderer_battania_7" name="{=28tWEFNi}{FIRSTNAME} of the Spear" voice="ironic" age="21" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="HopliteFightingSkills" value="3" />
+      <Trait id="ScoutSkills" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_f" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_f" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Seanchan - The accursed, believed to be bad luck -->
+  <NPCCharacter id="spc_wanderer_battania_8" name="{=w9u2RUgm}{FIRSTNAME} the Ill-Starred" voice="curt" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="Blacksmith" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Andor - 'Cowthief' - caught up in feud, raided cattle as revenge -->
+  <NPCCharacter id="spc_wanderer_battania_9" name="{=KnTl4ESh}{FIRSTNAME} the Rustler" voice="ironic" age="22" is_female="false" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_battania_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_battania" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CavalryFightingSkills" value="3" />
+      <Trait id="Manager" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_battania" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_battania" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- WANDERERS OF VLANDIA -->
+  <!--Altara - Talkative philosopher of medicine. Chatty monk -->
+  <NPCCharacter id="spc_wanderer_vlandia_0" name="{=XuxARPTM}{FIRSTNAME} the Healer" voice="earnest" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <!--<Hero id="spc_wanderer_vlandia_0" faction="Kingdom.vlandia" />-->
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="2" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="4" />
+      <Trait id="Surgeon" value="6" /> -->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="spc_wanderer_vlandia_0" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Andor - boorish noble -->
+  <NPCCharacter id="spc_wanderer_vlandia_1" name="{=ntkipfCV}{FIRSTNAME} the Noble" voice="earnest" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="KnightFightingSkills" value="4" />
+      <Trait id="Commander" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Ghealdan - bastard who went away to avoid complications for his family -->
+  <NPCCharacter id="spc_wanderer_vlandia_2" name="{=7lg12a57}{FIRSTNAME} of the Wall" voice="earnest" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="KnightFightingSkills" value="3" />
+      <Trait id="Commander" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Andor -  veteran. decent man haunted by looting of cities. hated being loyal to men who saved his lives who turn out to be killers -->
+  <NPCCharacter id="spc_wanderer_vlandia_3" name="{=ZCc3VFat}{FIRSTNAME} the Grizzled" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CrossbowmanStyle" value="4" />
+      <Trait id="SergeantCommandSkills" value="6" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shadow - the shark, butcher/criminal -->
+  <NPCCharacter id="spc_wanderer_vlandia_4" name="{=8o5SDCCJ}{FIRSTNAME} the Watcher" voice="ironic" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.sturgia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="6" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Andor - longshoreman, fled dominating guild. revenge against gang leader -->
+  <NPCCharacter id="spc_wanderer_vlandia_5" name="{=WvwWX4me}{FIRSTNAME} of Caemlyn" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="HuscarlFightingSkills" value="3" />
+      <Trait id="Manager" value="6" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Amamdicia - loner - father fled to avoid feud with bailiff, then disappeared in a blizzard -->
+  <NPCCharacter id="spc_wanderer_vlandia_6" name="{=OArAImbM}{FIRSTNAME} of the Mist" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="ScoutSkills" value="5" /> -->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Valor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Cairhien - female. ex brother of the woods. Like any other group of bandits. -->
+  <NPCCharacter id="spc_wanderer_vlandia_7" name="{=zoaTZMm7}{FIRSTNAME} the Wilder" voice="ironic" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_vlandia" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <!-- <Trait id="CrossbowmanStyle" value="4" /> <Trait id="ScoutSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Andor - smith, struck dead a young knight who ran a boy down with his horse -->
+  <NPCCharacter id="spc_wanderer_vlandia_8" name="{=hrMatilh}{FIRSTNAME} the Smith" voice="softspoken" age="24" default_group="Infantry" is_template="true" is_female="false" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_vlandia" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <!-- <Trait id="HuscarlFightingSkills" value="3" />
+      <Trait id="Blacksmith" value="6" /> -->
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Seanchan - female bandit, left the woods because life expectancy too short -->
+  <NPCCharacter id="spc_wanderer_vlandia_9" name="{=7apnGFz7}{FIRSTNAME} of Imfaral" voice="ironic" age="24" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.vlandia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_vlandia" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!-- <Trait id="ArcherFIghtingSkills" value="4" />
+      <Trait id="RogueSkills" value="5" />
+      <Trait id="ScoutSkills" value="3" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Cairhien - female engineer, father emigrant to empire, killed in riots -->
+  <NPCCharacter id="spc_wanderer_vlandia_10" name="{=6CAbkgS4}{FIRSTNAME} the Wainwright" voice="ironic" age="26" default_group="Infantry" is_template="true" is_female="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_10_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_vlandia" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!-- <Trait id="ArcherFIghtingSkills" value="2" />
+      <Trait id="EngineerSkills" value="5" /> -->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Ghealdan - free company -->
+  <NPCCharacter id="spc_wanderer_vlandia_11" name="{=nDtjEazo}{FIRSTNAME} the Wilder" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_11_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--<Trait id="IsTemplate" value="1" />-->
+      <!--
+      <Trait id="CrossbowmanStyle" value="6" />
+      <Trait id="Blacksmith" value="4" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Murandy - Gamekeeper -->
+  <NPCCharacter id="spc_wanderer_vlandia_12" name="{=N4taBJyx}{FIRSTNAME} the Tracker" voice="softspoken" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_vlandia_12_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="BalancedFightingSkills" value="5" />
+      <Trait id="ScoutSkills" value="6" /> -->
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_vlandia" />
+    </Equipments>
+  </NPCCharacter>
+  <!-- WANDERERS OF ASERAI -->
+  <!--WhiteTower - misanthropic, chip-on-shoulder illegitimate. nautical surgeon -->
+  <NPCCharacter id="spc_wanderer_aserai_0" name="{=bvjFhiDr}{FIRSTNAME} Sedai" voice="ironic" age="26" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.white" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.wanderer_female_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="Surgeon" value="5" /> -->
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_sedai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_sedai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Seanchan - Obsessed with own genealogy -->
+  <NPCCharacter id="spc_wanderer_aserai_1" name="{=vtXRptVa}{FIRSTNAME} of the Blood" voice="earnest" age="23" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CavalryFightingSkills" value="6" />
+      <Trait id="Commander" value="5" /> -->
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Seanchan - The falcon, chivalrous, but thinks great clans hog the glory -->
+  <NPCCharacter id="spc_wanderer_aserai_2" name="{=TyxXbqVw}{FIRSTNAME} the Raken" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.vlandia" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Commander" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--AradDoman - professional, fighter and killer. often provoked enemies. fell out with lord over a slave woman that he sold -->
+  <NPCCharacter id="spc_wanderer_aserai_3" name="{=4GIoPUen}{FIRSTNAME} the Sellsword" voice="softspoken" age="33" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <!--<Trait id="LordIsNemesis" value="1" />-->
+      <!--
+      <Trait id="HuscarlFightingSkills" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tarabon - "The Prince", fitiwi whom a guard captain tried to corrupt -->
+  <NPCCharacter id="spc_wanderer_aserai_4" name="{=rgdi5Sxa}{FIRSTNAME} the Prince of Tarabon" voice="ironic" age="25" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="4" />
+      <Trait id="RogueSkills" value="7" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Illian - "The Hyena" (contemptuous killer) -->
+  <NPCCharacter id="spc_wanderer_aserai_5" name="{=OFWvD0xe}{FIRSTNAME} the Wolf of Illian" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_5" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--
+      <Trait id="HopliteFightingSkills" value="5" />
+      <Trait id="RogueSkills" value="5" /> -->
+      <Trait id="Mercy" value="-1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Mayene - of the Wastes - 'the searing gravel plain knows me' -->
+  <NPCCharacter id="spc_wanderer_aserai_6" name="{=muC2SGlM}{FIRSTNAME} of the Aiel Wastes" voice="curt" age="31" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="ArcherFIghtingSkills" value="5" />
+      <Trait id="ScoutSkills" value="7" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tear - female member of clan that lost power -->
+  <NPCCharacter id="spc_wanderer_aserai_7" name="{=28tWEFNi}{FIRSTNAME} the Lost Wanderer" voice="curt" age="25" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CavalryFightingSkills" value="4" />
+      <Trait id="Commander" value="5" />
+      <Trait id="ScoutSkills" value="3" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Tear - unlucky merchant -->
+  <NPCCharacter id="spc_wanderer_aserai_8" name="{=XBJtv4mD}{FIRSTNAME} the Merchant" voice="softspoken" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai" />
+    </face>
+    <!--<Hero id="spc_wanderer_aserai_8" faction="Kingdom.aserai" />-->
+    <Traits>
+      <!--
+      <Trait id="CrossbowmanStyle" value="4" />
+      <Trait id="Trader" value="10" />
+      <Trait id="Manager" value="4" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Altara - female alley urchin -->
+  <NPCCharacter id="spc_wanderer_aserai_9" name="{=NWuGUi4p}{FIRSTNAME} of Ebou Dar" voice="ironic" age="22" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Illian - Engineer-->
+  <NPCCharacter id="spc_wanderer_aserai_10" name="{=ACqta1a5}{FIRSTNAME} the Engineer" voice="ironic" age="26" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.battania" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_aserai_10_skills">
+    <face>
+      <face_key_template value="BodyProperty.villager_aserai" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CrossbowmanStyle" value="3" />
+      <Trait id="EngineerSkills" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aserai" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aserai" />
+    </Equipments>
+  </NPCCharacter>
+  <!--WANDERERS OF KHUZAIT -->
+  <!--Arafel - engineer, sent to learn trade -->
+  <NPCCharacter id="spc_wanderer_khuzait_0" name="{=sdzaip5J}{FIRSTNAME} the Mason" voice="softspoken" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_0_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="CrossbowmanStyle" value="2" />
+      <Trait id="EngineerSkills" value="7" /> -->
+      <Trait id="Generosity" value="-1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Kandor - the hawk, curt voice. Rural clan nemesis. Easily insulted, killed a man's brother over a girl -->
+  <NPCCharacter id="spc_wanderer_khuzait_1" name="{=j2nVPqIX}{FIRSTNAME} of Kandor" voice="curt" age="27" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_1_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <Traits>
+      <!-- <Trait id="HorseArcherFightingSkills" value="4" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+      <!--<Trait id="RuralClanIsNemesis" value="1" />-->
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shienar - the fatherless, backed out of a family feud -->
+  <NPCCharacter id="spc_wanderer_khuzait_2" name="{=agS5lIg7}{FIRSTNAME} the Blight Rider" voice="earnest" age="22" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_2_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <!--
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="Politician" value="8" />
+      <Trait id="Manager" value="6" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Mercy" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - ironeye, professional soldier. infantryman -->
+  <NPCCharacter id="spc_wanderer_khuzait_3" name="{=QWbgE4bw}{FIRSTNAME} of the Nine Valleys Sept" voice="curt" age="32" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_3_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Saldea - the proud, turned on protectors. lord as nemesis -->
+  <NPCCharacter id="spc_wanderer_khuzait_4" name="{=ykTARD4b}{FIRSTNAME} the Outlaw" voice="ironic" age="22" default_group="Infantry" is_hero="false" is_template="true" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_4_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="Commander" value="6" /> -->
+      <Trait id="Honor" value="-1" />
+      <Trait id="Generosity" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - 'the mad' soft voice, sinister? Pickpocket. Have gang leader as nemesis? -->
+  <NPCCharacter id="spc_wanderer_khuzait_5" name="{=q5QjQyde}{FIRSTNAME} the Red Salt Sept" voice="softspoken" age="21" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_5_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <Traits>
+      <!--<Trait id="GangLeaderIsNemesis" value="1" />-->
+      <!--
+      <Trait id="PeltastFightingSkills" value="3" />
+      <Trait id="RogueSkills" value="6" />-->
+      <Trait id="Calculating" value="1" />
+      <Trait id="Honor" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_aiel_m" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Saldea - lone survivor of a hunted steppe clan -->
+  <NPCCharacter id="spc_wanderer_khuzait_6" name="{=seS9ZZUW}{FIRSTNAME} the Steppes" voice="curt" age="20" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_6_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <!-- <Trait id="HorseArcherFightingSkills" value="3" />
+      <Trait id="ScoutSkills" value="5" />
+      <Trait id="Commander" value="3" /> -->
+      <Trait id="Honor" value="1" />
+      <Trait id="Generosity" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Aiel - the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <NPCCharacter id="spc_wanderer_khuzait_7" name="{=3wzexaA7}{FIRSTNAME} of the Waste" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_7_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Shienar - lone daughter of mother -->
+  <NPCCharacter id="spc_wanderer_khuzait_8" name="{=OIXub6bS}{FIRSTNAME} of Tarwin's Gap" voice="curt" age="29" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_8_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_khuzait" />
+    </face>
+    <Traits>
+      <!--
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="ScoutSkills" value="5" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="1" />
+      <Trait id="Mercy" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Kandor - tomboy daughter of caravan guard -->
+  <NPCCharacter id="spc_wanderer_khuzait_9" name="{=KY2zbWkj}{FIRSTNAME} the Swift" voice="ironic" age="21" is_female="true" is_hero="false" default_group="Infantry" is_template="true" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_9_skills">
+    <face>
+      <face_key_template value="BodyProperty.townswoman_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <!--
+      <Trait id="ArcherFIghtingSkills" value="3" />
+      <Trait id="RogueSkills" value="4" />
+      <Trait id="Trader" value="8" /> -->
+      <Trait id="Valor" value="1" />
+      <Trait id="Generosity" value="1" />
+      <Trait id="Mercy" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Arafel - former 'horsethief' -->
+  <NPCCharacter id="spc_wanderer_khuzait_10" name="{=CQOlMayc}{FIRSTNAME} the Ragged" voice="earnest" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.khuzait" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_10_skills">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="Valor" value="1" />
+      <Trait id="Honor" value="-1" />
+      <Trait id="Calculating" value="-1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Head" id="Item.decorated_nomad_cap" />
+        <equipment slot="Body" id="Item.ragged_robes" />
+        <equipment slot="Leg" id="Item.ragged_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_khuzait" />
+    </Equipments>
+  </NPCCharacter>
+</NPCCharacters>

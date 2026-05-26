@@ -1,0 +1,66 @@
+###############################
+# Bannerlord Modding GitIgnore
+###############################
+
+# Ignore build output
+bin/
+obj/
+*/bin/
+*/obj/
+
+# Ignore temporary and backup files
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.backup
+
+# Ignore compressed archives
+*.zip
+*.rar
+*.7z
+
+# Ignore asset files
+*.tpac
+*.dds
+*.tga
+*.fbx
+*.rdc
+
+# Ignore logs
+*.log
+
+# Ignore auto-generated files from mod tools
+*/_backup/
+*/_temp/
+*/_old/
+*/_autosave/
+*/_export/
+*/_generated/
+
+# Ignore folders
+*/SceneObj/
+*/Assets/
+*/GUI/
+*/Prefabs/
+*/RuntimeDataCache/
+
+# Ignore crash dumps
+*.dmp
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
+
+# Ignore macOS system files (just in case)
+.DS_Store
+
+# Ignore Python virtual environments (if used for tooling)
+venv/
+.env/
+
+###############################
+# End of Bannerlord GitIgnore
+###############################
+
