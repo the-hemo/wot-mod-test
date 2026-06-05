@@ -23,7 +23,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacterCivil1" culture="Culture.black">
     <EquipmentSet>
@@ -47,7 +47,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacterCivil2" culture="Culture.black">
     <EquipmentSet>
@@ -71,7 +71,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacterCivil3" culture="Culture.black">
     <EquipmentSet>
@@ -95,17 +95,17 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_civ_template_lady_normal" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -113,7 +113,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -121,68 +121,52 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_civ_template_default" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -190,20 +174,36 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_civ_template_stoic" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_civ_template_flamboyant" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -211,17 +211,17 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tear_civ_template_flamboyant" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -229,85 +229,69 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tear_civ_template_stoic" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tear_civ_template_default" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -315,17 +299,33 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tear_civ_template_lady_normal" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -333,7 +333,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -341,68 +341,52 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sharan_civ_template_default" culture="Culture.vakken">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -410,17 +394,33 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sharan_civ_template_lady_normal" culture="Culture.vakken">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -428,7 +428,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -436,17 +436,17 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WT_civ_template_lady_normal" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -454,7 +454,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -462,10 +462,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WT_civ_template_flamboyant" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -473,85 +473,69 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WT_civ_template_stoic" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WT_civ_template_default" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -559,68 +543,68 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ama_civ_template_default" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -628,27 +612,43 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ama_civ_template_stoic" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ama_civ_template_lady_normal" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -656,7 +656,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -664,68 +664,52 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Cai_civ_template_default" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.fine_town_tunic" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.folded_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
-      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
-      <Equipment slot="Body" id="Item.imperial_robes" />
-      <Equipment slot="Cape" id="Item.scarf" />
-      <Equipment slot="Leg" id="Item.fine_town_boots" />
-      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
-      <Equipment slot="HorseHarness" id="Item.light_harness" />
-    </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -733,20 +717,36 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.imperial_robes" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.fine_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Cape" id="Item.scarf" />
+      <Equipment slot="Leg" id="Item.folded_town_boots" />
+      <Equipment slot="Horse" id="Item.noble_horse_imperial" />
+      <Equipment slot="HorseHarness" id="Item.light_harness" />
+    </EquipmentSet>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Cai_civ_template_stoic" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.folded_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsStoicTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Cai_civ_template_flamboyant" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -754,24 +754,24 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Cai_civ_template_lady_normal" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
@@ -779,7 +779,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -787,10 +787,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Mur_civ_template_flamboyant" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.eastern_silk_clothing" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -799,7 +799,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_archer_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -808,7 +808,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Cape" id="Item.leopard_pelt" />
@@ -817,10 +817,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Mur_civ_template_default" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.layered_robe" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -829,7 +829,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -838,7 +838,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_b" />
       <Equipment slot="Cape" id="Item.wrapped_scarf" />
@@ -847,10 +847,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Mur_civ_template_lady_normal" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_southern_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -865,10 +865,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Mur_civ_template_bedouin" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.tassled_southern_robes" />
       <Equipment slot="Head" id="Item.tuareg" />
@@ -878,7 +878,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.desert_padded_cloth" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -887,10 +887,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tar_civ_template_flamboyant" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.eastern_silk_clothing" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -899,7 +899,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_archer_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -908,7 +908,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Cape" id="Item.leopard_pelt" />
@@ -917,10 +917,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tar_civ_template_default" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.layered_robe" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -929,7 +929,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -938,7 +938,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_b" />
       <Equipment slot="Cape" id="Item.wrapped_scarf" />
@@ -947,10 +947,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tar_civ_template_lady_normal" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_southern_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -965,10 +965,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ghe_civ_template_flamboyant" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.eastern_silk_clothing" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -977,7 +977,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_archer_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -986,7 +986,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Cape" id="Item.leopard_pelt" />
@@ -995,10 +995,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCombatantTemplate="true" IsNobleTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ghe_civ_template_default" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.layered_robe" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -1007,7 +1007,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_d" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1016,7 +1016,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_4_t5" />
       <Equipment slot="Body" id="Item.aserai_civil_b" />
       <Equipment slot="Cape" id="Item.wrapped_scarf" />
@@ -1025,10 +1025,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ghe_civ_template_lady_normal" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.fine_southern_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -1043,10 +1043,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Alt_civ_template_default" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.padded_leather_shirt" />
       <Equipment slot="Cape" id="Item.empire_cape_a" />
@@ -1055,7 +1055,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.layered_leather_tunic" />
       <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
@@ -1064,10 +1064,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Alt_civ_template_lady_normal" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -1075,24 +1075,24 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.vlandian_corset_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Alt_civ_template_flamboyant" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.long_woolen_tunic" />
       <Equipment slot="Cape" id="Item.scarf" />
@@ -1101,7 +1101,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.white_coat_over_mail" />
       <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
@@ -1110,10 +1110,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsFlamboyantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Alt_civ_template_heavy" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.padded_leather_shirt" />
       <Equipment slot="Cape" id="Item.empire_cape_a" />
@@ -1122,7 +1122,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.layered_leather_tunic" />
       <Equipment slot="Leg" id="Item.leather_cavalier_boots" />
@@ -1131,317 +1131,317 @@
       <Equipment slot="Horse" id="Item.noble_horse_western" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsHeavyTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ara_civ_template_default" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_axe_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ara_civ_template_flamboyant" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ara_civ_template_heavy" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ara_civ_template_wild" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_axe_3_t5" />
       <Equipment slot="Body" id="Item.battania_light_armor_e" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.bearskin" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_light_armor_d" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_b" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.armored_bearskin" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsWoodlandTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Ara_civ_template_lady_normal" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Gloves" id="Item.leather_gloves" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Far_civ_template_lady_normal" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Gloves" id="Item.leather_gloves" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Far_civ_template_default" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_axe_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Far_civ_template_flamboyant" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Shi_civ_template_default" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_axe_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Shi_civ_template_heavy" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Shi_civ_template_lady_normal" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Gloves" id="Item.leather_gloves" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Kan_civ_template_flamboyant" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.highland_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Kan_civ_template_default" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_axe_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Cape" id="Item.a_battania_cloak_a" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.highland_gloves" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Kan_civ_template_heavy" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_civil_a" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.battania_civil_c" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
       <Equipment slot="Gloves" id="Item.battania_noble_bracers" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsFlamboyantTemplate="true" IsCombatantTemplate="true" IsCivilianTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Kan_civ_template_lady_normal" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Gloves" id="Item.leather_gloves" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.battania_dress_a" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
       <Equipment slot="Cape" id="Item.battania_cloak" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="May_civ_template_default" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1449,7 +1449,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1457,14 +1457,14 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1472,7 +1472,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1480,7 +1480,7 @@
       <Equipment slot="Cape" id="Item.eastern_studded_shoulders" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1489,10 +1489,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="May_civ_template_lady_normal" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.steppe_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -1500,14 +1500,14 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.steppe_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_dress_b" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -1515,24 +1515,24 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsNobleTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="May_civ_template_flamboyant" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1540,21 +1540,21 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1562,24 +1562,24 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsCombatantTemplate="true" IsFlamboyantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="May_civ_template_heavy" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1587,7 +1587,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1595,7 +1595,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Head" id="Item.decorated_nomad_cap" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1604,7 +1604,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
@@ -1612,10 +1612,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCombatantTemplate="true" IsHeavyTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sea_civ_template_default" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1623,7 +1623,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1631,14 +1631,14 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_fortified_armor" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1646,7 +1646,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1654,7 +1654,7 @@
       <Equipment slot="Cape" id="Item.eastern_studded_shoulders" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
       <Equipment slot="Head" id="Item.fur_hat" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
@@ -1663,10 +1663,10 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsCivilianTemplate="true" IsNobleTemplate="true" IsCombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sea_civ_template_lady_normal" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.steppe_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -1674,14 +1674,14 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.steppe_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_dress_b" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -1689,24 +1689,24 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsFemaleTemplate="true" IsCivilianTemplate="true" IsNobleTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsFemaleTemplate="true" IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sea_civ_template_flamboyant" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1714,21 +1714,21 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_1_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_3_t5" />
       <Equipment slot="Body" id="Item.khuzait_belt_leather" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_noble_sword_2_t5" />
       <Equipment slot="Body" id="Item.khuzait_civil_coat" />
       <Equipment slot="Leg" id="Item.khuzait_curved_boots" />
@@ -1736,81 +1736,81 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsNobleTemplate="true" IsCivilianTemplate="true" IsFlamboyantTemplate="true" IsNoncombatantTemplate="true" />
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <!--Troop Civilian Templates-->
   <EquipmentRoster id="wetlander_troop_civilian_template_t1" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Leg" id="Item.TwoRiversBoots1" />
       <Equipment slot="Body" id="Item.bandit_leather_water_flask" />
       <Equipment slot="Item0" id="Item.seax" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_sword_1_t2" />
       <Equipment slot="Body" id="Item.battania_civil_b" />
       <Equipment slot="Cape" id="Item.scarf" />
       <Equipment slot="Leg" id="Item.highland_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.iron_spatha_sword_t2" />
       <Equipment slot="Body" id="Item.tied_cloth_tunic" />
       <Equipment slot="Leg" id="Item.strapped_shoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="wetlander_troop_civilian_template_t2" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
       <Equipment slot="Body" id="Item.padded_leather_shirt" />
       <Equipment slot="Leg" id="Item.empire_horseman_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
       <Equipment slot="Body" id="Item.footmans_tunic" />
       <Equipment slot="Leg" id="Item.leather_shoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="wetlander_troop_civilian_template_t3" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
       <Equipment slot="Body" id="Item.empire_warrior_padded_armor_e" />
       <Equipment slot="Leg" id="Item.leather_shoes" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_sword_2_t3" />
       <Equipment slot="Head" id="Item.leather_cap" />
       <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
       <Equipment slot="Gloves" id="Item.padded_mitten" />
       <Equipment slot="Leg" id="Item.fine_town_boots" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_sword_2_t3" />
       <Equipment slot="Body" id="Item.tunic_with_rolled_cloth" />
       <Equipment slot="Leg" id="Item.strapped_leather_boots" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="BlackTower_troop_civilian_template_t1" culture="Culture.black">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item2" id="Item.battania_sword_3_t3" />
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Shadow_troop_civilian_template_t1" culture="Culture.sturgia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Head" id="Item.Aielveilred" />
       <Equipment slot="Body" id="Item.AielArmor2a" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Shadow_troop_civilian_template_t2" culture="Culture.sturgia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.Trollocweapon3" />
       <Equipment slot="Body" id="Item.TrollocLight1a" />
       <Equipment slot="Gloves" id="Item.Trollochands" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Shadow_troop_civilian_template_t3" culture="Culture.sturgia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Gloves" id="Item.Fadegauntlets" />
       <Equipment slot="Cape" id="Item.Fadecloak" />
       <Equipment slot="Body" id="Item.Fadefullbody" />
@@ -1818,119 +1818,119 @@
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Aiel_troop_civilian_template_t1" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Head" id="Item.AielHeadwrap1" />
       <Equipment slot="Body" id="Item.AielArmor2a" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Aiel_troop_civilian_template_t2" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Head" id="Item.AielHeadwrap1" />
       <Equipment slot="Body" id="Item.AielArmor1" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Aiel_troop_civilian_template_t3" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AielWiseOneRobe" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Arafel_troop_civilian_template_t1" culture="Culture.khuzait">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
       <Equipment slot="Body" id="Item.steppe_armor" />
       <Equipment slot="Leg" id="Item.ArafelBootsCheap" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="FarMadding_troop_civilian_template_t1" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.empire_sword_1_t2" />
       <Equipment slot="Body" id="Item.fine_town_tunic" />
       <Equipment slot="Leg" id="Item.leather_shoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t1" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.aserai_sword_3_t3" />
       <Equipment slot="Body" id="Item.WarderArmorMediumcheap" />
       <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t2" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AesSedaiNoviceRobe" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t3" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AesSedaiAcceptedRobe" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t4" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AessedaiBlue" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t5" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AessedaiGreen" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="WhiteTower_troop_civilian_template_t6" culture="Culture.white">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.AessedaiRed" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Seanchan_troop_civilian_template_t1" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.battania_dress_c" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Seanchan_troop_civilian_template_t2" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.northern_dress" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Seanchan_troop_civilian_template_t3" culture="Culture.vlandia">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.khuzait_dress_b" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Seafolk_troop_civilian_template_t1" culture="Culture.darshi">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.armored_baggy_trunks" />
       <Equipment slot="Leg" id="Item.ragged_boots" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Illum_troop_civilian_template_t1" culture="Culture.battania">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.imperial_robes" />
       <Equipment slot="Leg" id="Item.sturgia_boots_d" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Kin_troop_civilian_template_t1" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.kindress1" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <EquipmentRoster id="Kin_troop_civilian_template_t2" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Body" id="Item.kindress2" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
   </EquipmentRoster>
   <!--Additional Companion Sets-->
   <EquipmentRoster id="npc_companion_equipment_template_aiel_m" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.AielArmor2a" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
@@ -1951,10 +1951,9 @@
       <Equipment slot="Body" id="Item.AielArmor2a" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
     </EquipmentSet>
-    <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="npc_companion_equipment_template_aiel_f" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.AielArmor1" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
@@ -1975,7 +1974,7 @@
       <Equipment slot="Body" id="Item.AielArmor1" />
       <Equipment slot="Leg" id="Item.AielBoots1" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.AielWiseOneRobe" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
@@ -1986,10 +1985,9 @@
       <Equipment slot="Body" id="Item.AielWiseOneRobe" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
-    <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="npc_companion_equipment_template_aiel_w" culture="Culture.aserai">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.AielWiseOneRobe" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
@@ -2000,10 +1998,9 @@
       <Equipment slot="Body" id="Item.AielWiseOneRobe" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
-    <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="npc_companion_equipment_template_wisdom" culture="Culture.empire">
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.seax" />
       <Equipment slot="Body" id="Item.northern_dress" />
       <Equipment slot="Leg" id="Item.wrapped_shoes" />
@@ -2014,7 +2011,7 @@
       <Equipment slot="Body" id="Item.northern_dress" />
       <Equipment slot="Leg" id="Item.wrapped_shoes" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.seax" />
       <Equipment slot="Body" id="Item.khuzait_dress_b" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
@@ -2022,44 +2019,43 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerWindblast" />
       <Equipment slot="Item1" id="Item.seax" />
-      <Equipment slot="Body" id="Item.khuzait_dress_b"></Equipment>
+      <Equipment slot="Body" id="Item.khuzait_dress_b" />
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
-    <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="npc_companion_equipment_template_sedai" culture="Culture.white">
     <!--Civilian Sets-->
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.battania_sword_2_t3" />
       <Equipment slot="Body" id="Item.steppe_dress" />
       <Equipment slot="Leg" id="Item.southern_moccasins" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.short_sword_t3" />
       <Equipment slot="Body" id="Item.fine_southern_dress" />
       <Equipment slot="Leg" id="Item.southern_moccasins" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.seax" />
       <Equipment slot="Body" id="Item.battania_dress_c" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.laced_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.celtic_dagger" />
       <Equipment slot="Body" id="Item.empire_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.gladius_b" />
       <Equipment slot="Body" id="Item.vlandian_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
     </EquipmentSet>
-    <EquipmentSet civilian="true">
+    <EquipmentSet equipmentType="Civilian">
       <Equipment slot="Item0" id="Item.pugio" />
       <Equipment slot="Body" id="Item.vlandian_corset_dress" />
       <Equipment slot="Leg" id="Item.ladys_shoe" />
@@ -2074,40 +2070,39 @@
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerLightningstorm" />
       <Equipment slot="Item1" id="Item.seax" />
-      <Equipment slot="Body" id="Item.AessedaiBlue"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiBlue" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerWindblast" />
       <Equipment slot="Item1" id="Item.celtic_dagger" />
-      <Equipment slot="Body" id="Item.AessedaiBrown"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiBrown" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerFireball" />
       <Equipment slot="Item1" id="Item.celtic_dagger" />
-      <Equipment slot="Body" id="Item.AessedaiGrey"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiGrey" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerFireball" />
       <Equipment slot="Item1" id="Item.hooked_cleaver" />
-      <Equipment slot="Body" id="Item.AessedaiRed"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiRed" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerLightningstorm" />
       <Equipment slot="Item1" id="Item.pugio" />
-      <Equipment slot="Body" id="Item.AessedaiWhite"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiWhite" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerWindblast" />
       <Equipment slot="Item1" id="Item.seax" />
-      <Equipment slot="Body" id="Item.AessedaiYellow"></Equipment>
+      <Equipment slot="Body" id="Item.AessedaiYellow" />
       <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
-    <Flags IsWandererEquipment="true" IsCivilianTemplate="true" IsCombatantTemplate="true" />
   </EquipmentRoster>
   <!--ChildSets-->
 	<!--Culture:white -->
@@ -2116,7 +2111,7 @@
 		id="child_template_white_townsman_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2125,7 +2120,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2134,7 +2129,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2145,15 +2140,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false" />
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_white_townsman_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2162,7 +2155,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2171,7 +2164,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2182,15 +2175,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_townsman_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2199,7 +2190,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_apron" />
@@ -2208,7 +2199,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.monk_robe" />
@@ -2219,15 +2210,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_townsman_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_piece" />
@@ -2239,7 +2228,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf" />
@@ -2251,7 +2240,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_scarf" />
@@ -2262,16 +2251,14 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<!--Villager -->
 	<EquipmentRoster
 		id="child_template_white_villager_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.sackcloth_tunic" />
@@ -2280,7 +2267,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2291,15 +2278,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_white_villager_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.sackcloth_tunic" />
@@ -2308,7 +2293,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2319,15 +2304,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_villager_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_apron" />
@@ -2336,7 +2319,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.padded_leather_cape" />
@@ -2351,7 +2334,7 @@
 				id="Item.green_hood" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.monk_robe" />
@@ -2362,15 +2345,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_villager_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf" />
@@ -2382,7 +2363,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2391,7 +2372,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf_c" />
@@ -2402,16 +2383,14 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false" />
 	</EquipmentRoster>
 	<!--Noble -->
 	<EquipmentRoster
 		id="child_template_white_noble_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2420,7 +2399,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2429,7 +2408,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2440,15 +2419,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true" />
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_white_noble_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2457,7 +2434,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2466,7 +2443,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2477,15 +2454,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true" />
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_noble_male"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2494,7 +2469,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2503,7 +2478,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2514,15 +2489,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true" />
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_white_noble_female"
 		culture="Culture.white">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_piece" />
@@ -2534,7 +2507,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_wrapped" />
@@ -2546,7 +2519,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_scarf" />
@@ -2557,9 +2530,7 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true" />
 	</EquipmentRoster>
 	
 	<!--Culture:black -->
@@ -2568,7 +2539,7 @@
 		id="child_template_black_townsman_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2577,7 +2548,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2586,7 +2557,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2597,15 +2568,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_black_townsman_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2614,7 +2583,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2623,7 +2592,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2634,15 +2603,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_townsman_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_tunic" />
@@ -2651,7 +2618,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_apron" />
@@ -2660,7 +2627,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.monk_robe" />
@@ -2671,15 +2638,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_townsman_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_piece" />
@@ -2691,7 +2656,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf" />
@@ -2703,7 +2668,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_scarf" />
@@ -2714,16 +2679,14 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<!--Villager -->
 	<EquipmentRoster
 		id="child_template_black_villager_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.sackcloth_tunic" />
@@ -2732,7 +2695,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2743,15 +2706,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_black_villager_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.sackcloth_tunic" />
@@ -2760,7 +2721,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2771,15 +2732,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_villager_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_apron" />
@@ -2788,7 +2747,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.padded_leather_cape" />
@@ -2803,7 +2762,7 @@
 				id="Item.green_hood" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.monk_robe" />
@@ -2814,15 +2773,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_villager_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf" />
@@ -2834,7 +2791,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2843,7 +2800,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.headscarf_c" />
@@ -2854,16 +2811,14 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="false"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="false"/>
 	</EquipmentRoster>
 	<!--Noble -->
 	<EquipmentRoster
 		id="child_template_black_noble_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2872,7 +2827,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2881,7 +2836,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2892,15 +2847,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="child_template_black_noble_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat" />
@@ -2909,7 +2862,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.leather_coat_over_cloth" />
@@ -2918,7 +2871,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.long_hemp_tunic" />
@@ -2929,15 +2882,13 @@
 		<Flags
 			IsChildEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_noble_male"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2946,7 +2897,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2955,7 +2906,7 @@
 				id="Item.strapped_shoes" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Body"
 				id="Item.cloth_tunic" />
@@ -2966,15 +2917,13 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="false"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true"/>
 	</EquipmentRoster>
 	<EquipmentRoster
 		id="teenager_template_black_noble_female"
 		culture="Culture.black">
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_piece" />
@@ -2986,7 +2935,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_wrapped" />
@@ -2998,7 +2947,7 @@
 				id="Item.ladys_shoe" />
 		</EquipmentSet>
 		<EquipmentSet
-			civilian="true">
+			equipmentType="Civilian">
 			<Equipment
 				slot="Head"
 				id="Item.head_scarf" />
@@ -3009,9 +2958,7 @@
 		<Flags
 			IsTeenagerEquipmentTemplate="true"
 			IsFemaleTemplate="true"
-			IsNobleTemplate="true"
-			IsCivilianTemplate="true"
-			IsNoncombatantTemplate="true" />
+			IsLordTemplate="true"/>
 	</EquipmentRoster>
 
 </EquipmentRosters>

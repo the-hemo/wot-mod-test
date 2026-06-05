@@ -30,214 +30,585 @@
   <string id="str_culture_rich_name.sturgia" text="Shadowspawn" />
   <string id="str_culture_rich_name.aserai" text="Aiel" />
   <string id="str_culture_rich_name.empire" text="Westlands" />
-  <string id="str_faction_official.Seanchan" text="a member of the Blood" />
-  <string id="str_faction_official.Altara" text="a lord" />
-  <string id="str_faction_official.white" text="an official" />
-  <string id="str_faction_official.Mayene" text="a lord" />
-  <string id="str_faction_official.Tear" text="a lord" />
-  <string id="str_faction_official.Tarabon" text="a lord" />
-  <string id="str_faction_official.Shienar" text="a lord" />
-  <string id="str_faction_official.Kandor" text="a lord" />
-  <string id="str_faction_official.Ghealdan" text="a lord" />
-  <string id="str_faction_official.FarMadding" text="a lord" />
-  <string id="str_faction_official.Arafel" text="a lord" />
-  <string id="str_faction_official.Amamdicia" text="a lord" />
-  <string id="str_faction_official.Dragonsworn" text="a lord" />
-  <string id="str_faction_official.Murandy" text="a lord" />
-  <string id="str_faction_official.black" text="an asha'man" />
-  <string id="str_faction_official.Cairhien" text="a lord" />
-  <string id="str_faction_official.Seanchan_f" text="a member of the Blood" />
-  <string id="str_faction_official.Altara_f" text="a lady" />
-  <string id="str_faction_official.white_f" text="an aes sedai" />
-  <string id="str_faction_official.Mayene_f" text="a lady" />
-  <string id="str_faction_official.Tear_f" text="a lady" />
-  <string id="str_faction_official.Tarabon_f" text="a lady" />
-  <string id="str_faction_official.Shienar_f" text="a lady" />
-  <string id="str_faction_official.Kandor_f" text="a lady" />
-  <string id="str_faction_official.Ghealdan_f" text="a lady" />
-  <string id="str_faction_official.FarMadding_f" text="a lady" />
-  <string id="str_faction_official.Arafel_f" text="a lady" />
-  <string id="str_faction_official.Amamdicia_f" text="a lady" />
-  <string id="str_faction_official.Dragonsworn_f" text="a lady" />
-  <string id="str_faction_official.Murandy_f" text="a lady" />
-  <string id="str_faction_official.black_f" text="an aes sedai" />
-  <string id="str_faction_official.Cairhien_f" text="a lady" />
-  <string id="str_faction_ruler.Seanchan" text="emperor" />
-  <string id="str_faction_ruler.Altara" text="king" />
-  <string id="str_faction_ruler.white" text="Amyrlin Seat" />
-  <string id="str_faction_ruler.Mayene" text="first" />
-  <string id="str_faction_ruler.Tear" text="high lord" />
-  <string id="str_faction_ruler.Tarabon" text="king" />
-  <string id="str_faction_ruler.Shienar" text="king" />
-  <string id="str_faction_ruler.Kandor" text="king" />
-  <string id="str_faction_ruler.Ghealdan" text="king" />
-  <string id="str_faction_ruler.FarMadding" text="First Counsel" />
-  <string id="str_faction_ruler.Arafel" text="king" />
-  <string id="str_faction_ruler.Amamdicia" text="king" />
-  <string id="str_faction_ruler.Dragonsworn" text="king" />
-  <string id="str_faction_ruler.Murandy" text="king" />
-  <string id="str_faction_ruler.black" text="M'Hael" />
-  <string id="str_faction_ruler.Cairhien" text="king" />
-  <string id="str_faction_ruler.Seanchan_f" text="empress" />
-  <string id="str_faction_ruler.Altara_f" text="queen" />
-  <string id="str_faction_ruler.white_f" text="Amyrlin Seat" />
-  <string id="str_faction_ruler.Mayene_f" text="first" />
-  <string id="str_faction_ruler.Tear_f" text="high lady" />
-  <string id="str_faction_ruler.Tarabon_f" text="panarch" />
-  <string id="str_faction_ruler.Shienar_f" text="queen" />
-  <string id="str_faction_ruler.Kandor_f" text="queen" />
-  <string id="str_faction_ruler.Ghealdan_f" text="queen" />
-  <string id="str_faction_ruler.FarMadding_f" text="First Counsel" />
-  <string id="str_faction_ruler.Arafel_f" text="queen" />
-  <string id="str_faction_ruler.Amamdicia_f" text="queen" />
-  <string id="str_faction_ruler.Dragonsworn_f" text="queen" />
-  <string id="str_faction_ruler.Murandy_f" text="queen" />
-  <string id="str_faction_ruler.black_f" text="M'Hael" />
-  <string id="str_faction_ruler.Cairhien_f" text="queen" />
-  <string id="str_faction_ruler_term_in_speech.Seanchan" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Altara" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.white" text="Amyrlin Seat {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Mayene" text="First of Mayene {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Tear" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Tarabon" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Shienar" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Kandor" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Ghealdan" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.FarMadding" text="First Counsel {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Arafel" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Amamdicia" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Dragonsworn" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Murandy" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.black" text="M'Hael {RULER.NAME}" />
-  <string id="str_faction_ruler_term_in_speech.Cairhien" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Seanchan" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Altara" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.white" text="Amyrlin Seat {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Mayene" text="First of Mayene {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Tear" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Tarabon" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Shienar" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Kandor" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Ghealdan" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.FarMadding" text="First Counsel {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Arafel" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Amamdicia" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Dragonsworn" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Murandy" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.black" text="M'Hael {RULER.NAME}" />
-  <string id="str_faction_ruler_name_with_title.Cairhien" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Seanchan" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Altara" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.white" text="{?RULER.GENDER}Sitter{?}Captain{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Mayene" text="Second of Mayene {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Tear" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Tarabon" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Shienar" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Kandor" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Ghealdan" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.FarMadding" text="Counseler {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Arafel" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Amamdicia" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Dragonsworn" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Murandy" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.black" text="{?RULER.GENDER}Aes Sedai{?}Asha'man{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.Cairhien" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_informal_name_for_culture.Seanchan" text="the Seanchan" />
-  <string id="str_faction_informal_name_for_culture.Altara" text="the Altarans" />
-  <string id="str_faction_informal_name_for_culture.white" text="the Aes Sedai" />
-  <string id="str_faction_informal_name_for_culture.Mayene" text="the Mayeners" />
-  <string id="str_faction_informal_name_for_culture.Tear" text="the Tairens" />
-  <string id="str_faction_informal_name_for_culture.Tarabon" text="the Taraboners" />
-  <string id="str_faction_informal_name_for_culture.Shienar" text="the Shienarans" />
-  <string id="str_faction_informal_name_for_culture.Kandor" text="the Kandori" />
-  <string id="str_faction_informal_name_for_culture.Ghealdan" text="the Ghealdanin" />
-  <string id="str_faction_informal_name_for_culture.FarMadding" text="the Far Maddingers" />
-  <string id="str_faction_informal_name_for_culture.Arafel" text="the Arafellin" />
-  <string id="str_faction_informal_name_for_culture.Amamdicia" text="the Amadicians" />
-  <string id="str_faction_informal_name_for_culture.Dragonsworn" text="the Dragonsworn" />
-  <string id="str_faction_informal_name_for_culture.Murandy" text="the Murandians" />
-  <string id="str_faction_informal_name_for_culture.black" text="the Asha'man" />
-  <string id="str_faction_informal_name_for_culture.Cairhien" text="the Cairhienin" />
-  <string id="str_faction_formal_name_for_culture.Seanchan" text="Seanchan Empire" />
-  <string id="str_faction_formal_name_for_culture.Altara" text="Nation of Altara" />
-  <string id="str_faction_formal_name_for_culture.white" text="White Tower" />
-  <string id="str_faction_formal_name_for_culture.Mayene" text="City-state of Mayene" />
-  <string id="str_faction_formal_name_for_culture.Tear" text="Nation of Tear" />
-  <string id="str_faction_formal_name_for_culture.Tarabon" text="Nation of Tarabon" />
-  <string id="str_faction_formal_name_for_culture.Shienar" text="Nation of Shienar" />
-  <string id="str_faction_formal_name_for_culture.Kandor" text="Nation of Kandor" />
-  <string id="str_faction_formal_name_for_culture.Ghealdan" text="Nation of Ghealdan" />
-  <string id="str_faction_formal_name_for_culture.FarMadding" text="City-state of Far Madding" />
-  <string id="str_faction_formal_name_for_culture.Arafel" text="Nation of Arafel" />
-  <string id="str_faction_formal_name_for_culture.Amamdicia" text="Nation of Amadicia" />
-  <string id="str_faction_formal_name_for_culture.Dragonsworn" text="Followers of the Dragon" />
-  <string id="str_faction_formal_name_for_culture.Murandy" text="Nation of Murandy" />
-  <string id="str_faction_formal_name_for_culture.black" text="Black Tower" />
-  <string id="str_faction_formal_name_for_culture.Cairhien" text="Nation of Cairhien" />
-  <string id="str_adjective_for_faction.Seanchan" text="Seanchan" />
-  <string id="str_adjective_for_faction.Altara" text="Altaran" />
-  <string id="str_adjective_for_faction.white" text="Aes Sedai" />
-  <string id="str_adjective_for_faction.Mayene" text="Mayener" />
-  <string id="str_adjective_for_faction.Tear" text="Tairen" />
-  <string id="str_adjective_for_faction.Tarabon" text="Taraboner" />
-  <string id="str_adjective_for_faction.Shienar" text="Shienaran" />
-  <string id="str_adjective_for_faction.Kandor" text="Kandori" />
-  <string id="str_adjective_for_faction.Ghealdan" text="Ghealdanin" />
-  <string id="str_adjective_for_faction.FarMadding" text="Far Maddinger" />
-  <string id="str_adjective_for_faction.Arafel" text="Arafellin" />
-  <string id="str_adjective_for_faction.Amamdicia" text="Amadician" />
-  <string id="str_adjective_for_faction.Dragonsworn" text="Dragonsworn" />
-  <string id="str_adjective_for_faction.Murandy" text="Murandian" />
-  <string id="str_adjective_for_faction.black" text="Asha'man" />
-  <string id="str_adjective_for_faction.Cairhien" text="Cairhienin" />
-  <string id="str_adjective_for_culture.Seanchan" text="Seanchan" />
-  <string id="str_adjective_for_culture.Altara" text="Altaran" />
-  <string id="str_adjective_for_culture.white" text="Aes Sedai" />
-  <string id="str_adjective_for_culture.Mayene" text="Mayener" />
-  <string id="str_adjective_for_culture.Tear" text="Tairen" />
-  <string id="str_adjective_for_culture.Tarabon" text="Taraboner" />
-  <string id="str_adjective_for_culture.Shienar" text="Shienaran" />
-  <string id="str_adjective_for_culture.Kandor" text="Kandori" />
-  <string id="str_adjective_for_culture.Ghealdan" text="Ghealdanin" />
-  <string id="str_adjective_for_culture.FarMadding" text="Far Maddinger" />
-  <string id="str_adjective_for_culture.Arafel" text="Arafellin" />
-  <string id="str_adjective_for_culture.Amamdicia" text="Amadician" />
-  <string id="str_adjective_for_culture.Dragonsworn" text="Dragonsworn" />
-  <string id="str_adjective_for_culture.Murandy" text="Murandian" />
-  <string id="str_adjective_for_culture.black" text="Asha'man" />
-  <string id="str_adjective_for_culture.Cairhien" text="Cairhienin" />
-  <string id="str_neutral_term_for_culture.Seanchan" text="Seanchan" />
-  <string id="str_neutral_term_for_culture.Altara" text="Altarans" />
-  <string id="str_neutral_term_for_culture.white" text="Aes Sedai" />
-  <string id="str_neutral_term_for_culture.Mayene" text="Mayeners" />
-  <string id="str_neutral_term_for_culture.Tear" text="Tairen" />
-  <string id="str_neutral_term_for_culture.Tarabon" text="Taraboners" />
-  <string id="str_neutral_term_for_culture.Shienar" text="Shienarans" />
-  <string id="str_neutral_term_for_culture.Kandor" text="Kandori" />
-  <string id="str_neutral_term_for_culture.Ghealdan" text="Ghealdanin" />
-  <string id="str_neutral_term_for_culture.FarMadding" text="Far Maddingers" />
-  <string id="str_neutral_term_for_culture.Arafel" text="Arafellin" />
-  <string id="str_neutral_term_for_culture.Amamdicia" text="Amadicians" />
-  <string id="str_neutral_term_for_culture.Dragonsworn" text="Dragonsworn" />
-  <string id="str_neutral_term_for_culture.Murandy" text="Murandians" />
-  <string id="str_neutral_term_for_culture.black" text="Asha'man" />
-  <string id="str_neutral_term_for_culture.Cairhien" text="Cairhienin" />
-  <string id="str_neutral_term_for_culture.darshi" text="Sea Folk" />
-  <string id="str_short_term_for_faction.Seanchan" text="Seanchan" />
-  <string id="str_short_term_for_faction.Altara" text="Altarans" />
-  <string id="str_short_term_for_faction.white" text="Aes Sedai" />
-  <string id="str_short_term_for_faction.Mayene" text="Mayeners" />
-  <string id="str_short_term_for_faction.Tear" text="Tairen" />
-  <string id="str_short_term_for_faction.Tarabon" text="Taraboners" />
-  <string id="str_short_term_for_faction.Shienar" text="Shienarans" />
-  <string id="str_short_term_for_faction.Kandor" text="Kandori" />
-  <string id="str_short_term_for_faction.Ghealdan" text="Ghealdanins" />
-  <string id="str_short_term_for_faction.FarMadding" text="Far Maddingers" />
-  <string id="str_short_term_for_faction.Arafel" text="Arafellins" />
-  <string id="str_short_term_for_faction.Amamdicia" text="Amadicians" />
-  <string id="str_short_term_for_faction.Dragonsworn" text="Dragonsworn" />
-  <string id="str_short_term_for_faction.Murandy" text="Murandians" />
-  <string id="str_short_term_for_faction.black" text="Asha'man" />
-  <string id="str_short_term_for_faction.Cairhien" text="Cairhienins" />
+	<!--Faction Officials-->
+	<string id="str_faction_official.TheGhealdan" text="a lord" />
+	<string id="str_faction_official.TheMurandy" text="a lord" />
+	<string id="str_faction_official.TheWhiteTower" text="warder" />
+	<string id="str_faction_official.TheBlackTower" text="an asha'man" />
+	<string id="str_faction_official.TheAmadicia" text="a lord" />
+	<string id="str_faction_official.TheAradDoman" text="a lord" />
+	<string id="str_faction_official.TheIllian" text="a lord" />
+	<string id="str_faction_official.TheAltara" text="a lord" />
+	<string id="str_faction_official.TheMayene" text="a lord" />
+	<string id="str_faction_official.TheTarabon" text="a lord" />
+	<string id="str_faction_official.TheTear" text="a lord" />
+	<string id="str_faction_official.TheArafel" text="a lord" />
+	<string id="str_faction_official.TheKandor" text="a lord" />
+	<string id="str_faction_official.TheSheinar" text="a lord" />
+	<string id="str_faction_official.sturgia" text="a darkfriend" />
+	<string id="str_faction_official.khuzait" text="a lord" />
+	<string id="str_faction_official.aserai" text="a spear" />
+	<string id="str_faction_official.battania" text="a lord" />	
+	<string id="str_faction_official.empire" text="a lord" />
+	<string id="str_faction_official.empire_s" text="a lord" />
+	<string id="str_faction_official.empire_w" text="a supporter of the Dragon Reborn" />
+	<string id="str_faction_official.vlandia" text="of the blood" />
+
+	<string id="str_faction_official.TheGhealdan_f" text="a lady" />
+	<string id="str_faction_official.TheMurandy_f" text="a lady" />
+	<string id="str_faction_official.TheWhiteTower_f" text="sitter" />
+	<string id="str_faction_official.TheBlackTower_f" text="an aes sedai" />
+	<string id="str_faction_official.TheAmadicia_f" text="a lady" />
+	<string id="str_faction_official.TheAradDoman_f" text="a lady" />
+	<string id="str_faction_official.TheIllian_f" text="a lady" />
+	<string id="str_faction_official.TheAltara_f" text="a lady" />
+	<string id="str_faction_official.TheMayene_f" text="a lady" />
+	<string id="str_faction_official.TheTarabon_f" text="a lady" />
+	<string id="str_faction_official.TheTear_f" text="a lady" />
+	<string id="str_faction_official.TheArafel_f" text="a lady" />
+	<string id="str_faction_official.TheKandor_f" text="a lady" />
+	<string id="str_faction_official.TheSheinar_f" text="a lady" />
+	<string id="str_faction_official.sturgia_f" text="a darkfriend" />
+	<string id="str_faction_official.khuzait_f" text="a lady" />
+	<string id="str_faction_official.aserai_f" text="a spearmaiden" />
+	<string id="str_faction_official.battania_f" text="a lady" />
+	<string id="str_faction_official.empire_f" text="a lady" />
+	<string id="str_faction_official.empire_s_f" text="a lady" />
+	<string id="str_faction_official.empire_w_f" text="a supporter of the Dragon Reborn" />
+	<string id="str_faction_official.vlandia_f" text="of the blood" />
+ 
+<!--Faction Ruler Titles-->
+	<string id="str_faction_ruler.TheGhealdan" text="king" />
+	<string id="str_faction_ruler.TheMurandy" text="king" />
+	<string id="str_faction_ruler.TheWhiteTower" text="Amyrlin Seat" />
+	<string id="str_faction_ruler.TheBlackTower" text="M'Hael" />
+	<string id="str_faction_ruler.TheAmadicia" text="king" />
+	<string id="str_faction_ruler.TheAradDoman" text="king" />
+	<string id="str_faction_ruler.TheIllian" text="king" />
+	<string id="str_faction_ruler.TheAltara" text="king" />
+	<string id="str_faction_ruler.TheMayene" text="first" />
+	<string id="str_faction_ruler.TheTarabon" text="king" />
+	<string id="str_faction_ruler.TheTear" text="high lord" />
+	<string id="str_faction_ruler.TheArafel" text="king" />
+	<string id="str_faction_ruler.TheKandor" text="king" />
+	<string id="str_faction_ruler.TheSheinar" text="king" />
+	<string id="str_faction_ruler.sturgia" text="Forsaken" />
+	<string id="str_faction_ruler.khuzait" text="king" />
+	<string id="str_faction_ruler.aserai" text="clan chief" />
+	<string id="str_faction_ruler.battania" text="First Counsel" />
+	<string id="str_faction_ruler.empire" text="king" />
+	<string id="str_faction_ruler.empire_s" text="king" />
+	<string id="str_faction_ruler.empire_w" text="Dragon Reborn" />
+	<string id="str_faction_ruler.vlandia" text="emperor" />
+
+	<string id="str_faction_ruler.TheGhealdan_f" text="queen" />
+	<string id="str_faction_ruler.TheMurandy_f" text="queen" />
+	<string id="str_faction_ruler.TheWhiteTower_f" text="Amyrlin Seat" />
+	<string id="str_faction_ruler.TheBlackTower_f" text="M'Hael" />
+	<string id="str_faction_ruler.TheAmadicia_f" text="queen" />
+	<string id="str_faction_ruler.TheAradDoman_f" text="queen" />
+	<string id="str_faction_ruler.TheIllian_f" text="queen" />
+	<string id="str_faction_ruler.TheAltara_f" text="queen" />
+	<string id="str_faction_ruler.TheMayene_f" text="first" />
+	<string id="str_faction_ruler.TheTarabon_f" text="panarch" />
+	<string id="str_faction_ruler.TheTear_f" text="high lady" />
+	<string id="str_faction_ruler.TheArafel_f" text="queen" />
+	<string id="str_faction_ruler.TheKandor_f" text="queen" />
+	<string id="str_faction_ruler.TheSheinar_f" text="queen" />
+	<string id="str_faction_ruler.sturgia_f" text="Forsaken" />
+	<string id="str_faction_ruler.khuzait_f" text="queen" />
+	<string id="str_faction_ruler.aserai_f" text="wise one" />
+	<string id="str_faction_ruler.battania_f" text="First Counsel" />
+	<string id="str_faction_ruler.empire_f" text="queen" />
+	<string id="str_faction_ruler.empire_s_f" text="queen" />
+	<string id="str_faction_ruler.empire_w_f" text="Dragon Reborn" />
+	<string id="str_faction_ruler.vlandia_f" text="empress" />
+
+	<!--Ruler terms-->
+
+	<string id="str_faction_ruler_term_in_speech.TheGhealdan" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheMurandy" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheWhiteTower" text="Amyrlin Seat {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheBlackTower" text="M'Hael {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheAmadicia" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheAradDoman" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheIllian" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheAltara" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheMayene" text="First of Mayene {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheTarabon" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheTear" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheArafel" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheKandor" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.TheSheinar" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.sturgia" text="Forsaken {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.khuzait" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.aserai" text="{?RULER.GENDER}Wise one{?}Clan Chief{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.battania" text="First Counsel {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.empire" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.empire_s" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.empire_w" text="Dragon Reborn {RULER.NAME}" />
+	<string id="str_faction_ruler_term_in_speech.vlandia" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />
+
+	<string id="str_faction_ruler_name_with_title.TheGhealdan" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheMurandy" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheWhiteTower" text="Amyrlin Seat {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheBlackTower" text="M'Hael {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheAmadicia" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheAradDoman" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheIllian" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheAltara" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheMayene" text="First of Mayene {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheTarabon" text="{?RULER.GENDER}Panarch{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheTear" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheArafel" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheKandor" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.TheSheinar" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.sturgia" text="Nae'blis {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.khuzait" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.aserai" text="{?RULER.GENDER}Wise one{?}Clan Chief{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.battania" text="First Counsel {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.empire" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.empire_s" text="{?RULER.GENDER}Queen{?}King{\?} {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.empire_w" text="Dragon Reborn {RULER.NAME}" />
+	<string id="str_faction_ruler_name_with_title.vlandia" text="{?RULER.GENDER}Empress{?}Emperor{\?} {RULER.NAME}" />	
+	
+	
+	<!--Noble terms-->
+
+	<string id="str_faction_noble_name_with_title.TheGhealdan" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheMurandy" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheWhiteTower" text="{?RULER.GENDER}Sitter{?}Captain{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheBlackTower" text="{?RULER.GENDER}Aes Sedai{?}Asha'man{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheAmadicia" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheAradDoman" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheIllian" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheAltara" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheMayene" text="Second of Mayene {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheTarabon" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheTear" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheArafel" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheKandor" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.TheSheinar" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.sturgia" text="Forsaken {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.khuzait" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.aserai" text="{?RULER.GENDER}Wise one{?}Chief{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.battania" text="Counseler {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.empire" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.empire_s" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.empire_w" text="Dragon Reborn {RULER.NAME}" />
+	<string id="str_faction_noble_name_with_title.vlandia" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
+
+	<!--Cultural Terms-->
+
+	<string id="str_faction_informal_name_for_culture.sturgia" text="the Darkfriends" />
+	<string id="str_faction_informal_name_for_culture.khuzait" text="the Borderlanders" />
+	<string id="str_faction_informal_name_for_culture.aserai" text="the Aiel" />
+	<string id="str_faction_informal_name_for_culture.battania" text="the Coastlanders" />
+	<string id="str_faction_informal_name_for_culture.battania" text="the Westlanders" />
+	<string id="str_faction_informal_name_for_culture.vlandia" text="the Seanchan" />
+    <string id="str_faction_informal_name_for_culture.white" text="the Aes Sedai" />
+    <string id="str_faction_informal_name_for_culture.black" text="the Asha'man" />
+
+	<string id="str_faction_formal_name_for_culture.sturgia" text="The Shadow" />
+	<string id="str_faction_formal_name_for_culture.khuzait" text="Borderland Kingdoms" />
+	<string id="str_faction_formal_name_for_culture.aserai" text="Aiel Clans" />
+	<string id="str_faction_formal_name_for_culture.battania" text="Coastland Nations" />
+	<string id="str_faction_formal_name_for_culture.battania" text="Westland Kingdoms" />
+	<string id="str_faction_formal_name_for_culture.vlandia" text="Seanchan Empire" />
+	<string id="str_faction_formal_name_for_culture.white" text="White Tower" />
+	<string id="str_faction_formal_name_for_culture.black" text="Black Tower" />
+
+	<string id="str_adjective_for_culture.sturgia" text="Shadowspawn" />
+	<string id="str_adjective_for_culture.khuzait" text="Borderlander" />
+	<string id="str_adjective_for_culture.aserai" text="Aiel" />
+	<string id="str_adjective_for_culture.battania" text="Coastlander" />
+	<string id="str_adjective_for_culture.battania" text="Westlander" />
+	<string id="str_adjective_for_culture.vlandia" text="Seanchan" />
+	<string id="str_adjective_for_culture.white" text="Aes Sedai" />
+	<string id="str_adjective_for_culture.black" text="Asha'man" />
+
+	<string id="str_neutral_term_for_culture.sturgia" text="Darkfriends" />
+	<string id="str_neutral_term_for_culture.khuzait" text="Borderlanders" />
+	<string id="str_neutral_term_for_culture.aserai" text="Aiel" />
+	<string id="str_neutral_term_for_culture.battania" text="Coastlanders" />
+	<string id="str_neutral_term_for_culture.battania" text="Westlanders" />
+	<string id="str_neutral_term_for_culture.vlandia" text="Seanchan" />
+	<string id="str_neutral_term_for_culture.white" text="Aes Sedai" />
+	<string id="str_neutral_term_for_culture.black" text="Asha'man" />
+	<string id="str_neutral_term_for_culture.darshi" text="Sea Folk" />
+	<string id="str_neutral_term_for_culture.vakken" text="Sharans" />
+
+	
+	<!--Kingdom Terms-->
+
+	<string id="str_adjective_for_faction.TheGhealdan" text="Ghealdanin" />
+	<string id="str_adjective_for_faction.TheMurandy" text="Murandian" />
+	<string id="str_adjective_for_faction.TheWhiteTower" text="Aes Sedai" />
+	<string id="str_adjective_for_faction.TheBlackTower" text="Asha'man" />
+	<string id="str_adjective_for_faction.TheAmadicia" text="Amadician" />
+	<string id="str_adjective_for_faction.TheAradDoman" text="Domani" />
+	<string id="str_adjective_for_faction.TheIllian" text="Illianer" />
+	<string id="str_adjective_for_faction.TheAltara" text="Altaran" />
+	<string id="str_adjective_for_faction.TheMayene" text="Mayener" />
+	<string id="str_adjective_for_faction.TheTarabon" text="Taraboner" />
+	<string id="str_adjective_for_faction.TheTear" text="Tairen" />
+	<string id="str_adjective_for_faction.TheArafel" text="Arafellin" />
+	<string id="str_adjective_for_faction.TheKandor" text="Kandori" />
+	<string id="str_adjective_for_faction.TheSheinar" text="Shienaran" />
+	<string id="str_adjective_for_faction.sturgia" text="Shadowspawn" />
+	<string id="str_adjective_for_faction.khuzait" text="Saldaean" />
+	<string id="str_adjective_for_faction.aserai" text="Aiel" />
+	<string id="str_adjective_for_faction.battania" text="Far Maddinger" />
+	<string id="str_adjective_for_faction.empire" text="Andoran" />
+	<string id="str_adjective_for_faction.empire_s" text="Cairhienin" />
+	<string id="str_adjective_for_faction.empire_w" text="Dragonsworn" />
+	<string id="str_adjective_for_faction.vlandia" text="Seanchan" />
+
+	<string id="str_adjective_for_faction.TheGhealdan" text="Ghealdanins" />
+	<string id="str_adjective_for_faction.TheMurandy" text="Murandians" />
+	<string id="str_adjective_for_faction.TheWhiteTower" text="Aes Sedai" />
+	<string id="str_adjective_for_faction.TheBlackTower" text="Asha'man" />
+	<string id="str_adjective_for_faction.TheAmadicia" text="Amadicians" />
+	<string id="str_adjective_for_faction.TheAradDoman" text="Domanis" />
+	<string id="str_adjective_for_faction.TheIllian" text="Illianers" />
+	<string id="str_adjective_for_faction.TheAltara" text="Altarans" />
+	<string id="str_adjective_for_faction.TheMayene" text="Mayeners" />
+	<string id="str_adjective_for_faction.TheTarabon" text="Taraboners" />
+	<string id="str_adjective_for_faction.TheTear" text="Tairen" />
+	<string id="str_adjective_for_faction.TheArafel" text="Arafellins" />
+	<string id="str_adjective_for_faction.TheKandor" text="Kandoris" />
+	<string id="str_adjective_for_faction.TheSheinar" text="Shienarans" />
+	<string id="str_adjective_for_faction.sturgia" text="Shadowspawn" />
+	<string id="str_adjective_for_faction.khuzait" text="Saldaeans" />
+	<string id="str_adjective_for_faction.aserai" text="Aiel" />
+	<string id="str_adjective_for_faction.battania" text="Far Maddingers" />
+	<string id="str_adjective_for_faction.empire" text="Andorans" />
+	<string id="str_adjective_for_faction.empire_s" text="Cairhienins" />
+	<string id="str_adjective_for_faction.empire_w" text="Dragonsworn" />
+	<string id="str_adjective_for_faction.vlandia" text="Seanchan" />
+
   <string id="str_robbery_start_fight.mountain_bandits_3" text="{=WOTRS001}Their is only one true Dragon, and he is voice we follow.  Those like you who scoff, we send to the next Age!!!" />
+	
+	<!--Replacement Vanilla Lord Strings-->
+	<!--Introductions-->
+<!--Westlands-->
+	<string
+	id="str_comment_noble_introduces_self_and_clan.empire"
+	text="{=s1FVPS5D}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has served {FACTION} for generations.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.empire_honor"
+		text="{=LbpdzoRd}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Our family has held court and discharged its duties honorably since the founding of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.empire_mercy"
+		text="{=q5nQGimE}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}. Though one should not be too proud of one's lineage, I am glad to say that we have always taken seriously our duty to protect the common folk of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+			<tag
+				tag_name="MercyTag"
+				weight="1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.empire_boasting"
+		text="{=DRzsgjsD}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}, one of the most illustrious families in the annals of the {FACTION} nation.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.empire_boasting_cruel"
+		text="{=Y8rYJaOa}I am {CONVERSATION_CHARACTER.LINK}, of the house of {CLAN_NAME}, one of the most illustrious families in the history of {FACTION}. The enemies we have slain, and the glory we have won, is second to none.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!--The Shadowspawn-->
+	<string
+		id="str_comment_noble_introduces_self_and_clan.sturgia"
+		text="{=dlkg2jQf}I am {CONVERSATION_CHARACTER.LINK}, of the Forsaken {CLAN_NAME}.">
+		<tags>
+			<tag
+				tag_name="SturgianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.sturgia_boasting"
+		text="{=Nq2dyiO1}I am {CONVERSATION_CHARACTER.LINK}, of the Forsaken {CLAN_NAME}, a name you will have heard many times in the sagas of the Shadow.">
+		<tags>
+			<tag
+				tag_name="SturgianTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.sturgia_boasting_2"
+		text="{=PBgLvyOa}I am {CONVERSATION_CHARACTER.LINK}, of the Forsaken {CLAN_NAME}. Our ancestors were among the first to swear their oaths to the Shadow.">
+		<tags>
+			<tag
+				tag_name="SturgianTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!--Coastlands-->
+	<string
+		id="str_comment_noble_introduces_self_and_clan.battania"
+		text="{=Ua0T0A7t}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}, one of the ancient lineages of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.battania_boasting"
+		text="{=U770Bvy8}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. The fame of our family is second to none in the songs of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.battania_boasting_harsh"
+		text="{=rhTUDKhJ}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. There's not a house of {FACTION} whose champions have not tasted defeat to our warriors.">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.battania_boasting_ironic"
+		text="{=JJAWbuNT}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. They say our ancestor was among those who came in the golden ships that came to this land from the West, in the Age of the Heroes. Of course, if you believe that everyone said to be on those boats was on those boats, they'd have capsized from the weight.">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+			<tag
+				tag_name="PersonaIronicTag"
+				weight="1" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<!--Seanchan-->
+	<string
+		id="str_comment_noble_introduces_self_and_clan.vlandia"
+		text="{=eyxfHmCU}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. Our family has served the rulers of {FACTION} for generations.">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.vlandia_2"
+		text="{=cMO9JXvk}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. We hold our lands in fief to {LIEGE_TITLE}, and we honor our oaths of fealty.">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+			<tag
+				tag_name="HonorTag"
+				weight="1" />
+			<tag
+				tag_name="PersonaEarnestTag"
+				weight="+1" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.vlandia_boasting"
+		text="{=FFXqPFwl}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}, one of the most illustrious families in the annals of the {FACTION} empire.">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.vlandia_boasting_ironic"
+		text="{=pn79h0aj}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. We received our title from Artur Hawkwing himself. Not that he had much choice about it, as he was held captive in one of our raiding ships at the time, but I'm sure he recognized the nobility of our blood.">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+			<tag
+				tag_name="PersonaIronicTag"
+				weight="+1" />
+			<tag
+				tag_name="CruelTag"
+				weight="1" />
+		</tags>
+	</string>
+	<!--Aiel-->
+	<string
+		id="str_comment_noble_introduces_self_and_clan.aserai"
+		text="{=S1vGzr8z}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}, a clan of the Aiel.">
+		<tags>
+			<tag
+				tag_name="AseraiTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.aserai_boasting"
+		text="{=zZ9FQJRI}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}, the most ancient and noble of the Aiel people.">
+		<tags>
+			<tag
+				tag_name="AseraiTag" />
+			<tag
+				tag_name="UncharitableTag" />
+		</tags>
+	</string>
+<!--Borderlands-->
+	<string
+	id="str_comment_noble_introduces_self.khuzait"
+	text="{=U4p70l9B}I am {CONVERSATION_CHARACTER.LINK} of the {CLAN_NAME}.">
+		<tags>
+			<tag
+				tag_name="KhuzaitTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.khuzait_boasting"
+		text="{=a8584KD0}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. I am sure you have heard the name of our clan from many a gleemans tales of the Borderlands. We carry the honor of defending these lands from the scourge of the blight.">
+		<tags>
+			<tag
+				tag_name="UncharitableTag" />
+			<tag
+				tag_name="KhuzaitTag" />
+		</tags>
+	</string>
+	<string
+		id="str_comment_noble_introduces_self_and_clan.khuzait"
+		text="{=z2yr4mc6}I am {CONVERSATION_CHARACTER.LINK}, of the {CLAN_NAME}. Our clan has loyally served the {FACTION} for generations.">
+		<tags>
+			<tag
+				tag_name="KhuzaitTag" />
+		</tags>
+	</string>
+<!--Ruler Introductions-->
+	<string
+	id="str_liege_title.empire"
+	text="{=LBb7YgXU}rightful King of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.empire"
+		text="{=tUa5WBpp}rightful Queen of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="EmpireTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title.sturgia"
+		text="{=ZH04pkV6}Nae'blis of the Shadow">
+		<tags>
+			<tag
+				tag_name="SturgianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.sturgia"
+		text="{=v4nyY62z}Nae'blis of the Shadow">
+		<tags>
+			<tag
+				tag_name="SturgianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title.aserai"
+		text="{=Xk2rNuxQ}Car'a'can of the Aiel">
+		<tags>
+			<tag
+				tag_name="AseraiTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.aserai"
+		text="{=5Fa0uDJn}Car'a'can of the Aiel">
+		<tags>
+			<tag
+				tag_name="AseraiTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title.battania"
+		text="{=VUn8mQ5n}ruler of the {FACTION}">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.battania"
+		text="{=6LlDlGSb}ruler of the {FACTION}">
+		<tags>
+			<tag
+				tag_name="BattanianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title.vlandia"
+		text="{=80C0gWJ4}Emperor of the Seanchan">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.vlandia"
+		text="{=Tvy4UvJC}Empress of the Seanchan">
+		<tags>
+			<tag
+				tag_name="VlandianTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title.khuzait"
+		text="{=pDN7Wafo}King of {FACTION}.">
+		<tags>
+			<tag
+				tag_name="KhuzaitTag" />
+		</tags>
+	</string>
+	<string
+		id="str_liege_title_female.khuzait"
+		text="{=rUzbs0Zr}Queen of the {FACTION}.">
+		<tags>
+			<tag
+				tag_name="KhuzaitTag" />
+		</tags>
+	</string>
+
 </strings>

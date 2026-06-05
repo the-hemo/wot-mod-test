@@ -3407,7 +3407,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_sedai_2" name="{=Settlements.Settlement.name.castle_sedai_2}The White Tower" owner="Faction.clan_empire_north_7" posX="535.954" posY="467.268" culture="Culture.white" gate_posX="536.8103" gate_posY="467.7164">
+  <Settlement id="castle_sedai_2" name="{=Settlements.Settlement.name.castle_sedai_2}The White Tower" owner="Faction.clan_empire_north_7" posX="535.954" posY="467.268" culture="Culture.white" gate_posX="536.8102" gate_posY="467.7168">
     <Components>
       <Town id="castle_comp_sedai_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
@@ -5123,7 +5123,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_mayene_1" name="{=Settlements.Settlement.name.castle_mayene_1}Mayene Watchtower" owner="Faction.clan_battania_6" posX="670.14" posY="166.497" culture="Culture.battania" gate_posX="670.1903" gate_posY="165.1287">
+  <Settlement id="castle_mayene_1" name="{=Settlements.Settlement.name.castle_mayene_1}Mayene Watchtower" owner="Faction.clan_battania_6" posX="670.14" posY="166.497" culture="Culture.battania" gate_posX="670.4382" gate_posY="164.9279">
     <Components>
       <Town id="castle_comp_mayene_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="590">
         <Buildings>
@@ -5224,7 +5224,7 @@
     </CommonAreas>
   </Settlement>
   <!--Tear-->
-  <Settlement id="town_tear" name="{=Settlements.Settlement.name.town_tear}Tear" owner="Faction.clan_battania_4" posX="542.912" posY="199.466" culture="Culture.battania" gate_posX="545.0885" gate_posY="200.7393" text="{=4UNOQQRa}Tear is one of the oldest cities in the world, defended by the Stone of Tear which was built very shortly after the Breaking of the World.  Located above the mouth of the River Erinin, its port is sheltered from the Sea of Storms.  ">
+  <Settlement id="town_tear" name="{=Settlements.Settlement.name.town_tear}Tear" owner="Faction.clan_battania_4" posX="542.912" posY="199.466" culture="Culture.battania" gate_posX="544.4659" gate_posY="202.1904" text="{=4UNOQQRa}Tear is one of the oldest cities in the world, defended by the Stone of Tear which was built very shortly after the Breaking of the World.  Located above the mouth of the River Erinin, its port is sheltered from the Sea of Storms.  ">
     <Components>
       <Town id="town_comp_tear" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700">
         <Buildings>
@@ -5335,7 +5335,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_godan_1" name="{=Settlements.Settlement.name.village_godan_1}Hogmore" posX="572.912" posY="191.811" culture="Culture.battania" text="{=Settlements.Settlement.text.village_godan_1}Hogmore lies near patchy wooded outcrops between Tear and Godan. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.">
+  <Settlement id="village_godan_1" name="{=Settlements.Settlement.name.village_godan_1}Hogmore" posX="603.478" posY="178.83" culture="Culture.battania" text="{=Settlements.Settlement.text.village_godan_1}Hogmore lies near patchy wooded outcrops between Tear and Godan. Pigs, fed on the acorns of the southern oak trees, thrive in this climate.">
     <Components>
       <Village id="village_comp_godan_1" village_type="VillageType.swine_farm" hearth="333" bound="Settlement.town_godan" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -7181,7 +7181,7 @@
       <Location id="hideout_center" scene_name="bandit_forest_sv" />
     </Locations>
   </Settlement>
-  <Settlement id="hideout_forest_12" name="{=Settlements.Settlement.name.hideout_forest_12}Hideout" type="Hideout" posX="498.976" posY="157.306" culture="Culture.forest_bandits">
+  <Settlement id="hideout_forest_12" name="{=Settlements.Settlement.name.hideout_forest_12}Hideout" type="Hideout" posX="523.785" posY="159.497" culture="Culture.forest_bandits">
     <Components>
       <Hideout id="hideout_forest_12" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_forest" gate_rotation="0.0" />
     </Components>
@@ -7761,7 +7761,7 @@
       <Location id="hideout_center" scene_name="hideout_steppe_002_sv" />
     </Locations>
   </Settlement>
-  <Settlement id="hideout_steppe_5" name="{=Settlements.Settlement.name.hideout_steppe_5}Hideout" type="Hideout" posX="611.416" posY="621.413" culture="Culture.steppe_bandits">
+  <Settlement id="hideout_steppe_5" name="{=Settlements.Settlement.name.hideout_steppe_5}Hideout" type="Hideout" posX="611.391" posY="621.404" culture="Culture.steppe_bandits">
     <Components>
       <Hideout id="hideout_steppe_5" map_icon="bandit_hideout_a" background_crop_position="0.0" background_mesh="empire_twn_scene_bg" wait_mesh="wait_hideout_desert" gate_rotation="0.0" />
     </Components>
