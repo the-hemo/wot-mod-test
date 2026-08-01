@@ -144,7 +144,282 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Trolloclc" default_group="Infantry" level="18" name="{=Trolloclc}Trolloc Maneater" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="Trolloclc" default_group="Infantry" level="18" name="{=Trolloclc}Trolloc Brute" occupation="Soldier" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Trolloc3a" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed4a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocMed1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocMed2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocMed3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocMed4a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Trolloc3a" default_group="Infantry" level="24" name="{=Trolloc3a}Trolloc Savage" occupation="Soldier" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="5" />
+      <skill id="OneHanded" value="60" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Trollocchief" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield1" />
+        <equipment slot="Body" id="Item.TrollocHev3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Item1" id="Item.Trollocshield2" />
+        <equipment slot="Body" id="Item.TrollocHev3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Trollocchief" default_group="Infantry" level="32" name="{=Trollocchief}Trolloc Devourer" occupation="Soldier" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="400" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="80" />
+      <skill id="Polearm" value="80" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocChief" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocChief" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Trolloc2a" default_group="Ranged" level="16" name="{=Trolloc2a}Trolloc Archer" occupation="Soldier" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="15" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item3" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight5b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.barbed_arrows" />
+        <equipment slot="Item3" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight5b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight3b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocLight4b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.TrollocBow" />
+        <equipment slot="Item1" id="Item.barbed_arrows" />
+        <equipment slot="Item2" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocLight4b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <!--Noble Troops-->
+  <NPCCharacter id="Trolloc2c" default_group="Infantry" level="18" name="{=Trolloc2c}Trolloc Maneater" occupation="Soldier" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -160,7 +435,6 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.Trolloc1d" />
-      <upgrade_target id="NPCCharacter.Trolloc3a" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -273,7 +547,6 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.WotMyrddraal" />
-      <upgrade_target id="NPCCharacter.Trollocchief" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -304,217 +577,6 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.Trollocweapon6" />
         <equipment slot="Body" id="Item.TrollocHev3a" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="Trollocchief" default_group="Infantry" level="32" name="{=Trollocchief}Trolloc Devourer" occupation="Soldier" culture="Culture.sturgia">
-    <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="400" />
-      <skill id="Riding" value="0" />
-      <skill id="OneHanded" value="50" />
-      <skill id="TwoHanded" value="80" />
-      <skill id="Polearm" value="80" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="0" />
-      <skill id="Throwing" value="10" />
-    </skills>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon5" />
-        <equipment slot="Body" id="Item.TrollocChief" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon6" />
-        <equipment slot="Body" id="Item.TrollocChief" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="Trolloc3a" default_group="Infantry" level="24" name="{=Trolloc3a}Trolloc Brute" occupation="Soldier" culture="Culture.sturgia">
-    <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="250" />
-      <skill id="Riding" value="5" />
-      <skill id="OneHanded" value="60" />
-      <skill id="TwoHanded" value="50" />
-      <skill id="Polearm" value="60" />
-      <skill id="Bow" value="15" />
-      <skill id="Crossbow" value="0" />
-      <skill id="Throwing" value="10" />
-    </skills>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield1" />
-        <equipment slot="Body" id="Item.TrollocHev3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon1" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.Trollocweapon2" />
-        <equipment slot="Item1" id="Item.Trollocshield2" />
-        <equipment slot="Body" id="Item.TrollocHev3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
-    </Equipments>
-  </NPCCharacter>
-  <NPCCharacter id="Trolloc2a" default_group="Ranged" level="16" name="{=Trolloc2a}Trolloc Archer" occupation="Soldier" culture="Culture.sturgia">
-    <face>
-      <face_key_template value="BodyProperty.fighter_sturgia" />
-    </face>
-    <skills>
-      <skill id="Athletics" value="200" />
-      <skill id="Riding" value="0" />
-      <skill id="OneHanded" value="50" />
-      <skill id="TwoHanded" value="40" />
-      <skill id="Polearm" value="15" />
-      <skill id="Bow" value="50" />
-      <skill id="Crossbow" value="0" />
-      <skill id="Throwing" value="10" />
-    </skills>
-    <upgrade_targets></upgrade_targets>
-    <Equipments>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.barbed_arrows" />
-        <equipment slot="Item3" id="Item.Trollocweapon1" />
-        <equipment slot="Body" id="Item.TrollocLight5b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.barbed_arrows" />
-        <equipment slot="Item3" id="Item.Trollocweapon2" />
-        <equipment slot="Body" id="Item.TrollocLight5b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon1" />
-        <equipment slot="Body" id="Item.TrollocLight1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon2" />
-        <equipment slot="Body" id="Item.TrollocLight1b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon1" />
-        <equipment slot="Body" id="Item.TrollocLight2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon2" />
-        <equipment slot="Body" id="Item.TrollocLight2b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon1" />
-        <equipment slot="Body" id="Item.TrollocLight3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon2" />
-        <equipment slot="Body" id="Item.TrollocLight3b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon1" />
-        <equipment slot="Body" id="Item.TrollocLight4b" />
-        <equipment slot="Gloves" id="Item.Trollochands" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.TrollocBow" />
-        <equipment slot="Item1" id="Item.barbed_arrows" />
-        <equipment slot="Item2" id="Item.Trollocweapon2" />
-        <equipment slot="Body" id="Item.TrollocLight4b" />
         <equipment slot="Gloves" id="Item.Trollochands" />
       </EquipmentRoster>
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
@@ -576,6 +638,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
+  <!--Channelers-->
   <NPCCharacter id="Darkfriend" default_group="Ranged" level="16" name="{=Darkfriend}Darkfriend Channeler" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
@@ -1228,7 +1291,6 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.AielMaiden3" />
-      <upgrade_target id="NPCCharacter.AielWiseone1" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -1339,7 +1401,8 @@
       <EquipmentSet id="Aiel_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AielWiseone1" default_group="Ranged" level="28" name="{=AielWiseone1}Wise One Apprentice" occupation="Soldier" is_female="true" culture="Culture.aserai">
+  <!--Channelers-->
+  <NPCCharacter id="AielWiseone1" default_group="Ranged" level="31" name="{=AielWiseone1}Wise One Apprentice" occupation="Soldier" is_female="true" culture="Culture.aserai">
     <face>
       <face_key_template value="BodyProperty.fighter_aiel" />
     </face>
@@ -1360,23 +1423,23 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.Onepoweraccepted"></equipment>
         <equipment slot="Item1" id="Item.OnepowerFirearrowAmmo" />
-        <equipment slot="Item2" id="Item.OnepowerFirearrowAmmo" />
-        <equipment slot="Item3" id="Item.hooked_cleaver" />
-        <equipment slot="Body" id="Item.AielWiseOneRobe" />
-        <equipment slot="Leg" id="Item.Aessedaishoes" />
-      </EquipmentRoster>
-      <EquipmentRoster>
-        <equipment slot="Item0" id="Item.OnepowerFirearrowSingle" />
-        <equipment slot="Item1" id="Item.OnepowerFirearrowSingle" />
         <equipment slot="Item2" id="Item.OnepowerEarthMulti" />
         <equipment slot="Item3" id="Item.hooked_cleaver" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.OnepowerFirearrowMulti" />
-        <equipment slot="Item1" id="Item.OnepowerFirearrowMulti" />
-        <equipment slot="Item2" id="Item.OnepowerEarthSingle" />
+        <equipment slot="Item0" id="Item.Onepoweraccepted"></equipment>
+        <equipment slot="Item1" id="Item.OnepowerFireballAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerFirearrowSingle" />
+        <equipment slot="Item3" id="Item.hooked_cleaver" />
+        <equipment slot="Body" id="Item.AielWiseOneRobe" />
+        <equipment slot="Leg" id="Item.Aessedaishoes" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Onepoweraccepted"></equipment>
+        <equipment slot="Item1" id="Item.OnepowerEarthAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerFirewave" />
         <equipment slot="Item3" id="Item.hooked_cleaver" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
@@ -1384,7 +1447,7 @@
       <EquipmentSet id="Aiel_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AielWiseone2" default_group="Ranged" level="35" name="{=AielWiseone2}Wise One" occupation="Soldier" is_female="true" culture="Culture.aserai">
+  <NPCCharacter id="AielWiseone2" default_group="Ranged" level="36" name="{=AielWiseone2}Wise One" occupation="Soldier" is_female="true" culture="Culture.aserai">
     <face>
       <face_key_template value="BodyProperty.fighter_aiel" />
     </face>
@@ -1403,7 +1466,7 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.Onepoweraessedai" />
         <equipment slot="Item1" id="Item.OnepowerLightningAmmo" />
-        <equipment slot="Item2" id="Item.OnepowerLightningAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerEarthSingle" />
         <equipment slot="Item3" id="Item.gladius_b" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
@@ -1411,23 +1474,23 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.Onepoweraessedai" />
         <equipment slot="Item1" id="Item.OnepowerEarthAmmo" />
-        <equipment slot="Item2" id="Item.OnepowerEarthAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerFireball" />
         <equipment slot="Item3" id="Item.gladius_b" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.OnepowerFireball" />
-        <equipment slot="Item1" id="Item.OnepowerFireball" />
-        <equipment slot="Item2" id="Item.OnepowerEarthMulti" />
+        <equipment slot="Item0" id="Item.Onepoweraessedai" />
+        <equipment slot="Item1" id="Item.OnepowerBlossomAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerFireball" />
         <equipment slot="Item3" id="Item.gladius_b" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
       </EquipmentRoster>
       <EquipmentRoster>
-        <equipment slot="Item0" id="Item.OnepowerFirewave" />
-        <equipment slot="Item1" id="Item.OnepowerFirewave" />
-        <equipment slot="Item2" id="Item.OnepowerEarthMulti" />
+        <equipment slot="Item0" id="Item.Onepoweraessedai" />
+        <equipment slot="Item1" id="Item.OnepowerFireballAmmo" />
+        <equipment slot="Item2" id="Item.OnepowerLightningstorm" />
         <equipment slot="Item3" id="Item.gladius_b" />
         <equipment slot="Body" id="Item.AielWiseOneRobe" />
         <equipment slot="Leg" id="Item.Aessedaishoes" />
@@ -4559,6 +4622,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
+  <!--Channelers-->
   <NPCCharacter id="AesSedai1" default_group="Ranged" level="16" name="{=AesSedai1}Aes Sedai Novice" occupation="Soldier" is_female="true" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
@@ -8782,9 +8846,7 @@
       <skill id="Crossbow" value="50" />
       <skill id="Throwing" value="30" />
     </skills>
-    <upgrade_targets>
-      <upgrade_target id="NPCCharacter.Seanchan6" />
-    </upgrade_targets>
+    <upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
@@ -8797,7 +8859,94 @@
       <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Seanchan6" default_group="Infantry" level="31" name="{=Seanchan6}Deathwatch Recruit" occupation="Soldier" culture="Culture.vlandia">
+  <!--Noble Troops-->
+  <NPCCharacter id="Seanchan6" default_group="Infantry" level="16" name="{=Seanchan6}Deathwatch Prospect" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="125" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="105" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="45" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Seanchan7" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Head" id="Item.Seanchan2024headlight3" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Seanchan7" default_group="Infantry" level="21" name="{=Seanchan7}Deathwatch Recruit" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="15" />
+      <skill id="OneHanded" value="185" />
+      <skill id="TwoHanded" value="55" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Seanchan8" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1Death" />
+        <equipment slot="Head" id="Item.Seanchan2024headhev2" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Seanchan8" default_group="Infantry" level="26" name="{=Seanchan8}Deathwatch Soldier" occupation="Soldier" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="175" />
+      <skill id="Riding" value="50" />
+      <skill id="OneHanded" value="225" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="75" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Seanchan9" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1Death" />
+        <equipment slot="Head" id="Item.Seanchan2024headhev3" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Seanchan9" default_group="Infantry" level="31" name="{=Seanchan9}Deathwatch Guard" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_seanchan" />
     </face>
@@ -8812,12 +8961,13 @@
       <skill id="Throwing" value="50" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.Seanchan7" />
+      <upgrade_target id="NPCCharacter.Seanchan10" />
       <upgrade_target id="NPCCharacter.SeanchanCav3" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1Death" />
         <equipment slot="Head" id="Item.Seanchanhelmdeathguardheavy" />
         <equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
         <equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
@@ -8826,7 +8976,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Seanchan7" default_group="Infantry" level="36" name="{=Seanchan7}Deathwatch Guard" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="Seanchan10" default_group="Infantry" level="36" name="{=Seanchan10}Deathwatch Bloodguard" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_seanchan" />
     </face>
@@ -8845,8 +8995,8 @@
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
         <equipment slot="Item1" id="Item.SeanchanShield1Death" />
-        <equipment slot="Head" id="Item.Seanchanhelmdeathguardheavy" />
-        <equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
+        <equipment slot="Head" id="Item.Seanchandeath2024helm2" />
+        <equipment slot="Body" id="Item.Seanchan2024Deatharmor1" />
         <equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
         <equipment slot="Gloves" id="Item.Seanchandeathwatchguardarmorgloves" />
       </EquipmentRoster>
@@ -9026,8 +9176,8 @@
         <equipment slot="Item0" id="Item.eastern_spear_5_t5" />
         <equipment slot="Item1" id="Item.SeanchanShield1Death" />
         <equipment slot="Item2" id="Item.khuzait_sword_5_t4" />
-        <equipment slot="Head" id="Item.Seanchanhelmdeathguardheavy" />
-        <equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
+        <equipment slot="Head" id="Item.Seanchandeath2024helm2" />
+        <equipment slot="Body" id="Item.Seanchan2024Deatharmor1" />
         <equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
         <equipment slot="Gloves" id="Item.Seanchandeathwatchguardarmorgloves" />
       </EquipmentRoster>
@@ -9527,7 +9677,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AesSedai_Red1" default_group="Ranged" level="26" name="{=AesSedai_Red1}Aes Sedai of the Red Ajah" occupation="Soldier" is_female="true" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="AesSedai_Red1" default_group="Ranged" level="26" name="{=AesSedai_Red1}Aes Sedai of the Red Ajah" occupation="Mercenary" is_female="true" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -9564,7 +9714,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t6" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AesSedai_Red2" default_group="Ranged" level="31" name="{=AesSedai_Red2}Reverant Aes Sedai of the Red Ajah" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="AesSedai_Red2" default_group="Ranged" level="31" name="{=AesSedai_Red2}Reverant Aes Sedai of the Red Ajah" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -9601,7 +9751,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t6" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AesSedai_Red3" default_group="Ranged" level="36" name="{=AesSedai_Red3}Glorious Aes Sedai of the Red Ajah" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="AesSedai_Red3" default_group="Ranged" level="36" name="{=AesSedai_Red3}Glorious Aes Sedai of the Red Ajah" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -9720,7 +9870,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="seafolkwind2" default_group="Ranged" level="21" name="{=seafolkwind2}Atha'an Miere Windfinder" occupation="Soldier" is_basic_troop="true" is_female="true" culture="Culture.darshi">
+  <NPCCharacter id="seafolkwind2" default_group="Ranged" level="21" name="{=seafolkwind2}Atha'an Miere Windfinder" occupation="Mercenary" is_basic_troop="true" is_female="true" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101166A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101466A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
@@ -9766,7 +9916,7 @@
       <EquipmentSet id="Seafolk_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="seafolkwind3" default_group="Ranged" level="31" name="{=seafolkwind3}Atha'an Miere Windweaver" occupation="Soldier" is_female="true" culture="Culture.darshi">
+  <NPCCharacter id="seafolkwind3" default_group="Ranged" level="31" name="{=seafolkwind3}Atha'an Miere Windweaver" occupation="Mercenary" is_female="true" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101166A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101466A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
@@ -9812,7 +9962,7 @@
       <EquipmentSet id="Seafolk_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="seafolkwind4" default_group="Ranged" level="36" name="{=seafolkwind4}Atha'an Miere Windmistress" occupation="Soldier" is_female="true" culture="Culture.darshi">
+  <NPCCharacter id="seafolkwind4" default_group="Ranged" level="36" name="{=seafolkwind4}Atha'an Miere Windmistress" occupation="Mercenary" is_female="true" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101166A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101466A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1043" />
@@ -10531,7 +10681,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Illumtroop1" default_group="Ranged" level="21" is_basic_troop="true" name="{=Illumtroop1}Illuminator Apprentice" occupation="Soldier" culture="Culture.battania">
+  <NPCCharacter id="Illumtroop1" default_group="Ranged" level="21" is_basic_troop="true" name="{=Illumtroop1}Illuminator Apprentice" occupation="Mercenary" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania" />
     </face>
@@ -10568,7 +10718,7 @@
       <EquipmentSet id="Illum_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Illumtroop2" default_group="Ranged" level="28" name="{=Illumtroop2}Illuminator Grenadier" occupation="Soldier" culture="Culture.battania">
+  <NPCCharacter id="Illumtroop2" default_group="Ranged" level="28" name="{=Illumtroop2}Illuminator Grenadier" occupation="Mercenary" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania" />
     </face>
@@ -10594,7 +10744,7 @@
       <EquipmentSet id="Illum_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Illumtroop3" default_group="Ranged" level="28" name="{=Illumtroop3}Illuminator Rocketier" occupation="Soldier" culture="Culture.battania">
+  <NPCCharacter id="Illumtroop3" default_group="Ranged" level="28" name="{=Illumtroop3}Illuminator Rocketier" occupation="Mercenary" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_battania" />
     </face>
@@ -10621,7 +10771,7 @@
       <EquipmentSet id="Illum_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="KIN1" default_group="Ranged" level="16" name="{=KIN1}New Kinswomen" occupation="Soldier" is_female="true" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="KIN1" default_group="Ranged" level="16" name="{=KIN1}New Kinswomen" occupation="Mercenary" is_female="true" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -10658,7 +10808,7 @@
       <EquipmentSet id="Kin_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="KIN2" default_group="Ranged" level="21" name="{=KIN2}Kinswomen" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="KIN2" default_group="Ranged" level="21" name="{=KIN2}Kinswomen" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -10703,7 +10853,7 @@
       <EquipmentSet id="Kin_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="KIN3" default_group="Ranged" level="26" name="{=KIN52}Kinswomen Guide" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="KIN3" default_group="Ranged" level="26" name="{=KIN52}Kinswomen Guide" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -10778,7 +10928,7 @@
       <EquipmentSet id="Kin_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrollocla" default_group="Infantry" level="6" name="{=PADTrollocla}Corrupted Trolloc Broodling" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrollocla" default_group="Infantry" level="6" name="{=PADTrollocla}Corrupted Trolloc Broodling" occupation="Mercenary" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -10794,7 +10944,6 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.PADTrolloclb" />
-      <upgrade_target id="NPCCharacter.PADWotMyrddraal" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -10850,7 +10999,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrolloclb" default_group="Infantry" level="11" name="{=PADTrolloclb}Corrupted Trolloc Beast" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrolloclb" default_group="Infantry" level="11" name="{=PADTrolloclb}Corrupted Trolloc Beast" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -10922,7 +11071,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrolloc2a" default_group="Ranged" level="16" name="{=PADTrolloc2a}Corrupted Trolloc Archer" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrolloc2a" default_group="Ranged" level="16" name="{=PADTrolloc2a}Corrupted Trolloc Archer" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11013,7 +11162,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrolloclc" default_group="Infantry" level="18" name="{=PADTrolloclc}Corrupted Trolloc Maneater" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrolloclc" default_group="Infantry" level="18" name="{=PADTrolloclc}Corrupted Trolloc Maneater" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11075,7 +11224,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrollocld" default_group="Infantry" level="24" name="{=PADTrollocld}Corrupted Trolloc Brute" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrollocld" default_group="Infantry" level="24" name="{=PADTrollocld}Corrupted Trolloc Brute" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11166,7 +11315,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrolloc3a" default_group="Infantry" level="21" name="{=PADTrolloc3a}Corrupted Trolloc Berserker" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrolloc3a" default_group="Infantry" level="21" name="{=PADTrolloc3a}Corrupted Trolloc Berserker" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11217,7 +11366,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrollocld3b" default_group="Infantry" level="26" name="{=PADTrollocld3b}Corrupted Trolloc Skullcrusher" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrollocld3b" default_group="Infantry" level="26" name="{=PADTrollocld3b}Corrupted Trolloc Skullcrusher" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11269,7 +11418,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADTrollocldtwochief" default_group="Infantry" level="32" name="{=PADTrollocldtwochief}Corrupted Trolloc Devourer" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADTrollocldtwochief" default_group="Infantry" level="32" name="{=PADTrollocldtwochief}Corrupted Trolloc Devourer" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11298,7 +11447,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADWotMyrddraal" default_group="Infantry" level="31" name="{=PADWotMyrddraal}Corrupted Myrddraal" occupation="Soldier" culture="Culture.sturgia">
+  <NPCCharacter id="PADWotMyrddraal" default_group="Infantry" level="31" name="{=PADWotMyrddraal}Corrupted Myrddraal" occupation="Mercenary" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11326,7 +11475,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="PADWotMyrddraalMounted" default_group="Cavalry" level="36" name="{=PADWotMyrddraalMounted}Mounted Corrupted Myrddraal" occupation="Soldier" upgrade_requires="ItemCategory.war_horse" culture="Culture.sturgia">
+  <NPCCharacter id="PADWotMyrddraalMounted" default_group="Cavalry" level="36" name="{=PADWotMyrddraalMounted}Mounted Corrupted Myrddraal" occupation="Mercenary" upgrade_requires="ItemCategory.war_horse" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -11955,6 +12104,1157 @@
         <equipment slot="Body" id="Item.TwoRiversArcher1hero" />
         <equipment slot="Leg" id="Item.TwoRivers_ArcherHoodhero" />
       </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!--Adding in custom caravan troops and armed traders-->
+  <!--Caravan Masters are T5 in Vanilla-->
+  <!--Armed traders are T3 in Vanilla-->
+  <!--Caravan guards are T4 in Vanilla-->
+  <!--Veteran caravan guards are T5 in Vanilla-->
+  <!--So really its a troop tree T3 to T5 and maybe make masters a T6 unit-->
+  <!--I will start with a cut paste of militia troops and as time allows personalise-->
+  <NPCCharacter id="armed_trader_aiel" default_group="Infantry" level="16" name="{=AielArmedTrader}Aiel Armed Trader" occupation="CaravanGuard" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aiel" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="125" />
+      <skill id="Bow" value="30" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="120" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_aiel" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AielSpeargrade1" />
+        <equipment slot="Item1" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.Aiel_shield" />
+        <equipment slot="Body" id="Item.AielArmor2b" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.AielHeadwrap1" />
+      </EquipmentRoster>
+      <EquipmentSet id="Aiel_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_aiel" default_group="Infantry" level="21" name="{=AielCaravanGuard}Aiel Caravan Guard" occupation="CaravanGuard" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aiel" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="130" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="140" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="165" />
+      <skill id="Bow" value="40" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="165" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_aiel" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AielSpeargrade2" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.Aiel_shield" />
+        <equipment slot="Body" id="Item.AielArmor2c" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.AielHeadwrap1" />
+      </EquipmentRoster>
+      <EquipmentSet id="Aiel_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_aiel" default_group="Infantry" level="26" name="{=AielVeteranCaravanGuard}Veteran Aiel Caravan Guard" occupation="CaravanGuard" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aiel" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="170" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="225" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="225" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AielSpeargrade3" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.Aiel_shield" />
+        <equipment slot="Body" id="Item.AielArmor2c" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.AielHeadwrap1" />
+      </EquipmentRoster>
+      <EquipmentSet id="Aiel_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_aiel" default_group="Infantry" level="31" name="{=AielCaravanMaster}Aiel Caravan Master" occupation="CaravanGuard" is_female="true" culture="Culture.aserai">
+    <face>
+      <face_key_template value="BodyProperty.fighter_aiel" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="200" />
+      <skill id="TwoHanded" value="110" />
+      <skill id="Polearm" value="275" />
+      <skill id="Bow" value="75" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="250" />
+    </skills>
+    <upgrade_targets></upgrade_targets>&gt;
+		<Equipments><EquipmentRoster><equipment slot="Item0" id="Item.AielSpeargrade2" /><equipment slot="Item1" id="Item.western_javelin_3_t4" /><equipment slot="Item2" id="Item.western_javelin_3_t4" /><equipment slot="Item3" id="Item.Aiel_shield" /><equipment slot="Body" id="Item.AielArmor1b" /><equipment slot="Leg" id="Item.AielBoots1" /><equipment slot="Head" id="Item.AielHeadwrap1" /></EquipmentRoster><EquipmentSet id="Aiel_troop_civilian_template_t2" civilian="true" /></Equipments></NPCCharacter>
+  <NPCCharacter id="armed_trader_seanchan" default_group="Infantry" level="16" name="{=ArmedTraderSeanchan}Seanchan Armed Trader" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="125" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="105" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="45" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="15" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_seanchan" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1" />
+        <equipment slot="Head" id="Item.Seanchanhelm2Claws" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_seanchan" default_group="Cavalry" level="21" name="{=CaravanGuardSeanchan}Seanchan Caravan Guard" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="30" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_seanchan" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_3_t3" />
+        <equipment slot="Item1" id="Item.SeanchanShield1" />
+        <equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Head" id="Item.Seanchanhelm1tusk" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_empire_horse" />
+      <equipment slot="HorseHarness" id="Item.Wot2024horsearmorse1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_seanchan" default_group="Cavalry" level="26" name="{=VetCaravanGuardSeanchan}Veteran Seanchan Caravan Guard" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="175" />
+      <skill id="OneHanded" value="130" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="130" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_4_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1" />
+        <equipment slot="Item2" id="Item.khuzait_sword_3_t3" />
+        <equipment slot="Head" id="Item.Seanchanhelm1tusk" />
+        <equipment slot="Body" id="Item.Seanchanarmorheavy" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Seanchanglovesa" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_empire_horse" />
+      <equipment slot="HorseHarness" id="Item.Wot2024horsearmorse1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_seanchan" default_group="Infantry" level="31" name="{=CaravanMasterSeanchan}Seanchan Caravan Master" occupation="CaravanGuard" culture="Culture.vlandia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_seanchan" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="75" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="75" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="50" />
+      <skill id="Crossbow" value="70" />
+      <skill id="Throwing" value="50" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.khuzait_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SeanchanShield1Death" />
+        <equipment slot="Head" id="Item.Seanchanhelmdeathguardheavy" />
+        <equipment slot="Body" id="Item.Seanchandeathwatchguardarmor" />
+        <equipment slot="Leg" id="Item.Seanchandeathwatchguardarmorboots" />
+        <equipment slot="Gloves" id="Item.Seanchandeathwatchguardarmorgloves" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_westlands" default_group="Infantry" level="16" name="{=ArmedTraderWet}Wetlands Armed Trader" occupation="CaravanGuard" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="75" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="45" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_westlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_mace_1_t2" />
+        <equipment slot="Item1" id="Item.battered_horsemans_kite_shield" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4g" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_axe_2_t2" />
+        <equipment slot="Item1" id="Item.battered_horsemans_kite_shield" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4g" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item1" id="Item.jousting_shield" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Head" id="Item.segmented_skullcap_over_padded_coif" />
+        <equipment slot="Leg" id="Item.sturgia_boots_a" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_mace_3_t4" />
+        <equipment slot="Item1" id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_laced_coif" />
+        <equipment slot="Body" id="Item.WOTlevyarmor3med" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1" id="Item.light_horsemans_kite_shield" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor6" />
+        <equipment slot="Leg" id="Item.reinforced_suede_boots" />
+        <equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+        <equipment slot="Cape" id="Item.battanian_chainmail_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.battania_sword_2_t3" />
+        <equipment slot="Item3" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Head" id="Item.AndorCommonHelm1" />
+        <equipment slot="Body" id="Item.AndorCommonArmorLight2" />
+        <equipment slot="Leg" id="Item.AndorCommonBoots1" />
+        <equipment slot="Gloves" id="Item.AndorCommonBracers" />
+        <equipment slot="Cape" id="Item.hood" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item1" id="Item.vlandia_sword_1_t2" />
+        <equipment slot="Item2" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Body" id="Item.Redbandarmor1med" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Head" id="Item.Redbandhelm" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_3_t3" />
+        <equipment slot="Item1" id="Item.ironrim_riders_kite_shield" />
+        <equipment slot="Head" id="Item.WhitecloakLightHelmet" />
+        <equipment slot="Gloves" id="Item.wot2024whitecloakgloves2" />
+        <equipment slot="Body" id="Item.WhitecloakMediumArmor2" />
+        <equipment slot="Leg" id="Item.WhitecloakBoots1" />
+      </EquipmentRoster>
+      <EquipmentSet id="wetlander_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_westlands" default_group="Cavalry" level="21" name="{=CaravanGuardWet}Wetlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.horse" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_westlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_axe_t3" />
+        <equipment slot="Item1" id="Item.battered_kite_shield" />
+        <equipment slot="Item2" id="Item.vlandia_lance_1_t3" />
+        <equipment slot="Head" id="Item.leather_studdedhelm" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4c" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_axe_t3" />
+        <equipment slot="Item1" id="Item.battered_kite_shield" />
+        <equipment slot="Item2" id="Item.vlandia_lance_1_t3" />
+        <equipment slot="Head" id="Item.leather_studdedhelm_over_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4c" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Cape" id="Item.battania_shoulder_furr" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Item1" id="Item.jousting_shield" />
+        <equipment slot="Item2" id="Item.empire_lance_1_t3" />
+        <equipment slot="Body" id="Item.leather_and_iron_plate_armor" />
+        <equipment slot="Head" id="Item.segmented_skullcap_over_padded_cloth" />
+        <equipment slot="Leg" id="Item.sturgia_boots_a" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_lance_1_t3" />
+        <equipment slot="Item1" id="Item.northern_horsemans_shield" />
+        <equipment slot="Item2" id="Item.vlandia_mace_2_t4" />
+        <equipment slot="Body" id="Item.Redbandarmor1med" />
+        <equipment slot="Leg" id="Item.leather_boots" />
+        <equipment slot="Head" id="Item.segmented_skullcap_over_padded_cloth" />
+        <equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+        <equipment slot="Cape" id="Item.padded_leather_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="wetlander_troop_civilian_template_t3" civilian="true" />
+      <equipment slot="Horse" id="Item.empire_horse" />
+      <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_westlands" default_group="Cavalry" level="28" name="{=VetCaravanGuardWet}Veteran Wetlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.war_horse" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_empire" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="175" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="125" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="30" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.heavy_heater_shield" />
+        <equipment slot="Item2" id="Item.sturgia_axe_3_t3" />
+        <equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Head" id="Item.full_helm_over_cloth_headwrap" />
+        <equipment slot="Leg" id="Item.sturgia_boots_a" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+        <equipment slot="Item2" id="Item.vlandia_sword_4_t4" />
+        <equipment slot="Body" id="Item.Redbandarmor11hev" />
+        <equipment slot="Leg" id="Item.battania_warlord_boots" />
+        <equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif" />
+        <equipment slot="Gloves" id="Item.battania_warlord_bracers" />
+        <equipment slot="Cape" id="Item.Redbandarmor11hevshoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_4_t4" />
+        <equipment slot="Item1" id="Item.empire_sword_4_t4" />
+        <equipment slot="Item2" id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Head" id="Item.imperial_padded_coif" />
+        <equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+        <equipment slot="Leg" id="Item.strapped_leather_boots" />
+        <equipment slot="Gloves" id="Item.leather_gloves" />
+      </EquipmentRoster>
+      <EquipmentSet id="wetlander_troop_civilian_template_t3" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_vlandia_horse" />
+      <equipment slot="HorseHarness" id="Item.Wot2024horsearmor11" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_westlands" default_group="Infantry" level="31" name="{=CaravanMasterWet}Wetlands Caravan Master" occupation="CaravanGuard" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="225" />
+      <skill id="TwoHanded" value="160" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="75" />
+      <skill id="Throwing" value="75" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_6_t5" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Head" id="Item.CairhienNobleHelm2" />
+        <equipment slot="Body" id="Item.CairhienHouseHeavyCommon3" />
+        <equipment slot="Leg" id="Item.CairhienHouseHeavyBoots" />
+        <equipment slot="Gloves" id="Item.CairhienGloves1" />
+        <equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.crossbow_b" />
+        <equipment slot="Item1" id="Item.bolt_b" />
+        <equipment slot="Item2" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item3" id="Item.battania_large_shield_b" />
+        <equipment slot="Body" id="Item.Ghealdenheavy2024newarmor1" />
+        <equipment slot="Leg" id="Item.Ghealden2024boots1" />
+        <equipment slot="Head" id="Item.GhealdanLegionHelm1" />
+        <equipment slot="Gloves" id="Item.CairhienGloves1" />
+        <equipment slot="Cape" id="Item.Ghealdenheavy2024newshoulder1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Body" id="Item.Miscwotbanditarmor1b" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Head" id="Item.Miscwotbandithelm4" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Cape" id="Item.wotmiscpurshoulders2" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_noble_sword_2_t5" />
+        <equipment slot="Item1" id="Item.AndorShield1" />
+        <equipment slot="Head" id="Item.AndorQueensguardHelmet" />
+        <equipment slot="Body" id="Item.AndorQueenguardheavy" />
+        <equipment slot="Leg" id="Item.AndorQueenguardBootsHeavy" />
+        <equipment slot="Gloves" id="Item.AndorQueenguardglovesHeavy" />
+        <equipment slot="Head" id="Item.Andornew2024helm1c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_sword_5_t4" />
+        <equipment slot="Item1" id="Item.chivalric_kite_shield" />
+        <equipment slot="Gloves" id="Item.wot2024whitecloakgloves3" />
+        <equipment slot="Head" id="Item.WhitecloakHeavyHelmet" />
+        <equipment slot="Body" id="Item.WhitecloakHeavyArmor1" />
+        <equipment slot="Leg" id="Item.WhitecloakBoots1" />
+        <equipment slot="Cape" id="Item.Whitecloakcloak1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.empire_mace_4_t5" />
+        <equipment slot="Item1" id="Item.pavise_shield" />
+        <equipment slot="Body" id="Item.DragonLegionHeavy" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Head" id="Item.Redbandhelm" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="Andor_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_coastlands" default_group="Infantry" level="16" name="{=ArmedTraderCoastlands}Coastlands Armed Trader" occupation="CaravanGuard" culture="Culture.battania">
+    <face>
+      <face_key_template value="BodyProperty.fighter_coastlander" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="80" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="40" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_coastlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_mace_1_t3" />
+        <equipment slot="Item1" id="Item.oval_shield" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor9c" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.woodland_axe_t3" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4f" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.highland_spear_3_t3" />
+        <equipment slot="Item1" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Item2" id="Item.battania_sword_2_t3" />
+        <equipment slot="Head" id="Item.wrapped_headcloth" />
+        <equipment slot="Body" id="Item.WOTlevyarmor4g" />
+        <equipment slot="Leg" id="Item.battania_woodland_boots" />
+        <equipment slot="Gloves" id="Item.guarded_armwraps" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.simple_pike_t2" />
+        <equipment slot="Item1" id="Item.battania_sword_3_t3" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_padded_cloth" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.western_spear_2_t2" />
+        <equipment slot="Item1" id="Item.leather_bound_kite_shield" />
+        <equipment slot="Item2" id="Item.battania_sword_2_t3" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Head" id="Item.open_padded_coif" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves8" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.star_falchion_sword_t3" />
+        <equipment slot="Item1" id="Item.wide_heater_shield" />
+        <equipment slot="Head" id="Item.cervelliere_over_arming_coif" />
+        <equipment slot="Body" id="Item.WOTlevyarmor8" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+        <equipment slot="Cape" id="Item.reinforced_suede_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.sturgia_sword_2_t3" />
+        <equipment slot="Item1" id="Item.bound_desert_round_sparring_shield" />
+        <equipment slot="Head" id="Item.Shienerhelm2" />
+        <equipment slot="Body" id="Item.FarmaddingLightArmor" />
+        <equipment slot="Leg" id="Item.sturgia_boots_a" />
+        <equipment slot="Gloves" id="Item.rough_tied_bracers" />
+        <equipment slot="Cape" id="Item.battanian_leather_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_coastlands" default_group="Cavalry" level="21" name="{=CaravanGuardCoastlands}Coastlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.horse" culture="Culture.battania">
+    <face>
+      <face_key_template value="BodyProperty.fighter_coastlander" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="100" />
+      <skill id="Riding" value="130" />
+      <skill id="OneHanded" value="90" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="100" />
+      <skill id="Bow" value="20" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_coastlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+        <equipment slot="Item1" id="Item.battania_targe_b" />
+        <equipment slot="Item2" id="Item.battania_sword_3_t3" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_mail" />
+        <equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.brass_scale_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+        <equipment slot="Item1" id="Item.bound_horsemans_kite_shield" />
+        <equipment slot="Item2" id="Item.battania_mace_1_t3" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_mail_coif" />
+        <equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+        <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.horsemans_heater_shield" />
+        <equipment slot="Item2" id="Item.steel_mace_t3" />
+        <equipment slot="Head" id="Item.peaked_helmet_over_mail" />
+        <equipment slot="Body" id="Item.basic_imperial_leather_armor" />
+        <equipment slot="Leg" id="Item.eastern_leather_boots" />
+        <equipment slot="Gloves" id="Item.studded_leather_vambraces" />
+        <equipment slot="Cape" id="Item.a_empire_plated_shoulder_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+      <equipment slot="Horse" id="Item.empire_horse" />
+      <equipment slot="HorseHarness" id="Item.Wot2024horsearmor1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_coastlands" default_group="Cavalry" level="26" name="{=VetCaravanGuardCoastlands}Veteran Coastlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.war_horse" culture="Culture.battania">
+    <face>
+      <face_key_template value="BodyProperty.fighter_coastlander" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="175" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="65" />
+      <skill id="Polearm" value="125" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="25" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_lance_2_t4" />
+        <equipment slot="Item1" id="Item.flat_heater_shield" />
+        <equipment slot="Item2" id="Item.pointed_falchion_sword_t4" />
+        <equipment slot="Head" id="Item.nasal_cervelliere_over_padded_cap" />
+        <equipment slot="Body" id="Item.WOTlevyarmor8b" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Cape" id="Item.imperial_studded_strip_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+        <equipment slot="Item1" id="Item.tribal_steppe_shield" />
+        <equipment slot="Item2" id="Item.empire_lance_2_t4" />
+        <equipment slot="Head" id="Item.ridged_northernhelm" />
+        <equipment slot="Body" id="Item.WOTlevyarmor5b" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t3" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_vlandia_horse" />
+      <equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_coastlands" default_group="Infantry" level="31" name="{=CaravanMasterCoastlands}Coastlands Caravan Master" occupation="CaravanGuard" culture="Culture.battania">
+    <face>
+      <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="0026E80AC0000308733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
+      <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="0026E80FC000048F733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="75" />
+      <skill id="OneHanded" value="150" />
+      <skill id="TwoHanded" value="200" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="60" />
+      <skill id="Crossbow" value="50" />
+      <skill id="Throwing" value="165" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.southern_broad_2hsword_t4"></equipment>
+        <equipment slot="Item1" id="Item.desert_throwing_knife" />
+        <equipment slot="Head" id="Item.ridged_northernhelm" />
+        <equipment slot="Body" id="Item.WOTlevyarmor5b" />
+        <equipment slot="Leg" id="Item.plated_strip_boots" />
+        <equipment slot="Gloves" id="Item.padded_mitten" />
+        <equipment slot="Cape" id="Item.eastern_studded_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item2" id="Item.sturgia_axe_5_t5" />
+        <equipment slot="Item3" id="Item.desert_round_shield" />
+        <equipment slot="Head" id="Item.Farmaddinghelm1" />
+        <equipment slot="Body" id="Item.FarmaddingHeavyArmor" />
+        <equipment slot="Leg" id="Item.strapped_mail_chausses" />
+        <equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+        <equipment slot="Cape" id="Item.a_pauldron_cape_b" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.pointed_falchion_sword_t4" />
+        <equipment slot="Item1" id="Item.heavy_heater_shield" />
+        <equipment slot="Head" id="Item.IllianerNolbeHelm1" />
+        <equipment slot="Body" id="Item.WOTlevyarmor9Hev" />
+        <equipment slot="Leg" id="Item.IllianerHeavyBoots" />
+        <equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+        <equipment slot="Cape" id="Item.IllianerShoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Wothalberd2" />
+        <equipment slot="Body" id="Item.TarabonPanarchslegion" />
+        <equipment slot="Leg" id="Item.TearDefenderBoots" />
+        <equipment slot="Head" id="Item.southern_lord_helmet" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Cape" id="Item.a_aserai_scale_b_shoulder_e" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_5_t5" />
+        <equipment slot="Item1" id="Item.TEARShield1" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Head" id="Item.TearDefenderHelm2" />
+        <equipment slot="Body" id="Item.TearDefenderArmor1" />
+        <equipment slot="Leg" id="Item.TearDefenderBoots" />
+        <equipment slot="Gloves" id="Item.TearDefenderHands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Wothalberd1" />
+        <equipment slot="Head" id="Item.MayeneWingedGuardHelmetLitenet" />
+        <equipment slot="Body" id="Item.MayeneWingedGuardArmor1" />
+        <equipment slot="Leg" id="Item.MayeneWingedGuardboots" />
+        <equipment slot="Gloves" id="Item.MayeneWingedGuardGloves" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_7_t5" />
+        <equipment slot="Item1" id="Item.empire_throwingknife_t5" />
+        <equipment slot="Item2" id="Item.empire_throwingknife_t5" />
+        <equipment slot="Body" id="Item.Elfassasinarmor2" />
+        <equipment slot="Leg" id="Item.Elfboots3b" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Cape" id="Item.Elfrangerhoodandcloak2" />
+      </EquipmentRoster>
+      <EquipmentSet id="Andor_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_borderlands" default_group="Infantry" level="16" name="{=ArmedTraderBorderlands}Borderlands Armed Trader" occupation="CaravanGuard" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="70" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="75" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="75" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_borderlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.broad_ild_sword_t3" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Head" id="Item.ArafelLightHelmet" />
+        <equipment slot="Body" id="Item.ArafelLightArmor1" />
+        <equipment slot="Leg" id="Item.ArafelBoots1" />
+        <equipment slot="Gloves" id="Item.ArafelGloves1" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_1_t2" />
+        <equipment slot="Item1" id="Item.northern_javelin_1_t2" />
+        <equipment slot="Item2" id="Item.northern_javelin_1_t2" />
+        <equipment slot="Head" id="Item.imperial_leather_coif" />
+        <equipment slot="Body" id="Item.wotset6miscarmor1e" />
+        <equipment slot="Leg" id="Item.battania_leather_boots" />
+        <equipment slot="Gloves" id="Item.Miscwotheadnew2lightd" />
+        <equipment slot="Cape" id="Item.bolted_leather_strips" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SaldeaShield1" />
+        <equipment slot="Head" id="Item.SaldeaLightHelmet1" />
+        <equipment slot="Body" id="Item.SaldeaLightarmor2" />
+        <equipment slot="Leg" id="Item.SaldeaBoots1" />
+        <equipment slot="Gloves" id="Item.battania_noble_bracers" />
+        <equipment slot="Cape" id="Item.battania_scarf_a" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_2_t3" />
+        <equipment slot="Item1" id="Item.studded_adarga" />
+        <equipment slot="Item2" id="Item.morningstar_mace_t3" />
+        <equipment slot="Body" id="Item.ShienerLightArmor1" />
+        <equipment slot="Leg" id="Item.ShienerLightBoots" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves4" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_borderlands" default_group="HorseArcher" level="21" name="{=CaravanGuardBorderlands}Borderlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.horse" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="125" />
+      <skill id="Riding" value="150" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="40" />
+      <skill id="Bow" value="200" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="25" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_borderlands" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.steppe_heavy_bow" />
+        <equipment slot="Item1" id="Item.steppe_arrows" />
+        <equipment slot="Item2" id="Item.steppe_arrows" />
+        <equipment slot="Item3" id="Item.aserai_sword_5_t4" />
+        <equipment slot="Head" id="Item.ShienarLighthelmet" />
+        <equipment slot="Body" id="Item.ShienerMediumArmor2" />
+        <equipment slot="Leg" id="Item.WarderBootsLight" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves5" />
+      </EquipmentRoster>
+      <EquipmentSet id="wetlander_troop_civilian_template_t1" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_khuzait_horse" />
+      <equipment slot="HorseHarness" id="Item.wothorseset5multi1" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_borderlands" default_group="Cavalry" level="26" name="{=VetCaravanGuardBorderlands}Veteran Borderlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.war_horse" culture="Culture.khuzait">
+    <face>
+      <face_key_template value="BodyProperty.fighter_khuzait" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="175" />
+      <skill id="OneHanded" value="125" />
+      <skill id="TwoHanded" value="50" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="25" />
+      <skill id="Crossbow" value="10" />
+      <skill id="Throwing" value="105" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.northern_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.highland_riders_shield" />
+        <equipment slot="Head" id="Item.kettle_hat_over_padded_cloth" />
+        <equipment slot="Body" id="Item.wotset6miscarmor1d" />
+        <equipment slot="Leg" id="Item.highland_leg_wrappings" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves2" />
+        <equipment slot="Cape" id="Item.leather_lamellar_shoulders" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
+      <equipment slot="Horse" id="Item.t2_vlandia_horse" />
+      <equipment slot="HorseHarness" id="Item.wothorseset5multi7" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_borderlands" default_group="Infantry" level="31" name="{=CaravanMasterBorderlands}Borderlands Caravan Master" occupation="CaravanGuard" culture="Culture.khuzait">
+    <face>
+      <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="0015F80FC0002850B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
+      <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="0015F80E40002550B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="175" />
+      <skill id="Riding" value="75" />
+      <skill id="OneHanded" value="250" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="65" />
+      <skill id="Crossbow" value="40" />
+      <skill id="Throwing" value="175" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.vlandia_sword_3_t4" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Item3" id="Item.highland_throwing_axe_1_t2" />
+        <equipment slot="Head" id="Item.ArafelHeavyHelmet1" />
+        <equipment slot="Body" id="Item.ArafelMediumArmor2" />
+        <equipment slot="Leg" id="Item.ArafelBoots1" />
+        <equipment slot="Gloves" id="Item.Miscwotheadnew2heavy2b" />
+        <equipment slot="Cape" id="Item.mail_shoulders" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.battania_axe_3_t5" />
+        <equipment slot="Item1" id="Item.highland_riders_shield" />
+        <equipment slot="Head" id="Item.KandorHelm1" />
+        <equipment slot="Body" id="Item.KandorMediumArmor" />
+        <equipment slot="Leg" id="Item.KandorHeavyBoots1" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves2" />
+        <equipment slot="Cape" id="Item.a_pauldron_cape_c" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_sword_5_t4" />
+        <equipment slot="Item1" id="Item.SaldeaShield1" />
+        <equipment slot="Head" id="Item.SaldeaMediumHelmet1" />
+        <equipment slot="Body" id="Item.SaldeaHeavyArmor1" />
+        <equipment slot="Leg" id="Item.SaldeaBoots1" />
+        <equipment slot="Gloves" id="Item.northern_brass_bracers" />
+        <equipment slot="Cape" id="Item.battania_civil_cape" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.eastern_spear_5_t5" />
+        <equipment slot="Item1" id="Item.ornate_adarga" />
+        <equipment slot="Item2" id="Item.aserai_mace_4_t4" />
+        <equipment slot="Head" id="Item.ShienarHeavyHelmet" />
+        <equipment slot="Body" id="Item.ShienerHeavyArmor2" />
+        <equipment slot="Leg" id="Item.Shiener2024newboots1" />
+        <equipment slot="Gloves" id="Item.wotmiscpurgloves3" />
+      </EquipmentRoster>
+      <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="armed_trader_shadow" default_group="Infantry" level="16" name="{=ArmedTraderShadow}Shadow Armed Trader" occupation="CaravanGuard" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="200" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="40" />
+      <skill id="Polearm" value="50" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.caravan_guard_shadow" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon1" />
+        <equipment slot="Body" id="Item.TrollocMed4a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocMed1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon2" />
+        <equipment slot="Body" id="Item.TrollocMed2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocMed3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon4" />
+        <equipment slot="Body" id="Item.TrollocMed4a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_guard_shadow" default_group="Infantry" level="21" name="{=CaravanGuardShadow}Shadow Caravan Guard" occupation="CaravanGuard" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="250" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="60" />
+      <skill id="Polearm" value="60" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.veteran_caravan_guard_shadow" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocMed1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocMed1b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocMed2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocMed2b" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocMed2c" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocMed2c" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="veteran_caravan_guard_shadow" default_group="Infantry" level="26" name="{=VetCaravanGuardShadow}Veteran Shadow Caravan Guard" occupation="CaravanGuard" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="300" />
+      <skill id="Riding" value="0" />
+      <skill id="OneHanded" value="50" />
+      <skill id="TwoHanded" value="70" />
+      <skill id="Polearm" value="70" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="0" />
+      <skill id="Throwing" value="10" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocHev1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocHev2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon5" />
+        <equipment slot="Body" id="Item.TrollocHev3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocHev1a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocHev2a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Trollocweapon6" />
+        <equipment slot="Body" id="Item.TrollocHev3a" />
+        <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+      <EquipmentSet id="Shadow_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="caravan_master_shadow" default_group="Ranged" level="32" name="{=CaravanMasterShadow}Shadow CaravanMaster" occupation="CaravanGuard" is_basic_troop="true" culture="Culture.sturgia">
+    <face>
+      <face_key_template value="BodyProperty.fighter_sturgia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="160" />
+      <skill id="Riding" value="10" />
+      <skill id="OneHanded" value="15" />
+      <skill id="TwoHanded" value="20" />
+      <skill id="Polearm" value="90" />
+      <skill id="Bow" value="15" />
+      <skill id="Crossbow" value="190" />
+      <skill id="Throwing" value="190" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Onepowernovice" />
+        <equipment slot="Item1" id="Item.OnepowerFirearrowAmmo" />
+        <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Body" id="Item.WotDreadlordLightarmor" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.OnepowerFirearrowSingle" />
+        <equipment slot="Item2" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Body" id="Item.WotDreadlordLightarmor" />
+        <equipment slot="Leg" id="Item.empire_horseman_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.OnepowerFirearrowMulti" />
+        <equipment slot="Item1" id="Item.sturgia_sword_1_t2" />
+        <equipment slot="Item2" id="Item.AielSpeargrade1" />
+        <equipment slot="Item3" id="Item.Aiel_shield" />
+        <equipment slot="Body" id="Item.AielArmor2a" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.Aielveilred" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Onepowernovice" />
+        <equipment slot="Item1" id="Item.AielSpeargrade1" />
+        <equipment slot="Item2" id="Item.Aiel_shield" />
+        <equipment slot="Item3" id="Item.OnepowerWindstormAmmo" />
+        <equipment slot="Body" id="Item.AielArmor2a" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.Aielveilred" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
 </NPCCharacters>

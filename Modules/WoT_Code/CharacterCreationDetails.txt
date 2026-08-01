@@ -1,0 +1,653 @@
+﻿Aiel Character Creation Details
+[Parents]
+You were born into a family of...
+	1	[Option] Warriors
+		[Backstory text] You were born into a family of warriors.  Your parents were both skilled fighters, and they trained you in the art of combat from a young age. You learned about the importance of honor and loyalty, and you grew up with a strong sense of duty to your family and your people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+	2	[Option] Trackers
+		[Backstory text] You were born into a family of trackers.  Your parents were skilled scouts, who taught you how to read the land and follow trails. You learned about the importance of patience and observation, and you grew up with a deep connection to nature.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Bow, 1 Attribute Point to Cunning
+	3	[Option] Healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you about the human body and how to treat injuries and illnesses. You learned about the importance of compassion and care, and you grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Charm, 1 Attribute Point to Intelligence
+	4	[Option] Oasis farmers
+		[Backstory text] You were born into a family of oasis farmers.  Your parents taught you how to cultivate crops and manage water resources in the harsh desert environment. You learned about the importance of hard work and resourcefulness, and you grew up with a strong connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Social
+	5	[Option] Hunters
+		[Backstory text] You were born into a family of hunters.  Your parents taught you how to track and hunt game in the waste. You learned about the importance of patience and skill, and you grew up with a deep respect for nature.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	6	[Option] Smiths
+		[Backstory text] You were born into a family of smiths.  Your parents taught you how to forge weapons and tools, and you learned about the importance of craftsmanship and attention to detail. You grew up with a strong work ethic and a desire to create things of beauty and function.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the harsh desert environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all village children you helped out in the fields.  You also...
+	1	[Option] herded sheep and goats.
+		[Backstory text] You went with other nimble children to take the sheep and goats out to graze the wastes' plantlife.  You had to chase errant animals, and defned the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the waste, learning about the different plants and their uses. You developed a talent for finding resources in the harsh desert environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local hunters in the wastes hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for waste.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped local farmers and artisans selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up in the Waste, conflict was never too far away.  You...
+	1	[Option] trained with the Spears.
+		[Backstory text] As a teenager, you trained with the Spears, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could prove yourself in battle and earn your place among the warriors of your people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Polearm, 1 Attribute Point to Vigor
+	2	[Option] stood guard with the garrisons.
+		[Backstory text] As a teenager, you stood guard with the garrisons, learning about discipline and duty. You learned skills and techniques required to defend a settlement from its attackers.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Engineering, 1 Attribute Point to Intelligence
+	3	[Option] ran with the scouts.
+		[Backstory text] As a teenager, you ran with the scouts, learning about reconnaissance and survival. You honed your skills in tracking and navigating the waste, and you developed a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Bow, 1 Attribute Point to Cunning
+	4	[Option] trained with the Wise Ones.
+		[Backstory text] As a teenager, you trained with the Wise Ones, learning how to focus and control the One Power. You honed your skills in channeling, and you developed a strong sense of camaraderie with your fellow trainees.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Leadership, 1 Attribute Point to Control
+	5	[Option] joined the skirmishers.
+		[Backstory text] As a teenager, you joined the skirmishers, learning about hit-and-run tactics and guerrilla warfare. You honed your skills in mobility and quick strikes, and you developed a deep respect for the art of war.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Tactics, 1 Attribute Point to Endurance
+	6	[Option] supported the needs of the war parties.
+		[Backstory text] As a teenager, you supported the needs of the war parties, learning about logistics and strategy. You honed your skills in planning and coordination, and you developed a deep understanding of the operational aspects of warfare.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a warrior, earning the respect of your clan by defeating an enemy clan's spear in a one-on-one trial by combat.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful raid against Sharan Raiders.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds earned you the respect and admiration of your community.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown
+
+
+Culture = Shadow (ego)
+[Parents]
+You were born into a family of...
+	1	[Option] noble soldiers
+		[Backstory text] You father served with a Lords personal guard.  Growing up in the castle barracks you were trained you in the art of combat from a young age. You learned about the importance of honor and loyalty.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Riding, 1 Attribute Point to Vigor
+	2	[Option] back alley thieves
+		[Backstory text] You were born into a family of back alley thieves.  Your parents taught you the skills necessary for a life of crime, and more importantly, how to survive in the underbelly of large cities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Throwing, 1 Attribute Point to Cunning
+	3	[Option] village healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you how to treat injuries and illnesses with local herbs. You grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Intelligence
+	4	[Option] a minor noble house
+		[Backstory text] You were born into a family of minor nobility.  Your parents taught you about governance, diplomacy, and the responsibilities of leadership.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+	5	[Option] farmers
+		[Backstory text] You were born into a family of farmers.  Your parents taught you the value of hard work and the importance of tending to the land, and of course, how to shoot a longbow. You grew up with a strong connection to nature and a deep understanding of agricultural practices.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	6	[Option] peddlers
+		[Backstory text] You were born into a family of peddlers.  Your parents taught you how to use a forge and understand how to sell the products they made. You grew up with a strong work ethic and a desire to profit from your hard work.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Trade, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the dangerous Seanchan environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all children you helped out your parents and family.  You also...
+	1	[Option] herded horses and sheep.
+		[Backstory text] You went with other nimble children to take the horses and sheep out to graze the steppes.  You had to chase errant animals, and defened the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the wilderness, learning about the different plants and their uses. You developed a talent for finding resources in the wilderness.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local trappers hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for rural environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped the local farmers selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up the threat of conflict was never too far away.  You...
+	1	[Option] trained with the local soldiers.
+		[Backstory text] As a teenager, you trained with the local soldiers, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could get payback on those who had wronged you as a child.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Riding and Polearm, 1 Attribute Point to Vigor
+	2	[Option] apprenticed with the local blacksmith.
+		[Backstory text] As a teenager, you apprenticed with the local blacksmith, learning how to forge weapons and tools. You work tirelessly with little reward, something was going to change.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Endurance
+	3	[Option] ran with the alley crews.
+		[Backstory text] As a teenager, you ran with the alley crews, running scams and learning the ways of the streets. You honed your sixth sense and survival skills avoid the local guards.  If only you could get an edge to stay one step ahead...
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Athletics, 1 Attribute Point to Cunning
+	4	[Option] felt a power awakening within you.
+		[Backstory text] As a teenager, you caught the attention of the White Tower who took a keen interest in your potential to weild One Power. They shadowed your daily activities, leaving you no choice but to flee and consider how to get back at them later for destroying your life.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Crossbow, 1 Attribute Point to Control
+	5	[Option] travelled with a caravan of peddlers.
+		[Backstory text] As a teenager, you joined a group of peddlers, learning about trades and professions, hoping to find your calling. You honed your skills trade and organising caravans, but found it more profitable to help yourself to the goods.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence 
+	6	[Option] choose the path of study.
+		[Backstory text] As a teenager, your family had the means to send you to study in the city, learning about everything from logistics to military strategy. You developed a deep understanding of the operational aspects of warfare while enjoying the social aspects of student life. Thats when you met someone rather interesting...
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Tactics, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a fighter, defeating your childhood bully.  Unfortunately, the victory came at a cost given they where the local lords only son, leaving you no choice but to find a new home.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful hunt for a party of Bandits.  This caught the eye of a local Darkfriend who offered you a place in their service, giving you the resources to encourage your skills.
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.  We just wont talk about the merchant who generously donated their purse for this adventure..
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold]
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.  Such skills are much needed by the Shadow and their agents are very persuasive...
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.  The blackmail that followed however, required you to make some arrangements shall we say.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds however were taken advantage of by your community, and you have found a way to make sure that doesn't happen again.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown
+
+
+Culture = Borderlands (nomads)
+[Parents]
+You were born into a family of...
+	1	[Option] noble soldiers
+		[Backstory text] You father served with a Lords personal guard.  Growing up in the castle barracks you were trained you in the art of combat from a young age. You learned about the importance of honor and loyalty.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Riding, 1 Attribute Point to Vigor
+	2	[Option] back alley thieves
+		[Backstory text] You were born into a family of back alley thieves.  Your parents taught you the skills necessary for a life of crime, and more importantly, how to survive in the underbelly of large cities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Throwing, 1 Attribute Point to Cunning
+	3	[Option] village healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you how to treat injuries and illnesses with local herbs. You grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Intelligence
+	4	[Option] a minor noble house
+		[Backstory text] You were born into a family of minor nobility.  Your parents taught you about governance, diplomacy, and the responsibilities of leadership.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+	5	[Option] farmers
+		[Backstory text] You were born into a family of farmers.  Your parents taught you the value of hard work and the importance of tending to the land, and of course, how to shoot a longbow. You grew up with a strong connection to nature and a deep understanding of agricultural practices.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	6	[Option] peddlers
+		[Backstory text] You were born into a family of peddlers.  Your parents taught you how to use a forge and understand how to sell the products they made. You grew up with a strong work ethic and a desire to profit from your hard work.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Trade, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the dangerous Seanchan environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all children you helped out your parents and family.  You also...
+	1	[Option] herded horses and sheep.
+		[Backstory text] You went with other nimble children to take the horses and sheep out to graze the steppes.  You had to chase errant animals, and defened the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the wilderness, learning about the different plants and their uses. You developed a talent for finding resources in the wilderness.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local trappers hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for rural environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped the local farmers selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up in the Borderlands, the threat of conflict was never too far away.  You...
+	1	[Option] trained with the local soldiers.
+		[Backstory text] As a teenager, you trained with the local soldiers, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could prove yourself in battle and earn your place among the Borderlands Guard.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Riding and Polearm, 1 Attribute Point to Vigor
+	2	[Option] apprenticed with the local blacksmith.
+		[Backstory text] As a teenager, you apprenticed with the local blacksmith, learning how to forge weapons and tools. You developed a talent for problem-solving and innovation.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Endurance
+	3	[Option] ran with the alley crews.
+		[Backstory text] As a teenager, you ran with the alley crews, running scams and learning the ways of the streets. You honed your sixth sense and survival skills avoid the local guards.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Athletics, 1 Attribute Point to Cunning
+	4	[Option] felt a power awakening within you.
+		[Backstory text] As a teenager, you caught the attention of the White Tower who took a keen interest in your potential to weild One Power. They shadowed your daily activities, leaving you unsure if you should embrace them or flee.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Crossbow, 1 Attribute Point to Control
+	5	[Option] travelled with a caravan of peddlers.
+		[Backstory text] As a teenager, you joined a group of peddlers, learning about trades and professions, hoping to find your calling. You honed your skills trade and organising caravans, preparing you to lead your own trade caravan.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence 
+	6	[Option] choose the path of study.
+		[Backstory text] As a teenager, your family had the means to send you to study in the city, learning about everything from logistics to military strategy. You developed a deep understanding of the operational aspects of warfare while enjoying the social aspects of student life.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Tactics, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a soldier, earning the respect of your commanders by defeating a Trolloc in a one-on-one combat during a raid.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful hunt for a party of Darkfriends.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold]
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds earned you the respect and admiration of your community.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown
+
+
+
+Culture = Westlands (farmers)
+[Parents]
+You were born into a family of...
+	1	[Option] noble soldiers
+		[Backstory text] You father served with a Lords personal guard.  Growing up in the castle barracks you were trained you in the art of combat from a young age. You learned about the importance of honor and loyalty.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Riding, 1 Attribute Point to Vigor
+	2	[Option] back alley thieves
+		[Backstory text] You were born into a family of back alley thieves.  Your parents taught you the skills necessary for a life of crime, and more importantly, how to survive in the underbelly of large cities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Throwing, 1 Attribute Point to Cunning
+	3	[Option] village healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you how to treat injuries and illnesses with local herbs. You grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Intelligence
+	4	[Option] a minor noble house
+		[Backstory text] You were born into a family of minor nobility.  Your parents taught you about governance, diplomacy, and the responsibilities of leadership.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+	5	[Option] farmers
+		[Backstory text] You were born into a family of farmers.  Your parents taught you the value of hard work and the importance of tending to the land, and of course, how to shoot a longbow. You grew up with a strong connection to nature and a deep understanding of agricultural practices.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	6	[Option] peddlers
+		[Backstory text] You were born into a family of peddlers.  Your parents taught you how to use a forge and understand how to sell the products they made. You grew up with a strong work ethic and a desire to profit from your hard work.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Trade, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the dangerous Seanchan environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all children you helped out your parents and family.  You also...
+	1	[Option] herded cattle and sheep.
+		[Backstory text] You went with other nimble children to take the cattle and sheep out to graze the meadows.  You had to chase errant animals, and defened the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the wilderness, learning about the different plants and their uses. You developed a talent for finding resources in the wilderness.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local trappers hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for rural environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped the local farmers selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up in the Westlands, the threat of conflict was never too far away.  You...
+	1	[Option] trained with the local soldiers.
+		[Backstory text] As a teenager, you trained with the local soldiers, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could prove yourself in battle and earn your place among the City Watch.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Riding and One Handed, 1 Attribute Point to Vigor
+	2	[Option] apprenticed with the local blacksmith.
+		[Backstory text] As a teenager, you apprenticed with the local blacksmith, learning how to forge weapons and tools. You developed a talent for problem-solving and innovation.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Endurance
+	3	[Option] ran with the alley crews.
+		[Backstory text] As a teenager, you ran with the alley crews, running scams and learning the ways of the streets. You honed your sixth sense and survival skills avoid the local guards.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Athletics, 1 Attribute Point to Cunning
+	4	[Option] felt a power awakening within you.
+		[Backstory text] As a teenager, you caught the attention of the White Tower who took a keen interest in your potential to weild One Power. They shadowed your daily activities, leaving you unsure if you should embrace them or flee.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Crossbow, 1 Attribute Point to Control
+	5	[Option] travelled with a caravan of peddlers.
+		[Backstory text] As a teenager, you joined a group of peddlers, learning about trades and professions, hoping to find your calling. You honed your skills trade and organising caravans, preparing you to lead your own trade caravan.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence 
+	6	[Option] choose the path of study.
+		[Backstory text] As a teenager, your family had the means to send you to study in the city, learning about everything from logistics to military strategy. You developed a deep understanding of the operational aspects of warfare while enjoying the social aspects of student life.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Tactics, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a soldier, earning the respect of your commanders by defeating an enemy Captain in a one-on-one trial by combat.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful hunt for a party of bandits.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold]
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds earned you the respect and admiration of your community.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown
+
+
+
+Culture = Coastlands (traders)
+[Parents]
+You were born into a family of...
+	1	[Option] noble soldiers
+		[Backstory text] You father served with a Lords personal guard.  Growing up in the castle barracks you were trained you in the art of combat from a young age. You learned about the importance of honor and loyalty.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Riding, 1 Attribute Point to Vigor
+	2	[Option] back alley thieves
+		[Backstory text] You were born into a family of back alley thieves.  Your parents taught you the skills necessary for a life of crime, and more importantly, how to survive in the underbelly of large cities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Throwing, 1 Attribute Point to Cunning
+	3	[Option] village healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you how to treat injuries and illnesses with local herbs. You grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Athletics, 1 Attribute Point to Intelligence
+	4	[Option] a minor noble house
+		[Backstory text] You were born into a family of minor nobility.  Your parents taught you about governance, diplomacy, and the responsibilities of leadership.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+	5	[Option] hunters
+		[Backstory text] You were born into a family of hunters.  Your parents taught you how to use a bow to track prey, not only to provide an income, but more importantly, survive.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Bow, 1 Attribute Point to Control
+	6	[Option] guildsmen
+		[Backstory text] You were born into a family of guildsmen.  Your parents taught you how to use a forge and understand how to sell the products they made. You grew up with a strong work ethic and a desire to profit from your hard work.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Trade, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the dangerous Seanchan environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all children you helped out your parents and family.  You also...
+	1	[Option] herded cattle and sheep.
+		[Backstory text] You went with other nimble children to take the cattle and sheep out to graze the luchious plains.  You had to chase errant animals, and defened the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the wilderness, learning about the different plants and their uses. You developed a talent for finding resources in the wilderness.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local trappers hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for rural environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped thelocal guild selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up in the Coastlands, the threat of conflict was never too far away.  You...
+	1	[Option] trained with the local soldiers.
+		[Backstory text] As a teenager, you trained with the local soldiers, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could prove yourself in battle and earn your place among the City Watch.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Riding and One Handed, 1 Attribute Point to Vigor
+	2	[Option] apprenticed with the Engineers Guild.
+		[Backstory text] As a teenager, you apprenticed with the Engineers Guild, learning about construction, mechanics, and engineering principles. You developed a talent for problem-solving and innovation.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Intelligence
+	3	[Option] ran with the alley crews.
+		[Backstory text] As a teenager, you ran with the alley crews, running scams and learning the ways of the streets. You honed your sixth sense and survival skills avoid the local guards.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Athletics, 1 Attribute Point to Cunning
+	4	[Option] felt a power awakening within you.
+		[Backstory text] As a teenager, you caught the attention of the White Tower who took a keen interest in your potential to weild One Power. They shadowed your daily activities, leaving you unsure if you should embrace them or flee.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Crossbow, 1 Attribute Point to Control
+	5	[Option] undertook an apprentiship with a local artisan.
+		[Backstory text] As a teenager, you apprenticed to the artisan guilds, learning about trades and professions, hoping to find your calling. You honed your skills trade and organising caravans, preparing you to lead your own trade caravan.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Endurance
+	6	[Option] choose the path of study.
+		[Backstory text] As a teenager, your family had the means to send you to study in the city, learning about everything from logistics to military strategy. You developed a deep understanding of the operational aspects of warfare while enjoying the social aspects of student life.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Tactics, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a soldier, earning the respect of your commanders by defeating an enemy Captain in a one-on-one trial by combat.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful hunt for a party of bandits.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold]
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds earned you the respect and admiration of your community.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown
+
+
+Culture = Seanchan
+[Parents]
+You were born into a family of...
+	1	[Option] the Deathguard Watch
+		[Backstory text] You father served with the Deathwatch Guard.  Growing up in the barracks you were trained you in the art of combat from a young age. You learned about the importance of honor and importance of serving the Blood.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Riding, 1 Attribute Point to Vigor
+	2	[Option] back alley thieves
+		[Backstory text] You were born into a family of thieves.  Your parents taught you the skills necessary for a life of crime, and more importantly, how to survive in the underbelly of large Seanchan cities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Throwing, 1 Attribute Point to Cunning
+	3	[Option] Village healers
+		[Backstory text] You were born into a family of healers.  Your parents taught you how to treat injuries and illnesses with local herbs. You grew up with a desire to help others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Intelligence
+	4	[Option] a minor noble house
+		[Backstory text] You were born into a family of minor nobility.  Your parents taught you about governance, diplomacy, and the responsibilities of leadership.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+	5	[Option] career soldiers
+		[Backstory text] You were born into a family of military parents.  Your parents taught you how to use a bow to keep you occupied on the long marches, moving from place to place depending on the orders from the nobilty above.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	6	[Option] engineers
+		[Backstory text] You were born into a family of engineers.  Your parents taught you how to use a forge and understand design drawings. You grew up with a strong work ethic and a desire to create things of beauty and function.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Smithing and Engineering, 1 Attribute Point to Endurance
+[Young Child]
+As a child you were noted for...
+	1	[Option] your leadership skills.	
+		[Backstory text] As a child, you were always the one who took charge. Whether it was organizing games with other children or helping your parents with tasks around the home, you had a natural ability to lead and inspire others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+	2	[Option] your brawn.
+		[Backstory text] As a child, you were always the strongest and most athletic among your peers. You loved to run, climb, and play rough games, and you had a natural talent for physical activities.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Throwing, 1 Attribute Point to Vigor
+	3	[Option] your attention to detail.
+		[Backstory text] As a child, you were always the one who noticed the little things. You had a keen eye for detail and a natural talent for observation, which made you excellent at tasks that required precision and focus.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+	4	[Option] your aptitude for numbers.
+		[Backstory text] As a child, you were always the one who excelled at math and problem-solving. You had a natural talent for numbers and a logical mind, which made you excellent at tasks that required analysis and strategy.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Trade, 1 Attribute Point to Intelligence
+	5	[Option] your way with people.
+		[Backstory text] As a child, you were always the one who got along with everyone. You had a natural charm and charisma that made you popular among your peers, and you had a talent for making friends and influencing others.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Leadership, 1 Attribute Point to Social
+	6	[Option] your ability to read the waste.
+		[Backstory text] As a child, you were always the one who could navigate and understand the dangerous Seanchan environment. You had a natural talent for survival and a deep connection to the land.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Scouting and Medicine, 1 Attribute Point to Endurance
+[Childhood]
+Like all children you helped out your parents and family.  You also...
+	1	[Option] herded sheep and goats.
+		[Backstory text] You went with other nimble children to take the sheep and goats out to graze the wastes' plantlife.  You had to chase errant animals, and defned the herd from lurking predators.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Throwing, 1 Attribute Point to Control
+	2	[Option] worked in the village smithy.
+		[Backstory text] You spent your childhood working in the village smithy, learning the art of forging weapons and tools. You developed a strong arm and a deep appreciation for craftsmanship.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Smithing, 1 Attribute Point to Vigor
+	3	[Option] repaired projects.
+		[Backstory text] You spent your childhood repairing projects around the village, digging wells, fixing broken tools and learning the basics of construction. You developed a sense of what it takes to keep the community prosperous.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Engineering and Smithing, 1 Attribute Point to Intelligence
+	4	[Option] gathered herbs in the wild.
+		[Backstory text] You spent your childhood gathering herbs in the wilderness, learning about the different plants and their uses. You developed a talent for finding resources in the harsh desert environment.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Medicine and Scouting, 1 Attribute Point to Endurance
+	5	[Option] hunted small game.
+		[Backstory text] You helped the local hunters in the wastes hunting small game, learning how to track, trap and kill animals for food. You developed a talent for survival and a deep respect for waste.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Tactics, 1 Attribute Point to Cunning
+	6	[Option] sold product at the market.
+		[Backstory text] You helped local farmers and artisans selling products at the local market, learning about trade and commerce. You developed a talent for negotiation and reading people.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Charm, 1 Attribute Point to Social
+[Teenager]
+As a youngster growing up in Seanchan, conflict was never too far away.  You...
+	1	[Option] trained with the Seanchan soldiers.
+		[Backstory text] As a teenager, you trained with the Seanchan soldiers, learning the art of combat and warfare. You honed your skills, looking forward to the day when you could prove yourself in battle and earn your place among the Deathwatch Guard.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Riding and One Handed, 1 Attribute Point to Vigor
+	2	[Option] stood guard with the town militia.
+		[Backstory text] As a teenager, you stood guard with the town militia, learning about discipline and duty. You learned skills and techniques required to defend a settlement from its attackers.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Bow and Engineering, 1 Attribute Point to Intelligence
+	3	[Option] ran with the alley crews.
+		[Backstory text] As a teenager, you ran with the alley crews, running scams and learning the ways of the streets. You honed your sixth sense and survival skills avoid the local guards.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Roguery and Athletics, 1 Attribute Point to Cunning
+	4	[Option] were destined for damane testing.
+		[Backstory text] As a teenager, you caught the attention of the sul'dam who took a keen interest in your potential to become their next damane. They guided your daily tasks, having you preform odd excercises clearly meant to prepare you for something.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Throwing and Crossbow, 1 Attribute Point to Control
+	5	[Option] undertook an apprentiship with a local artisan.
+		[Backstory text] As a teenager, you apprenticed to the artisan guilds, learning about trades and professions, hoping to find your calling. You honed your skills trade and smithing preparing you for a mundane future.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Smithing, 1 Attribute Point to Endurance
+	6	[Option] choose the path of study.
+		[Backstory text] As a teenager, your family had the means to send you to study in the great Seanchan cities, learning about everything from logistics to military strategy. You developed a deep understanding of the operational aspects of warfare while enjoying the social aspects of student life.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Tactics, 1 Attribute Point to Social
+[Focus]
+Before you set out for a life of adventure, your biggest achievement was...
+	1	[Option] you defeated an enemy in battle.
+		[Backstory text] You proved your worth and value as a soldier, earning the respect of your commanders by defeating an enemy Captain in a one-on-one trial by combat.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to One Handed and Polearm, 1 Attribute Point to Vigor
+		[Extra bonus] +1 to Valor and +20 to Renown
+	2	[Option] you led a successful raid.
+		[Backstory text] You demonstrated your leadership and strategic skills by leading a successful hunt for a male channeller.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Leadership and Tactics, 1 Attribute Point to Cunning
+		[Extra bonus] +1 to Valor and +10 to Renown
+	3	[Option] you made an excellent profit trading goods at market.
+		[Backstory text] You made a wise investment in marketplace goods, which has provided you with a healthy purse to fund your future adventures.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Trade and Steward, 1 Attribute Point to Intelligence
+		[Extra bonus] +1 to Calculating and +5000 Gold]
+	4	[Option] you hunted a dangerous animal.
+		[Backstory text] You proved your skill and bravery by hunting and killing a dangerous animal that was threatening your village.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Bow, 1 Attribute Point to Control
+		[Extra bonus] +1 to Valor and +5 to Renown
+	5	[Option] you had a famous escapade in town.
+		[Backstory text] You had a memorable adventure in town that became the talk of the village, earning you a reputation for daring and charisma.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Athletics and Roguery, 1 Attribute Point to Endurance
+		[Extra bonus] +1 to Valor and +5 to Renown
+	6	[Option] you treated people well.
+		[Backstory text] You were known for your kindness and generosity, always willing to help those in need. Your good deeds earned you the respect and admiration of your community.
+		[Stat bonuses] 10 Skill Levels and 1 Focus Point to Charm and Steward, 1 Attribute Point to Social
+		[Extra bonus] +1 to Mercy, +1 Generosity, +1 Honor and +5 to Renown

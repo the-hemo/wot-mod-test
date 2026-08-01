@@ -1,0 +1,24 @@
+root = true
+
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# Bannerlord-style explicit typing
+csharp_style_var_for_built_in_types = false
+csharp_style_var_when_type_is_apparent = false
+csharp_style_var_elsewhere = false
+
+# Bannerlord brace style
+csharp_new_line_before_open_brace = all
+
+# Modifier order similar to TaleWorlds codebase
+csharp_preferred_modifier_order = public, private, protected, internal, static, readonly, override, virtual, abstract, async
+
+# Avoid modern expression-bodied syntax
+csharp_style_expression_bodied_methods = false
+csharp_style_expression_bodied_properties = false
+csharp_style_expression_bodied_accessors = false
+
+# Namespace ordering
+dotnet_sort_system_directives_first = true

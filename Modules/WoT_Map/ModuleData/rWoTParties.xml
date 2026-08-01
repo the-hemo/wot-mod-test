@@ -31,6 +31,16 @@
       <PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_wetlands" />
     </stacks>
   </MBPartyTemplate>
+	<MBPartyTemplate id="villager_blacktower_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_black" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="villager_whitetower_template">
+		<stacks>
+			<PartyTemplateStack min_value="15" max_value="30" troop="NPCCharacter.villager_white" />
+		</stacks>
+	</MBPartyTemplate>
   <!--Caravan Templates-->
   <MBPartyTemplate id="caravan_template_aiel">
     <stacks>
@@ -120,7 +130,7 @@
       <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Militia5b" />
       <PartyTemplateStack min_value="7" max_value="7" troop="NPCCharacter.MilitiaBow3b" />
       <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.MilitiaCav5c" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.MilitiaBow4c"></PartyTemplateStack>
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.MilitiaBow4c" />
     </stacks>
   </MBPartyTemplate>
   <!--Vassal rewards-->
@@ -160,6 +170,18 @@
       <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.MilitiaBow4b" />
     </stacks>
   </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_blacktower">
+    <stacks>
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.Militia5b" />
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.Ashaman3" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="vassal_reward_troops_whitetower">
+    <stacks>
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.Whitetower_warder1" />
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AesSedai3" />
+    </stacks>
+  </MBPartyTemplate>
   <!--Rebel Templates-->
   <MBPartyTemplate id="rebels_aiel_template">
     <stacks>
@@ -189,6 +211,16 @@
   <MBPartyTemplate id="rebels_wetlands_template">
     <stacks>
       <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Militia1" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_blacktower_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Ashaman1" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="rebels_whitetower_template">
+    <stacks>
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.WhiteTower_militia1" />
     </stacks>
   </MBPartyTemplate>
   <!--Militia Templates-->
@@ -435,16 +467,14 @@
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_whitetower_template">
     <stacks>
-      <PartyTemplateStack min_value="3" max_value="6" troop="NPCCharacter.WhiteTower_militia1" />
+      <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.WhiteTower_militia1" />
       <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.WhiteTower_militia2" />
-      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.MilitiaBow1" />
-      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.Whitetower_warder1" />
-      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Whitetower_warder2" />
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.Whitetower_warder3" />
-      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.AesSedai1" />
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AesSedai2" />
-      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AesSedai3" />
-      <PartyTemplateStack min_value="0" max_value="1" troop="NPCCharacter.AesSedai4" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.Whitetower_warder1" />
+      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.Whitetower_warder2" />
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.Whitetower_warder3" />
+      <PartyTemplateStack min_value="2" max_value="4" troop="NPCCharacter.AesSedai2" />
+      <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.AesSedai3" />
+      <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.AesSedai4" />
     </stacks>
   </MBPartyTemplate>
   <!--Coastland Kingdoms-->
@@ -656,9 +686,9 @@
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_elaida_template">
     <stacks>
-      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.AesSedai_Red1" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AesSedai_Red2" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AesSedai_Red3" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AesSedai_Red1" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AesSedai_Red2" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AesSedai_Red3" />
     </stacks>
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_seafolk_template">
@@ -666,7 +696,7 @@
       <PartyTemplateStack min_value="7" max_value="14" troop="NPCCharacter.Seafolk1" />
       <PartyTemplateStack min_value="4" max_value="7" troop="NPCCharacter.Seafolk2" />
       <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.Seafolk3" />
-      <PartyTemplateStack min_value="4" max_value="7" troop="NPCCharacter.seafolkwind2" />
+      <PartyTemplateStack min_value="3" max_value="5" troop="NPCCharacter.seafolkwind2" />
       <PartyTemplateStack min_value="2" max_value="3" troop="NPCCharacter.seafolkwind3" />
       <PartyTemplateStack min_value="1" max_value="2" troop="NPCCharacter.seafolkwind4" />
     </stacks>
@@ -703,16 +733,16 @@
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_kin_template">
     <stacks>
-      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.KIN1" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.KIN2" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.KIN3" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.KIN1" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.KIN2" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.KIN3" />
     </stacks>
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_illuminators_template">
     <stacks>
-      <PartyTemplateStack min_value="16" max_value="16" troop="NPCCharacter.Illumtroop1" />
-      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Illumtroop2" />
-      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Illumtroop3" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Illumtroop1" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Illumtroop2" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Illumtroop3" />
     </stacks>
   </MBPartyTemplate>
   <MBPartyTemplate id="kingdom_hero_party_padanfain_template">
@@ -852,4 +882,216 @@
       <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AielWiseone2" />
     </stacks>
   </MBPartyTemplate>
+  <!--Party Patrols-->
+	<!--Level 1 T2 Inf, T4 Range, T3 Nobel Cav, T4/5 Cav-->
+	<!--Level 2 T2 Inf, T4 Range, T3 Nobel Cav, T5 RangeCav, T4/5 Cav-->
+	<!--Level 3 T2 Inf, T4 Range, T3 Nobel Cav, T5 RangeCav, T5 Nobel Cav-->
+  <MBPartyTemplate id="patrol_party_wetlands_template_level_1">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Militia2" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.MilitiaBow3a" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.MilitiaCav4c" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.MilitiaCav5c" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="patrol_party_wetlands_template_level_2">
+    <stacks>
+      <PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Militia2" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.MilitiaBow3a" />
+      <PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.MilitiaCav4c" />
+      <PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.MilitiaBow3b" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.MilitiaCav5c" />
+    </stacks>
+  </MBPartyTemplate>
+  <MBPartyTemplate id="patrol_party_wetlands_template_level_3">
+    <stacks>
+      <PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Militia2" />
+      <PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.MilitiaBow3a" />
+      <PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.MilitiaCav4c" />
+      <PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.MilitiaBow3b" />
+      <PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.MilitiaCav5c" />
+    </stacks>
+  </MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_seanchan_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Seanchan2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.SeanchanBow2" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Seanchan6" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.SeanchanCav1" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_seanchan_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Seanchan2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.SeanchanBow2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Seanchan6" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.SeanchanCav2" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.SeanchanCav1" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_seanchan_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Seanchan2" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.SeanchanBow2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.Seanchan6" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.SeanchanCav2" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Seanchan8" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_coastlands_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Levy2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.LevyBow3b" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.LevyCav4c" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.LevyCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_coastlands_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Levy2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.LevyBow3b" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.LevyCav4c" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.LevyBow3a" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.LevyCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_coastlands_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Levy2" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.LevyBow3b" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.LevyCav4c" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.LevyBow3a" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.LevyCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_borderlands_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Nomad2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.NomadBow3a" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.NomadBow3b" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.NomadCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_borderlands_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Nomad2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.NomadBow3a" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.NomadBow3b" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Nomad4a" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.NomadCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_borderlands_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Nomad2" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.NomadBow3a" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.NomadBow3b" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.Nomad4a" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.NomadCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_aiel_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AielWarrior2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AielArcher2" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AielMaiden1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AielWarrior4" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_aiel_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.AielWarrior2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AielArcher2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AielMaiden1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AielArcher3" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AielWarrior4" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_aiel_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.AielWarrior2" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.AielArcher2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.AielMaiden1" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.AielArcher3" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AielMaiden3" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_shadow_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Trolloclc" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Trolloc2a" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Trolloc2c" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Trolloc3a" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_shadow_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Trolloclc" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.Trolloc2a" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Trolloc2c" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Darkfriend" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Trolloc3a" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_shadow_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Trolloclc" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.Trolloc2a" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.Trolloc2c" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.Darkfriend" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Trolloc1e" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_blacktower_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Militia2" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.MilitiaBow3a" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Ashaman1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.MilitiaCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_blacktower_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.Militia2" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.MilitiaBow3a" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.Ashaman1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.MilitiaBow3b" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.MilitiaCav5c" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_blacktower_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.Militia2" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.MilitiaBow3a" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.Ashaman1" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.MilitiaBow3b" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Ashaman3" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_whitetower_template_level_1">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.WhiteTower_militia1" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.WhiteTower_militiabow1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.AesSedai1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.Whitetower_warder1" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_whitetower_template_level_2">
+		<stacks>
+			<PartyTemplateStack min_value="8" max_value="8" troop="NPCCharacter.WhiteTower_militia1" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.WhiteTower_militiabow1" />
+			<PartyTemplateStack min_value="4" max_value="4" troop="NPCCharacter.AesSedai1" />
+			<PartyTemplateStack min_value="2" max_value="2" troop="NPCCharacter.Whitetower_warder1" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AesSedai2" />
+		</stacks>
+	</MBPartyTemplate>
+	<MBPartyTemplate id="patrol_party_whitetower_template_level_3">
+		<stacks>
+			<PartyTemplateStack min_value="10" max_value="10" troop="NPCCharacter.WhiteTower_militia1" />
+			<PartyTemplateStack min_value="6" max_value="6" troop="NPCCharacter.WhiteTower_militiabow1" />
+			<PartyTemplateStack min_value="5" max_value="5" troop="NPCCharacter.Whitetower_warder1" />
+			<PartyTemplateStack min_value="3" max_value="3" troop="NPCCharacter.AesSedai2" />
+			<PartyTemplateStack min_value="1" max_value="1" troop="NPCCharacter.AesSedai3" />
+		</stacks>
+	</MBPartyTemplate>
 </partyTemplates>

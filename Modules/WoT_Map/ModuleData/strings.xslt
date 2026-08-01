@@ -20,6 +20,15 @@
     <xsl:template match="string[@id='str_culture_rich_name.sturgia']"/>
     <xsl:template match="string[@id='str_culture_rich_name.empire']"/>
 
+	<xsl:template match="string[@id='str_kingdom_formal_name.vlandia']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.battania']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.khuzait']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.sturgia']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.aserai']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.empire']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.empire_s']"/>
+	<xsl:template match="string[@id='str_kingdom_formal_name.empire_w']"/>
+	
     <xsl:template match="string[@id='str_political_philosophy_lord_1_15_for_lord_1_14']"/>
     <xsl:template match="string[@id='str_political_philosophy_lord_1_15_for_lord_1_14_b']"/>
     <xsl:template match="string[@id='str_political_philosophy_lord_1_15_for_lord_1_14_c']"/>

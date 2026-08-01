@@ -10351,7 +10351,7 @@
     </Equipments>
   </NPCCharacter>
   <!--The Kin-->
-  <NPCCharacter id="spc_jawwal_leader_0" name="{=cP1o8eUs}of the Kin" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
+  <NPCCharacter id="spc_jawwal_leader_0" name="{=cP1o8eUs}Kinswoman {FIRSTNAME}" voice="curt" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10372,7 +10372,7 @@
       <EquipmentSet id="Tear_civ_template_lady_normal" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_jawwal_leader_1" name="{=cP1o8eUs}of the Kin" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
+  <NPCCharacter id="spc_jawwal_leader_1" name="{=cP1o8eUs}Kinswoman {FIRSTNAME}" voice="softspoken" is_template="true" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10389,7 +10389,7 @@
       <EquipmentSet id="Mur_civ_template_lady_normal" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_jawwal_leader_2" name="{=cP1o8eUs}of the Kin" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
+  <NPCCharacter id="spc_jawwal_leader_2" name="{=cP1o8eUs}Kinswoman {FIRSTNAME}" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10406,7 +10406,7 @@
       <EquipmentSet id="Alt_civ_template_lady_normal" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="spc_jawwal_leader_3" name="{=cP1o8eUs}of the Kin" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
+  <NPCCharacter id="spc_jawwal_leader_3" name="{=cP1o8eUs}Kinswoman {FIRSTNAME}" voice="softspoken" is_template="true" default_group="Ranged" is_hero="false" culture="Culture.empire" occupation="Lord" skill_template="SkillSet.spc_huntress_skills" is_female="true">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>

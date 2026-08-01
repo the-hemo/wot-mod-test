@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-<!--
+  <!--
   <NPCCharacter id="marathen" name="Marathen" is_template="false" default_group="Infantry" is_hero="false" culture="Culture.empire" occupation="Common">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.9838" build="0.2269" key="0010140152E4260261F00A410017EA8A1E7EB11495427F01BB97A8B7B4191E610093F60309411C6800000000000000000000000000000000000000007F2C50C6" />
@@ -303,6 +303,47 @@
         <equipment slot="Item0" id="Item.Trollocweapon1" />
         <equipment slot="Body" id="Item.TrollocLight1a" />
         <equipment slot="Gloves" id="Item.Trollochands" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <!--Valere Quest Giver-->
+  <NPCCharacter id="marathen" default_group="Infantry" voice="ironic" is_hero="true" is_female="false" culture="Culture.empire" name="{=Marathen}Marathen" age="52" level="12" banner_symbol_mesh_name="test_symbol_a" occupation="Special" banner_symbol_color="FF000000" is_hidden_encyclopedia="true" skill_template="SkillSet.spc_swordsman_skills">
+    <face>
+      <BodyProperties version="4" age="27.11" weight="0.4182" build="0.8823" key="0010140152E4260261F00A410017EA8A1E7EB11495427F01BB97A8B7B4191E610093F60309411C6800000000000000000000000000000000000000007F2C50C6" />
+      <hair_tags>
+        <hair_tag name="PartedAndCombedBack" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="LightGoatee" />
+      </beard_tags>
+      <tattoo_tags>
+        <tattoo_tag name="Cleanface" />
+      </tattoo_tags>
+    </face>
+    <skills></skills>
+    <Traits>
+      <Trait id="HopliteFightingSkills" value="4" />
+      <Trait id="Commander" value="6" />
+      <Trait id="Politician" value="3" />
+      <Trait id="Manager" value="6" />
+      <Trait id="Valor" value="1" />
+      <Trait id="Calculating" value="1" />
+    </Traits>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.aserai_mace_1_t2" />
+        <equipment slot="Head" id="Item.Redbandhelm" />
+        <equipment slot="Body" id="Item.Redbandarmor1" />
+        <equipment slot="Gloves" id="Item.Miscwotheadnew2lighte" />
+        <equipment slot="Leg" id="Item.Ghealden2024boots1" />
+        <equipment slot="Horse" id="Item.empire_horse" />
+        <equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+      </EquipmentRoster>
+      <EquipmentRoster civilian="true">
+        <equipment slot="Item0" id="Item.empire_noble_sword_1_t5" />
+        <equipment slot="Head" id="Item.decorated_nomad_cap" />
+        <equipment slot="Body" id="Item.monk_robe" />
+        <equipment slot="Leg" id="Item.fine_town_boots" />
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>

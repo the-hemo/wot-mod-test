@@ -1,0 +1,688 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<WeaponDescriptions>
+
+  <WeaponDescription id="WOT_twohanded_swordsshadow"
+    weapon_class="TwoHandedSword"
+    item_usage_features="twohanded:block:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="FADEswordblade"/>
+      <AvailablePiece id="FADEswordGuard"/>
+      <AvailablePiece id="FADEswordHilt"/>
+      <AvailablePiece id="FADEswordPommel"/>
+      <AvailablePiece id="sturgian_blade_7"/>
+      <AvailablePiece id="empire_guard_1"/>
+      <AvailablePiece id="vlandian_grip_17"/>
+      <AvailablePiece id="sturgian_pommel_5"/>
+
+
+      <!-- AvailablePieces,TwoHandedSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+  <WeaponDescription id="WOT_onehanded_swordstrolloc"
+    weapon_class="OneHandedSword"
+    item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="TrollocSwordonehandedBlade"/>
+      <AvailablePiece id="TrollocSwordonehandedguard"/>
+      <AvailablePiece id="TrollocSwordonehandedHilt"/>
+      <AvailablePiece id="TrollocSwordonehandedPommel"/>
+      <AvailablePiece id="battania_pommel_1"/>
+      <AvailablePiece id="aserai_grip_6"/>
+      <AvailablePiece id="cleaver_guard_2"/>
+      <AvailablePiece id="aserai_blade_11"/>
+      <!-- AvailablePieces,OneHandedSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+  <WeaponDescription id="WOT_MaceTrolloc"
+    weapon_class="Mace"
+    item_usage_features="onehanded:block:shield:tipdraw:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="Trollocmace1Head"/>
+      <AvailablePiece id="Trollocmace1Handle"/>
+      <AvailablePiece id="Trollocmace2Head"/>
+      <AvailablePiece id="Trollocmace2Handle"/>
+      <AvailablePiece id="mace_head_1"/>
+      <AvailablePiece id="mace_handle_1"/>
+      <!-- AvailablePieces,Mace -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+
+
+
+
+
+
+  <WeaponDescription id="WOT_AxeTrolloc"
+    weapon_class="OneHandedAxe"
+    item_usage_features="onehanded:shield:axe">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="BonusAgainstShield"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="TrollocAxe1Blade"/>
+      <AvailablePiece id="TrollocAxe1handle"/>
+      <AvailablePiece id="axe_craft_37_head"/>
+      <AvailablePiece id="axe_craft_2_handle"/>
+
+
+      <!-- AvailablePieces,OneHandedAxe -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+
+
+
+
+
+
+
+
+  <WeaponDescription id="WOT_TwoHandedAxetrolloc"
+    weapon_class="TwoHandedAxe"
+    item_usage_features="twohanded:widegrip:axe">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+      <WeaponFlag value="BonusAgainstShield"/>
+      <WeaponFlag value="TwoHandIdleOnMount"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="TrolloctwohandedaxeHEAD"/>
+      <AvailablePiece id="TrolloctwohandedaxeHandle"/>
+      <AvailablePiece id="Trollocswordtwohandedcleaver"/>
+      <AvailablePiece id="axe_craft_34_head"/>
+      <AvailablePiece id="axe_craft_1_handle"/>
+      <!-- AvailablePieces,TwoHandedAxe -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+  <WeaponDescription id="WOT_onehanded_callander"
+    weapon_class="OneHandedSword"
+    item_usage_features="onehanded:block:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="Callandorhilt"/>
+      <AvailablePiece id="CallandorGuard"/>
+      <AvailablePiece id="CallandorBlade"/>
+      <AvailablePiece id="CallandorPommel"/>
+      <AvailablePiece id="battania_pommel_1"/>
+      <AvailablePiece id="aserai_grip_6"/>
+      <AvailablePiece id="cleaver_guard_2"/>
+      <AvailablePiece id="aserai_blade_11"/>
+      <!-- AvailablePieces,OneHandedSword -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <WeaponDescription id="WOT_twohandedpolarm"
+    weapon_class="TwoHandedPolearm"
+    item_usage_features="polearm:block:long:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+      <WeaponFlag value="WideGrip"/>
+      <WeaponFlag value="TwoHandIdleOnMount"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="MatspearBlade"/>
+      <AvailablePiece id="MatspearShaft"/>
+      <AvailablePiece id="MatspearGuard"/>
+      <AvailablePiece id="MatspearPommel"/>
+      <AvailablePiece id="Halberd1WOTBlade"/>
+      <AvailablePiece id="Halberd2WOTBlade"/>
+      <AvailablePiece id="HalberdWOTShaft"/>
+
+      <AvailablePiece id="Halberd1WOTGuard"/>
+      <AvailablePiece id="HalberdWOTpommel"/>
+      <AvailablePiece id="battania_blade_7"/>
+
+      <AvailablePiece id="spear_handle_1"/>
+      <AvailablePiece id="spear_guard_1"/>
+      <AvailablePiece id="spear_pommel_1"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+
+
+
+
+
+
+
+  <WeaponDescription id="AIELnew22TwoHandedPolearm"
+    weapon_class="TwoHandedPolearm"
+    item_usage_features="polearm:block:long:shield:swing:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="NotUsableWithOneHand"/>
+      <WeaponFlag value="WideGrip"/>
+      <WeaponFlag value="TwoHandIdleOnMount"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="Aielspearblade1"/>
+      <AvailablePiece id="Aielspearblade2"/>
+      <AvailablePiece id="Aielspearblade3"/>
+
+
+
+      <AvailablePiece id="battania_blade_7"/>
+      <AvailablePiece id="axe_craft_10_head"/>
+      <AvailablePiece id="spear_blade_1"/>
+      <AvailablePiece id="spear_blade_2"/>
+      <AvailablePiece id="spear_blade_3"/>
+      <AvailablePiece id="spear_blade_4"/>
+      <AvailablePiece id="spear_blade_5"/>
+      <AvailablePiece id="spear_blade_6"/>
+      <AvailablePiece id="spear_blade_7"/>
+      <AvailablePiece id="spear_blade_8"/>
+      <AvailablePiece id="spear_blade_9"/>
+      <AvailablePiece id="spear_blade_10"/>
+      <AvailablePiece id="spear_blade_11"/>
+      <AvailablePiece id="spear_blade_12"/>
+      <AvailablePiece id="spear_blade_13"/>
+      <AvailablePiece id="spear_blade_14"/>
+      <AvailablePiece id="spear_blade_15"/>
+      <AvailablePiece id="spear_blade_15_blunt"/>
+      <AvailablePiece id="spear_blade_18"/>
+      <AvailablePiece id="spear_blade_19"/>
+      <AvailablePiece id="spear_blade_19_blunt"/>
+      <AvailablePiece id="spear_blade_20"/>
+      <AvailablePiece id="spear_blade_20_blunt"/>
+      <AvailablePiece id="spear_blade_21"/>
+      <AvailablePiece id="spear_blade_22"/>
+      <AvailablePiece id="spear_blade_23"/>
+      <AvailablePiece id="spear_blade_23_blunt"/>
+      <AvailablePiece id="spear_blade_24"/>
+      <AvailablePiece id="spear_blade_25"/>
+      <AvailablePiece id="spear_blade_26"/>
+      <AvailablePiece id="spear_blade_27"/>
+      <AvailablePiece id="spear_blade_28"/>
+      <AvailablePiece id="spear_blade_29"/>
+      <AvailablePiece id="spear_blade_30"/>
+      <AvailablePiece id="spear_blade_31"/>
+      <AvailablePiece id="spear_blade_32"/>
+      <AvailablePiece id="spear_blade_33"/>
+      <AvailablePiece id="spear_blade_33_blunt"/>
+      <AvailablePiece id="spear_blade_34"/>
+      <AvailablePiece id="spear_blade_35"/>
+      <AvailablePiece id="spear_blade_35_blunt"/>
+      <AvailablePiece id="spear_blade_36"/>
+      <AvailablePiece id="spear_blade_37"/>
+      <AvailablePiece id="spear_blade_38"/>
+      <AvailablePiece id="spear_blade_39"/>
+      <AvailablePiece id="spear_blade_40"/>
+      <AvailablePiece id="spear_blade_41"/>
+      <AvailablePiece id="spear_blade_42"/>
+      <AvailablePiece id="spear_blade_43"/>
+      <AvailablePiece id="spear_blade_44"/>
+      <AvailablePiece id="spear_blade_45"/>
+      <AvailablePiece id="hammer_head_11"/>
+      <AvailablePiece id="sickle_blade_1_polearm"/>
+      <AvailablePiece id="spear_handle_1"/>
+      <AvailablePiece id="spear_handle_3"/>
+      <AvailablePiece id="spear_handle_4"/>
+      <AvailablePiece id="spear_handle_5"/>
+      <AvailablePiece id="spear_handle_6"/>
+      <AvailablePiece id="spear_handle_8"/>
+      <AvailablePiece id="spear_handle_13"/>
+      <AvailablePiece id="spear_handle_14"/>
+      <AvailablePiece id="spear_handle_15"/>
+      <AvailablePiece id="spear_handle_16"/>
+      <AvailablePiece id="spear_handle_17"/>
+      <AvailablePiece id="spear_handle_18"/>
+      <AvailablePiece id="spear_handle_19"/>
+      <AvailablePiece id="spear_handle_20"/>
+      <AvailablePiece id="spear_handle_21"/>
+      <AvailablePiece id="spear_handle_22"/>
+      <AvailablePiece id="spear_handle_23"/>
+      <AvailablePiece id="spear_handle_24"/>
+      <AvailablePiece id="spear_handle_25"/>
+      <AvailablePiece id="spear_handle_26"/>
+      <AvailablePiece id="spear_handle_27"/>
+      <AvailablePiece id="default_polearm_guard"/>
+      <AvailablePiece id="spear_guard_1"/>
+      <AvailablePiece id="spear_guard_2"/>
+      <AvailablePiece id="spear_guard_3"/>
+      <AvailablePiece id="spear_guard_4"/>
+      <AvailablePiece id="spear_guard_5"/>
+      <AvailablePiece id="spear_guard_6"/>
+      <AvailablePiece id="spear_guard_7"/>
+      <AvailablePiece id="spear_guard_8"/>
+      <AvailablePiece id="spear_guard_9"/>
+      <AvailablePiece id="spear_guard_10"/>
+      <AvailablePiece id="spear_guard_11"/>
+      <AvailablePiece id="spear_guard_12"/>
+      <AvailablePiece id="spear_guard_13"/>
+      <AvailablePiece id="spear_guard_14"/>
+      <AvailablePiece id="spear_guard_15"/>
+      <AvailablePiece id="spear_guard_16"/>
+      <AvailablePiece id="spear_guard_17"/>
+      <AvailablePiece id="spear_guard_18"/>
+      <AvailablePiece id="spear_guard_19"/>
+      <AvailablePiece id="spear_guard_20"/>
+      <AvailablePiece id="mp_spear_guard_1"/>
+      <AvailablePiece id="mp_spear_guard_2"/>
+      <AvailablePiece id="mp_spear_guard_3"/>
+      <AvailablePiece id="mp_spear_guard_4"/>
+      <AvailablePiece id="mp_spear_guard_5"/>
+      <AvailablePiece id="mp_spear_guard_6"/>
+      <AvailablePiece id="mp_spear_guard_7"/>
+      <AvailablePiece id="mp_spear_guard_8"/>
+      <AvailablePiece id="mp_spear_guard_9"/>
+      <AvailablePiece id="mp_spear_guard_10"/>
+      <AvailablePiece id="mp_spear_guard_11"/>
+      <AvailablePiece id="mp_spear_guard_12"/>
+      <AvailablePiece id="mp_spear_guard_13"/>
+      <AvailablePiece id="mp_spear_guard_14"/>
+      <AvailablePiece id="mp_spear_guard_15"/>
+      <AvailablePiece id="mp_spear_guard_16"/>
+      <AvailablePiece id="mp_spear_guard_17"/>
+      <AvailablePiece id="mp_spear_guard_18"/>
+      <AvailablePiece id="mp_spear_guard_19"/>
+      <AvailablePiece id="mp_spear_guard_20"/>
+      <AvailablePiece id="default_polearm_pommel"/>
+      <AvailablePiece id="spear_pommel_1"/>
+      <AvailablePiece id="spear_pommel_2"/>
+      <AvailablePiece id="spear_pommel_3"/>
+      <AvailablePiece id="spear_pommel_4"/>
+      <AvailablePiece id="spear_pommel_5"/>
+      <AvailablePiece id="spear_pommel_6"/>
+      <AvailablePiece id="spear_pommel_7"/>
+      <AvailablePiece id="spear_pommel_8"/>
+      <AvailablePiece id="spear_pommel_9"/>
+      <AvailablePiece id="spear_pommel_10"/>
+      <AvailablePiece id="spear_pommel_11"/>
+      <AvailablePiece id="spear_pommel_12"/>
+      <AvailablePiece id="spear_pommel_13"/>
+      <AvailablePiece id="mp_spear_pommel_1"/>
+      <AvailablePiece id="mp_spear_pommel_2"/>
+      <AvailablePiece id="mp_spear_pommel_3"/>
+      <AvailablePiece id="mp_spear_pommel_5"/>
+      <AvailablePiece id="mp_spear_pommel_6"/>
+      <AvailablePiece id="mp_spear_pommel_7"/>
+      <AvailablePiece id="mp_spear_pommel_8"/>
+      <AvailablePiece id="mp_spear_pommel_9"/>
+      <AvailablePiece id="mp_spear_pommel_10"/>
+      <AvailablePiece id="mp_spear_pommel_11"/>
+      <AvailablePiece id="mp_spear_pommel_12"/>
+      <AvailablePiece id="mp_spear_pommel_13"/>
+      <AvailablePiece id="mp_default_polearm_guard"/>
+      <AvailablePiece id="mp_default_polearm_pommel"/>
+      <AvailablePiece id="mp_western_spear_blade"/>
+      <AvailablePiece id="mp_western_spear_handle"/>
+      <AvailablePiece id="mp_western_long_spear_blade"/>
+      <AvailablePiece id="mp_western_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_battania_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_western_long_spear_handle"/>
+      <AvailablePiece id="mp_vlandia_polearm_head"/>
+      <AvailablePiece id="mp_western_shovel_blade"/>
+      <AvailablePiece id="mp_vlandia_polearm_handle"/>
+      <AvailablePiece id="mp_western_scythe_blade"/>
+      <AvailablePiece id="mp_western_2h_sickle_blade"/>
+      <AvailablePiece id="mp_empire_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_cavalry_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_menavlion_handle"/>
+      <AvailablePiece id="mp_empire_cavalry_menavlion_handle"/>
+      <AvailablePiece id="mp_empire_long_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_long_menavlion_handle"/>
+      <AvailablePiece id="mp_empire_heavy_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_heavy_menavlion_handle"/>
+      <AvailablePiece id="mp_empire_polearm_blade"/>
+      <AvailablePiece id="mp_empire_polearm_handle"/>
+      <AvailablePiece id="mp_empire_lance_handle"/>
+      <AvailablePiece id="mp_khuzait_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_short_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_short_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_long_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_long_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_pike_blade"/>
+      <AvailablePiece id="mp_khuzait_pike_handle"/>
+      <AvailablePiece id="mp_khuzait_glaive_blade"/>
+      <AvailablePiece id="mp_khuzait_glaive_handle"/>
+      <AvailablePiece id="mp_khuzait_heavy_glaive_blade"/>
+      <AvailablePiece id="mp_khuzait_heavy_glaive_handle"/>
+      <AvailablePiece id="mp_aserai_spear_blade"/>
+      <AvailablePiece id="mp_aserai_spear_handle"/>
+      <AvailablePiece id="mp_aserai_bamboo_spear_blade"/>
+      <AvailablePiece id="mp_aserai_long_spear_handle"/>
+      <AvailablePiece id="mp_aserai_long_spear_blade"/>
+      <AvailablePiece id="mp_aserai_bamboo_spear_handle"/>
+      <AvailablePiece id="mp_battania_spear_blade"/>
+      <AvailablePiece id="mp_battania_spear_handle"/>
+      <AvailablePiece id="mp_battania_long_spear_blade"/>
+      <AvailablePiece id="mp_battania_long_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_short_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_short_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_long_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_long_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_great_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_great_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_long_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_heavy_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_lance_handle"/>
+      <AvailablePiece id="mp_battania_lance_blade"/>
+      <AvailablePiece id="mp_battania_lance_handle"/>
+      <AvailablePiece id="mp_aserai_bamboo_lance_blade"/>
+      <AvailablePiece id="mp_aserai_bamboo_lance_handle"/>
+      <AvailablePiece id="mp_aserai_heavy_lance_blade"/>
+      <AvailablePiece id="mp_aserai_heavy_lance_handle"/>
+      <AvailablePiece id="mp_khuzait_lance_blade"/>
+      <AvailablePiece id="mp_khuzait_lance_blade_heavy"/>
+      <AvailablePiece id="mp_khuzait_lance_handle"/>
+      <AvailablePiece id="mp_empire_lance_blade"/>
+      <AvailablePiece id="mp_empire_heavy_lance_blade"/>
+      <AvailablePiece id="mp_empire_heavy_lance_handle"/>
+      <AvailablePiece id="mp_western_lance_blade"/>
+      <AvailablePiece id="mp_western_lance_handle"/>
+      <AvailablePiece id="mp_western_long_lance_blade"/>
+      <AvailablePiece id="mp_western_long_lance_handle"/>
+      <AvailablePiece id="mp_vlandian_heavy_lance_blade"/>
+      <AvailablePiece id="mp_vlandian_heavy_lance_handle"/>
+      <AvailablePiece id="mp_khuzait_throwing_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_extra_throwing_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_throwing_spear_handle"/>
+      <AvailablePiece id="mp_ash_throwing_spear_blade"/>
+      <AvailablePiece id="mp_ash_throwing_spear_blade_extra"/>
+      <AvailablePiece id="mp_ash_throwing_spear_handle"/>
+      <AvailablePiece id="mp_test_polearm_head"/>
+      <AvailablePiece id="mp_test_polearm_handle"/>
+      <AvailablePiece id="mp_test_spear_blade"/>
+      <AvailablePiece id="mp_test_spear_handle"/>
+      <AvailablePiece id="mp_test_lance_blade"/>
+      <AvailablePiece id="mp_test_lance_handle"/>
+      <AvailablePiece id="mp_pilum_blade"/>
+      <AvailablePiece id="mp_pilum_handle"/>
+      <AvailablePiece id="mp_pilum_blade_extraammo"/>
+      <AvailablePiece id="mp_pilum_handle_extraammo"/>
+      <AvailablePiece id="mp_western_pitchfork_metal_blade"/>
+      <AvailablePiece id="mp_western_pitchfork_wood_blade"/>
+      <AvailablePiece id="mp_western_pitchfork_handle"/>
+      <!-- AvailablePieces,TwoHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <WeaponDescription id="AIELnew22OneHandedPolearm"
+    weapon_class="OneHandedPolearm"
+    item_usage_features="onehanded_polearm:block:long:rshield:thrust">
+    <WeaponFlags>
+      <WeaponFlag value="MeleeWeapon"/>
+      <WeaponFlag value="WideGrip"/>
+    </WeaponFlags>
+    <AvailablePieces>
+      <AvailablePiece id="Aielspearblade1"/>
+      <AvailablePiece id="Aielspearblade2"/>
+      <AvailablePiece id="Aielspearblade3"/>
+
+
+
+      <AvailablePiece id="axe_craft_10_head"/>
+      <AvailablePiece id="spear_blade_1"/>
+      <AvailablePiece id="spear_blade_2"/>
+      <AvailablePiece id="spear_blade_3"/>
+      <AvailablePiece id="spear_blade_4"/>
+      <AvailablePiece id="spear_blade_5"/>
+      <AvailablePiece id="spear_blade_6"/>
+      <AvailablePiece id="spear_blade_7"/>
+      <AvailablePiece id="spear_blade_8"/>
+      <AvailablePiece id="spear_blade_9"/>
+      <AvailablePiece id="spear_blade_10"/>
+      <AvailablePiece id="spear_blade_11"/>
+      <AvailablePiece id="spear_blade_13"/>
+      <AvailablePiece id="spear_blade_14"/>
+      <AvailablePiece id="spear_blade_15"/>
+      <AvailablePiece id="spear_blade_15_blunt"/>
+      <AvailablePiece id="spear_blade_18"/>
+      <AvailablePiece id="spear_blade_19"/>
+      <AvailablePiece id="spear_blade_19_blunt"/>
+      <AvailablePiece id="spear_blade_20"/>
+      <AvailablePiece id="spear_blade_20_blunt"/>
+      <AvailablePiece id="spear_blade_22"/>
+      <AvailablePiece id="spear_blade_23"/>
+      <AvailablePiece id="spear_blade_23_blunt"/>
+      <AvailablePiece id="spear_blade_24"/>
+      <AvailablePiece id="spear_blade_25"/>
+      <AvailablePiece id="spear_blade_26"/>
+      <AvailablePiece id="spear_blade_27"/>
+      <AvailablePiece id="spear_blade_29"/>
+      <AvailablePiece id="spear_blade_30"/>
+      <AvailablePiece id="spear_blade_32"/>
+      <AvailablePiece id="spear_blade_34"/>
+      <AvailablePiece id="spear_blade_35"/>
+      <AvailablePiece id="spear_blade_35_blunt"/>
+      <AvailablePiece id="spear_blade_36"/>
+      <AvailablePiece id="spear_blade_37"/>
+      <AvailablePiece id="spear_blade_38"/>
+      <AvailablePiece id="spear_blade_39"/>
+      <AvailablePiece id="spear_blade_40"/>
+      <AvailablePiece id="spear_blade_41"/>
+      <AvailablePiece id="spear_blade_42"/>
+      <AvailablePiece id="spear_handle_1"/>
+      <AvailablePiece id="spear_handle_3"/>
+      <AvailablePiece id="spear_handle_4"/>
+      <AvailablePiece id="spear_handle_5"/>
+      <AvailablePiece id="spear_handle_6"/>
+      <AvailablePiece id="spear_handle_8"/>
+      <AvailablePiece id="spear_handle_13"/>
+      <AvailablePiece id="spear_handle_14"/>
+      <AvailablePiece id="spear_handle_15"/>
+      <AvailablePiece id="spear_handle_16"/>
+      <AvailablePiece id="spear_handle_17"/>
+      <AvailablePiece id="spear_handle_18"/>
+      <AvailablePiece id="spear_handle_19"/>
+      <AvailablePiece id="spear_handle_20"/>
+      <AvailablePiece id="spear_handle_21"/>
+      <AvailablePiece id="spear_handle_22"/>
+      <AvailablePiece id="spear_handle_23"/>
+      <AvailablePiece id="spear_handle_25"/>
+      <AvailablePiece id="spear_handle_26"/>
+      <AvailablePiece id="spear_handle_27"/>
+      <AvailablePiece id="default_polearm_guard"/>
+      <AvailablePiece id="spear_guard_1"/>
+      <AvailablePiece id="spear_guard_2"/>
+      <AvailablePiece id="spear_guard_3"/>
+      <AvailablePiece id="spear_guard_4"/>
+      <AvailablePiece id="spear_guard_5"/>
+      <AvailablePiece id="spear_guard_6"/>
+      <AvailablePiece id="spear_guard_7"/>
+      <AvailablePiece id="spear_guard_8"/>
+      <AvailablePiece id="spear_guard_9"/>
+      <AvailablePiece id="spear_guard_10"/>
+      <AvailablePiece id="spear_guard_11"/>
+      <AvailablePiece id="spear_guard_12"/>
+      <AvailablePiece id="spear_guard_13"/>
+      <AvailablePiece id="spear_guard_14"/>
+      <AvailablePiece id="spear_guard_15"/>
+      <AvailablePiece id="spear_guard_16"/>
+      <AvailablePiece id="spear_guard_17"/>
+      <AvailablePiece id="spear_guard_18"/>
+      <AvailablePiece id="spear_guard_19"/>
+      <AvailablePiece id="spear_guard_20"/>
+      <AvailablePiece id="mp_spear_guard_1"/>
+      <AvailablePiece id="mp_spear_guard_2"/>
+      <AvailablePiece id="mp_spear_guard_3"/>
+      <AvailablePiece id="mp_spear_guard_4"/>
+      <AvailablePiece id="mp_spear_guard_5"/>
+      <AvailablePiece id="mp_spear_guard_6"/>
+      <AvailablePiece id="mp_spear_guard_7"/>
+      <AvailablePiece id="mp_spear_guard_8"/>
+      <AvailablePiece id="mp_spear_guard_9"/>
+      <AvailablePiece id="mp_spear_guard_10"/>
+      <AvailablePiece id="mp_spear_guard_11"/>
+      <AvailablePiece id="mp_spear_guard_12"/>
+      <AvailablePiece id="mp_spear_guard_13"/>
+      <AvailablePiece id="mp_spear_guard_14"/>
+      <AvailablePiece id="mp_spear_guard_15"/>
+      <AvailablePiece id="mp_spear_guard_16"/>
+      <AvailablePiece id="mp_spear_guard_17"/>
+      <AvailablePiece id="mp_spear_guard_18"/>
+      <AvailablePiece id="mp_spear_guard_19"/>
+      <AvailablePiece id="mp_spear_guard_20"/>
+      <AvailablePiece id="default_polearm_pommel"/>
+      <AvailablePiece id="spear_pommel_1"/>
+      <AvailablePiece id="spear_pommel_2"/>
+      <AvailablePiece id="spear_pommel_3"/>
+      <AvailablePiece id="spear_pommel_4"/>
+      <AvailablePiece id="spear_pommel_5"/>
+      <AvailablePiece id="spear_pommel_6"/>
+      <AvailablePiece id="spear_pommel_7"/>
+      <AvailablePiece id="spear_pommel_8"/>
+      <AvailablePiece id="spear_pommel_9"/>
+      <AvailablePiece id="spear_pommel_10"/>
+      <AvailablePiece id="spear_pommel_11"/>
+      <AvailablePiece id="spear_pommel_12"/>
+      <AvailablePiece id="spear_pommel_13"/>
+      <AvailablePiece id="mp_spear_pommel_1"/>
+      <AvailablePiece id="mp_spear_pommel_2"/>
+      <AvailablePiece id="mp_spear_pommel_3"/>
+      <AvailablePiece id="mp_spear_pommel_5"/>
+      <AvailablePiece id="mp_spear_pommel_6"/>
+      <AvailablePiece id="mp_spear_pommel_7"/>
+      <AvailablePiece id="mp_spear_pommel_8"/>
+      <AvailablePiece id="mp_spear_pommel_9"/>
+      <AvailablePiece id="mp_spear_pommel_10"/>
+      <AvailablePiece id="mp_spear_pommel_11"/>
+      <AvailablePiece id="mp_spear_pommel_12"/>
+      <AvailablePiece id="mp_spear_pommel_13"/>
+      <AvailablePiece id="mp_default_polearm_guard"/>
+      <AvailablePiece id="mp_default_polearm_pommel"/>
+      <AvailablePiece id="mp_western_spear_blade"/>
+      <AvailablePiece id="mp_western_spear_handle"/>
+      <AvailablePiece id="mp_western_long_spear_blade"/>
+      <AvailablePiece id="mp_western_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_battania_cavalry_spear_blade"/>
+      <AvailablePiece id="mp_western_long_spear_handle"/>
+      <AvailablePiece id="mp_vlandia_polearm_head"/>
+      <AvailablePiece id="mp_empire_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_cavalry_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_long_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_heavy_menavlion_blade"/>
+      <AvailablePiece id="mp_empire_polearm_blade"/>
+      <AvailablePiece id="mp_khuzait_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_short_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_short_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_long_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_long_spear_handle"/>
+      <AvailablePiece id="mp_khuzait_pike_blade"/>
+      <AvailablePiece id="mp_khuzait_pike_handle"/>
+      <AvailablePiece id="mp_khuzait_glaive_blade"/>
+      <AvailablePiece id="mp_khuzait_glaive_handle"/>
+      <AvailablePiece id="mp_khuzait_heavy_glaive_blade"/>
+      <AvailablePiece id="mp_khuzait_heavy_glaive_handle"/>
+      <AvailablePiece id="mp_aserai_spear_blade"/>
+      <AvailablePiece id="mp_aserai_spear_handle"/>
+      <AvailablePiece id="mp_aserai_bamboo_spear_blade"/>
+      <AvailablePiece id="mp_aserai_long_spear_handle"/>
+      <AvailablePiece id="mp_aserai_long_spear_blade"/>
+      <AvailablePiece id="mp_aserai_bamboo_spear_handle"/>
+      <AvailablePiece id="mp_battania_spear_blade"/>
+      <AvailablePiece id="mp_battania_spear_handle"/>
+      <AvailablePiece id="mp_battania_long_spear_blade"/>
+      <AvailablePiece id="mp_battania_long_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_short_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_short_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_long_spear_blade"/>
+      <AvailablePiece id="mp_sturgia_long_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_great_spear_handle"/>
+      <AvailablePiece id="mp_sturgia_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_long_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_heavy_lance_blade"/>
+      <AvailablePiece id="mp_sturgia_lance_handle"/>
+      <AvailablePiece id="mp_battania_lance_blade"/>
+      <AvailablePiece id="mp_battania_lance_handle"/>
+      <AvailablePiece id="mp_aserai_bamboo_lance_blade"/>
+      <AvailablePiece id="mp_aserai_bamboo_lance_handle"/>
+      <AvailablePiece id="mp_aserai_heavy_lance_blade"/>
+      <AvailablePiece id="mp_aserai_heavy_lance_handle"/>
+      <AvailablePiece id="mp_khuzait_lance_blade"/>
+      <AvailablePiece id="mp_khuzait_lance_blade_heavy"/>
+      <AvailablePiece id="mp_khuzait_lance_handle"/>
+      <AvailablePiece id="mp_empire_lance_blade"/>
+      <AvailablePiece id="mp_empire_heavy_lance_blade"/>
+      <AvailablePiece id="mp_western_lance_blade"/>
+      <AvailablePiece id="mp_western_lance_handle"/>
+      <AvailablePiece id="mp_western_long_lance_blade"/>
+      <AvailablePiece id="mp_western_long_lance_handle"/>
+      <AvailablePiece id="mp_vlandian_heavy_lance_blade"/>
+      <AvailablePiece id="mp_vlandian_heavy_lance_handle"/>
+      <AvailablePiece id="mp_khuzait_throwing_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_extra_throwing_spear_blade"/>
+      <AvailablePiece id="mp_khuzait_throwing_spear_handle"/>
+      <AvailablePiece id="mp_ash_throwing_spear_blade"/>
+      <AvailablePiece id="mp_ash_throwing_spear_blade_extra"/>
+      <AvailablePiece id="mp_ash_throwing_spear_handle"/>
+      <AvailablePiece id="mp_test_polearm_head"/>
+      <AvailablePiece id="mp_test_spear_blade"/>
+      <AvailablePiece id="mp_test_spear_handle"/>
+      <AvailablePiece id="mp_test_lance_blade"/>
+      <AvailablePiece id="mp_test_lance_handle"/>
+      <AvailablePiece id="mp_pilum_blade"/>
+      <AvailablePiece id="mp_pilum_handle"/>
+      <AvailablePiece id="mp_pilum_blade_extraammo"/>
+      <AvailablePiece id="mp_pilum_handle_extraammo"/>
+      <!-- AvailablePieces,OneHandedPolearm -->
+    </AvailablePieces>
+  </WeaponDescription>
+</WeaponDescriptions>

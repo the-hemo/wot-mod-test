@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <NPCCharacters>
-  <NPCCharacter id="mountain_bandits_bandit" default_group="Infantry" name="{=9laVlEH9}False Dragon Follower" level="11" occupation="Bandit" culture="Culture.mountain_bandits">
+  <NPCCharacter id="mountain_bandits_bandit" default_group="Infantry" name="{=9laVlEH9}False Dragon Supporter" level="11" occupation="Bandit" culture="Culture.mountain_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_battania" />
     </face>
@@ -55,7 +55,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="mountain_bandits_raider" default_group="Infantry" name="{=ZKdiaaFo}False Dragon Devotee" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
+  <NPCCharacter id="mountain_bandits_raider" default_group="Infantry" name="{=ZKdiaaFo}False Dragon Follower" level="16" occupation="Bandit" culture="Culture.mountain_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_battania" />
     </face>
@@ -130,7 +130,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="mountain_bandits_chief" default_group="Infantry" name="{=P6Md9DpR}False Dragon" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
+  <NPCCharacter id="mountain_bandits_chief" default_group="Infantry" name="{=P6Md9DpR}False Dragon Devotee" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_battania" />
     </face>
@@ -447,7 +447,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="mountain_bandits_boss" default_group="Infantry" name="{=ziOBJSzR}False Dragon" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
+  <NPCCharacter id="mountain_bandits_boss" default_group="Infantry" name="{=ziOBJSzR}False Dragon Fanatic" level="26" occupation="Bandit" culture="Culture.mountain_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_battania" />
     </face>

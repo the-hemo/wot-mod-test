@@ -2,7 +2,7 @@
 <Module>
   <Name value="WoT_Map" />
   <Id value="WoT_Map" />
-  <Version value="e1.5.2" />
+  <Version value="v1.4.7" />
   <DefaultModule value="false" />
   <ModuleCategory value="Singleplayer" />
   <Official value="false" />
@@ -211,6 +211,13 @@
     </XmlNode>
 	-->
     <XmlNode>
+      <XmlName id="Kingdoms" path="spkingdoms" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
       <XmlName id="Kingdoms" path="VWoTkingdoms" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
@@ -236,6 +243,14 @@
     </XmlNode>
     <XmlNode>
       <XmlName id="SPCultures" path="WoTcultures" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Traits" path="sptraits" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />

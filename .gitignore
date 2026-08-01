@@ -7,6 +7,15 @@ bin/
 obj/
 */bin/
 */obj/
+*.user
+*.suo
+*.cache
+*.log
+*.tmp
+*.db
+*.pdb
+*.dll
+*.exe
 
 # Ignore temporary and backup files
 *.tmp

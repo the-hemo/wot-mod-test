@@ -151,7 +151,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_saldaea_1" name="{=Settlements.Settlement.name.castle_saldaea_1}Irinjavar" owner="Faction.clan_khuzait_2" posX="401.202" posY="593.087" culture="Culture.khuzait" gate_posX="401.0663" gate_posY="591.2862">
+  <Settlement id="castle_saldaea_1" name="{=Settlements.Settlement.name.castle_saldaea_1}Irinjavar" owner="Faction.clan_khuzait_2" posX="401.202" posY="593.087" culture="Culture.khuzait" gate_posX="401.0645" gate_posY="591.5683">
     <Components>
       <Town id="castle_comp_saldaea_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="420">
         <Buildings>
@@ -201,7 +201,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_saldaea_2" name="{=Settlements.Settlement.name.castle_saldaea_2}Mehar" owner="Faction.clan_khuzait_2" posX="353.771" posY="596.885" culture="Culture.khuzait" gate_posX="355.4636" gate_posY="596.2488">
+  <Settlement id="castle_saldaea_2" name="{=Settlements.Settlement.name.castle_saldaea_2}Mehar" owner="Faction.clan_khuzait_2" posX="353.771" posY="596.885" culture="Culture.khuzait" gate_posX="355.1719" gate_posY="596.3394">
     <Components>
       <Town id="castle_comp_saldaea_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="660">
         <Buildings>
@@ -389,7 +389,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kandor_1" name="{=Settlements.Settlement.name.castle_kandor_1}Silverwall Keep" owner="Faction.clan_vlandia_6" posX="450.839" posY="610.621" culture="Culture.khuzait" gate_posX="450.8341" gate_posY="608.5836">
+  <Settlement id="castle_kandor_1" name="{=Settlements.Settlement.name.castle_kandor_1}Silverwall Keep" owner="Faction.clan_vlandia_6" posX="450.839" posY="610.621" culture="Culture.khuzait" gate_posX="450.8173" gate_posY="608.974">
     <Components>
       <Town id="castle_comp_kandor_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="420">
         <Buildings>
@@ -426,7 +426,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_kandor_2" name="{=Settlements.Settlement.name.castle_kandor_2}South Hill" owner="Faction.clan_vlandia_6" posX="466.388" posY="537.916" culture="Culture.khuzait" gate_posX="467.1573" gate_posY="540.407">
+  <Settlement id="castle_kandor_2" name="{=Settlements.Settlement.name.castle_kandor_2}South Hill" owner="Faction.clan_vlandia_6" posX="466.388" posY="537.916" culture="Culture.khuzait" gate_posX="467.0494" gate_posY="540.3248">
     <Components>
       <Town id="castle_comp_kandor_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="740">
         <Buildings>
@@ -552,7 +552,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_jakanda" name="{=Settlements.Settlement.name.town_jakanda}Jakanda" owner="Faction.clan_khuzait_8" posX="589.455" posY="576.707" culture="Culture.khuzait" gate_posX="588.1165" gate_posY="575.6903" text="{=JhBSnWAe}Little is known of the Arafel town of Jakanda. Its seems positioned as a fallback settlement on the roads to Shiener.">
+  <Settlement id="town_jakanda" name="{=Settlements.Settlement.name.town_jakanda}Jakanda" owner="Faction.clan_khuzait_8" posX="589.455" posY="576.707" culture="Culture.khuzait" gate_posX="585.6235" gate_posY="573.2444" text="{=JhBSnWAe}Little is known of the Arafel town of Jakanda. Its seems positioned as a fallback settlement on the roads to Shiener.">
     <Components>
       <Town id="town_comp_jakanda" is_castle="false" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="5600">
         <Buildings>
@@ -627,7 +627,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_arafel_1" name="{=Settlements.Settlement.name.castle_arafel_1}Tifans Well" owner="Faction.clan_khuzait_9" posX="538.109" posY="556.715" culture="Culture.khuzait" gate_posX="539.6357" gate_posY="554.7333">
+  <Settlement id="castle_arafel_1" name="{=Settlements.Settlement.name.castle_arafel_1}Tifans Well" owner="Faction.clan_khuzait_9" posX="538.109" posY="556.715" culture="Culture.khuzait" gate_posX="536.6956" gate_posY="555.608">
     <Components>
       <Town id="castle_comp_arafel_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="960">
         <Buildings>
@@ -677,7 +677,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_arafel_2" name="{=Settlements.Settlement.name.castle_arafel_2}Tulun" owner="Faction.clan_khuzait_9" posX="545.423" posY="632.915" culture="Culture.khuzait" gate_posX="543.0032" gate_posY="631.2449">
+  <Settlement id="castle_arafel_2" name="{=Settlements.Settlement.name.castle_arafel_2}Tulun" owner="Faction.clan_khuzait_9" posX="545.423" posY="632.915" culture="Culture.khuzait" gate_posX="542.6993" gate_posY="631.0519">
     <Components>
       <Town id="castle_comp_arafel_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="850">
         <Buildings>
@@ -865,7 +865,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_shiener_1" name="{=Settlements.Settlement.name.castle_shiener_1}Camron Caan" owner="Faction.clan_khuzait_6" posX="680.78" posY="630.559" culture="Culture.khuzait" gate_posX="682.1047" gate_posY="632.6857">
+  <Settlement id="castle_shiener_1" name="{=Settlements.Settlement.name.castle_shiener_1}Camron Caan" owner="Faction.clan_khuzait_6" posX="680.78" posY="630.559" culture="Culture.khuzait" gate_posX="681.9929" gate_posY="632.3808">
     <Components>
       <Town id="castle_comp_shiener_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1100">
         <Buildings>
@@ -915,7 +915,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_shiener_2" name="{=Settlements.Settlement.name.castle_shiener_2}Fal Eisen" owner="Faction.clan_khuzait_6" posX="620.675" posY="522.488" culture="Culture.khuzait" gate_posX="623.0336" gate_posY="524.3224">
+  <Settlement id="castle_shiener_2" name="{=Settlements.Settlement.name.castle_shiener_2}Fal Eisen" owner="Faction.clan_khuzait_6" posX="620.675" posY="522.488" culture="Culture.khuzait" gate_posX="623.0094" gate_posY="524.1766">
     <Components>
       <Town id="castle_comp_shiener_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="760">
         <Buildings>
@@ -1103,7 +1103,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_malkier_1" name="{=Settlements.Settlement.name.castle_malkier_1}Eye of the World" owner="Faction.clan_vlandia_1" posX="666.125" posY="749.986" culture="Culture.khuzait" gate_posX="664.6674" gate_posY="748.9668">
+  <Settlement id="castle_malkier_1" name="{=Settlements.Settlement.name.castle_malkier_1}Eye of the World" owner="Faction.clan_vlandia_1" posX="666.125" posY="749.986" culture="Culture.khuzait" gate_posX="664.824" gate_posY="749.2006">
     <Components>
       <Town id="castle_comp_malkier_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="620">
         <Buildings>
@@ -1726,7 +1726,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_shayol_2" name="{=Settlements.Settlement.name.village_shayol_2}Shadow Mill" posX="600.847" posY="799.364" culture="Culture.battania" text="{=Settlements.Settlement.text.village_shayol_2}Shadow Mill produces grain to provide to the Shadows Forces.">
+  <Settlement id="village_shayol_2" name="{=Settlements.Settlement.name.village_shayol_2}Shadow Mill" posX="598.126" posY="802.725" culture="Culture.battania" text="{=Settlements.Settlement.text.village_shayol_2}Shadow Mill produces grain to provide to the Shadows Forces.">
     <Components>
       <Village id="village_comp_shayol_2" village_type="VillageType.wheat_farm" hearth="328" bound="Settlement.town_shayol" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -1938,7 +1938,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_thetown_1" name="{=Settlements.Settlement.name.village_thetown_1}Smokey Press" posX="574.542" posY="690.111" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_thetown_1}Smokey Press produces oil from the local olives.">
+  <Settlement id="village_thetown_1" name="{=Settlements.Settlement.name.village_thetown_1}Smokey Press" posX="570.23" posY="687.745" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_thetown_1}Smokey Press produces oil from the local olives.">
     <Components>
       <Village id="village_comp_thetown_1" village_type="VillageType.olive_trees" hearth="440" gate_rotation="0.758" bound="Settlement.town_thetown" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
@@ -1951,7 +1951,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_thetown_2" name="{=Settlements.Settlement.name.village_thetown_2}Gallows Foundry" posX="552.343" posY="658.743" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_thetown_2}Gallows Foundry produces iron from the local ore to be shipped to the Shadow forges around the Blight.">
+  <Settlement id="village_thetown_2" name="{=Settlements.Settlement.name.village_thetown_2}Gallows Foundry" posX="552.066" posY="660.127" culture="Culture.sturgia" text="{=Settlements.Settlement.text.village_thetown_2}Gallows Foundry produces iron from the local ore to be shipped to the Shadow forges around the Blight.">
     <Components>
       <Village id="village_comp_thetown_2" village_type="VillageType.iron_mine" hearth="333" gate_rotation="0.408" bound="Settlement.town_thetown" background_crop_position="0.0" background_mesh="gui_bg_village_sturgia" wait_mesh="wait_sturgia_village" castle_background_mesh="gui_bg_castle_sturgia" />
     </Components>
@@ -2428,7 +2428,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="316.106" posY="424.63" culture="Culture.empire" gate_posX="320.3811" gate_posY="426.2596" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
+  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="316.106" posY="424.63" culture="Culture.empire" gate_posX="321.0671" gate_posY="425.1506" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
     <Components>
       <Town id="town_comp_baerlon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="4200">
         <Buildings>
@@ -2503,7 +2503,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_emonds" name="{=Settlements.Settlement.name.town_emonds}Emonds Field" owner="Faction.clan_empire_west_1" posX="266.744" posY="386.133" culture="Culture.empire" gate_posX="270.4647" gate_posY="388.6554" text="{=1SnAH5K8}Emonds Field was originally named Aemons Field after the Manetheron King who fought his deperate last stand here during the Trolloc Wars. Legend holds that when these heroes of Manetheron died, a spring identical to the Winespring burst forth where they fell to forever mark their sacrifice. It seems a fitting capital for the Dragon Reborn and his followers.">
+  <Settlement id="town_emonds" name="{=Settlements.Settlement.name.town_emonds}Emonds Field" owner="Faction.clan_empire_west_1" posX="269.521" posY="376.804" culture="Culture.empire" gate_posX="270.3518" gate_posY="380.7987" text="{=1SnAH5K8}Emonds Field was originally named Aemons Field after the Manetheron King who fought his deperate last stand here during the Trolloc Wars. Legend holds that when these heroes of Manetheron died, a spring identical to the Winespring burst forth where they fell to forever mark their sacrifice. It seems a fitting capital for the Dragon Reborn and his followers.">
     <Components>
       <Town id="town_comp_emonds" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="2800">
         <Buildings>
@@ -2578,7 +2578,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dragon_1" name="{=Settlements.Settlement.name.castle_dragon_1}Taren Ferry" owner="Faction.clan_empire_west_4" posX="315.566" posY="379.63" culture="Culture.empire" gate_posX="315.5701" gate_posY="380.4212">
+  <Settlement id="castle_dragon_1" name="{=Settlements.Settlement.name.castle_dragon_1}Taren Ferry" owner="Faction.clan_empire_west_4" posX="315.566" posY="379.63" culture="Culture.empire" gate_posX="315.6062" gate_posY="381.0007">
     <Components>
       <Town id="castle_comp_dragon_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="650">
         <Buildings>
@@ -2628,7 +2628,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dragon_2" name="{=Settlements.Settlement.name.castle_dragon_2}Watch Hill" owner="Faction.clan_empire_west_4" posX="281.095" posY="425.93" culture="Culture.empire" gate_posX="280.0113" gate_posY="425.7467">
+  <Settlement id="castle_dragon_2" name="{=Settlements.Settlement.name.castle_dragon_2}Watch Hill" owner="Faction.clan_empire_west_4" posX="281.757" posY="423.5" culture="Culture.empire" gate_posX="281.143" gate_posY="422.9153">
     <Components>
       <Town id="castle_comp_dragon_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="630">
         <Buildings>
@@ -2678,7 +2678,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dragon_3" name="{=Settlements.Settlement.name.castle_dragon_3}Comfrey" owner="Faction.clan_empire_west_5" posX="319.299" posY="461.67" culture="Culture.empire" gate_posX="320.2328" gate_posY="462.1948">
+  <Settlement id="castle_dragon_3" name="{=Settlements.Settlement.name.castle_dragon_3}Comfrey" owner="Faction.clan_empire_west_5" posX="319.299" posY="461.67" culture="Culture.empire" gate_posX="320.0779" gate_posY="462.2197">
     <Components>
       <Town id="castle_comp_dragon_3" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="770">
         <Buildings>
@@ -2728,7 +2728,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_dragon_4" name="{=Settlements.Settlement.name.castle_dragon_4}Deven Ride" owner="Faction.clan_empire_west_5" posX="406.013" posY="388.419" culture="Culture.empire" gate_posX="405.0749" gate_posY="388.8108">
+  <Settlement id="castle_dragon_4" name="{=Settlements.Settlement.name.castle_dragon_4}Deven Ride" owner="Faction.clan_empire_west_5" posX="406.013" posY="388.419" culture="Culture.empire" gate_posX="405.6528" gate_posY="388.6243">
     <Components>
       <Town id="castle_comp_dragon_4" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.508" prosperity="780">
         <Buildings>
@@ -2779,7 +2779,7 @@
     </CommonAreas>
   </Settlement>
   <!--Black Tower-->
-  <Settlement id="town_ashaman" name="{=Settlements.Settlement.name.town_ashaman}The Black Tower" owner="Faction.clan_empire_north_8" posX="482.855" posY="331.47" culture="Culture.black" gate_posX="482.865" gate_posY="329.0376" text="{=UHvEEEBb}The Black Tower is the headquarters of the Asha'man, the organization of male channelers started by Rand al'Thor and trained by Mazrim Taim. It originated as a converted farmhouse located less than two leagues south of Caemlyn.">
+  <Settlement id="town_ashaman" name="{=Settlements.Settlement.name.town_ashaman}The Black Tower" owner="Faction.clan_empire_north_8" posX="482.855" posY="331.47" culture="Culture.black" gate_posX="483.2212" gate_posY="328.9816" text="{=UHvEEEBb}The Black Tower is the headquarters of the Asha'man, the organization of male channelers started by Rand al'Thor and trained by Mazrim Taim. It originated as a converted farmhouse located less than two leagues south of Caemlyn.">
     <Components>
       <Town id="town_comp_ashaman" is_castle="false" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="4000">
         <Buildings>
@@ -2815,7 +2815,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_ashaman_1" name="{=Settlements.Settlement.name.village_ashaman_1}Tower Farms" posX="480.605" posY="346.375" culture="Culture.empire" text="{=Settlements.Settlement.text.village_ashaman_1}Tower Farms are one of the major grain producing centers for the Black Tower.">
+  <Settlement id="village_ashaman_1" name="{=Settlements.Settlement.name.village_ashaman_1}Tower Farms" posX="480.605" posY="346.375" culture="Culture.black" text="{=Settlements.Settlement.text.village_ashaman_1}Tower Farms are one of the major grain producing centers for the Black Tower.">
     <Components>
       <Village id="village_comp_ashaman_1" village_type="VillageType.wheat_farm" hearth="268" gate_rotation="0.008" bound="Settlement.town_ashaman" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2828,7 +2828,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_ashaman_2" name="{=Settlements.Settlement.name.village_ashaman_2}Tower Wharf" posX="490.133" posY="297.144" culture="Culture.empire" text="{=Settlements.Settlement.text.village_ashaman_2}Tower Wharf is a fishing village responsible for bringing fish such as perch and bream back to the Black Tower.">
+  <Settlement id="village_ashaman_2" name="{=Settlements.Settlement.name.village_ashaman_2}Tower Wharf" posX="490.133" posY="297.144" culture="Culture.black" text="{=Settlements.Settlement.text.village_ashaman_2}Tower Wharf is a fishing village responsible for bringing fish such as perch and bream back to the Black Tower.">
     <Components>
       <Village id="village_comp_ashaman_2" village_type="VillageType.fisherman" hearth="223" gate_rotation="0.308" bound="Settlement.town_ashaman" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2841,7 +2841,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_ashaman_3" name="{=Settlements.Settlement.name.village_ashaman_3}Tower Feilds" posX="483.027" posY="309.86" culture="Culture.empire" text="{=Settlements.Settlement.text.village_ashaman_3}Tower Feilds is the second grain producing farm supplying staples to the Black Tower.">
+  <Settlement id="village_ashaman_3" name="{=Settlements.Settlement.name.village_ashaman_3}Tower Feilds" posX="483.027" posY="309.86" culture="Culture.black" text="{=Settlements.Settlement.text.village_ashaman_3}Tower Feilds is the second grain producing farm supplying staples to the Black Tower.">
     <Components>
       <Village id="village_comp_ashaman_3" village_type="VillageType.wheat_farm" hearth="258" gate_rotation="0.308" bound="Settlement.town_ashaman" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2854,7 +2854,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_ashaman_4" name="{=Settlements.Settlement.name.village_ashaman_4}Tower Pens" posX="500.034" posY="317.748" culture="Culture.empire" text="{=Settlements.Settlement.text.village_ashaman_4}Tower Pens produce the Black Towers meat, predominatly pigs which require small areas to produce large numbers.">
+  <Settlement id="village_ashaman_4" name="{=Settlements.Settlement.name.village_ashaman_4}Tower Pens" posX="500.034" posY="317.748" culture="Culture.black" text="{=Settlements.Settlement.text.village_ashaman_4}Tower Pens produce the Black Towers meat, predominatly pigs which require small areas to produce large numbers.">
     <Components>
       <Village id="village_comp_ashaman_4" village_type="VillageType.swine_farm" hearth="258" gate_rotation="0.308" bound="Settlement.town_ashaman" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -2944,7 +2944,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_braem" name="{=Settlements.Settlement.name.town_braem}New Braem" owner="Faction.clan_empire_north_3" posX="493.383" posY="407.889" culture="Culture.empire" gate_posX="492.8363" gate_posY="410.3506" text="{=SUnaVliN}New Braem is located in Braem wood and acts as a trading center are stop over for those heading to and from Tar Valon. The town is built near the ruins of Braem, an Ogier-built city of Coremanda, one of the Ten Nations destroyed in the Trolloc Wars.">
+  <Settlement id="town_braem" name="{=Settlements.Settlement.name.town_braem}New Braem" owner="Faction.clan_empire_north_3" posX="493.383" posY="407.889" culture="Culture.empire" gate_posX="492.63" gate_posY="410.3229" text="{=SUnaVliN}New Braem is located in Braem wood and acts as a trading center are stop over for those heading to and from Tar Valon. The town is built near the ruins of Braem, an Ogier-built city of Coremanda, one of the Ten Nations destroyed in the Trolloc Wars.">
     <Components>
       <Town id="town_comp_braem" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.508" prosperity="3900">
         <Buildings>
@@ -3094,7 +3094,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_andor_1" name="{=Settlements.Settlement.name.castle_andor_1}Four Kings" owner="Faction.clan_empire_north_2" posX="429.659" posY="384.049" culture="Culture.empire" gate_posX="428.055" gate_posY="384.398">
+  <Settlement id="castle_andor_1" name="{=Settlements.Settlement.name.castle_andor_1}Four Kings" owner="Faction.clan_empire_north_2" posX="429.659" posY="384.049" culture="Culture.empire" gate_posX="428.631" gate_posY="384.467">
     <Components>
       <Town id="castle_comp_andor_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="520">
         <Buildings>
@@ -3131,7 +3131,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_andor_2" name="{=Settlements.Settlement.name.castle_andor_2}Lions Watch" owner="Faction.clan_empire_north_2" posX="487.19" posY="386.699" culture="Culture.empire" gate_posX="486.0968" gate_posY="385.838">
+  <Settlement id="castle_andor_2" name="{=Settlements.Settlement.name.castle_andor_2}Lions Watch" owner="Faction.clan_empire_north_2" posX="487.19" posY="386.699" culture="Culture.empire" gate_posX="486.6184" gate_posY="385.3712">
     <Components>
       <Town id="castle_comp_andor_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="610">
         <Buildings>
@@ -3168,7 +3168,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_andor_2_2" name="{=Settlements.Settlement.name.castle_village_andor_2_2}Jornhill" posX="464.688" posY="402.632" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_andor_2_2}The village of Jornhill is near the northern border od the Andor lands. The people of these parts have long reared the finest horse for the kingdom.">
+  <Settlement id="castle_village_andor_2_2" name="{=Settlements.Settlement.name.castle_village_andor_2_2}Jornhill" posX="464.686" posY="402.631" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_andor_2_2}The village of Jornhill is near the northern border od the Andor lands. The people of these parts have long reared the finest horse for the kingdom.">
     <Components>
       <Village id="castle_village_comp_andor_2_2" village_type="VillageType.desert_horse_ranch" hearth="132" gate_rotation="0.508" bound="Settlement.castle_andor_2" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -3181,7 +3181,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_andor_3" name="{=Settlements.Settlement.name.castle_andor_3}Rose Watch" owner="Faction.clan_empire_north_1" posX="501.544" posY="360.308" culture="Culture.empire" gate_posX="499.3666" gate_posY="358.6633">
+  <Settlement id="castle_andor_3" name="{=Settlements.Settlement.name.castle_andor_3}Rose Watch" owner="Faction.clan_empire_north_1" posX="501.544" posY="360.308" culture="Culture.empire" gate_posX="499.9329" gate_posY="359.0819">
     <Components>
       <Town id="castle_comp_andor_3" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="640">
         <Buildings>
@@ -3205,7 +3205,7 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_andor_3_1" name="{=Settlements.Settlement.name.castle_village_andor_3_1}Forel Market" posX="508.101" posY="348.862" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_andor_3_1}Forel Market lies on a plateau overlooking the River Erinin in the distance. Villagers grow olives on the slopes, famous for their light, fragrant oil.">
+  <Settlement id="castle_village_andor_3_1" name="{=Settlements.Settlement.name.castle_village_andor_3_1}Forel Market" posX="508.102" posY="348.866" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_andor_3_1}Forel Market lies on a plateau overlooking the River Erinin in the distance. Villagers grow olives on the slopes, famous for their light, fragrant oil.">
     <Components>
       <Village id="castle_village_comp_andor_3_1" village_type="VillageType.olive_trees" hearth="347" gate_rotation="0.208" bound="Settlement.castle_andor_3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3231,7 +3231,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_andor_4" name="{=Settlements.Settlement.name.castle_andor_4}Damelien" owner="Faction.clan_empire_north_3" posX="403.323" posY="364.102" culture="Culture.empire" gate_posX="405.0704" gate_posY="361.6148">
+  <Settlement id="castle_andor_4" name="{=Settlements.Settlement.name.castle_andor_4}Damelien" owner="Faction.clan_empire_north_3" posX="403.323" posY="364.102" culture="Culture.empire" gate_posX="404.6181" gate_posY="362.5019">
     <Components>
       <Town id="castle_comp_andor_4" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="820">
         <Buildings>
@@ -3282,22 +3282,22 @@
     </CommonAreas>
   </Settlement>
   <!--White Tower-->
-  <Settlement id="town_tarvalon" name="{=Settlements.Settlement.name.town_tarvalon}Tar Valon" owner="Faction.clan_empire_north_5" posX="526.298" posY="474.777" culture="Culture.white" gate_posX="522.0551" gate_posY="475.7557" text="{=YYYxOiCq}Tar Valon is located on the River Erinin, within sight of Dragonmount. It is the center of Aes Sedai power and is also the second largest, most populous city in the Westlands. Tar Valon is a vital trade and transport link between the Borderlands and the more populous, richer southern kingdoms of Andor, Cairhien, Illian, and Tear.">
+  <Settlement id="town_tarvalon" name="{=Settlements.Settlement.name.town_tarvalon}Tar Valon" owner="Faction.clan_empire_north_5" posX="526.298" posY="474.777" culture="Culture.white" gate_posX="529.4506" gate_posY="474.4475" text="{=YYYxOiCq}Tar Valon is located on the River Erinin, within sight of Dragonmount. It is the center of Aes Sedai power and is also the second largest, most populous city in the Westlands. Tar Valon is a vital trade and transport link between the Borderlands and the more populous, richer southern kingdoms of Andor, Cairhien, Illian, and Tear.">
     <Components>
       <Town id="town_comp_tarvalon" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="7300">
         <Buildings>
           <Building id="building_settlement_fortifications" level="3" />
           <Building id="building_settlement_barracks" level="3" />
-          <Building id="building_settlement_training_fields" level="2" />
-          <Building id="building_settlement_guard_house" level="1" />
-          <Building id="building_settlement_siege_workshop" level="0" />
-          <Building id="building_settlement_tax_office" level="0" />
-          <Building id="building_settlement_marketplace" level="0" />
-          <Building id="building_settlement_warehouse" level="0" />
-          <Building id="building_settlement_mason" level="0" />
-          <Building id="building_settlement_waterworks" level="1" />
-          <Building id="building_settlement_courthouse" level="1" />
-          <Building id="building_settlement_roads_and_paths" level="0" />
+          <Building id="building_settlement_training_fields" level="3" />
+          <Building id="building_settlement_guard_house" level="3" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="3" />
+          <Building id="building_settlement_marketplace" level="3" />
+          <Building id="building_settlement_warehouse" level="3" />
+          <Building id="building_settlement_mason" level="3" />
+          <Building id="building_settlement_waterworks" level="3" />
+          <Building id="building_settlement_courthouse" level="3" />
+          <Building id="building_settlement_roads_and_paths" level="3" />
         </Buildings>
       </Town>
     </Components>
@@ -3346,7 +3346,7 @@
   </Settlement>
   <Settlement id="village_tarvalon_3" name="{=Settlements.Settlement.name.village_tarvalon_3}Alindaer" posX="510.899" posY="479.47" culture="Culture.white" text="{=Settlements.Settlement.text.village_tarvalon_3}Alindaer sits overlooking a pass between the Dragonmount and River Erinin. The villagers of this region specializing in the raising of pigs.">
     <Components>
-      <Village id="village_comp_tarvalon_3" village_type="VillageType.swine_farm" hearth="157" bound="Settlement.town_tarvalon" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
+      <Village id="village_comp_tarvalon_3" village_type="VillageType.wheat_farm" hearth="157" bound="Settlement.town_tarvalon" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="vlandia_village_m" />
@@ -3357,7 +3357,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_sedai_1" name="{=Settlements.Settlement.name.castle_sedai_1}Alianelle Spring" owner="Faction.clan_empire_north_6" posX="536.135" posY="439.469" culture="Culture.empire" gate_posX="535.2931" gate_posY="436.6978">
+  <Settlement id="castle_sedai_1" name="{=Settlements.Settlement.name.castle_sedai_1}Alianelle Spring" owner="Faction.clan_empire_north_6" posX="536.135" posY="439.469" culture="Culture.white" gate_posX="535.5161" gate_posY="437.7132">
     <Components>
       <Town id="castle_comp_sedai_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="560">
         <Buildings>
@@ -3381,7 +3381,7 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_sedai_1_1" name="{=Settlements.Settlement.name.castle_village_sedai_1_1}Daghain" posX="519.097" posY="448.132" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_sedai_1_1}Daghain in the valley between the lands of Andor and Dragonmount. The location makes a great base for fur trappers with mountains to the north and plains to the south.">
+  <Settlement id="castle_village_sedai_1_1" name="{=Settlements.Settlement.name.castle_village_sedai_1_1}Daghain" posX="519.097" posY="448.132" culture="Culture.white" text="{=Settlements.Settlement.text.castle_village_sedai_1_1}Daghain in the valley between the lands of Andor and Dragonmount. The location makes a great base for fur trappers with mountains to the north and plains to the south.">
     <Components>
       <Village id="castle_village_comp_sedai_1_1" village_type="VillageType.trapper" hearth="621" bound="Settlement.castle_sedai_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3394,7 +3394,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_sedai_1_2" name="{=Settlements.Settlement.name.castle_village_sedai_1_2}Lugagde" posX="531.873" posY="447.262" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_sedai_1_2}Lugagde sits on a plateau north of the Alianelle Spring Fort. Cattle are raised here in former marshy woodlands, now cleared and turned into meadows.">
+  <Settlement id="castle_village_sedai_1_2" name="{=Settlements.Settlement.name.castle_village_sedai_1_2}Lugagde" posX="531.873" posY="447.262" culture="Culture.white" text="{=Settlements.Settlement.text.castle_village_sedai_1_2}Lugagde sits on a plateau north of the Alianelle Spring Fort. Cattle are raised here in former marshy woodlands, now cleared and turned into meadows.">
     <Components>
       <Village id="castle_village_comp_sedai_1_2" village_type="VillageType.cattle_farm" hearth="652" gate_rotation="0.008" bound="Settlement.castle_sedai_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3411,17 +3411,17 @@
     <Components>
       <Town id="castle_comp_sedai_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="500">
         <Buildings>
-          <Building id="building_castle_fortifications" level="1" />
-          <Building id="building_castle_barracks" level="0" />
-          <Building id="building_castle_training_fields" level="1" />
-          <Building id="building_castle_guard_house" level="1" />
-          <Building id="building_castle_siege_workshop" level="0" />
-          <Building id="building_castle_castallans_office" level="2" />
-          <Building id="building_castle_granary" level="1" />
-          <Building id="building_castle_craftmans_quarters" level="0" />
-          <Building id="building_castle_farmlands" level="1" />
-          <Building id="building_castle_mason" level="0" />
-          <Building id="building_castle_roads_and_paths" level="0" />
+          <Building id="building_castle_fortifications" level="3" />
+          <Building id="building_castle_barracks" level="3" />
+          <Building id="building_castle_training_fields" level="3" />
+          <Building id="building_castle_guard_house" level="3" />
+          <Building id="building_castle_siege_workshop" level="3" />
+          <Building id="building_castle_castallans_office" level="3" />
+          <Building id="building_castle_granary" level="3" />
+          <Building id="building_castle_craftmans_quarters" level="3" />
+          <Building id="building_castle_farmlands" level="3" />
+          <Building id="building_castle_mason" level="3" />
+          <Building id="building_castle_roads_and_paths" level="3" />
         </Buildings>
       </Town>
     </Components>
@@ -3460,20 +3460,20 @@
   <!--Cairhien-->
   <Settlement id="town_cairhien" name="{=Settlements.Settlement.name.town_cairhien}Cairhien" owner="Faction.clan_empire_south_1" posX="596.566" posY="335.747" culture="Culture.empire" gate_posX="595.328" gate_posY="337.7734" text="{=4ENGzVaC}Cairhien is a large city, originally built by Ogier, located on the banks of the River Alguenya just south of its junction with the Gaelin. The city is known primarily as the seat of the Cairhien king, for the institution of the political game Daes Dae'mar, and for a hatred above all else of the Aiel since the Aiel War.">
     <Components>
-      <Town id="town_comp_cairhien" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="3400">
+      <Town id="town_comp_cairhien" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="6400">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="2" />
-          <Building id="building_settlement_barracks" level="2" />
+          <Building id="building_settlement_fortifications" level="3" />
+          <Building id="building_settlement_barracks" level="3" />
           <Building id="building_settlement_training_fields" level="3" />
-          <Building id="building_settlement_guard_house" level="0" />
-          <Building id="building_settlement_siege_workshop" level="1" />
-          <Building id="building_settlement_tax_office" level="2" />
+          <Building id="building_settlement_guard_house" level="3" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="3" />
           <Building id="building_settlement_marketplace" level="3" />
-          <Building id="building_settlement_warehouse" level="1" />
-          <Building id="building_settlement_mason" level="0" />
-          <Building id="building_settlement_waterworks" level="0" />
-          <Building id="building_settlement_courthouse" level="0" />
-          <Building id="building_settlement_roads_and_paths" level="0" />
+          <Building id="building_settlement_warehouse" level="3" />
+          <Building id="building_settlement_mason" level="3" />
+          <Building id="building_settlement_waterworks" level="3" />
+          <Building id="building_settlement_courthouse" level="3" />
+          <Building id="building_settlement_roads_and_paths" level="3" />
         </Buildings>
       </Town>
     </Components>
@@ -3494,7 +3494,7 @@
       <Area type="Waterfront" name="{=Rr1cy5Sk}Waterfront" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_cairhien_1" name="{=Settlements.Settlement.name.village_cairhien_1}Moutone" posX="608.665" posY="316.29" culture="Culture.empire" text="{=Settlements.Settlement.text.village_cairhien_1}Moutone lies in the broad plains near River Gaelin. This is good sheep country, but in a land scoured by fugitives, wild riders and steppe nomads, the villagers here have learned to watch their flocks closely.">
+  <Settlement id="village_cairhien_1" name="{=Settlements.Settlement.name.village_cairhien_1}Moutone" posX="608.669" posY="316.302" culture="Culture.empire" text="{=Settlements.Settlement.text.village_cairhien_1}Moutone lies in the broad plains near River Gaelin. This is good sheep country, but in a land scoured by fugitives, wild riders and steppe nomads, the villagers here have learned to watch their flocks closely.">
     <Components>
       <Village id="village_comp_cairhien_1" village_type="VillageType.sheep_farm" hearth="402" bound="Settlement.town_cairhien" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3535,16 +3535,16 @@
   </Settlement>
   <Settlement id="town_tremon" name="{=Settlements.Settlement.name.town_tremon}Tremonsien" owner="Faction.clan_empire_south_2" posX="558.751" posY="388.44" culture="Culture.empire" gate_posX="559.199" gate_posY="390.9422" text="{=RL2vacqv}Tremonsien is a Cairhienen town that those unacustomed to the Daes Dae'marsmall should stop and learn before heading to the capital.  Nearby their is a great excavation underway, to uncover what appears to be a giant statue.">
     <Components>
-      <Town id="town_comp_tremon" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.508" prosperity="2600">
+      <Town id="town_comp_tremon" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_2" wait_mesh="wait_empire_town" gate_rotation="0.508" prosperity="4600">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
-          <Building id="building_settlement_barracks" level="0" />
-          <Building id="building_settlement_training_fields" level="0" />
-          <Building id="building_settlement_guard_house" level="0" />
-          <Building id="building_settlement_siege_workshop" level="0" />
-          <Building id="building_settlement_tax_office" level="0" />
-          <Building id="building_settlement_marketplace" level="0" />
-          <Building id="building_settlement_warehouse" level="0" />
+          <Building id="building_settlement_fortifications" level="3" />
+          <Building id="building_settlement_barracks" level="2" />
+          <Building id="building_settlement_training_fields" level="2" />
+          <Building id="building_settlement_guard_house" level="2" />
+          <Building id="building_settlement_siege_workshop" level="3" />
+          <Building id="building_settlement_tax_office" level="1" />
+          <Building id="building_settlement_marketplace" level="2" />
+          <Building id="building_settlement_warehouse" level="2" />
           <Building id="building_settlement_mason" level="3" />
           <Building id="building_settlement_waterworks" level="2" />
           <Building id="building_settlement_courthouse" level="1" />
@@ -3658,7 +3658,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_cairhien_2" name="{=Settlements.Settlement.name.castle_cairhien_2}Morelle" owner="Faction.clan_empire_south_3" posX="636.415" posY="334.643" culture="Culture.empire" gate_posX="637.5894" gate_posY="333.3685">
+  <Settlement id="castle_cairhien_2" name="{=Settlements.Settlement.name.castle_cairhien_2}Morelle" owner="Faction.clan_empire_south_3" posX="636.415" posY="334.643" culture="Culture.empire" gate_posX="637.4783" gate_posY="333.3232">
     <Components>
       <Town id="castle_comp_cairhien_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="430">
         <Buildings>
@@ -3719,7 +3719,7 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_cairhien_3_1" name="{=Settlements.Settlement.name.castle_village_cairhien_3_1}Selean" posX="636.917" posY="399.789" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_cairhien_3_1}Selean in a narrow valley near the start of River Alguenya. Villagers here cultivate shrubs and bushes. The leaves are harvested and fed to hogs, producing meat and hides much valued by the garrisoned troops.">
+  <Settlement id="castle_village_cairhien_3_1" name="{=Settlements.Settlement.name.castle_village_cairhien_3_1}Selean" posX="636.917" posY="399.8" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_cairhien_3_1}Selean in a narrow valley near the start of River Alguenya. Villagers here cultivate shrubs and bushes. The leaves are harvested and fed to hogs, producing meat and hides much valued by the garrisoned troops.">
     <Components>
       <Village id="castle_village_comp_cairhien_3_1" village_type="VillageType.swine_farm" hearth="448" gate_rotation="0.308" bound="Settlement.castle_cairhien_3" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -3821,7 +3821,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_minde" name="{=Settlements.Settlement.name.town_minde}Minde" owner="Faction.clan_empire_south_7" posX="449.113" posY="287.921" culture="Culture.empire" gate_posX="444.847" gate_posY="288.7933" text="{=rX8oGVvV}Minde is a city in Murandy. Mindeans often boast about their bad tempers.  This likely feeds the reputation that Lugard has not only for commerce but for thievery and licentiousness as well. Outsiders are well advised to heed the Lugarder saying - Trust no one but yourself, and yourself not too much.">
+  <Settlement id="town_minde" name="{=Settlements.Settlement.name.town_minde}Minde" owner="Faction.clan_empire_south_7" posX="449.113" posY="287.921" culture="Culture.empire" gate_posX="445.0402" gate_posY="288.6764" text="{=rX8oGVvV}Minde is a city in Murandy. Mindeans often boast about their bad tempers.  This likely feeds the reputation that Lugard has not only for commerce but for thievery and licentiousness as well. Outsiders are well advised to heed the Lugarder saying - Trust no one but yourself, and yourself not too much.">
     <Components>
       <Town id="town_comp_minde" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_5" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="4400">
         <Buildings>
@@ -3896,7 +3896,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_murandy_1" name="{=Settlements.Settlement.name.castle_murandy_1}Inishlinn" owner="Faction.clan_empire_south_6" posX="441.115" posY="254.722" culture="Culture.empire" gate_posX="443.5507" gate_posY="255.3095">
+  <Settlement id="castle_murandy_1" name="{=Settlements.Settlement.name.castle_murandy_1}Inishlinn" owner="Faction.clan_empire_south_6" posX="441.115" posY="254.722" culture="Culture.empire" gate_posX="443.5613" gate_posY="255.2576">
     <Components>
       <Town id="castle_comp_murandy_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="860">
         <Buildings>
@@ -3933,7 +3933,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_murandy_2" name="{=Settlements.Settlement.name.castle_murandy_2}Geafendale" owner="Faction.clan_empire_south_7" posX="387.985" posY="296.675" culture="Culture.empire" gate_posX="385.8596" gate_posY="295.2829">
+  <Settlement id="castle_murandy_2" name="{=Settlements.Settlement.name.castle_murandy_2}Geafendale" owner="Faction.clan_empire_south_7" posX="387.985" posY="296.675" culture="Culture.empire" gate_posX="386.2195" gate_posY="295.4448">
     <Components>
       <Town id="castle_comp_murandy_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.508" prosperity="870">
         <Buildings>
@@ -4134,7 +4134,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ghealdan_1" name="{=Settlements.Settlement.name.castle_ghealdan_1}Samaha" owner="Faction.clan_empire_south_4" posX="336.762" posY="324.172" culture="Culture.empire" gate_posX="337.7595" gate_posY="325.7628">
+  <Settlement id="castle_ghealdan_1" name="{=Settlements.Settlement.name.castle_ghealdan_1}Samaha" owner="Faction.clan_empire_south_4" posX="336.762" posY="324.172" culture="Culture.empire" gate_posX="337.5266" gate_posY="325.5935">
     <Components>
       <Town id="castle_comp_ghealdan_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_sturgia" wait_mesh="wait_sturgia_town" gate_rotation="0.908" prosperity="830">
         <Buildings>
@@ -4184,7 +4184,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_ghealdan_2" name="{=Settlements.Settlement.name.castle_ghealdan_2}Cosamelle" owner="Faction.clan_empire_south_5" posX="360.431" posY="288.625" culture="Culture.empire" gate_posX="363.0445" gate_posY="290.029">
+  <Settlement id="castle_ghealdan_2" name="{=Settlements.Settlement.name.castle_ghealdan_2}Cosamelle" owner="Faction.clan_empire_south_5" posX="360.431" posY="288.625" culture="Culture.empire" gate_posX="362.7303" gate_posY="289.7981">
     <Components>
       <Town id="castle_comp_ghealdan_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1050">
         <Buildings>
@@ -4208,7 +4208,7 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_ghealdan_2_1" name="{=Settlements.Settlement.name.castle_village_ghealdan_2_1}Fyall" posX="349.561" posY="297.897" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ghealdan_2_1}Fyall lies on the flat plains near the River Manetherendrelle. Ghealdan colonists have started cattle farms on the lush pastures for milk and butter.">
+  <Settlement id="castle_village_ghealdan_2_1" name="{=Settlements.Settlement.name.castle_village_ghealdan_2_1}Fyall" posX="349.559" posY="297.89" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_ghealdan_2_1}Fyall lies on the flat plains near the River Manetherendrelle. Ghealdan colonists have started cattle farms on the lush pastures for milk and butter.">
     <Components>
       <Village id="castle_village_comp_ghealdan_2_1" village_type="VillageType.cattle_farm" hearth="303" gate_rotation="0.008" bound="Settlement.castle_ghealdan_2" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -4272,7 +4272,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aiel_2" name="{=Settlements.Settlement.name.castle_aiel_2}Shiagi Hold" owner="Faction.clan_aserai_7" posX="721.105" posY="515.552" culture="Culture.aserai" gate_posX="721.7155" gate_posY="517.2102">
+  <Settlement id="castle_aiel_2" name="{=Settlements.Settlement.name.castle_aiel_2}Shiagi Hold" owner="Faction.clan_aserai_7" posX="721.105" posY="515.552" culture="Culture.aserai" gate_posX="721.7887" gate_posY="517.3959">
     <Components>
       <Town id="castle_comp_aiel_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="980">
         <Buildings>
@@ -4359,7 +4359,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aiel_4" name="{=Settlements.Settlement.name.castle_aiel_4}Comarda Hold" owner="Faction.clan_vlandia_10" posX="720.598" posY="394.35" culture="Culture.aserai" gate_posX="719.3745" gate_posY="394.9449">
+  <Settlement id="castle_aiel_4" name="{=Settlements.Settlement.name.castle_aiel_4}Comarda Hold" owner="Faction.clan_vlandia_10" posX="720.598" posY="394.35" culture="Culture.aserai" gate_posX="719.1512" gate_posY="394.6345">
     <Components>
       <Town id="castle_comp_aiel_4" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="460">
         <Buildings>
@@ -4459,7 +4459,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aiel_6" name="{=Settlements.Settlement.name.castle_aiel_6}Sulara Hold" owner="Faction.clan_aserai_9" posX="762.038" posY="571.87" culture="Culture.aserai" gate_posX="765.3911" gate_posY="571.8198">
+  <Settlement id="castle_aiel_6" name="{=Settlements.Settlement.name.castle_aiel_6}Sulara Hold" owner="Faction.clan_aserai_9" posX="762.038" posY="571.87" culture="Culture.aserai" gate_posX="763.8383" gate_posY="571.1663">
     <Components>
       <Town id="castle_comp_aiel_6" is_castle="true" background_crop_position="0.0" background_mesh="menu_aserai_3" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="610">
         <Buildings>
@@ -4546,7 +4546,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_aiel_8" name="{=Settlements.Settlement.name.castle_aiel_8}Chaendaer" owner="Faction.clan_aserai_1" posX="777.326" posY="433.986" culture="Culture.aserai" gate_posX="775.5876" gate_posY="435.8874">
+  <Settlement id="castle_aiel_8" name="{=Settlements.Settlement.name.castle_aiel_8}Chaendaer" owner="Faction.clan_aserai_1" posX="777.326" posY="433.986" culture="Culture.aserai" gate_posX="775.8503" gate_posY="435.6332">
     <Components>
       <Town id="castle_comp_aiel_8" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="770">
         <Buildings>
@@ -4672,7 +4672,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_aiel_2" name="{=Settlements.Settlement.name.town_A5}Cold Rocks Hold" owner="Faction.clan_aserai_2" posX="784.95" posY="532.67" culture="Culture.aserai" gate_posX="781.563" gate_posY="531.2339" text="{=IIMWPVhU}Cold Rocks Hold was founded by the Taardad Aiel of the Nine Valleys sept. It is the last large settlement on the Silk caravan journey to the Sharan trading gates.">
+  <Settlement id="town_aiel_2" name="{=Settlements.Settlement.name.town_A5}Cold Rocks Hold" owner="Faction.clan_aserai_2" posX="784.95" posY="532.67" culture="Culture.aserai" gate_posX="780.9974" gate_posY="530.6508" text="{=IIMWPVhU}Cold Rocks Hold was founded by the Taardad Aiel of the Nine Valleys sept. It is the last large settlement on the Silk caravan journey to the Sharan trading gates.">
     <Components>
       <Town id="town_comp_aiel_2" is_castle="false" background_crop_position="0.179" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.908" prosperity="3200">
         <Buildings>
@@ -4747,7 +4747,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_aiel_3" name="{=Settlements.Settlement.name.town_aiel_3}Bent Valley Hold" owner="Faction.clan_aserai_3" posX="742.67" posY="462.35" culture="Culture.aserai" gate_posX="742.1833" gate_posY="459.3708" text="{=NFIYqaab}Bent Valley Hold overlooks, at a distance, the Jangai Pass.  Bent Valley Hold draws wetlander silk caravans heading to the Sharan trade gates - away from the sacred city of Rhuidean. Aiel guides will then lead caravans north east through the dune valleys to Cold Rocks Hold.">
+  <Settlement id="town_aiel_3" name="{=Settlements.Settlement.name.town_aiel_3}Bent Valley Hold" owner="Faction.clan_aserai_3" posX="742.67" posY="462.35" culture="Culture.aserai" gate_posX="741.6122" gate_posY="458.5083" text="{=NFIYqaab}Bent Valley Hold overlooks, at a distance, the Jangai Pass.  Bent Valley Hold draws wetlander silk caravans heading to the Sharan trade gates - away from the sacred city of Rhuidean. Aiel guides will then lead caravans north east through the dune valleys to Cold Rocks Hold.">
     <Components>
       <Town id="town_comp_aiel_3" is_castle="false" background_crop_position="0.0" background_mesh="menu_aserai_4" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="1800">
         <Buildings>
@@ -5048,7 +5048,7 @@
     </CommonAreas>
   </Settlement>
   <!--Mayene-->
-  <Settlement id="town_mayene" name="{=Settlements.Settlement.name.town_mayene}Mayene" owner="Faction.clan_battania_5" posX="653.991" posY="120.246" culture="Culture.battania" gate_posX="657.5269" gate_posY="118.3854" text="{=J4bgNT0r}Mayene is a small independant city state located on an isolated penisula on the Sea of Storms. Mayene is extremely wealthly through trade of its fish oils to the Westlands, Shara and the Sea Folk. ">
+  <Settlement id="town_mayene" name="{=Settlements.Settlement.name.town_mayene}Mayene" owner="Faction.clan_battania_5" posX="653.991" posY="120.246" culture="Culture.battania" gate_posX="652.7349" gate_posY="119.4598" text="{=J4bgNT0r}Mayene is a small independant city state located on an isolated penisula on the Sea of Storms. Mayene is extremely wealthly through trade of its fish oils to the Westlands, Shara and the Sea Folk. ">
     <Components>
       <Town id="town_comp_mayene" is_castle="false" background_crop_position="0.0" background_mesh="menu_aserai_2" wait_mesh="wait_aserai_town" gate_rotation="0.508" prosperity="3500">
         <Buildings>
@@ -5097,7 +5097,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_mayene_2" name="{=Settlements.Settlement.name.village_mayene_2}Ika Point" posX="652.789" posY="105.075" culture="Culture.battania" text="{=Settlements.Settlement.text.village_mayene_2}Ika Point sits on the southern point of the Mayene Penisula looking out to the Sea of Storms. Villagers here fish for tuna, sardines, bonito and shark.">
+  <Settlement id="village_mayene_2" name="{=Settlements.Settlement.name.village_mayene_2}Ika Point" posX="652.811" posY="105.081" culture="Culture.battania" text="{=Settlements.Settlement.text.village_mayene_2}Ika Point sits on the southern point of the Mayene Penisula looking out to the Sea of Storms. Villagers here fish for tuna, sardines, bonito and shark.">
     <Components>
       <Village id="village_comp_mayene_2" village_type="VillageType.fisherman" hearth="233" gate_rotation="0.108" bound="Settlement.town_mayene" background_crop_position="0.214" background_mesh="menu_aserai_village_1" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -5275,7 +5275,7 @@
   </Settlement>
   <Settlement id="village_tear_2" name="{=Settlements.Settlement.name.village_tear_2}The Three Moons" posX="560.895" posY="209.159" culture="Culture.battania" text="{=Settlements.Settlement.text.village_tear_2}Named in reference to The Three Moons inn in the city of Tear.  Its claim to fame is that it host the Dragon Reborn and his companions.">
     <Components>
-      <Village id="village_comp_tear_2" village_type="VillageType.sheep_farm" hearth="162" bound="Settlement.town_tear" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
+      <Village id="village_comp_tear_2" village_type="VillageType.wheat_farm" hearth="162" bound="Settlement.town_tear" background_crop_position="0.0" background_mesh="gui_bg_village_khuzait" wait_mesh="wait_khuzait_village" castle_background_mesh="gui_bg_castle_khuzait" />
     </Components>
     <Locations complex_template="LocationComplexTemplate.village_complex">
       <Location id="village_center" scene_name="khuzait_village_g" />
@@ -5299,7 +5299,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_godan" name="{=Settlements.Settlement.name.town_godan}Godan" owner="Faction.clan_battania_3" posX="602.499" posY="159.79" culture="Culture.battania" gate_posX="605.6331" gate_posY="162.2493" text="{=ZAGUIKOn}Godan is a coastal town in southeast Tear that lies on the Bay of Remara across from Mayene.">
+  <Settlement id="town_godan" name="{=Settlements.Settlement.name.town_godan}Godan" owner="Faction.clan_battania_3" posX="604.011" posY="166.065" culture="Culture.battania" gate_posX="600.1996" gate_posY="166.0038" text="{=ZAGUIKOn}Godan is a coastal town in southeast Tear that lies on the Bay of Remara across from Mayene.">
     <Components>
       <Town id="town_comp_godan" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.108" prosperity="5200">
         <Buildings>
@@ -5398,7 +5398,7 @@
       <Location id="prison" scene_name="empire_dungeon_stealth" />
     </Locations>
   </Settlement>
-  <Settlement id="castle_village_tear_1_1" name="{=Settlements.Settlement.name.castle_village_tear_1_1}Swiftmeadow" posX="595.85" posY="230.272" culture="Culture.battania" text="{=Settlements.Settlement.text.castle_village_tear_1_1}Swiftmeadow is surrounded by tall grasses and open plains, where fine horses thrive.">
+  <Settlement id="castle_village_tear_1_1" name="{=Settlements.Settlement.name.castle_village_tear_1_1}Swiftmeadow" posX="596.447" posY="231.12" culture="Culture.battania" text="{=Settlements.Settlement.text.castle_village_tear_1_1}Swiftmeadow is surrounded by tall grasses and open plains, where fine horses thrive.">
     <Components>
       <Village id="castle_village_comp_tear_1_1" village_type="VillageType.europe_horse_ranch" hearth="166" bound="Settlement.castle_tear_1" background_crop_position="0.0" background_mesh="gui_bg_village_empire" wait_mesh="wait_empire_village" castle_background_mesh="gui_bg_castle_empire" />
     </Components>
@@ -5411,7 +5411,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_tear_2" name="{=Settlements.Settlement.name.castle_tear_2}Nights Rest" owner="Faction.clan_battania_4" posX="566.159" posY="172.025" culture="Culture.battania" gate_posX="567.6418" gate_posY="173.2763">
+  <Settlement id="castle_tear_2" name="{=Settlements.Settlement.name.castle_tear_2}Nights Rest" owner="Faction.clan_battania_4" posX="568.361" posY="172.578" culture="Culture.battania" gate_posX="569.8438" gate_posY="173.8293">
     <Components>
       <Town id="castle_comp_tear_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="480">
         <Buildings>
@@ -5462,7 +5462,7 @@
     </CommonAreas>
   </Settlement>
   <!--Far Madding -->
-  <Settlement id="town_farmad" name="{=Settlements.Settlement.name.town_farmad}Far Madding" owner="Faction.clan_empire_west_8" posX="494.024" posY="215.651" culture="Culture.battania" gate_posX="496.1133" gate_posY="214.7943" text="{=YNm9vaHw}Far Madding is an independent city-state in the southeastern part of the Westlands on the Plains of Maredo. Its location makes the Far Madding an important commercial center for overland trade routes. It is the only known significant human settlement where channellers are unable to access or even sense the presence of the True Source.">
+  <Settlement id="town_farmad" name="{=Settlements.Settlement.name.town_farmad}Far Madding" owner="Faction.clan_empire_west_8" posX="494.024" posY="215.651" culture="Culture.battania" gate_posX="496.5751" gate_posY="214.3954" text="{=YNm9vaHw}Far Madding is an independent city-state in the southeastern part of the Westlands on the Plains of Maredo. Its location makes the Far Madding an important commercial center for overland trade routes. It is the only known significant human settlement where channellers are unable to access or even sense the presence of the True Source.">
     <Components>
       <Town id="town_comp_farmad" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1800">
         <Buildings>
@@ -5537,7 +5537,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_farmad_1" name="{=Settlements.Settlement.name.castle_farmad_1}Kintara Post" owner="Faction.clan_empire_west_9" posX="456.53" posY="226.566" culture="Culture.battania" gate_posX="455.9141" gate_posY="225.2201">
+  <Settlement id="castle_farmad_1" name="{=Settlements.Settlement.name.castle_farmad_1}Kintara Post" owner="Faction.clan_empire_west_9" posX="456.53" posY="226.566" culture="Culture.battania" gate_posX="455.8955" gate_posY="225.1076">
     <Components>
       <Town id="castle_comp_farmad_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.908" prosperity="520">
         <Buildings>
@@ -5587,7 +5587,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_farmad_2" name="{=Settlements.Settlement.name.castle_farmad_2}Chishen Post" owner="Faction.clan_empire_west_9" posX="519.541" posY="250.313" culture="Culture.battania" gate_posX="522.1155" gate_posY="248.6771">
+  <Settlement id="castle_farmad_2" name="{=Settlements.Settlement.name.castle_farmad_2}Chishen Post" owner="Faction.clan_empire_west_9" posX="519.541" posY="250.313" culture="Culture.battania" gate_posX="521.7913" gate_posY="248.8939">
     <Components>
       <Town id="castle_comp_farmad_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="420">
         <Buildings>
@@ -5638,7 +5638,7 @@
     </CommonAreas>
   </Settlement>
   <!--Illian-->
-  <Settlement id="town_illian" name="{=Settlements.Settlement.name.town_illian}Illian" owner="Faction.clan_battania_1" posX="440.977" posY="135.587" culture="Culture.battania" gate_posX="440.9777" gate_posY="135.6003" text="{=Jm2uZiwV}Marunath, the 'Horse of the Ford,' is nowhere near a river. But Battanian bards love nothing more than an incongruous place-name around which a legend can be woven. In this case the hero Ochlaigan, who was foretold to defeat the seven sons of Glanys in seven duels near seven fords, encountered the last of his enemies here. He slit his horse's throat and crossed over the stream of blood that gushed forth, defeating his last enemy and fulfiling the prophecy.">
+  <Settlement id="town_illian" name="{=Settlements.Settlement.name.town_illian}Illian" owner="Faction.clan_battania_1" posX="440.977" posY="135.587" culture="Culture.battania" gate_posX="441.4944" gate_posY="137.1187" text="{=Jm2uZiwV}Marunath, the 'Horse of the Ford,' is nowhere near a river. But Battanian bards love nothing more than an incongruous place-name around which a legend can be woven. In this case the hero Ochlaigan, who was foretold to defeat the seven sons of Glanys in seven duels near seven fords, encountered the last of his enemies here. He slit his horse's throat and crossed over the stream of blood that gushed forth, defeating his last enemy and fulfiling the prophecy.">
     <Components>
       <Town id="town_comp_illian" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_battania" wait_mesh="wait_battania_town" gate_rotation="0.108" prosperity="5000">
         <Buildings>
@@ -5763,7 +5763,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_illian_2" name="{=Settlements.Settlement.name.castle_illian_2}Fort Sabine" owner="Faction.clan_battania_1" posX="434.56" posY="165.278" culture="Culture.battania" gate_posX="435.2412" gate_posY="167.6497">
+  <Settlement id="castle_illian_2" name="{=Settlements.Settlement.name.castle_illian_2}Fort Sabine" owner="Faction.clan_battania_1" posX="434.56" posY="165.278" culture="Culture.battania" gate_posX="435.3444" gate_posY="167.4076">
     <Components>
       <Town id="castle_comp_illian_2" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="610">
         <Buildings>
@@ -5813,7 +5813,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_illian_3" name="{=Settlements.Settlement.name.castle_illian_3}Fort Erinin" owner="Faction.clan_battania_2" posX="513.963" posY="168.434" culture="Culture.battania" gate_posX="512.45" gate_posY="170.5685">
+  <Settlement id="castle_illian_3" name="{=Settlements.Settlement.name.castle_illian_3}Fort Erinin" owner="Faction.clan_battania_2" posX="513.963" posY="168.434" culture="Culture.battania" gate_posX="512.7164" gate_posY="170.1171">
     <Components>
       <Town id="castle_comp_illian_3" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="480">
         <Buildings>
@@ -5864,7 +5864,7 @@
     </CommonAreas>
   </Settlement>
   <!--Altara-->
-  <Settlement id="town_eboudar" name="{=Settlements.Settlement.name.town_eboudar}Ebou Dar" owner="Faction.clan_empire_south_9" posX="357.378" posY="165.08" culture="Culture.battania" gate_posX="357.2604" gate_posY="167.6731" text="{=YERtiSUn}Ebou Dar is the capital city of Altara, located on the southern coast, straddling the River Eldar. The city is built around a large bay, with the river dividing it in two. One side contains the palaces, homes, and shops of the upper and middle classes, the other, known as the Rahad, is the home of the lower classes in Ebou Dari society.">
+  <Settlement id="town_eboudar" name="{=Settlements.Settlement.name.town_eboudar}Ebou Dar" owner="Faction.clan_empire_south_9" posX="357.378" posY="165.08" culture="Culture.battania" gate_posX="357.071" gate_posY="167.58" text="{=YERtiSUn}Ebou Dar is the capital city of Altara, located on the southern coast, straddling the River Eldar. The city is built around a large bay, with the river dividing it in two. One side contains the palaces, homes, and shops of the upper and middle classes, the other, known as the Rahad, is the home of the lower classes in Ebou Dari society.">
     <Components>
       <Town id="town_comp_eboudar" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_battania" wait_mesh="wait_battania_town" gate_rotation="0.638" prosperity="4000">
         <Buildings>
@@ -5939,7 +5939,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_salidar" name="{=Settlements.Settlement.name.town_salidar}Salidar" owner="Faction.clan_empire_south_8" posX="335.75" posY="207.321" culture="Culture.battania" gate_posX="337.8761" gate_posY="205.1081" text="{=X3MsaG39}Salidar sits near the River Eldar near the Amadicia border. Salidar is of some note in the history of the Aes Sedai as it was the birthplace of Deane Aryman, acknowledged as one of the greatest Amyrlins. Aryman is credited with restoring the prestige of the Aes Sedai after her predecessor Bonwhin Meraighdin severely weakened them by provoking Artur Hawkwing into besieging Tar Valon for a period of twenty years.">
+  <Settlement id="town_salidar" name="{=Settlements.Settlement.name.town_salidar}Salidar" owner="Faction.clan_empire_south_8" posX="335.75" posY="207.321" culture="Culture.battania" gate_posX="337.7009" gate_posY="205.0488" text="{=X3MsaG39}Salidar sits near the River Eldar near the Amadicia border. Salidar is of some note in the history of the Aes Sedai as it was the birthplace of Deane Aryman, acknowledged as one of the greatest Amyrlins. Aryman is credited with restoring the prestige of the Aes Sedai after her predecessor Bonwhin Meraighdin severely weakened them by provoking Artur Hawkwing into besieging Tar Valon for a period of twenty years.">
     <Components>
       <Town id="town_comp_salidar" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_battania" wait_mesh="wait_battania_town" gate_rotation="0.608" prosperity="2400">
         <Buildings>
@@ -6014,7 +6014,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_altara_1" name="{=Settlements.Settlement.name.castle_altara_1}Malden" owner="Faction.clan_empire_south_9" posX="381.773" posY="190.571" culture="Culture.battania" gate_posX="382.6909" gate_posY="192.9023">
+  <Settlement id="castle_altara_1" name="{=Settlements.Settlement.name.castle_altara_1}Malden" owner="Faction.clan_empire_south_9" posX="381.773" posY="190.571" culture="Culture.battania" gate_posX="382.6254" gate_posY="192.5926">
     <Components>
       <Town id="castle_comp_altara_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="990">
         <Buildings>
@@ -6101,7 +6101,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_altara_3" name="{=Settlements.Settlement.name.castle_altara_3}Maderin" owner="Faction.clan_empire_south_8" posX="327.627" posY="170.303" culture="Culture.battania" gate_posX="328.6037" gate_posY="169.8143">
+  <Settlement id="castle_altara_3" name="{=Settlements.Settlement.name.castle_altara_3}Maderin" owner="Faction.clan_empire_south_8" posX="327.627" posY="170.303" culture="Culture.battania" gate_posX="328.4837" gate_posY="170.0294">
     <Components>
       <Town id="castle_comp_altara_3" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="652">
         <Buildings>
@@ -6152,7 +6152,7 @@
     </CommonAreas>
   </Settlement>
   <!--Amadicia-->
-  <Settlement id="town_amador" name="{=Settlements.Settlement.name.town_amador}Amador" owner="Faction.clan_empire_west_6" posX="267.682" posY="232.376" culture="Culture.empire" gate_posX="264.8841" gate_posY="232.4523" text="{=4OAz8urz}Amador is the capital city of Amadicia. It is also where the Children of the Light have their main fortress. Even though Amador is part of Amadician Kingdom, the Amadicia king is not the true ruler, instead the Children of the Light are the ones who hold power here. Interestingly, Amador is one of the large cities in the Westlands that was neither built by Ogier nor founded on an Ogier-built city.">
+  <Settlement id="town_amador" name="{=Settlements.Settlement.name.town_amador}Amador" owner="Faction.clan_empire_west_6" posX="267.682" posY="232.376" culture="Culture.empire" gate_posX="264.6183" gate_posY="232.7893" text="{=4OAz8urz}Amador is the capital city of Amadicia. It is also where the Children of the Light have their main fortress. Even though Amador is part of Amadician Kingdom, the Amadicia king is not the true ruler, instead the Children of the Light are the ones who hold power here. Interestingly, Amador is one of the large cities in the Westlands that was neither built by Ogier nor founded on an Ogier-built city.">
     <Components>
       <Town id="town_comp_amador" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_battania" wait_mesh="wait_battania_town" gate_rotation="0.608" prosperity="3800">
         <Buildings>
@@ -6227,7 +6227,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_amadicia_1" name="{=Settlements.Settlement.name.castle_amadicia_1}Mardecin" owner="Faction.clan_empire_west_7" posX="236.547" posY="249.439" culture="Culture.empire" gate_posX="238.3756" gate_posY="248.159">
+  <Settlement id="castle_amadicia_1" name="{=Settlements.Settlement.name.castle_amadicia_1}Mardecin" owner="Faction.clan_empire_west_7" posX="236.547" posY="249.439" culture="Culture.empire" gate_posX="238.9095" gate_posY="248.4369">
     <Components>
       <Town id="castle_comp_amadicia_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="880">
         <Buildings>
@@ -6277,7 +6277,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_amadicia_2" name="{=Settlements.Settlement.name.castle_amadicia_2}Almizar" owner="Faction.clan_empire_west_7" posX="240.357" posY="216.817" culture="Culture.empire" gate_posX="240.9614" gate_posY="218.32">
+  <Settlement id="castle_amadicia_2" name="{=Settlements.Settlement.name.castle_amadicia_2}Almizar" owner="Faction.clan_empire_west_7" posX="240.357" posY="216.817" culture="Culture.empire" gate_posX="241.2121" gate_posY="219.1909">
     <Components>
       <Town id="castle_comp_amadicia_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="720">
         <Buildings>
@@ -6328,7 +6328,7 @@
     </CommonAreas>
   </Settlement>
   <!--Tarabon-->
-  <Settlement id="town_tanchico" name="{=Settlements.Settlement.name.town_tanchico}Tanchico" owner="Faction.clan_battania_7" posX="157.05" posY="298.801" culture="Culture.battania" gate_posX="160.7141" gate_posY="301.777" text="{=79R6gi4l}Tanchico, one of the oldest cities in the World and capital of Tarabon, sits near the mouth of the River Andahar overlooking Tanchico Bay. Tanchico is the home of both the Tarabon King and Panarch, and also the home to the Society known as the Guild of Illuminators.">
+  <Settlement id="town_tanchico" name="{=Settlements.Settlement.name.town_tanchico}Tanchico" owner="Faction.clan_battania_7" posX="157.05" posY="298.801" culture="Culture.battania" gate_posX="160.212" gate_posY="301.3633" text="{=79R6gi4l}Tanchico, one of the oldest cities in the World and capital of Tarabon, sits near the mouth of the River Andahar overlooking Tanchico Bay. Tanchico is the home of both the Tarabon King and Panarch, and also the home to the Society known as the Guild of Illuminators.">
     <Components>
       <Town id="town_comp_tanchico" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.408" prosperity="1900">
         <Buildings>
@@ -6452,7 +6452,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_elmora_2" name="{=Settlements.Settlement.name.village_elmora_2}Bahico" posX="227.959" posY="296.718" culture="Culture.battania" text="{=Settlements.Settlement.text.village_elmora_2}Bahico lies in the wet wooded hills of the Mountains of Mist, where cedars grow tall in the valley-mists. The village is known for producing fine pigs, who are allowed to range through the thick woods rooting for acorns, chestnuts and grubs.">
+  <Settlement id="village_elmora_2" name="{=Settlements.Settlement.name.village_elmora_2}Bahico" posX="227.965" posY="296.719" culture="Culture.battania" text="{=Settlements.Settlement.text.village_elmora_2}Bahico lies in the wet wooded hills of the Mountains of Mist, where cedars grow tall in the valley-mists. The village is known for producing fine pigs, who are allowed to range through the thick woods rooting for acorns, chestnuts and grubs.">
     <Components>
       <Village id="village_comp_elmora_2" village_type="VillageType.swine_farm" hearth="340" gate_rotation="0.008" bound="Settlement.town_elmora" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
@@ -6628,7 +6628,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_bandar_3" name="{=Settlements.Settlement.name.village_bandar_3}Darab" posX="190.687" posY="458.628" culture="Culture.battania" text="{=Settlements.Settlement.text.village_bandar_3}Darab sits on the green hills north of Bandar Eban. The surrounding farmlands are used by local farmers to use hogs for market.">
+  <Settlement id="village_bandar_3" name="{=Settlements.Settlement.name.village_bandar_3}Darab" posX="190.687" posY="458.628" culture="Culture.battania" text="{=Settlements.Settlement.text.village_bandar_3}Darab sits on the green hills north of Bandar Eban. The surrounding farmlands are used by local farmers to use hogs for market." gate_posX="227.2955" gate_posY="394.2917">
     <Components>
       <Village id="village_comp_bandar_3" village_type="VillageType.swine_farm" hearth="118" bound="Settlement.town_bandar" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="wait_battania_village" castle_background_mesh="gui_bg_castle_battania" />
     </Components>
@@ -6804,7 +6804,7 @@
     </CommonAreas>
   </Settlement>
   <!--Seanchan-->
-  <Settlement id="town_falme" name="{=Settlements.Settlement.name.town_falme}Falme" owner="Faction.clan_Seanchan1" posX="152.376" posY="385.08" culture="Culture.vlandia" gate_posX="155.6707" gate_posY="387.5428" text="{=Nx0qK2g6}Falme is the largest town on Toman Head and Almoth Plain, with a harbour on the Aryth Ocean.  The town is founded on the site of the ancient city of Miereallen and was the original landing point for the Seanchan's return.">
+  <Settlement id="town_falme" name="{=Settlements.Settlement.name.town_falme}Falme" owner="Faction.clan_Seanchan1" posX="152.376" posY="385.08" culture="Culture.vlandia" gate_posX="155.6031" gate_posY="387.53" text="{=Nx0qK2g6}Falme is the largest town on Toman Head and Almoth Plain, with a harbour on the Aryth Ocean.  The town is founded on the site of the ancient city of Miereallen and was the original landing point for the Seanchan's return.">
     <Components>
       <Town id="town_comp_falme" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.008" prosperity="3200">
         <Buildings>
@@ -6879,7 +6879,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_darluna" name="{=Settlements.Settlement.name.town_darluna}Darluna" owner="Faction.clan_Seanchan2" posX="194.584" posY="354.439" culture="Culture.vlandia" gate_posX="196.6399" gate_posY="358.4365" text="{=aOn6pa0D}Darluna is a large town in southern Arad Doman that quickly fell to the advancing Seanchan forces upon their arrival.  The citizens have embraced their new rulers traditions and customs, and the wealth that comes with them. ">
+  <Settlement id="town_darluna" name="{=Settlements.Settlement.name.town_darluna}Darluna" owner="Faction.clan_Seanchan2" posX="194.584" posY="354.439" culture="Culture.vlandia" gate_posX="196.6086" gate_posY="358.3056" text="{=aOn6pa0D}Darluna is a large town in southern Arad Doman that quickly fell to the advancing Seanchan forces upon their arrival.  The citizens have embraced their new rulers traditions and customs, and the wealth that comes with them. ">
     <Components>
       <Town id="town_comp_darluna" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.378" prosperity="4500">
         <Buildings>
@@ -6954,7 +6954,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_seachan_1" name="{=Settlements.Settlement.name.castle_seachan_1}South Watch" owner="Faction.clan_Seanchan3" posX="198.457" posY="383.305" culture="Culture.vlandia" gate_posX="197.3069" gate_posY="385.0486">
+  <Settlement id="castle_seachan_1" name="{=Settlements.Settlement.name.castle_seachan_1}South Watch" owner="Faction.clan_Seanchan3" posX="198.457" posY="383.305" culture="Culture.vlandia" gate_posX="197.7813" gate_posY="384.2602">
     <Components>
       <Town id="castle_comp_seachan_1" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_battania" wait_mesh="wait_battania_town" gate_rotation="0.908" prosperity="1060">
         <Buildings>
@@ -6991,7 +6991,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_seachan_2" name="{=Settlements.Settlement.name.castle_seachan_2}East Watch" owner="Faction.clan_Seanchan4" posX="228.073" posY="394.438" culture="Culture.vlandia" gate_posX="227.2954" gate_posY="394.2917">
+  <Settlement id="castle_seachan_2" name="{=Settlements.Settlement.name.castle_seachan_2}East Watch" owner="Faction.clan_Seanchan4" posX="226.503" posY="393.586" culture="Culture.vlandia" gate_posX="225.7194" gate_posY="393.6956">
     <Components>
       <Town id="castle_comp_seachan_2" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="1020">
         <Buildings>
@@ -7041,7 +7041,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_seachan_3" name="{=Settlements.Settlement.name.castle_seachan_3}North Watch" owner="Faction.clan_Seanchan5" posX="186.215" posY="409.986" culture="Culture.vlandia" gate_posX="186.6598" gate_posY="409.0961">
+  <Settlement id="castle_seachan_3" name="{=Settlements.Settlement.name.castle_seachan_3}North Watch" owner="Faction.clan_Seanchan5" posX="186.215" posY="409.986" culture="Culture.vlandia" gate_posX="186.5684" gate_posY="409.2702">
     <Components>
       <Town id="castle_comp_seachan_3" is_castle="true" background_crop_position="0.0" background_mesh="gui_bg_castle_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.908" prosperity="760">
         <Buildings>

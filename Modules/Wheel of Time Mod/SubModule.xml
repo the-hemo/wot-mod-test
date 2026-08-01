@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name value="Wheel of Time Mod" />
+  <Id value="WoT_Mod" />
+  <Version value="v1.3.14" />
+  <DefaultModule value="true" />
+  <ModuleCategory value="Singleplayer" />
+  <Official value="false" />
+  <DependedModules>
+    <DependedModule Id="Native" Optional="false" />
+    <DependedModule Id="SandBoxCore" Optional="false" />
+    <DependedModule Id="Sandbox" Optional="false" />
+    <DependedModule Id="CustomBattle" />
+    <DependedModule Id="StoryMode" />
+  </DependedModules>
+  <SubModules></SubModules>
+  <Xmls>
+    <XmlNode>
+      <XmlName id="Items" path="rWoTitems" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+        <GameType value="CustomGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="WeaponDescriptions" path="WoTweapon_descriptions" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+        <GameType value="CustomGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="CraftingPieces" path="WoTcrafting_pieces" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="CustomGame" />
+        <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="CraftingTemplates" path="WoTcrafting_templates" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+        <GameType value="CustomGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+  </Xmls>
+</Module>
