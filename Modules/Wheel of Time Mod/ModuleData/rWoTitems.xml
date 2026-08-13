@@ -295,6 +295,12 @@
     </ItemComponent>
     <Flags Civilian="true" />
   </Item>
+  <Item id="AielBoots1F" name="{=AielBoots1}Aiel Farmer Boots" mesh="AielBoots2" culture="Culture.aserai" is_merchandise="false" weight="1.1" difficulty="0" appearance="1" Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="7" covers_legs="true" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" />
+  </Item>
   <Item id="AielArmor1" name="{=AielArmor1}Aiel Maiden Cloth" mesh="AielFemaletorso" culture="Culture.aserai" weight="4.2" appearance="1" is_merchandise="true" Type="BodyArmor">
     <ItemComponent>
       <Armor body_armor="24" leg_armor="9" arm_armor="15" modifier_group="cloth" material_type="Cloth" />
@@ -310,6 +316,12 @@
   <Item id="AielArmor2a" name="{=AielArmor2}Aiel Light Cloth" mesh="Aielmale3" culture="Culture.aserai" weight="2.8" appearance="1" is_merchandise="true" Type="BodyArmor">
     <ItemComponent>
       <Armor body_armor="15" leg_armor="15" modifier_group="cloth" material_type="Cloth" />
+    </ItemComponent>
+    <Flags Civilian="true" UseTeamColor="true" />
+  </Item>
+  <Item id="AielArmor2aF" name="{=AielArmor2}Aiel Farmer Cloth" mesh="Aielmale3" culture="Culture.aserai" weight="2.0" appearance="1" is_merchandise="false" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="8" leg_armor="7" modifier_group="cloth" material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true" UseTeamColor="true" />
   </Item>

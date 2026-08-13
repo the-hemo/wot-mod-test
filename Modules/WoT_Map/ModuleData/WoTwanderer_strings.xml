@@ -675,4 +675,23 @@ My father was a grain merchant in {IMPERIALCAPITAL}. Men such as he feed the cit
   <string id="response_2.spc_wanderer_khuzait_10" text="{=MIBESua8}Hah! May all thieves fail as you did." />
   <string id="backstory_d.spc_wanderer_khuzait_10" text="{=R6P8JauE}Anyway, I guess I need a new plan to make my way in the world. But I'm not going to be a peddlar like my dad, I'll tell you that much. Maybe I'll fight and ride, or maybe I'll be a rich merchant running caravans, but one way or the other, I intend to find my place among the hawks of the world rather than the pigeons." />
   <string id="generic_backstory.spc_wanderer_khuzait_10" text="{=aCaH6sMX}I was the son of a village peddler but that's not the kind of life I want to live. I want to learn to fight and ride. There are a lot of us lads like that in the Khuzait lands, I think you'll find, even if the great horse lords think we're fit only to stitch sandals or push a plough." />
+  <!--Tinker-->
+	<string id="prebackstory.Tuatha_an_companion" text="Do you know the song?" />
+	<string id="backstory_a.Tuatha_an_companion" text="Our Tuatha'an caravan have wandered much of the Westlands, I have visited villages around Tear, seen the Stone, once we even got close enough to Tar Valon to see the white tower." />
+	<string id="backstory_b.Tuatha_an_companion" text="A stormy night a few weeks ago I got lost in the darkness and couldn't find my way back, thankfully some villagers took care of me for a while." />
+	<string id="backstory_c.Tuatha_an_companion" text="Now I am staying here waiting for someone who might put me on the right path. " />
+	<string id="response_1.Tuatha_an_companion" text="I do not know the song. If you can help me you might find the song on the road " />
+	<string id="response_2.Tuatha_an_companion" text="I don't know anything about some silly song. What are you talking about? " />
+	<string id="backstory_d.Tuatha_an_companion" text="If you are offering the chance for me to find the tune , i will offer you all that i have learned in return. As long I don't have to hurt anyone" />
+	<string id="generic_backstory.Tuatha_an_companion" text="I am determinded to find the song, if going with you is what it take then that it how the pattern weaves." />
+	<!--Ex Tinker-->
+	<string id="prebackstory.Ex_tuatha_an_companion" text="I was getting tired of sitting here anyways. " />
+	<string id="backstory_a.Ex_tuatha_an_companion" text="I was one of the Tinkerers, I don't mind that word anymore, its no longer who I am, not any more. They abandoned me." />
+	<string id="backstory_b.Ex_tuatha_an_companion" text="At first we just thought they wanted to rob us, they took and took but it was never enough for them. They got violent, my father tried talking but they just killed him first." />
+	<string id="backstory_c.Ex_tuatha_an_companion" text="I stole a spear from one of them in the night, stabbed him while he slept, then I kept doing that, it felt right, like justice. The rest of them fled but I Have sworned to hunt them down" />
+	<string id="response_1.Ex_tuatha_an_companion" text="I am sorry to hear that. I could help you find them? " />
+	<string id="response_2.Ex_tuatha_an_companion" text="I don't care about your family, but if you want vengance on the world i can offer you that." />
+	<string id="backstory_d.Ex_tuatha_an_companion" text="If you are offering the chance for me for vengance, I will happily offer you my spear." />
+	<string id="generic_backstory.Ex_tuatha_an_companion" text="I will bring justice to the world, one dead bandit at a time, will you help me?" />
+
 </strings>

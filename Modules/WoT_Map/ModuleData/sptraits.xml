@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Traits>
+	<Trait id="can_channel"
+       name="{=wot_can_channel}Channeller"
+       description="{=wot_can_channel_desc}This person has the ability to channel the One Power."
+       min_value="0"
+       max_value="1" />
+</Traits>

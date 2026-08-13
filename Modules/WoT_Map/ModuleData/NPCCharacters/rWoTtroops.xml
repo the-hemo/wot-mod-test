@@ -692,7 +692,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel1" default_group="Ranged" level="21" name="{=DreadlordAiel}Samma N'Sei Nomad (Fire Arrow) (Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel1" default_group="Ranged" level="21" name="{=DreadlordAiel}Samma N'Sei Nomad" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -749,7 +749,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel2" default_group="Ranged" level="26" name="{=DreadlordAiel2}Samma N'Sei Warrior (Fireball)(Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel2" default_group="Ranged" level="26" name="{=DreadlordAiel2}Samma N'Sei Warrior" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -806,7 +806,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="DreadlordAiel3" default_group="Ranged" level="31" name="{=DreadlordAiel3}Samma N'Sei Dreadlord (Fireball)(Long range)" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
+  <NPCCharacter id="DreadlordAiel3" default_group="Ranged" level="31" name="{=DreadlordAiel3}Samma N'Sei Dreadlord" occupation="Soldier" is_basic_troop="true" culture="Culture.sturgia">
     <face>
       <face_key_template value="BodyProperty.fighter_sturgia" />
     </face>
@@ -2201,7 +2201,7 @@
       <equipment slot="HorseHarness" id="Item.Wot2024horsearmor11" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MilitiaBow1" default_group="Ranged" level="11" name="{=MilitiaBow1}Bowman" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="MilitiaBow1" default_group="Ranged" level="11" name="{=MilitiaBow1}Ranged Militia" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -4548,7 +4548,7 @@
     <skills>
       <skill id="Athletics" value="200" />
       <skill id="Riding" value="50" />
-      <skill id="OneHanded" value="50" />
+      <skill id="OneHanded" value="150" />
       <skill id="TwoHanded" value="200" />
       <skill id="Polearm" value="50" />
       <skill id="Bow" value="50" />
@@ -4561,6 +4561,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t3" />
+		  <equipment slot="Item1" id="Item.offhandswordWOT" />
+		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Elfassasinarmor3" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
         <equipment slot="Cape" id="Item.WarderCloak" />
@@ -4575,7 +4577,7 @@
     <skills>
       <skill id="Athletics" value="250" />
       <skill id="Riding" value="75" />
-      <skill id="OneHanded" value="75" />
+      <skill id="OneHanded" value="175" />
       <skill id="TwoHanded" value="275" />
       <skill id="Polearm" value="70" />
       <skill id="Bow" value="65" />
@@ -4588,6 +4590,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t4" />
+		  <equipment slot="Item1" id="Item.offhandswordWOT" />
+		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2" />
         <equipment slot="Gloves" id="Item.padded_vambrace_a_mitten" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
@@ -4603,7 +4607,7 @@
     <skills>
       <skill id="Athletics" value="300" />
       <skill id="Riding" value="100" />
-      <skill id="OneHanded" value="100" />
+      <skill id="OneHanded" value="200" />
       <skill id="TwoHanded" value="330" />
       <skill id="Polearm" value="100" />
       <skill id="Bow" value="100" />
@@ -4614,6 +4618,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
+		  <equipment slot="Item1" id="Item.offhandswordWOT" />
+		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2b" />
         <equipment slot="Gloves" id="Item.WarderHeavyBracer" />
         <equipment slot="Leg" id="Item.Warder2024newboots1" />
@@ -7769,7 +7775,7 @@
   </NPCCharacter>
   <!--Boarderlands Noble Troops-->
   <!--The Arafel forces-->
-  <NPCCharacter id="Arafel_noble1" default_group="Infantry" level="16" name="{=Arafel_noble1}Arafellin Housegaurd" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+  <NPCCharacter id="Arafel_noble1" default_group="Infantry" level="16" name="{=Arafel_noble1}Arafellin Houseguard" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
     <face>
       <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="0015F80FC0002850B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
       <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="0015F80E40002550B8708BD6CDC85229D3698B3ABDFE344CD22D3DD538898868007776030796723B00000000000000000000000000000000000000003EF41002" />
@@ -9493,7 +9499,7 @@
     </Equipments>
   </NPCCharacter>
   <!--Minor Faction forces-->
-  <NPCCharacter id="Promob1" default_group="Infantry" level="6" name="{=Promob1}Prophet's Rioter" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="Promob1" default_group="Infantry" level="6" name="{=Promob1}Prophet's Rioter" occupation="Mercenary" is_basic_troop="true" culture="Culture.empire">
     <face>
       <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000382733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
       <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000383733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
@@ -9550,7 +9556,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Promob2" default_group="Infantry" level="11" name="{=Promob2}Prophet's Cultist" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Promob2" default_group="Infantry" level="11" name="{=Promob2}Prophet's Cultist" occupation="Mercenary" culture="Culture.empire">
     <face>
       <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000382733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
       <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000383733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
@@ -9612,7 +9618,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Promob3" default_group="Infantry" level="16" name="{=Promob3}Prophet's Devoted" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Promob3" default_group="Infantry" level="16" name="{=Promob3}Prophet's Devoted" occupation="Mercenary" culture="Culture.empire">
     <face>
       <BodyProperties version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000382733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
       <BodyPropertiesMax version="4" age="22.49" weight="0.5" build="0.5" key="002EE80D80000383733CB9789BB87BA3259B498AC777795698B687569C6785360037D6030375688C0000000000000000000000000000000000000000245C6002" />
@@ -9786,7 +9792,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t6" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Seafolk1" default_group="Infantry" level="11" name="{=Seafolk1}Atha'an Miere Deckhand" occupation="Soldier" is_basic_troop="true" culture="Culture.darshi">
+  <NPCCharacter id="Seafolk1" default_group="Infantry" level="11" name="{=Seafolk1}Atha'an Miere Deckhand" occupation="Mercenary" is_basic_troop="true" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101366A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4115A66A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
@@ -9813,7 +9819,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Seafolk2" default_group="Infantry" level="16" name="{=Seafolk2}Atha'an Miere Crewman" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="Seafolk2" default_group="Infantry" level="16" name="{=Seafolk2}Atha'an Miere Crewman" occupation="Mercenary" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101366A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4115A66A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
@@ -9842,7 +9848,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Seafolk3" default_group="Infantry" level="21" name="{=Seafolk3}Atha'an Miere Seamaster" occupation="Soldier" culture="Culture.darshi">
+  <NPCCharacter id="Seafolk3" default_group="Infantry" level="21" name="{=Seafolk3}Atha'an Miere Seamaster" occupation="Mercenary" culture="Culture.darshi">
     <face>
       <BodyProperties version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4101366A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
       <BodyPropertiesMax version="4" age="22.8" weight="0.5" build="0.6762" key="003FA00FC0E4115A66A5B55B27A33859557683DB797B554676736A66347B296600CA76030C654CA500000000000000000000000000000000000000006B9C1042" />
@@ -10006,7 +10012,7 @@
       <EquipmentSet id="Seafolk_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamerc1" default_group="Infantry" level="11" name="{=sharamerc1}Sharan Mercenary Recruit" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+  <NPCCharacter id="sharamerc1" default_group="Infantry" level="11" name="{=sharamerc1}Sharan Mercenary Recruit" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10053,7 +10059,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamerc2" default_group="Infantry" level="16" name="{=sharamerc2}Sharan Mercenary Footman" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamerc2" default_group="Infantry" level="16" name="{=sharamerc2}Sharan Mercenary Footman" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10106,7 +10112,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamerc3" default_group="Infantry" level="21" name="{=sharamerc3}Sharan Veteran Mercenary Footman" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamerc3" default_group="Infantry" level="21" name="{=sharamerc3}Sharan Veteran Mercenary Footman" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10152,7 +10158,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamercarcher1" default_group="Ranged" level="21" name="{=sharamercarcher1}Sharan Mercenary Archer" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamercarcher1" default_group="Ranged" level="21" name="{=sharamercarcher1}Sharan Mercenary Archer" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10206,7 +10212,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamercarcher2" default_group="Ranged" level="26" name="{=sharamercarcher2}Sharan Mercenary Master Archer" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamercarcher2" default_group="Ranged" level="26" name="{=sharamercarcher2}Sharan Mercenary Master Archer" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10258,7 +10264,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamercarchermount1" default_group="HorseArcher" level="21" name="{=sharamercarchermount1}Sharan Mercenary Cavalry" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamercarchermount1" default_group="HorseArcher" level="21" name="{=sharamercarchermount1}Sharan Mercenary Cavalry" upgrade_requires="ItemCategory.war_horse" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10316,7 +10322,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="sharamercarchermount2" default_group="HorseArcher" level="26" name="{=sharamercarchermount2}Sharan Mercenary Heavy Cavalry" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="sharamercarchermount2" default_group="HorseArcher" level="26" name="{=sharamercarchermount2}Sharan Mercenary Heavy Cavalry" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_jawwal" />
     </face>
@@ -10374,7 +10380,7 @@
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant1" default_group="Infantry" level="21" name="{=MalkierRemenant1}Malkier Remnant" occupation="Soldier" is_basic_troop="true" culture="Culture.khuzait">
+  <NPCCharacter id="MalkierRemenant1" default_group="Infantry" level="21" name="{=MalkierRemenant1}Malkier Remnant" occupation="Mercenary" is_basic_troop="true" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10403,7 +10409,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant2" default_group="Infantry" level="26" name="{=MalkierRemenant2}Malkier Leeman" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="MalkierRemenant2" default_group="Infantry" level="26" name="{=MalkierRemenant2}Malkier Leeman" occupation="Mercenary" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10432,7 +10438,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant3" default_group="Infantry" level="31" name="{=MalkierRemenant3}Malkier Oathkeeper" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="MalkierRemenant3" default_group="Infantry" level="31" name="{=MalkierRemenant3}Malkier Oathkeeper" occupation="Mercenary" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10458,7 +10464,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant3cav1" default_group="Cavalry" level="26" name="{=MalkierRemenant3cav1}Malkier Redeemer" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="MalkierRemenant3cav1" default_group="Cavalry" level="26" name="{=MalkierRemenant3cav1}Malkier Redeemer" occupation="Mercenary" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10489,7 +10495,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant3cav2" default_group="Cavalry" level="31" name="{=MalkierRemenant3cav2}Malkier Chastiser" occupation="Soldier" culture="Culture.khuzait">
+  <NPCCharacter id="MalkierRemenant3cav2" default_group="Cavalry" level="31" name="{=MalkierRemenant3cav2}Malkier Chastiser" occupation="Mercenary" culture="Culture.khuzait">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10520,7 +10526,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MalkierRemenant3cav3" default_group="Cavalry" level="36" name="{=MalkierRemenant3cav3}Malkier Avenger" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="MalkierRemenant3cav3" default_group="Cavalry" level="36" name="{=MalkierRemenant3cav3}Malkier Avenger" occupation="Mercenary" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_khuzait" />
     </face>
@@ -10548,7 +10554,7 @@
       <EquipmentSet id="khuzait_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Maidenofthesword1" default_group="Infantry" level="11" name="{=Maidenofthesword1}Maiden of the Sword Trainee" occupation="Soldier" is_basic_troop="true" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="Maidenofthesword1" default_group="Infantry" level="11" name="{=Maidenofthesword1}Maiden of the Sword Trainee" occupation="Mercenary" is_basic_troop="true" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -10575,7 +10581,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Maidenofthesword2" default_group="Infantry" level="16" name="{=Maidenofthesword2}Maiden of the Sword Wielder" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="Maidenofthesword2" default_group="Infantry" level="16" name="{=Maidenofthesword2}Maiden of the Sword Wielder" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -10602,7 +10608,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Maidenofthesword3" default_group="Infantry" level="21" name="{=Maidenofthesword3}Maiden of the Sword Blademistress" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="Maidenofthesword3" default_group="Infantry" level="21" name="{=Maidenofthesword3}Maiden of the Sword Blademistress" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -10627,7 +10633,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Maidenofthesword5" default_group="Infantry" level="16" name="{=Maidenofthesword5}Maiden of the Sword Shield Bearer" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="Maidenofthesword5" default_group="Infantry" level="16" name="{=Maidenofthesword5}Maiden of the Sword Shield Bearer" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -10655,7 +10661,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Maidenofthesword6" default_group="Infantry" level="21" name="{=Maidenofthesword6}Maiden of the Sword Shieldmaiden" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="Maidenofthesword6" default_group="Infantry" level="21" name="{=Maidenofthesword6}Maiden of the Sword Shieldmaiden" occupation="Mercenary" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -11503,7 +11509,7 @@
       <EquipmentSet id="Shadow_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="HotH1" default_group="Infantry" level="11" name="{=HotH1}Hunter of the Horn Candidate" occupation="Soldier" is_basic_troop="true" culture="Culture.vakken">
+  <NPCCharacter id="HotH1" default_group="Infantry" level="11" name="{=HotH1}Hunter of the Horn Candidate" occupation="Mercenary" is_basic_troop="true" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -11567,7 +11573,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="HotH2" default_group="Infantry" level="16" name="{=HotH2}Hunter of the Horn Seeker" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="HotH2" default_group="Infantry" level="16" name="{=HotH2}Hunter of the Horn Seeker" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -11630,7 +11636,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="HotH3" default_group="Infantry" level="21" name="{=HotH3}Hunter of the Horn Contender" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="HotH3" default_group="Infantry" level="21" name="{=HotH3}Hunter of the Horn Contender" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -11691,7 +11697,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="HotH5" default_group="Ranged" level="16" name="{=HotH5}Hunter of the Horn Gumshoe" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="HotH5" default_group="Ranged" level="16" name="{=HotH5}Hunter of the Horn Gumshoe" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -11772,7 +11778,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="HotH6" default_group="Ranged" level="21" name="{=HotH6}Hunter of the Horn Hackshaw" occupation="Soldier" culture="Culture.vakken">
+  <NPCCharacter id="HotH6" default_group="Ranged" level="21" name="{=HotH6}Hunter of the Horn Hackshaw" occupation="Mercenary" culture="Culture.vakken">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -12215,8 +12221,20 @@
       <skill id="Crossbow" value="0" />
       <skill id="Throwing" value="250" />
     </skills>
-    <upgrade_targets></upgrade_targets>&gt;
-		<Equipments><EquipmentRoster><equipment slot="Item0" id="Item.AielSpeargrade2" /><equipment slot="Item1" id="Item.western_javelin_3_t4" /><equipment slot="Item2" id="Item.western_javelin_3_t4" /><equipment slot="Item3" id="Item.Aiel_shield" /><equipment slot="Body" id="Item.AielArmor1b" /><equipment slot="Leg" id="Item.AielBoots1" /><equipment slot="Head" id="Item.AielHeadwrap1" /></EquipmentRoster><EquipmentSet id="Aiel_troop_civilian_template_t2" civilian="true" /></Equipments></NPCCharacter>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.AielSpeargrade2" />
+        <equipment slot="Item1" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item2" id="Item.western_javelin_3_t4" />
+        <equipment slot="Item3" id="Item.Aiel_shield" />
+        <equipment slot="Body" id="Item.AielArmor1b" />
+        <equipment slot="Leg" id="Item.AielBoots1" />
+        <equipment slot="Head" id="Item.AielHeadwrap1" />
+      </EquipmentRoster>
+      <EquipmentSet id="Aiel_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
   <NPCCharacter id="armed_trader_seanchan" default_group="Infantry" level="16" name="{=ArmedTraderSeanchan}Seanchan Armed Trader" occupation="CaravanGuard" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_seanchan" />

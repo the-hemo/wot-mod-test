@@ -2428,7 +2428,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="316.106" posY="424.63" culture="Culture.empire" gate_posX="321.0671" gate_posY="425.1506" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
+  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="318.2462" posY="427.5729" culture="Culture.empire" gate_posX="320.9899" gate_posY="425.4386" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
     <Components>
       <Town id="town_comp_baerlon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="4200">
         <Buildings>
@@ -2665,7 +2665,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_dragon_2_2" name="{=Settlements.Settlement.name.castle_village_dragon_2_2}Carrmound" posX="275.216" posY="410.277" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_dragon_2_2}Carrmound lies on the forest trails that lead to Emond's field. Villagers here dig a fine pale clay, rich in mica and feldspar, from the mountain streams.">
+  <Settlement id="castle_village_dragon_2_2" name="{=Settlements.Settlement.name.castle_village_dragon_2_2}Carrmound" posX="273.796" posY="412.6812" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_dragon_2_2}Carrmound lies on the forest trails that lead to Emond's field. Villagers here dig a fine pale clay, rich in mica and feldspar, from the mountain streams.">
     <Components>
       <Village id="castle_village_comp_dragon_2_2" village_type="VillageType.clay_mine" hearth="640" bound="Settlement.castle_dragon_2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
@@ -7898,4 +7898,13 @@
       <Location id="retirement_retreat" scene_name="scn_retirement" max_prosperity="100" />
     </Locations>
   </Settlement>
+  <!--
+  <Settlement id="shadar_logoth" name="{=8dDNWHR4}Shadar Logoth" posX="341.438" posY="458.305" culture="Culture.empire" text="{=Shadar}Shadar Logoth was originally known as Aridhol, the capital of the nation of the same name during the Trolloc Wars. The city was renowned for its strength and valor, but during the wars, its king, Balwen Mayel, fell into despair. A mysterious advisor named Mordeth gained the king’s trust and persuaded the city to adopt cruel and merciless tactics, mirroring the Shadow’s methods. This corruption ultimately led to the city’s self-destruction, creating a pervasive evil known as Mashadar, a shapeless, white fog that consumes flesh and corrupts anything it touches">
+    <Components>
+      <CustomSettlementComponent id="location_marker" map_icon="bandit_hideout_b" background_crop_position="0.0" background_mesh="gui_bg_village_battania" wait_mesh="retirement_wait" />
+    </Components>
+    <Locations complex_template="LocationComplexTemplate.location_marker">
+      <Location id="shadar_logoth" scene_name="scn_retirement" max_prosperity="100" />
+    </Locations>
+  </Settlement>-->
 </Settlements>

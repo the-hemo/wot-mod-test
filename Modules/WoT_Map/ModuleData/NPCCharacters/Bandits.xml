@@ -15,7 +15,7 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.mountain_bandits_raider" />
-      <upgrade_target id="NPCCharacter.vlandian_infantry" />
+      <upgrade_target id="NPCCharacter.Dragonsworn_noble1" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -69,7 +69,7 @@
       <skill id="TwoHanded" value="60" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.vlandian_billman" />
+      <upgrade_target id="NPCCharacter.Dragonsworn_noble2" />
       <upgrade_target id="NPCCharacter.mountain_bandits_chief" />
     </upgrade_targets>
     <Equipments>
@@ -144,7 +144,7 @@
       <skill id="TwoHanded" value="100" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.vlandian_champion" />
+      <upgrade_target id="NPCCharacter.Ashaman1" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -225,7 +225,7 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.desert_bandits_raider" />
-      <upgrade_target id="NPCCharacter.aserai_skirmisher" />
+      <upgrade_target id="NPCCharacter.sharamerc2" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -273,7 +273,7 @@
     </skills>
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.desert_bandits_chief" />
-      <upgrade_target id="NPCCharacter.aserai_mameluke_cavalry" />
+      <upgrade_target id="NPCCharacter.sharamercarchermount1" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -356,7 +356,7 @@
       <skill id="TwoHanded" value="80" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.aserai_veteran_faris" />
+      <upgrade_target id="NPCCharacter.sharamercarchermount2" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
@@ -461,7 +461,9 @@
       <skill id="Crossbow" value="20" />
       <skill id="Throwing" value="150" />
     </skills>
-    <upgrade_targets></upgrade_targets>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Ashaman2" />
+    </upgrade_targets>
     <Equipments>
       <EquipmentRoster civilian="true">
         <equipment slot="Item0" id="Item.empire_sword_4_t4" />

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LocationComplexTemplates>
+  <LocationComplexTemplate id="location_marker">
+    <Location id="location_info" name="{=MapLandmark}Map Landmark" scene_name="scn_retirement" indoor="false" max_prosperity="50" ai_can_enter="CanNever" ai_can_exit="CanNever" player_can_enter="CanNever" player_can_see="CanAlways" />
+    <Passages></Passages>
+  </LocationComplexTemplate>
+</LocationComplexTemplates>

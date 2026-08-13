@@ -2105,860 +2105,398 @@
     </EquipmentSet>
   </EquipmentRoster>
   <!--ChildSets-->
-	<!--Culture:white -->
-	<!--Townsman -->
-	<EquipmentRoster
-		id="child_template_white_townsman_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false" />
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_white_townsman_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_townsman_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_apron" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.monk_robe" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_townsman_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_piece" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_scarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<!--Villager -->
-	<EquipmentRoster
-		id="child_template_white_villager_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.sackcloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_white_villager_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.sackcloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_villager_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_apron" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.padded_leather_cape" />
-			<Equipment
-				slot="Body"
-				id="Item.rough_fur_armor" />
-			<Equipment
-				slot="Leg"
-				id="Item.battania_woodland_boots" />
-			<Equipment
-				slot="Cape"
-				id="Item.green_hood" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.monk_robe" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_villager_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_corset_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf_c" />
-			<Equipment
-				slot="Body"
-				id="Item.battania_dress_c" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false" />
-	</EquipmentRoster>
-	<!--Noble -->
-	<EquipmentRoster
-		id="child_template_white_noble_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="true" />
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_white_noble_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="true" />
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_noble_male"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="true" />
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_white_noble_female"
-		culture="Culture.white">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_piece" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_wrapped" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_noble_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_scarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_corset_dress" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="true" />
-	</EquipmentRoster>
-	
-	<!--Culture:black -->
-	<!--Townsman -->
-	<EquipmentRoster
-		id="child_template_black_townsman_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_black_townsman_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_townsman_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_apron" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.monk_robe" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_townsman_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_piece" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_scarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<!--Villager -->
-	<EquipmentRoster
-		id="child_template_black_villager_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.sackcloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_black_villager_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.sackcloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_villager_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_apron" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.padded_leather_cape" />
-			<Equipment
-				slot="Body"
-				id="Item.rough_fur_armor" />
-			<Equipment
-				slot="Leg"
-				id="Item.battania_woodland_boots" />
-			<Equipment
-				slot="Cape"
-				id="Item.green_hood" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.monk_robe" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_villager_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_corset_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.headscarf_c" />
-			<Equipment
-				slot="Body"
-				id="Item.battania_dress_c" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="false"/>
-	</EquipmentRoster>
-	<!--Noble -->
-	<EquipmentRoster
-		id="child_template_black_noble_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="true"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="child_template_black_noble_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.leather_coat_over_cloth" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.long_hemp_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<Flags
-			IsChildEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="true"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_noble_male"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Body"
-				id="Item.cloth_tunic" />
-			<Equipment
-				slot="Leg"
-				id="Item.strapped_shoes" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="false"
-			IsLordTemplate="true"/>
-	</EquipmentRoster>
-	<EquipmentRoster
-		id="teenager_template_black_noble_female"
-		culture="Culture.black">
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_piece" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_wrapped" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_noble_woman_dress" />
-			<Equipment
-				slot="Leg"
-				id="Item.ladys_shoe" />
-		</EquipmentSet>
-		<EquipmentSet
-			equipmentType="Civilian">
-			<Equipment
-				slot="Head"
-				id="Item.head_scarf" />
-			<Equipment
-				slot="Body"
-				id="Item.vlandian_corset_dress" />
-		</EquipmentSet>
-		<Flags
-			IsTeenagerEquipmentTemplate="true"
-			IsFemaleTemplate="true"
-			IsLordTemplate="true"/>
-	</EquipmentRoster>
-
+  <!--Culture:white -->
+  <!--Townsman -->
+  <EquipmentRoster id="child_template_white_townsman_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_white_townsman_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_townsman_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_apron" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.monk_robe" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_townsman_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_piece" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_scarf" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <!--Villager -->
+  <EquipmentRoster id="child_template_white_villager_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_white_villager_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_villager_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_apron" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.padded_leather_cape" />
+      <Equipment slot="Body" id="Item.rough_fur_armor" />
+      <Equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <Equipment slot="Cape" id="Item.green_hood" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.monk_robe" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_villager_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.vlandian_corset_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf_c" />
+      <Equipment slot="Body" id="Item.battania_dress_c" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <!--Noble -->
+  <EquipmentRoster id="child_template_white_noble_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_white_noble_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_noble_male" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_white_noble_female" culture="Culture.white">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_piece" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_wrapped" />
+      <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_scarf" />
+      <Equipment slot="Body" id="Item.vlandian_corset_dress" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <!--Culture:black -->
+  <!--Townsman -->
+  <EquipmentRoster id="child_template_black_townsman_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_black_townsman_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_townsman_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_apron" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.monk_robe" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_townsman_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_piece" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_scarf" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <!--Villager -->
+  <EquipmentRoster id="child_template_black_villager_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_black_villager_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.sackcloth_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_villager_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_apron" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.padded_leather_cape" />
+      <Equipment slot="Body" id="Item.rough_fur_armor" />
+      <Equipment slot="Leg" id="Item.battania_woodland_boots" />
+      <Equipment slot="Cape" id="Item.green_hood" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.monk_robe" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_villager_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf" />
+      <Equipment slot="Body" id="Item.vlandian_corset_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.headscarf_c" />
+      <Equipment slot="Body" id="Item.battania_dress_c" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="false" />
+  </EquipmentRoster>
+  <!--Noble -->
+  <EquipmentRoster id="child_template_black_noble_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="child_template_black_noble_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.leather_coat_over_cloth" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.long_hemp_tunic" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <Flags IsChildEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_noble_male" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.cloth_tunic" />
+      <Equipment slot="Leg" id="Item.strapped_shoes" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="false" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="teenager_template_black_noble_female" culture="Culture.black">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_piece" />
+      <Equipment slot="Body" id="Item.vlandian_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_wrapped" />
+      <Equipment slot="Body" id="Item.vlandian_noble_woman_dress" />
+      <Equipment slot="Leg" id="Item.ladys_shoe" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Head" id="Item.head_scarf" />
+      <Equipment slot="Body" id="Item.vlandian_corset_dress" />
+    </EquipmentSet>
+    <Flags IsTeenagerEquipmentTemplate="true" IsFemaleTemplate="true" IsLordTemplate="true" />
+  </EquipmentRoster>
+  <EquipmentRoster id="Ex_Tuatha_an_companion_battle_set" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+      <Equipment slot="Leg" id="Item.battania_leather_boots" />
+      <Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+      <Equipment slot="Item0" id="Item.aiel_spear1" />
+      <!--For thematic reasons more then ingame ones-->
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="Ex_tuatha_an_companion_civilian_set" culture="Culture.empire">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.armored_baggy_trunks" />
+      <Equipment slot="Leg" id="Item.ragged_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="Tuatha_an_companion_battle_set" culture="Culture.empire">
+    <EquipmentSet>
+      <Equipment slot="Body" id="Item.sleeveless_studded_fur_armor" />
+      <Equipment slot="Leg" id="Item.battania_leather_boots" />
+      <Equipment slot="Gloves" id="Item.northern_brass_bracers" />
+    </EquipmentSet>
+  </EquipmentRoster>
+  <EquipmentRoster id="Tuatha_an_companion_civilian_set" culture="Culture.empire">
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Body" id="Item.armored_baggy_trunks" />
+      <Equipment slot="Leg" id="Item.ragged_boots" />
+    </EquipmentSet>
+  </EquipmentRoster>
 </EquipmentRosters>
