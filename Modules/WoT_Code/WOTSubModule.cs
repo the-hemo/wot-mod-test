@@ -12,8 +12,8 @@ using TaleWorlds.MountAndBlade;
 using TaleWorlds.MountAndBlade.View;
 using TaleWorlds.MountAndBlade.View.MissionViews;
 using WoT_Code.Behaviours;
+using WoT_Code.MagicModel;
 using WoT_Code.Support;
-using Module = TaleWorlds.MountAndBlade.Module;
 
 namespace WoT_Code
 {
@@ -38,15 +38,17 @@ namespace WoT_Code
             Harmony.DEBUG = false;
             _harmony.PatchAll();
 
+            
         }
 
         protected override void OnBeforeInitialModuleScreenSetAsRoot()
         {
             base.OnBeforeInitialModuleScreenSetAsRoot();
-            InformationManager.DisplayMessage(new InformationMessage("Wheel of Time 1.4.7 Test Version", new Color(134f, 114f, 250f, 1f)));
+            // Displays when the mod is loading before the start screen.
+            InformationManager.DisplayMessage(new InformationMessage("All was shattered, and all but memory lost, and one memory above all others, of him who brought the Shadow and the Breaking of the World. And him they named Dragon.", new Color(134f, 114f, 250f, 1f)));
         }
-        /*All was shattered, and all but memory lost, and one memory above all others, of him who brought the Shadow and the Breaking of the World. And him they named Dragon.
-        /*
+        /*Wheel of Time 1.4.7 Test Version
+        /*  This was for some custom battle scenes i beleive, but i have not used it yet, so i commented it out for now.
         public override void OnMissionBehaviorInitialize(Mission mission)
         {
             base.OnMissionBehaviorInitialize(mission);
@@ -59,8 +61,10 @@ namespace WoT_Code
         {
             if (game.GameType is Campaign)
             {
+                new WoTTraits();
+
                 CampaignGameStarter campaignGameStarter = (CampaignGameStarter)gameStarterObject;
-                // Add models/behaviours incrementally
+                 // Add models/behaviours incrementally
                 campaignGameStarter.AddModel(new WOTTroopTier());
                 campaignGameStarter.AddBehavior(new OnePowerRecruitBehavior());
                 campaignGameStarter.AddModel(new WoTAgentApplyDamageModel());
@@ -71,8 +75,11 @@ namespace WoT_Code
                 campaignGameStarter.AddBehavior(new KingdomlessClanSurvivalBehavior());
                 campaignGameStarter.AddModel(new WoTTournamentModel());
                 campaignGameStarter.AddModel(new WoTAielScoutSpeedModel());
-                //campaignGameStarter.AddBehavior(new WoTCharacterCreationBehavior());
-
+                campaignGameStarter.AddBehavior(new WoTPlayerMarriageBehavior());
+                campaignGameStarter.AddBehavior(new WoTLoreIncidents());
+                campaignGameStarter.AddBehavior(new WoTLordConversations());
+                //campaignGameStarter.AddBehavior(new WoTCharacterCreationBehavior()); - this method didnt work had to use harmony
+                // Message to appears when player first loads into game
                 InformationManager.DisplayMessage(new InformationMessage("The Wheel of Time turns, and Ages come and pass leaving memories that become legend, then fade to myth, and are long forgot when that Age comes again. - Robert Jordan (The Great Hunt)", new Color(0f, 1f, 0f, 1f)));
             }
         }

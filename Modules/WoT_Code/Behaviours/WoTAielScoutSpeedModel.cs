@@ -29,7 +29,11 @@ namespace WoT_Code.Behaviours
         {
             "AielArcher1",
             "AielArcher2",
-            "AielArcher3"
+            "AielArcher3",
+            "AielMaiden2",
+            "AielMaiden3",
+            "AielMaiden4",
+            "AielMaiden5"
         };
 
         // TextObject for the speed tooltip — shown on campaign map hover

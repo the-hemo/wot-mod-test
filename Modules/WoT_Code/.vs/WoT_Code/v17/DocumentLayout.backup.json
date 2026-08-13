@@ -3,20 +3,62 @@
   "WorkspaceRootPath": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\wotaielscoutspeedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\wotaielscoutspeedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\wotplayermarriagebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\wotplayermarriagebehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\harmonypatches\\getherotraitspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:harmonypatches\\getherotraitspatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\harmonypatches\\suppressvanillaendmercenarylinepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:harmonypatches\\suppressvanillaendmercenarylinepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\wotlordconversations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\wotlordconversations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\wotsubmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:wotsubmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\support\\campaignsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:support\\campaignsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\harmonypatches\\customtraittooltippatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:harmonypatches\\customtraittooltippatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\onepowerrecruitbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\onepowerrecruitbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\hornofvalerebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\hornofvalerebehaviour.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\quests\\hornofvalerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:quests\\hornofvalerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\behaviours\\wotaielscoutspeedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:behaviours\\wotaielscoutspeedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\magicmodel\\wottraits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:magicmodel\\wottraits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\quests\\wotloreincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:quests\\wotloreincidents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\WoT_Map\\GUI\\WoT_MapSpriteData.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\The-Hemo\\wot_mod_test\\Modules\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|c:\\users\\the-hemo\\source\\repos\\wot_code\\support\\campaignsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02AB4674-5CB0-4B48-A18E-F30116256ECA}|WoT_Code.csproj|solutionrelative:support\\campaignsupport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +68,185 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SuppressVanillaEndMercenaryLinePatch.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\SuppressVanillaEndMercenaryLinePatch.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\SuppressVanillaEndMercenaryLinePatch.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\SuppressVanillaEndMercenaryLinePatch.cs",
+              "RelativeToolTip": "HarmonyPatches\\SuppressVanillaEndMercenaryLinePatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T02:01:05.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WoTLordConversations.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTLordConversations.cs",
+              "RelativeDocumentMoniker": "Behaviours\\WoTLordConversations.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTLordConversations.cs",
+              "RelativeToolTip": "Behaviours\\WoTLordConversations.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-13T01:30:27.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WOTSubModule.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\WOTSubModule.cs",
+              "RelativeDocumentMoniker": "WOTSubModule.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\WOTSubModule.cs",
+              "RelativeToolTip": "WOTSubModule.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAowE8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-11T09:53:10.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Onepowerrecruitbehavior.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "RelativeDocumentMoniker": "Behaviours\\Onepowerrecruitbehavior.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "RelativeToolTip": "Behaviours\\Onepowerrecruitbehavior.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAA6wDcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T08:12:21.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WoTPlayerMarriageBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTPlayerMarriageBehavior.cs",
+              "RelativeDocumentMoniker": "Behaviours\\WoTPlayerMarriageBehavior.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTPlayerMarriageBehavior.cs",
+              "RelativeToolTip": "Behaviours\\WoTPlayerMarriageBehavior.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T05:12:49.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GetHeroTraitsPatch.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\GetHeroTraitsPatch.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\GetHeroTraitsPatch.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\GetHeroTraitsPatch.cs",
+              "RelativeToolTip": "HarmonyPatches\\GetHeroTraitsPatch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-06T08:37:13.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Onepowerrecruitbehavior.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\wot_mod_test\\Modules\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\wot_mod_test\\Modules\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\wot_mod_test\\Modules\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "RelativeToolTip": "..\\..\\..\\wot_mod_test\\Modules\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
+              "ViewState": "AgIAALYBAAAAAAAAAAAAAMABAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-03T08:30:52.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HornofValereBehaviour.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\HornofValereBehaviour.cs",
+              "RelativeDocumentMoniker": "Behaviours\\HornofValereBehaviour.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\HornofValereBehaviour.cs",
+              "RelativeToolTip": "Behaviours\\HornofValereBehaviour.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAowGIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:53:11.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomTraitTooltipPatch.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\CustomTraitTooltipPatch.cs",
+              "RelativeDocumentMoniker": "HarmonyPatches\\CustomTraitTooltipPatch.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\HarmonyPatches\\CustomTraitTooltipPatch.cs",
+              "RelativeToolTip": "HarmonyPatches\\CustomTraitTooltipPatch.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T10:20:06.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HornOfValereQuest.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Quests\\HornOfValereQuest.cs",
+              "RelativeDocumentMoniker": "Quests\\HornOfValereQuest.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Quests\\HornOfValereQuest.cs",
+              "RelativeToolTip": "Quests\\HornOfValereQuest.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAADwv7UAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-11T08:44:24.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WoTAielScoutSpeedModel.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTAielScoutSpeedModel.cs",
+              "RelativeDocumentMoniker": "Behaviours\\WoTAielScoutSpeedModel.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTAielScoutSpeedModel.cs",
+              "RelativeToolTip": "Behaviours\\WoTAielScoutSpeedModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T08:57:18.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WoTTraits.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\MagicModel\\WoTTraits.cs",
+              "RelativeDocumentMoniker": "MagicModel\\WoTTraits.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\MagicModel\\WoTTraits.cs",
+              "RelativeToolTip": "MagicModel\\WoTTraits.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABwAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-04T06:16:38.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WoTLoreIncidents.cs",
+              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Quests\\WoTLoreIncidents.cs",
+              "RelativeDocumentMoniker": "Quests\\WoTLoreIncidents.cs",
+              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Quests\\WoTLoreIncidents.cs",
+              "RelativeToolTip": "Quests\\WoTLoreIncidents.cs",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwDEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-08T11:36:49.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WoT_MapSpriteData.xml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\WoT_Map\\GUI\\WoT_MapSpriteData.xml",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\WoT_Map\\GUI\\WoT_MapSpriteData.xml",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\WoT_Map\\GUI\\WoT_MapSpriteData.xml",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Mount \u0026 Blade II Bannerlord\\Modules\\WoT_Map\\GUI\\WoT_MapSpriteData.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2026-08-07T09:10:18.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "campaignSupport.cs",
               "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Support\\campaignSupport.cs",
               "RelativeDocumentMoniker": "Support\\campaignSupport.cs",
@@ -39,44 +255,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-31T09:07:10.734Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WoTAielScoutSpeedModel.cs",
-              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTAielScoutSpeedModel.cs",
-              "RelativeDocumentMoniker": "Behaviours\\WoTAielScoutSpeedModel.cs",
-              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\WoTAielScoutSpeedModel.cs",
-              "RelativeToolTip": "Behaviours\\WoTAielScoutSpeedModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T08:57:18.428Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Onepowerrecruitbehavior.cs",
-              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
-              "RelativeDocumentMoniker": "Behaviours\\Onepowerrecruitbehavior.cs",
-              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\Behaviours\\Onepowerrecruitbehavior.cs",
-              "RelativeToolTip": "Behaviours\\Onepowerrecruitbehavior.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAuwJ0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-31T08:12:21.33Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WOTSubModule.cs",
-              "DocumentMoniker": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\WOTSubModule.cs",
-              "RelativeDocumentMoniker": "WOTSubModule.cs",
-              "ToolTip": "C:\\Users\\The-Hemo\\source\\repos\\WoT_Code\\WOTSubModule.cs",
-              "RelativeToolTip": "WOTSubModule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T09:53:10.054Z",
-              "EditorCaption": ""
             }
           ]
         }

@@ -8,6 +8,7 @@ using TaleWorlds.CampaignSystem.Actions;
 using TaleWorlds.CampaignSystem.Conversation;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.Localization;
 
 namespace WoT_Code.Quests
@@ -126,8 +127,10 @@ namespace WoT_Code.Quests
             this.KeepTrackOfBars();
         }
 
+        private bool _hasNotifiedWeaponsComplete = false;
         private void KeepTrackOfBars()
         {
+
             List<ItemRosterElement> list = MobileParty.MainParty.ItemRoster.ToList<ItemRosterElement>();
             int num = 0;
             string[] source = new string[]
@@ -150,6 +153,7 @@ namespace WoT_Code.Quests
                     num += itemRosterElement.Amount;
                 }
             }
+
             List<JournalLog> list2 = base.JournalEntries.ToList<JournalLog>();
             foreach (JournalLog journalLog in list2)
             {
@@ -160,10 +164,21 @@ namespace WoT_Code.Quests
                     if (flag3)
                     {
                         journalLog.UpdateCurrentProgress(num);
+
+                        if (!_hasNotifiedWeaponsComplete && journalLog.HasBeenCompleted())
+                        {
+                            _hasNotifiedWeaponsComplete = true;
+                            InformationManager.DisplayMessage(new InformationMessage(
+                                "You have gathered enough Trolloc weapons to prove yourself. Return to Marathen at the Eye of the World.",
+                                Color.FromUint(0x00AA00FF)));
+                        }
                     }
                 }
             }
         }
+
+
+
 
         private void CompleteQuest()
         {

@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="MagicModel\ChannellerComponent.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="0Harmony">
       <HintPath>..\..\..\..\..\Program Files (x86)\Steam\steamapps\common\Mount &amp; Blade II Bannerlord\Modules\Bannerlord.Harmony\bin\Win64_Shipping_Client\0Harmony.dll</HintPath>
     </Reference>

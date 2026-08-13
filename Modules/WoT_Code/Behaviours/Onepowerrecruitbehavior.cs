@@ -3,7 +3,7 @@
 //   - Player's current kingdom must match the settlement's faction (or player is independent)
 //   - Independent players (no kingdom) can recruit from any settlement with enough influence
 //   - Per-settlement cooldown, persisted across saves via SyncData
-//   - town_tarvalon recruits equal numbers of AesSedai3 AND Whitetower_warder1
+//   - town_tarvalon recruits equal numbers of AesSedai3 AND Whitetower_warder2
 //   - All other settlements recruit a single troop type
 
 using System;
@@ -50,7 +50,7 @@ namespace WoT_Code.Behaviours
                     PrimaryTroopId   = "AesSedai3",
                     SecondaryTroopId = "Whitetower_warder2",
                     BaseCostPerTroop = 5,
-                    KingdomCultureId = new List<string> { "empire", "battania", "khuzait", "white" },
+                    KingdomCultureId = new List<string> { "empire", "battania", "khuzait", "white", "black" },
                     KingdomDisplayName = new List<string> { "Westlander", "Coastlander", "Borderlander" },
                     DisplayName      = "Aes Sedai and their Warders"
                 }
@@ -60,7 +60,7 @@ namespace WoT_Code.Behaviours
                 {
                     PrimaryTroopId   = "Ashaman3",
                     BaseCostPerTroop = 5,
-                    KingdomCultureId = new List<string> { "empire", "battania", "khuzait", "black" },
+                    KingdomCultureId = new List<string> { "empire", "battania", "khuzait", "white", "black" },
                     KingdomDisplayName = new List<string> { "Westlander", "Coastlander", "Borderlander" },
                     DisplayName      = "Asha'man"
                 }
@@ -187,7 +187,7 @@ namespace WoT_Code.Behaviours
             },
         };
 
-        // Quantity tiers offered in the sub-menu
+        // Quantity tiers offered in the sub-menu - note if you change to 1 you need to change the menu text to "set(s)" instead of "sets"
         private static readonly int[] RecruitQuantities = { 5, 10, 15, 20 };
 
         // Cooldown duration per settlement
@@ -311,8 +311,8 @@ namespace WoT_Code.Behaviours
                 return true; // show but disabled with tooltip
             }
 
-            // Influence check — must afford at least 1
-            int minCost = CalculateCost(config.BaseCostPerTroop, 1, settlement);
+            // Influence check — must afford at least 5
+            int minCost = CalculateCost(config.BaseCostPerTroop, 5, settlement);
             if (Clan.PlayerClan.Influence < minCost)
             {
                 args.Tooltip = new TextObject(
@@ -343,7 +343,7 @@ namespace WoT_Code.Behaviours
                 $"The keeper of {settlement.Name} regards you carefully. " +
                 $"Your relation with this faction: {relationText}. " +
                 (config.SecondaryTroopId != null
-                    ? $"Each set includes one {config.PrimaryTroopId} and one {config.SecondaryTroopId}. "
+                    ? $"Each set includes one Aes Sedai and one Warder. "
                     : string.Empty) +
                 "How many do you require?");
 
@@ -352,7 +352,7 @@ namespace WoT_Code.Behaviours
             {
                 int cost = CalculateCost(config.BaseCostPerTroop, qty, settlement);
                 string label = config.SecondaryTroopId != null
-                    ? $"{qty} set(s) of {config.DisplayName} — {cost} influence"
+                    ? $"{qty} sets of {config.DisplayName} — {cost} influence"
                     : $"{qty} {config.DisplayName} — {cost} influence";
                 MBTextManager.SetTextVariable($"WOT_RECRUIT_OPTION_{qty}_TEXT", label);
             }
@@ -428,7 +428,7 @@ namespace WoT_Code.Behaviours
 
             // Confirmation message
             string recruitedText = secondaryTroop != null
-                ? $"{quantity} {config.PrimaryTroopId}(s) and {quantity} {config.SecondaryTroopId}(s)"
+                ? $"{quantity} {config.DisplayName}"
                 : $"{quantity} {config.DisplayName}";
 
             InformationManager.DisplayMessage(new InformationMessage(
