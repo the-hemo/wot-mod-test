@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Module>
-  <Name value="Wheel of Time Mod" />
+  <Name value="Wheel of Time Items" />
   <Id value="WoT_Mod" />
-  <Version value="v1.3.14" />
+  <Version value="v1.4.8" />
   <DefaultModule value="true" />
   <ModuleCategory value="Singleplayer" />
   <Official value="false" />
@@ -16,7 +16,7 @@
   <SubModules></SubModules>
   <Xmls>
     <XmlNode>
-      <XmlName id="Items" path="rWoTitems" />
+      <XmlName id="Items" path="WoTitems" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />

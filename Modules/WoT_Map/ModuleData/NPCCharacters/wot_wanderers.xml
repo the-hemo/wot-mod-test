@@ -220,7 +220,7 @@
     </Equipments>
   </NPCCharacter>
   <!--BASE COPY OF WANDERER CHARACTERS BEGIN -->
-  <!-- WANDERERS OF EMPIRE -->
+  <!-- WANDERERS OF THE WESTLANDS-->
   <!--Andor - Engineer who refused to comply with guild backscratching -->
   <NPCCharacter id="spc_wanderer_empire_0" name="{=bvjFhiDr}{FIRSTNAME} the Scholar" voice="curt" age="29" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.empire" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_empire_0_skills">
     <face>
@@ -287,8 +287,8 @@
       <Trait id="Mercy" value="-1" />
     </Traits>
     <Equipments>
-      <EquipmentSet id="npc_companion_equipment_template_empire" civilian="true" />
-      <EquipmentSet id="npc_companion_equipment_template_empire" />
+      <EquipmentSet id="npc_companion_equipment_template_warder_m" civilian="true" />
+      <EquipmentSet id="npc_companion_equipment_template_warder_m" />
     </Equipments>
   </NPCCharacter>
   <!--Murandy - Bandit who found bandits too sociopathic -->
@@ -1345,7 +1345,7 @@
       <EquipmentSet id="npc_companion_equipment_template_khuzait" />
     </Equipments>
   </NPCCharacter>
-  <!--Aiel - the she-wolf - taken by empire, slave in arena. CHANGED TO AT-START-->
+  <!--Aiel - the she-wolf - taken by empire as a slave hence no Aiel hear.-->
   <NPCCharacter id="spc_wanderer_khuzait_7" name="{=3wzexaA7}{FIRSTNAME} of the Waste" voice="curt" age="28" is_female="true" default_group="Infantry" is_template="true" is_hero="false" culture="Culture.aserai" occupation="Wanderer" skill_template="SkillSet.spc_wanderer_khuzait_7_skills">
     <face>
       <face_key_template value="BodyProperty.townswoman_khuzait" />

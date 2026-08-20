@@ -2621,7 +2621,7 @@
   </NPCCharacter>
   <!--Wetlander Noble Troops-->
   <!--Black Tower Special Troops-->
-  <NPCCharacter id="Ashaman1" default_group="Ranged" level="16" name="{=Ashaman1}Asha'man Initiate" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="Ashaman1" default_group="Ranged" level="16" name="{=Ashaman1}Asha'man Soldier" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -2716,7 +2716,7 @@
       <EquipmentSet id="BlackTower_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Ashaman4" default_group="Ranged" level="31" name="{=Ashaman4}Full Asha'man" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Ashaman4" default_group="Ranged" level="31" name="{=Ashaman4}Asha'man Veteran" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -3138,6 +3138,7 @@
     <upgrade_targets>
       <upgrade_target id="NPCCharacter.Dragonsworn_noble2" />
       <upgrade_target id="NPCCharacter.Dragonsworn_noblebow1" />
+      <upgrade_target id="NPCCharacter.Dragonsworn_riversbowman1" />
     </upgrade_targets>
     <Equipments>
       <EquipmentRoster>
@@ -3266,6 +3267,97 @@
         <equipment slot="Head" id="Item.Redbandhelm" />
         <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
         <equipment slot="Cape" id="Item.pauldron_cape_a" />
+      </EquipmentRoster>
+      <EquipmentSet id="Dragonsworn_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Dragonsworn_riversbowman1" default_group="Ranged" level="21" name="{=Dragonsworn_riversbowman1}Two Rivers Bowman" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="125" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="150" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Dragonsworn_riversbowman2" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Tworiversbow1start" />
+        <equipment slot="Item1" id="Item.tworiversarrows2" />
+        <equipment slot="Item2" id="Item.tworiversarrows2" />
+        <equipment slot="Item3" id="Item.vlandia_sword_3_t4" />
+        <equipment slot="Body" id="Item.TwoRiversArcher1" />
+        <equipment slot="Leg" id="Item.TwoRiversBoots1" />
+        <equipment slot="Head" id="Item.TwoRivers_ArcherHood" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="Dragonsworn_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Dragonsworn_riversbowman2" default_group="Ranged" level="26" name="{=Dragonsworn_riversbowman2}Two Rivers Archer" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="150" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="100" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="175" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets>
+      <upgrade_target id="NPCCharacter.Dragonsworn_riversbowman3" />
+    </upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Tworiversbow1" />
+        <equipment slot="Item1" id="Item.tworiversarrows2" />
+        <equipment slot="Item2" id="Item.tworiversarrows2" />
+        <equipment slot="Item3" id="Item.vlandia_sword_3_t4" />
+        <equipment slot="Body" id="Item.TwoRiversArcher2" />
+        <equipment slot="Leg" id="Item.TwoRiversBoots2" />
+        <equipment slot="Head" id="Item.TwoRivers_ArcherHood" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
+      </EquipmentRoster>
+      <EquipmentSet id="Dragonsworn_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="Dragonsworn_riversbowman3" default_group="Ranged" level="31" name="{=Dragonsworn_riversbowman2}Two Rivers Sharpshooter" occupation="Soldier" culture="Culture.empire">
+    <face>
+      <face_key_template value="BodyProperty.fighter_vlandia" />
+    </face>
+    <skills>
+      <skill id="Athletics" value="175" />
+      <skill id="Riding" value="100" />
+      <skill id="OneHanded" value="125" />
+      <skill id="TwoHanded" value="10" />
+      <skill id="Polearm" value="20" />
+      <skill id="Bow" value="225" />
+      <skill id="Crossbow" value="20" />
+      <skill id="Throwing" value="20" />
+    </skills>
+    <upgrade_targets></upgrade_targets>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Item0" id="Item.Tworiversbow2" />
+        <equipment slot="Item1" id="Item.tworiversarrows2" />
+        <equipment slot="Item2" id="Item.tworiversarrows2" />
+        <equipment slot="Item3" id="Item.vlandia_sword_3_t4" />
+        <equipment slot="Body" id="Item.TwoRiversMediumarmor1" />
+        <equipment slot="Leg" id="Item.TwoRiversBoots2" />
+        <equipment slot="Head" id="Item.TwoRivers_ArcherHood" />
+        <equipment slot="Gloves" id="Item.mail_mitten" />
       </EquipmentRoster>
       <EquipmentSet id="Dragonsworn_troop_civilian_template_t1" civilian="true" />
     </Equipments>
@@ -4561,8 +4653,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t3" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Elfassasinarmor3" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
         <equipment slot="Cape" id="Item.WarderCloak" />
@@ -4590,8 +4682,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.western_2hsword_t4" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2" />
         <equipment slot="Gloves" id="Item.padded_vambrace_a_mitten" />
         <equipment slot="Leg" id="Item.WarderBootsLight" />
@@ -4618,8 +4710,8 @@
     <Equipments>
       <EquipmentRoster>
         <equipment slot="Item0" id="Item.vlandia_2hsword_2_t5" />
-		  <equipment slot="Item1" id="Item.offhandswordWOT" />
-		  <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+        <equipment slot="Item1" id="Item.offhandswordWOT" />
+        <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
         <equipment slot="Body" id="Item.Warder2024newarmor2b" />
         <equipment slot="Gloves" id="Item.WarderHeavyBracer" />
         <equipment slot="Leg" id="Item.Warder2024newboots1" />
@@ -4855,7 +4947,7 @@
       <EquipmentSet id="WhiteTower_troop_civilian_template_t5" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="AesSedai5" default_group="Ranged" level="36" name="{=Aessedai6}Powerfull Aes Sedai" occupation="Soldier" is_female="true" culture="Culture.empire">
+  <NPCCharacter id="AesSedai5" default_group="Ranged" level="36" name="{=Aessedai6}Powerful Aes Sedai" occupation="Soldier" is_female="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -5594,7 +5686,7 @@
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="LevyBow3a" default_group="Ranged" level="21" name="{=LevyBow3a}Levy Marksman" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
+  <NPCCharacter id="LevyBow3a" default_group="Ranged" level="21" name="{=LevyBow3a}Levy Sharpshooter" occupation="Soldier" is_basic_troop="true" culture="Culture.battania">
     <face>
       <face_key_template value="BodyProperty.fighter_coastlander" />
     </face>
@@ -5691,7 +5783,6 @@
       <skill id="Throwing" value="10" />
     </skills>
     <upgrade_targets>
-      <upgrade_target id="NPCCharacter.LevyBow3a" />
       <upgrade_target id="NPCCharacter.LevyBow3b" />
     </upgrade_targets>
     <Equipments>
@@ -9071,7 +9162,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="SeanchanBow3" default_group="Ranged" level="26" name="{=SeanchanBow2}Marksman" occupation="Soldier" culture="Culture.vlandia">
+  <NPCCharacter id="SeanchanBow3" default_group="Ranged" level="26" name="{=SeanchanBow3}Veteran Marksman" occupation="Soldier" culture="Culture.vlandia">
     <face>
       <face_key_template value="BodyProperty.fighter_seanchan" />
     </face>
@@ -12353,7 +12444,7 @@
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="armed_trader_westlands" default_group="Infantry" level="16" name="{=ArmedTraderWet}Wetlands Armed Trader" occupation="CaravanGuard" culture="Culture.empire">
+  <NPCCharacter id="armed_trader_westlands" default_group="Infantry" level="16" name="{=ArmedTraderWet}Westlands Armed Trader" occupation="CaravanGuard" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -12441,7 +12532,7 @@
       <EquipmentSet id="wetlander_troop_civilian_template_t2" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="caravan_guard_westlands" default_group="Cavalry" level="21" name="{=CaravanGuardWet}Wetlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.horse" culture="Culture.empire">
+  <NPCCharacter id="caravan_guard_westlands" default_group="Cavalry" level="21" name="{=CaravanGuardWet}Westlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.horse" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -12504,7 +12595,7 @@
       <equipment slot="HorseHarness" id="Item.battania_horse_harness" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="veteran_caravan_guard_westlands" default_group="Cavalry" level="28" name="{=VetCaravanGuardWet}Veteran Wetlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.war_horse" culture="Culture.empire">
+  <NPCCharacter id="veteran_caravan_guard_westlands" default_group="Cavalry" level="28" name="{=VetCaravanGuardWet}Veteran Westlands Caravan Guard" occupation="CaravanGuard" upgrade_requires="ItemCategory.war_horse" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -12554,7 +12645,7 @@
       <equipment slot="HorseHarness" id="Item.Wot2024horsearmor11" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="caravan_master_westlands" default_group="Infantry" level="31" name="{=CaravanMasterWet}Wetlands Caravan Master" occupation="CaravanGuard" culture="Culture.empire">
+  <NPCCharacter id="caravan_master_westlands" default_group="Infantry" level="31" name="{=CaravanMasterWet}Westlands Caravan Master" occupation="CaravanGuard" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -12595,7 +12686,7 @@
         <equipment slot="Item1" id="Item.western_javelin_3_t4" />
         <equipment slot="Body" id="Item.Miscwotbanditarmor1b" />
         <equipment slot="Leg" id="Item.empire_horseman_boots" />
-        <equipment slot="Head" id="Item.Miscwotbandithelm4" />
+        <equipment slot="Head" id="Item.Redbandhelm" />
         <equipment slot="Gloves" id="Item.reinforced_mail_mitten" />
         <equipment slot="Cape" id="Item.wotmiscpurshoulders2" />
       </EquipmentRoster>

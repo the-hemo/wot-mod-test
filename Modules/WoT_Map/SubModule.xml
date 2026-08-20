@@ -2,7 +2,7 @@
 <Module>
   <Name value="WoT_Map" />
   <Id value="WoT_Map" />
-  <Version value="v1.4.7" />
+  <Version value="v1.4.8" />
   <DefaultModule value="false" />
   <ModuleCategory value="Singleplayer" />
   <Official value="false" />
@@ -25,30 +25,16 @@
     </SubModule>
   </SubModules>
   <Xmls>
+    <!--Misc Files-->
     <XmlNode>
-      <XmlName id="SPBattleScenes" path="sp_battle_scenes" />
-      <IncludedGameTypes>
-        <GameType value="Campaign" />
-        <GameType value="CampaignStoryMode" />
-        <GameType value="EditorGame" />
-      </IncludedGameTypes>
-    </XmlNode>
-	  <XmlNode>
-		  <XmlName id="GameText" path="strings" />
-		  <IncludedGameTypes>
-			  <GameType value="Campaign" />
-			  <GameType value="CampaignStoryMode" />
-		  </IncludedGameTypes>
-	  </XmlNode>
-    <XmlNode>
-      <XmlName id="LocationComplexTemplates" path="wot_location_complex_templates" />
+      <XmlName id="GameText" path="strings" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="GameText" path="WoTstrings" />
+      <XmlName id="GameText" path="wot_strings" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -62,15 +48,23 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="GameText" path="WoTwanderer_strings" />
+      <XmlName id="GameText" path="wot_wanderer_strings" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="Traits" path="sptraits" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
     <!-- Equipment Sets (Lords Clothing and Charater Creation) -->
     <XmlNode>
-      <XmlName id="EquipmentRosters" path="EquipmentSets\CharacterCreation" />
+      <XmlName id="EquipmentRosters" path="EquipmentSets\wot_character_creation" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -79,7 +73,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="EquipmentRosters" path="EquipmentSets\Lords" />
+      <XmlName id="EquipmentRosters" path="EquipmentSets\wot_lords" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -88,7 +82,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="EquipmentRosters" path="EquipmentSets\Civillian" />
+      <XmlName id="EquipmentRosters" path="EquipmentSets\wot_civillian" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -98,7 +92,7 @@
     </XmlNode>
     <!-- Custom NPC Character (Troops, Bandits and lords) -->
     <XmlNode>
-      <XmlName id="NPCCharacters" path="NPCCharacters\Bandits" />
+      <XmlName id="NPCCharacters" path="NPCCharacters\wot_bandits" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -112,7 +106,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Heroes" path="NPCCharacters\VWoTheroes" />
+      <XmlName id="Heroes" path="NPCCharacters\wot_heroes" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -126,21 +120,21 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="CustomBattle\VWoTlords" />
+      <XmlName id="NPCCharacters" path="CustomBattle\wot_lords" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="NPCCharacters\rWoTnotables" />
+      <XmlName id="NPCCharacters" path="NPCCharacters\wot_notables" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="NPCCharacters\rWoTtroops" />
+      <XmlName id="NPCCharacters" path="NPCCharacters\wot_troops" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -149,21 +143,21 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="NPCCharacters\rWoTvillagers" />
+      <XmlName id="NPCCharacters" path="NPCCharacters\wot_villagers" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="NPCCharacters" path="NPCCharacters\rWoTwanderers" />
+      <XmlName id="NPCCharacters" path="NPCCharacters\wot_wanderers" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="BodyProperties" path="NPCCharacters\rWoTbodyproperties" />
+      <XmlName id="BodyProperties" path="NPCCharacters\wot_bodyproperties" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -171,25 +165,7 @@
         <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
-    <XmlNode>
-      <XmlName id="EquipmentRosters" path="Cultures\WoTeducation_equipment_templates" />
-      <IncludedGameTypes>
-        <GameType value="Campaign" />
-        <GameType value="CampaignStoryMode" />
-        <GameType value="CustomGame" />
-        <GameType value="EditorGame" />
-      </IncludedGameTypes>
-    </XmlNode>
-    <XmlNode>
-      <XmlName id="NPCCharacters" path="Cultures\WoTeducation_character_templates" />
-      <IncludedGameTypes>
-        <GameType value="Campaign" />
-        <GameType value="CampaignStoryMode" />
-        <GameType value="CustomGame" />
-        <GameType value="EditorGame" />
-      </IncludedGameTypes>
-    </XmlNode>
-    <!--Clans
+    <!--Clans-->
     <XmlNode>
       <XmlName id="Factions" path="spclans" />
       <IncludedGameTypes>
@@ -198,25 +174,15 @@
         <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
-	-->
     <XmlNode>
-      <XmlName id="Factions" path="VWoTclans" />
+      <XmlName id="Factions" path="wot_clans" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
         <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
-    <!--Kingdoms
-    <XmlNode>
-      <XmlName id="Kingdoms" path="spkingdoms" />
-      <IncludedGameTypes>
-        <GameType value="Campaign" />
-        <GameType value="CampaignStoryMode" />
-        <GameType value="EditorGame" />
-      </IncludedGameTypes>
-    </XmlNode>
-	-->
+    <!--Kingdoms-->
     <XmlNode>
       <XmlName id="Kingdoms" path="spkingdoms" />
       <IncludedGameTypes>
@@ -225,7 +191,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Kingdoms" path="VWoTkingdoms" />
+      <XmlName id="Kingdoms" path="wot_kingdoms" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -233,7 +199,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="partyTemplates" path="rWoTParties" />
+      <XmlName id="partyTemplates" path="wot_parties" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -249,7 +215,7 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="SPCultures" path="WoTcultures" />
+      <XmlName id="SPCultures" path="wot_cultures" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
@@ -257,19 +223,45 @@
       </IncludedGameTypes>
     </XmlNode>
     <XmlNode>
-      <XmlName id="Traits" path="sptraits" />
+      <XmlName id="EquipmentRosters" path="Cultures\wot_education_equipment_templates" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
+        <GameType value="CustomGame" />
         <GameType value="EditorGame" />
       </IncludedGameTypes>
     </XmlNode>
+    <XmlNode>
+      <XmlName id="NPCCharacters" path="Cultures\wot_education_character_templates" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="CustomGame" />
+        <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <!--Settlements and Map-->
     <XmlNode>
       <XmlName id="Settlements" path="settlements" />
       <IncludedGameTypes>
         <GameType value="Campaign" />
         <GameType value="CampaignStoryMode" />
         <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="SPBattleScenes" path="sp_battle_scenes" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
+        <GameType value="EditorGame" />
+      </IncludedGameTypes>
+    </XmlNode>
+    <XmlNode>
+      <XmlName id="LocationComplexTemplates" path="wot_location_complex_templates" />
+      <IncludedGameTypes>
+        <GameType value="Campaign" />
+        <GameType value="CampaignStoryMode" />
       </IncludedGameTypes>
     </XmlNode>
   </Xmls>

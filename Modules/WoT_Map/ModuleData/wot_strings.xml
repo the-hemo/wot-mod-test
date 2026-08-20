@@ -204,7 +204,7 @@
   <string id="str_faction_noble_name_with_title.battania" text="Counseler {RULER.NAME}" />
   <string id="str_faction_noble_name_with_title.empire" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
   <string id="str_faction_noble_name_with_title.empire_s" text="{?RULER.GENDER}Lady{?}Lord{\?} {RULER.NAME}" />
-  <string id="str_faction_noble_name_with_title.empire_w" text="Dragon Reborn {RULER.NAME}" />
+  <string id="str_faction_noble_name_with_title.empire_w" text="Dragonsworn {RULER.NAME}" />
   <string id="str_faction_noble_name_with_title.vlandia" text="{?RULER.GENDER}High Lady{?}High Lord{\?} {RULER.NAME}" />
   <!--Cultural Terms-->
   <string id="str_faction_informal_name_for_culture.sturgia" text="the Darkfriends" />
@@ -545,11 +545,10 @@
   <string id="str_short_term_for_faction.empire_s" text="{=frBQ9mbP}Westlanders" />
   <string id="str_short_term_for_faction.white" text="{=yG3YUySN}Aes Sedai" />
   <string id="str_short_term_for_faction.black" text="{=frBQ9mbP}Asha'man" />
-	
-<!--Test Trait Strings-->
-		<string id="str_trait.can_channel" text="Channeller" />
-		<string id="str_trait_name_can_channel.0" text="Male True Power Channeler"/>
-		<string id="str_trait_name_can_channel.1" text="Male One Power Channeler"/>
-		<string id="str_trait_name_can_channel.3" text="Female One Power Channeler"/>
-		<string id="str_trait_name_can_channel.4" text="Female True Power Channeler"/>
+  <!--Test Trait Strings-->
+  <string id="str_trait.can_channel" text="Channeller" />
+  <string id="str_trait_name_can_channel.0" text="Male True Power Channeler" />
+  <string id="str_trait_name_can_channel.1" text="Male One Power Channeler" />
+  <string id="str_trait_name_can_channel.3" text="Female One Power Channeler" />
+  <string id="str_trait_name_can_channel.4" text="Female True Power Channeler" />
 </strings>

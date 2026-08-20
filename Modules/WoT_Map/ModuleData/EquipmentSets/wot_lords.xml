@@ -290,7 +290,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamandragon1" culture="Culture.empire">
     <EquipmentSet>
@@ -314,7 +314,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacterCivil1" culture="Culture.black">
     <EquipmentSet equipmentType="Civilian">
@@ -338,7 +338,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacter2" culture="Culture.black">
     <EquipmentSet>
@@ -434,7 +434,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamandragon3" culture="Culture.empire">
     <EquipmentSet>
@@ -458,7 +458,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTashamancharacterCivil3" culture="Culture.black">
     <EquipmentSet equipmentType="Civilian">
@@ -482,7 +482,7 @@
       <Equipment slot="Body" id="Item.Asharmor3" />
       <Equipment slot="Leg" id="Item.Asharmorboots" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_civ_template_lady_normal" culture="Culture.empire">
     <EquipmentSet equipmentType="Civilian">
@@ -605,7 +605,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_imperial" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Drg_bat_template_lady" culture="Culture.empire">
     <EquipmentSet>
@@ -704,7 +704,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_northern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTwhitecloak2" culture="Culture.empire">
     <EquipmentSet>
@@ -770,7 +770,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_northern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTtworivers" culture="Culture.empire">
     <EquipmentSet>
@@ -797,7 +797,7 @@
       <Equipment slot="Body" id="Item.TwoRivers_Farmer2" />
       <Equipment slot="Leg" id="Item.TwoRiversBoots2" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTtworivers1" culture="Culture.empire">
     <EquipmentSet>
@@ -1097,7 +1097,7 @@
       <Equipment slot="Gloves" id="Item.ArafelGloves1" />
       <Equipment slot="Cape" id="Item.Arafelmail_shoulders" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTAndorcommanderArafel3" culture="Culture.khuzait">
     <EquipmentSet>
@@ -1130,7 +1130,7 @@
       <Equipment slot="Gloves" id="Item.ArafelGloves1" />
       <Equipment slot="Cape" id="Item.Arafelmail_shoulders" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTCairhiencommander0" culture="Culture.empire">
     <EquipmentSet>
@@ -1208,7 +1208,7 @@
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTCairhiencommander2" culture="Culture.empire">
     <EquipmentSet>
@@ -1286,7 +1286,7 @@
       <Equipment slot="HorseHarness" id="Item.chain_barding" />
       <Equipment slot="Item2" id="Item.empire_sword_4_t4" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"  IsFemaleTemplate="true"/>
+    <Flags IsLordTemplate="true" IsFemaleTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTFarMaddingcommander0" culture="Culture.battania">
     <EquipmentSet>
@@ -2350,7 +2350,7 @@
       <Equipment slot="Horse" id="Item.t2_khuzait_horse" />
       <Equipment slot="HorseHarness" id="Item.mail_and_plate_barding" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTTearDefendercommander" culture="Culture.battania">
     <EquipmentSet>
@@ -3249,7 +3249,7 @@
       <Equipment slot="HorseHarness" id="Item.imperial_scale_barding" />
       <Equipment slot="Item2" id="Item.aserai_sword_4_t4" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="WOTwhitetowerguard2" culture="Culture.white">
     <EquipmentSet>
@@ -3779,7 +3779,7 @@
   </EquipmentRoster>
   <EquipmentRoster id="PadanFainitems" culture="Culture.empire">
     <EquipmentSet>
-      <Equipment slot="Item0" id="Item.PadanFainDagger" />
+      <Equipment slot="Item0" id="Item.Myrddraalblade1" />
       <Equipment slot="Body" id="Item.padded_leather_overcoat" />
       <Equipment slot="Leg" id="Item.wrapped_leather_boots" />
     </EquipmentSet>
@@ -4804,7 +4804,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_southern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Tar_civ_template_lady_normal" culture="Culture.battania">
     <EquipmentSet equipmentType="Civilian">
@@ -6301,7 +6301,7 @@
       <Equipment slot="Horse" id="Item.noble_horse_eastern" />
       <Equipment slot="HorseHarness" id="Item.light_harness" />
     </EquipmentSet>
-    <Flags IsLordTemplate="true"/>
+    <Flags IsLordTemplate="true" />
   </EquipmentRoster>
   <EquipmentRoster id="Sea_civ_template_flamboyant" culture="Culture.vlandia">
     <EquipmentSet equipmentType="Civilian">
@@ -6723,6 +6723,25 @@
       <Equipment slot="Leg" id="Item.battania_fur_boots" />
     </EquipmentSet>
   </EquipmentRoster>
+  <EquipmentRoster id="npc_companion_equipment_template_warder_m" culture="Culture.white">
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.vlandia_sword_5_t5" />
+      <Equipment slot="Cape" id="Item.WarderCloak"></Equipment>
+      <Equipment slot="Body" id="Item.Elfassasinarmor3" />
+      <Equipment slot="Leg" id="Item.WarderBootsLight" />
+    </EquipmentSet>
+    <EquipmentSet>
+      <Equipment slot="Item0" id="Item.western_2hsword_t3" />
+      <Equipment slot="Cape" id="Item.WarderCloak"></Equipment>
+      <Equipment slot="Body" id="Item.Elfassasinarmor3" />
+      <Equipment slot="Leg" id="Item.WarderBootsLight" />
+    </EquipmentSet>
+    <EquipmentSet equipmentType="Civilian">
+      <Equipment slot="Item0" id="Item.aserai_sword_3_t3" />
+      <Equipment slot="Body" id="Item.fine_town_tunic" />
+      <Equipment slot="Leg" id="Item.WarderBootsLightCheap" />
+    </EquipmentSet>
+  </EquipmentRoster>
   <EquipmentRoster id="npc_companion_equipment_template_sedai" culture="Culture.white">
     <!--Civilian Sets-->
     <EquipmentSet equipmentType="Civilian">
@@ -6777,7 +6796,7 @@
       <Equipment slot="Item0" id="Item.OnepowerWindblast" />
       <Equipment slot="Item1" id="Item.celtic_dagger" />
       <Equipment slot="Body" id="Item.AessedaiBrown" />
-	  <Equipment slot="Leg" id="Item.Aessedaishoes" />
+      <Equipment slot="Leg" id="Item.Aessedaishoes" />
     </EquipmentSet>
     <EquipmentSet>
       <Equipment slot="Item0" id="Item.OnepowerFireball" />

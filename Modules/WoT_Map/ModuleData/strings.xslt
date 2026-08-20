@@ -20,6 +20,68 @@
     <xsl:template match="string[@id='str_culture_rich_name.sturgia']"/>
     <xsl:template match="string[@id='str_culture_rich_name.empire']"/>
 
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.battania']"/>
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.aserai']"/>
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_informal_name_for_culture.empire']"/>
+
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.battania']"/>
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.aserai']"/>
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_formal_name_for_culture.empire']"/>
+
+	<xsl:template match="string[@id='str_adjective_for_culture.vlandia']"/>
+	<xsl:template match="string[@id='str_adjective_for_culture.battania']"/>
+	<xsl:template match="string[@id='str_adjective_for_culture.khuzait']"/>
+	<xsl:template match="string[@id='str_adjective_for_culture.aserai']"/>
+	<xsl:template match="string[@id='str_adjective_for_culture.sturgia']"/>
+	<xsl:template match="string[@id='str_adjective_for_culture.empire']"/>
+
+	<xsl:template match="string[@id='str_neutral_term_for_culture.vlandia']"/>
+	<xsl:template match="string[@id='str_neutral_term_for_culture.battania']"/>
+	<xsl:template match="string[@id='str_neutral_term_for_culture.khuzait']"/>
+	<xsl:template match="string[@id='str_neutral_term_for_culture.aserai']"/>
+	<xsl:template match="string[@id='str_neutral_term_for_culture.sturgia']"/>
+	<xsl:template match="string[@id='str_neutral_term_for_culture.empire']"/>
+
+	<xsl:template match="string[@id='str_faction_official.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_official.battania']"/>
+	<xsl:template match="string[@id='str_faction_official.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_official.aserai']"/>
+	<xsl:template match="string[@id='str_faction_official.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_official.empire']"/>
+	<xsl:template match="string[@id='str_faction_official.empire_s']"/>
+	<xsl:template match="string[@id='str_faction_official.empire_w']"/>
+	<xsl:template match="string[@id='str_faction_official.vlandia_f']"/>
+	<xsl:template match="string[@id='str_faction_official.battania_f']"/>
+	<xsl:template match="string[@id='str_faction_official.khuzait_f']"/>
+	<xsl:template match="string[@id='str_faction_official.aserai_f']"/>
+	<xsl:template match="string[@id='str_faction_official.sturgia_f']"/>
+	<xsl:template match="string[@id='str_faction_official.empire_f']"/>
+	<xsl:template match="string[@id='str_faction_official.empire_s_f']"/>
+	<xsl:template match="string[@id='str_faction_official.empire_w_f']"/>
+
+	<xsl:template match="string[@id='str_faction_ruler.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_ruler.battania']"/>
+	<xsl:template match="string[@id='str_faction_ruler.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_ruler.aserai']"/>
+	<xsl:template match="string[@id='str_faction_ruler.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire_s']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire_w']"/>
+	<xsl:template match="string[@id='str_faction_ruler.vlandia_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.battania_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.khuzait_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.aserai_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.sturgia_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire_s_f']"/>
+	<xsl:template match="string[@id='str_faction_ruler.empire_w_f']"/>
+	
 	<xsl:template match="string[@id='str_kingdom_formal_name.vlandia']"/>
 	<xsl:template match="string[@id='str_kingdom_formal_name.battania']"/>
 	<xsl:template match="string[@id='str_kingdom_formal_name.khuzait']"/>
@@ -28,6 +90,64 @@
 	<xsl:template match="string[@id='str_kingdom_formal_name.empire']"/>
 	<xsl:template match="string[@id='str_kingdom_formal_name.empire_s']"/>
 	<xsl:template match="string[@id='str_kingdom_formal_name.empire_w']"/>
+
+	<xsl:template match="string[@id='str_short_term_for_faction.vlandia']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.battania']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.khuzait']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.sturgia']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.aserai']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.empire']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.empire_s']"/>
+	<xsl:template match="string[@id='str_short_term_for_faction.empire_w']"/>
+
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.battania']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.aserai']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.empire']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.empire_s']"/>
+	<xsl:template match="string[@id='str_faction_ruler_term_in_speech.empire_w']"/>
+
+	<xsl:template match="string[@id='str_liege_title.vlandia']"/>
+	<xsl:template match="string[@id='str_liege_title.battania']"/>
+	<xsl:template match="string[@id='str_liege_title.khuzait']"/>
+	<xsl:template match="string[@id='str_liege_title.sturgia']"/>
+	<xsl:template match="string[@id='str_liege_title.aserai']"/>
+	<xsl:template match="string[@id='str_liege_title.empire']"/>
+	<xsl:template match="string[@id='str_liege_title_female.vlandia']"/>
+	<xsl:template match="string[@id='str_liege_title_female.battania']"/>
+	<xsl:template match="string[@id='str_liege_title_female.khuzait']"/>
+	<xsl:template match="string[@id='str_liege_title_female.sturgia']"/>
+	<xsl:template match="string[@id='str_liege_title_female.aserai']"/>
+	<xsl:template match="string[@id='str_liege_title_female.empire']"/>
+
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.battania']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.aserai']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.empire']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.empire_s']"/>
+	<xsl:template match="string[@id='str_faction_ruler_name_with_title.empire_w']"/>
+
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.vlandia']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.battania']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.khuzait']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.sturgia']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.aserai']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.empire']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.empire_s']"/>
+	<xsl:template match="string[@id='str_faction_noble_name_with_title.empire_w']"/>
+
+	<xsl:template match="string[@id='str_adjective_for_faction.vlandia']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.battania']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.khuzait']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.sturgia']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.aserai']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.empire']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.empire_s']"/>
+	<xsl:template match="string[@id='str_adjective_for_faction.empire_w']"/>
 	
     <xsl:template match="string[@id='str_political_philosophy_lord_1_15_for_lord_1_14']"/>
     <xsl:template match="string[@id='str_political_philosophy_lord_1_15_for_lord_1_14_b']"/>

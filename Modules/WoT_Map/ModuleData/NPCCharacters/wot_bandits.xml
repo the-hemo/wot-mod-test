@@ -130,7 +130,7 @@
       </EquipmentRoster>
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="mountain_bandits_chief" default_group="Infantry" name="{=P6Md9DpR}False Dragon Devotee" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
+  <NPCCharacter id="mountain_bandits_chief" default_group="Cavalry" name="{=P6Md9DpR}False Dragon Devotee" level="21" upgrade_requires="ItemCategory.horse" occupation="Bandit" culture="Culture.mountain_bandits">
     <face>
       <face_key_template value="BodyProperty.villager_battania" />
     </face>

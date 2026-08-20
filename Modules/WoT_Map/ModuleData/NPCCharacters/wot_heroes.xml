@@ -562,11 +562,11 @@ town_V6 , dead_lord_2_2 and dead_lord_3_1-->
   <Hero id="Hunterlord2" faction="Faction.eleftheroi" />
   <Hero id="Hunterlord3" faction="Faction.eleftheroi" />
   <Hero id="Hunterlord4" faction="Faction.eleftheroi" />
-  <Hero id="PadanLord1" faction="Faction.forest_people" />
+
   <Hero id="PadanLord2" faction="Faction.forest_people" />
   <Hero id="PadanLord3" faction="Faction.forest_people" />
   <Hero id="PadanLord4" faction="Faction.forest_people" />
-  <Hero id="KinLord1" faction="Faction.jawwal" />
+
   <Hero id="KinLord2" faction="Faction.jawwal" />
   <Hero id="KinLord3" faction="Faction.jawwal" />
   <Hero id="KinLord4" faction="Faction.jawwal" />
@@ -594,10 +594,10 @@ town_V6 , dead_lord_2_2 and dead_lord_3_1-->
   <Hero id="LordGalina" faction="Faction.brotherhood_of_woods" />
   <Hero id="LordTaleneMinly" faction="Faction.brotherhood_of_woods" />
   <Hero id="LordYukiriHaruna" faction="Faction.brotherhood_of_woods" />
-  <Hero id="MasemaDagar" faction="Faction.hidden_hand" />
-  <Hero id="Shadiolord1male" faction="Faction.karakhuzaits" />
+
+
   <Hero id="Shadiolord2male" faction="Faction.karakhuzaits" />
-  <Hero id="Shadiolord2wiseone" faction="Faction.karakhuzaits" />
+  
   <Hero id="Shadiolord13male" faction="Faction.karakhuzaits" />
 -->
   <!--Hardcoded game needs?
@@ -606,4 +606,10 @@ town_V6 , dead_lord_2_2 and dead_lord_3_1-->
   <Hero id="lord_2_1" faction="Faction.hidden_hand" text="{=LW92PgZz}The current Grand Prince of Sturgia is Raganvad. Harsh and uncompromising, he believes that it is the right of the prince to command the boyars in all things, not just in making war. For the time being they obey him, not least for his ability to call on the kinsmen of his mother, a Nordic princess with ties to the fearsome Skolderbroda mercenary company." />
   <Hero id="lord_4_1" faction="Faction.brotherhood_of_woods" text="{=EHiQI7ps}The current king of Vlandia is Derthert. In his youth, he dreamt of glorious conquest. In fact he spent most of his reign simply putting down revolts, quashing pretenders, and keeping the fractious barons in line. When possible, he prefers to rule by arbitration, cajoling his vassals to set aside claims to each other's lands and enjoy what they have. But some Vlandians murmur that a warrior people deserve a more virile king." />
 -->
+	<Hero id="lord_elaida" faction="Faction.brotherhood_of_woods" />
+	<Hero id="KinLord1" faction="Faction.jawwal" />
+	<Hero id="PadanLord1" faction="Faction.forest_people" />
+	<Hero id="ShadioSevanna" faction="Faction.karakhuzaits" />
+	<Hero id="ShadioCouladin" faction="Faction.karakhuzaits" />
+	<Hero id="MasemaDagar" faction="Faction.hidden_hand" />
 </Heroes>
