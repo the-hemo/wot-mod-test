@@ -16,6 +16,31 @@
     <xsl:template match="NPCCharacters[@id='desert_bandits_boss']"/>
 	<xsl:template match="NPCCharacters[@id='looter']"/>
 
+	<xsl:template match="NPCCharacters[@id='caravan_master_aserai']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_master_battania']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_master_empire']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_master_khuzait']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_master_sturgia']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_master_vlandia']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_aserai']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_battania']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_empire']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_khuzait']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_sturgia']"/>
+	<xsl:template match="NPCCharacters[@id='armed_trader_vlandia']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_aserai']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_battania']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_empire']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_khuzait']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_sturgia']"/>
+	<xsl:template match="NPCCharacters[@id='caravan_guard_vlandia']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_aserai']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_battania']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_empire']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_khuzait']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_sturgia']"/>
+	<xsl:template match="NPCCharacters[@id='veteran_caravan_guard_vlandia']"/>	
+
 <!--Pirates-->
 	<xsl:template match="NPCCharacter[@id='sea_raiders_bandit']/@name">
 		<xsl:attribute name="name">Pirate</xsl:attribute>

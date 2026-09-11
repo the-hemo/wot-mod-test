@@ -2577,7 +2577,7 @@
       <EquipmentSet id="wetlander_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="MilitiaBow4c" default_group="HorseArcher" level="26" name="{=MilitiaBow4c}Mounted Crossbowmen" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
+  <NPCCharacter id="MilitiaBow4c" default_group="HorseArcher" level="26" name="{=MilitiaBow4c}Mounted Crossbowman" occupation="Soldier" is_basic_troop="true" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_empire" />
     </face>
@@ -3393,7 +3393,7 @@
       <EquipmentSet id="Dragonsworn_troop_civilian_template_t1" civilian="true" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Dragonsworn_noblebow2" default_group="HorseArcher" level="26" name="{=Dragonsworn_noblebow2}Mounted Crossbowman" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Dragonsworn_noblebow2" default_group="HorseArcher" level="26" name="{=Dragonsworn_noblebow2}Band Member" upgrade_requires="ItemCategory.war_horse" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -3427,7 +3427,7 @@
       <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Dragonsworn_noblebow3" default_group="HorseArcher" level="31" name="{=Dragonsworn_noblebow3}Mounted Crossbow Sergeant" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Dragonsworn_noblebow3" default_group="HorseArcher" level="31" name="{=Dragonsworn_noblebow3}Squadron Leader" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -3461,7 +3461,7 @@
       <equipment slot="HorseHarness" id="Item.steppe_half_barding" />
     </Equipments>
   </NPCCharacter>
-  <NPCCharacter id="Dragonsworn_noblebow4" default_group="HorseArcher" level="36" name="{=Dragonsworn_noblebow4}Mounted Crossbow Captain" occupation="Soldier" culture="Culture.empire">
+  <NPCCharacter id="Dragonsworn_noblebow4" default_group="HorseArcher" level="36" name="{=Dragonsworn_noblebow4}Redarm" occupation="Soldier" culture="Culture.empire">
     <face>
       <face_key_template value="BodyProperty.fighter_vlandia" />
     </face>
@@ -6851,10 +6851,9 @@
         <equipment slot="Item0" id="Item.southern_spear_3_t3" />
         <equipment slot="Item1" id="Item.TEARShield1" />
         <equipment slot="Item3" id="Item.falchion_sword_t2" />
-        <equipment slot="Head" id="Item.TearDefenderHelm1" />
-        <equipment slot="Body" id="Item.TearDefenderArmor1" />
-        <equipment slot="Leg" id="Item.TearDefenderBoots" />
-        <equipment slot="Gloves" id="Item.TearDefenderHands" />
+        <equipment slot="Head" id="Item.TearNobleHelmLight1" />
+        <equipment slot="Body" id="Item.TearNobleLight1" />
+        <equipment slot="Leg" id="Item.TwoRiversBoots2" />
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
@@ -6883,10 +6882,9 @@
         <equipment slot="Item0" id="Item.western_spear_4_t4" />
         <equipment slot="Item1" id="Item.TEARShield1" />
         <equipment slot="Item2" id="Item.aserai_sword_3_t3" />
-        <equipment slot="Head" id="Item.TearDefenderHelm2" />
-        <equipment slot="Body" id="Item.TearDefenderArmor1" />
-        <equipment slot="Leg" id="Item.TearDefenderBoots" />
-        <equipment slot="Gloves" id="Item.TearDefenderHands" />
+        <equipment slot="Head" id="Item.TearNobleHelmLight1" />
+        <equipment slot="Body" id="Item.TearNobleHeavy1" />
+        <equipment slot="Leg" id="Item.TearNoblebootsHeavy" />
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t2" civilian="true" />
     </Equipments>
@@ -6914,7 +6912,7 @@
         <equipment slot="Item0" id="Item.eastern_spear_5_t5" />
         <equipment slot="Item1" id="Item.TEARShield1" />
         <equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
-        <equipment slot="Head" id="Item.TearDefenderHelm2" />
+        <equipment slot="Head" id="Item.TearDefenderHelm1" />
         <equipment slot="Body" id="Item.TearDefenderArmor1" />
         <equipment slot="Leg" id="Item.TearDefenderBoots" />
         <equipment slot="Gloves" id="Item.TearDefenderHands" />
@@ -7011,7 +7009,7 @@
         <equipment slot="Item1" id="Item.bolt_d" />
         <equipment slot="Item2" id="Item.western_spear_4_t4" />
         <equipment slot="Item3" id="Item.bolt_d" />
-        <equipment slot="Head" id="Item.TearDefenderHelm1" />
+        <equipment slot="Head" id="Item.TearDefenderHelm2" />
         <equipment slot="Body" id="Item.TearDefenderArmor1" />
         <equipment slot="Leg" id="Item.TearDefenderBoots" />
         <equipment slot="Gloves" id="Item.TearDefenderHands" />

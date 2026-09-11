@@ -1,6 +1,4 @@
-﻿// KingdomlessClanSurvivalBehavior.cs
-// Namespace: WoT_Code
-//
+﻿// =====================================================================
 // Feature: When a clan becomes kingdomless (kingdom destroyed), instead of
 // disappearing after the vanilla 28-day timer, clans check their relations
 // with existing kingdoms after a 7-day grace period and join accordingly.
@@ -14,7 +12,7 @@
 //   <  0   : no auto join — left to vanilla 28-day timer
 //
 // If multiple kingdoms qualify, the one with the highest relation wins.
-//
+// =====================================================================
 
 using System.Collections.Generic;
 using System.Linq;

@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.CampaignBehaviors;
 using TaleWorlds.CampaignSystem.CharacterDevelopment;
 using TaleWorlds.CampaignSystem.Incidents;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 using TaleWorlds.Localization;
 using TaleWorlds.SaveSystem;
 using WoT_Code.Support;
@@ -14,9 +16,6 @@ namespace WoT_Code.Behaviours
 {
     public class WoTLoreIncidents : CampaignBehaviorBase
     {
-        // =====================================================================
-        // CampaignBehaviorBase
-        // =====================================================================
 
         public override void RegisterEvents()
         {
@@ -44,14 +43,14 @@ namespace WoT_Code.Behaviours
             string id,
             string title,
             string description,
-            IncidentsCampaignBehaviour.IncidentTrigger trigger,
-            IncidentsCampaignBehaviour.IncidentType type,
+            string triggerId,
+            string type,
             CampaignTime cooldown,
             Func<TextObject, bool> condition)
         {
             Incident incident = Game.Current.ObjectManager
                 .RegisterPresumedObject<Incident>(new Incident(id));
-            incident.Initialize(title, description, trigger, type, cooldown, condition);
+            incident.Initialize(title, description, new Incident.IncidentTrigger(triggerId), type, cooldown, condition);
             return incident;
         }
 
@@ -77,7 +76,7 @@ namespace WoT_Code.Behaviours
                 "something greater.",
                 IncidentsCampaignBehaviour.IncidentTrigger.LeavingVillage,
                 IncidentsCampaignBehaviour.IncidentType.DreamsSongsAndSigns,
-                CampaignTime.Days(45f),
+                CampaignTime.Days(60f),
                 delegate (TextObject description)
                 {
                     // Condition delegate — gates whether the incident can fire
@@ -96,8 +95,8 @@ namespace WoT_Code.Behaviours
                 "{=wot003}Comfort the channeller and treat the dream as a sign to be heeded",
                 new List<IncidentEffect>
                 {
-                    IncidentEffect.TraitChange(DefaultTraits.Mercy, 100),
-                    IncidentEffect.MoraleChange(5f)
+        CampaignIncidentEffects.TraitChange(DefaultTraits.Mercy, 100),
+        CampaignIncidentEffects.MoraleChange(5f)
                 },
                 null, null);
 
@@ -105,8 +104,8 @@ namespace WoT_Code.Behaviours
                 "{=wot004}Dismiss it as nerves and order the camp back to sleep",
                 new List<IncidentEffect>
                 {
-                    IncidentEffect.TraitChange(DefaultTraits.Calculating, 50),
-                    IncidentEffect.MoraleChange(-5f).WithChance(0.5f)
+        CampaignIncidentEffects.TraitChange(DefaultTraits.Calculating, 50),
+        CampaignIncidentEffects.MoraleChange(-5f).WithChance(0.5f)
                 },
                 null, null);
 
@@ -114,20 +113,25 @@ namespace WoT_Code.Behaviours
                 "{=wot005}Pay the channeller privately to keep quiet about what she saw",
                 new List<IncidentEffect>
                 {
-                    IncidentEffect.GoldChange(() => -50),
-                    IncidentEffect.TraitChange(DefaultTraits.Honor, -50)
+        CampaignIncidentEffects.GoldChange(() => -50),
+        CampaignIncidentEffects.TraitChange(DefaultTraits.Honor, -50)
                 },
-                null,null); 
-            // Consequence delegate — for anything IncidentEffect's vocabulary
-            // doesn't cover. Runs after effects are applied. This is where
-            // you'd hook something WoT-specific that has no vanilla equivalent
-            // (e.g. nudging a custom reputation tracker, if you build one).
-            //delegate (TextObject resultText)
+                null, null);
+
             {
-                    // Example placeholder — replace with real WoT-specific logic
-                    // once you have something to hook here.
-                 //   return true;
+                    // placeholder — replace with real WoT-specific logic
+                   //   return true;
                 }
+            /*
+            try
+            {
+                string line = string.Join(",",
+                    CampaignTime.Now.ToString(), dreamIncident.Id.ToString(), dreamIncident.Title.ToString(),
+                    dreamIncident.Description.ToString(), PartyHasChanneller(MobileParty.MainParty));
+                File.AppendAllText(BasePath.Name + "wot_dreamincident_log.csv", line + Environment.NewLine);
+            }
+            catch { }
+            */
         }
 
         // =====================================================================
@@ -137,6 +141,7 @@ namespace WoT_Code.Behaviours
 
         private bool PartyHasChanneller(MobileParty party)
         {
+            //File.AppendAllText(BasePath.Name + "wot_incident_log.csv", WoTChannellerUtils.GetChannellerPercentage(MobileParty.MainParty) + Environment.NewLine);
             return WoTChannellerUtils.GetChannellerPercentage(party) > 0f;
         }
     }

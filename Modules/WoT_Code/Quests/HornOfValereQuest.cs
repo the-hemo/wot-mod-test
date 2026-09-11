@@ -171,6 +171,8 @@ namespace WoT_Code.Quests
                             InformationManager.DisplayMessage(new InformationMessage(
                                 "You have gathered enough Trolloc weapons to prove yourself. Return to Marathen at the Eye of the World.",
                                 Color.FromUint(0x00AA00FF)));
+
+                            MBInformationManager.AddQuickInformation(new TextObject("You have gathered enough Trolloc weapons to prove yourself. Return to Marathen at the Eye of the World.", null), 2000, null, null, "event:/ui/notification/quest_finished");
                         }
                     }
                 }

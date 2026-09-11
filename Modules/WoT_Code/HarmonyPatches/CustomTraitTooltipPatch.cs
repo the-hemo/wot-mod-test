@@ -12,7 +12,9 @@ using TaleWorlds.Localization;
 using WoT_Code.MagicModel;
 
 namespace WoT_Code.HarmonyPatches
+    
 {
+    /*
         [HarmonyPatch(typeof(CampaignUIHelper), nameof(CampaignUIHelper.GetTraitTooltipText))]
         internal class CustomTraitTooltipPatch
         {
@@ -53,4 +55,5 @@ namespace WoT_Code.HarmonyPatches
                 return false; // skip original — it would hit the FailedAssert for us
             }
         }
+    */
 }

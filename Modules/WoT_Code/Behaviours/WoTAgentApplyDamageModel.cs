@@ -20,6 +20,7 @@ namespace WoT_Code.Behaviours
 
             if (weapon?.ItemUsage?.StartsWith("onepower", StringComparison.OrdinalIgnoreCase) == true) return true;
             else if (weapon?.TrailParticleName?.StartsWith("onepower", StringComparison.OrdinalIgnoreCase) == true) return true;
+            else if (weapon?.TrailParticleName?.StartsWith("Hornofvalere", StringComparison.OrdinalIgnoreCase) == true) return true;
             return false;
             //return weapon?.ItemUsage?.StartsWith("onepower", StringComparison.OrdinalIgnoreCase) == true;
 
@@ -35,7 +36,7 @@ namespace WoT_Code.Behaviours
             {
                 //string weaponId = attackInformation.AttackerWeapon.Item?.Id.ToString();
                 string weaponId = attackInformation.AttackerWeapon.Item?.StringId;
-                if (!string.IsNullOrEmpty(weaponId) && weaponId.StartsWith("onepower", StringComparison.OrdinalIgnoreCase))
+                if (!string.IsNullOrEmpty(weaponId) && (weaponId.StartsWith("onepower", StringComparison.OrdinalIgnoreCase) || weaponId.StartsWith("Hornofvalere", StringComparison.OrdinalIgnoreCase)))
                 return true;
             }
 

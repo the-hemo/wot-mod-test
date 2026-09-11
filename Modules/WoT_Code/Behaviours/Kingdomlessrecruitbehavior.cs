@@ -1,6 +1,4 @@
-﻿// KingdomlessRecruitBehavior.cs
-// Namespace: WoT_Code
-//
+﻿// =====================================================================
 // Feature: Allows the player to recruit kingdomless clan leaders into their
 // kingdom via a new conversation option on hero_main_options.
 //
@@ -13,9 +11,7 @@
 //   - Positive relation (>= 0)  : accepts immediately
 //   - Neutral relation (-20..0) : hesitates but accepts
 //   - Negative relation (< -20) : declines with a hostile response
-//
-// Registration: In your existing SubModule.OnGameStart(), call:
-//   campaignGameStarter.AddBehavior(new KingdomlessRecruitBehavior());
+// =====================================================================
 
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.CampaignSystem.Actions;

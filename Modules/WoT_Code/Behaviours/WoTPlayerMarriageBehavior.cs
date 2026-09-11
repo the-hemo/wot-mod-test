@@ -9,6 +9,7 @@ using TaleWorlds.CampaignSystem.CampaignBehaviors;
 using TaleWorlds.CampaignSystem.ComponentInterfaces;
 using TaleWorlds.CampaignSystem.Party;
 using TaleWorlds.Core;
+using TaleWorlds.Library;
 
 namespace WoT_Code.Behaviours
 {
@@ -46,7 +47,18 @@ namespace WoT_Code.Behaviours
                     .GetMethod("ConsiderMarriageForPlayerClanMember", BindingFlags.Instance | BindingFlags.NonPublic);
 
                 if (_vanillaBehavior == null || _canOfferMarriageForClanMethod == null || _considerMarriageMethod == null)
-                    return; // still not ready or reflection genuinely failed — bail safely instead of throwing
+                    return; // bail safely instead of throwing crash
+            }
+
+
+
+            if (consideringClan.Culture?.DefaultPartyTemplate == null)
+            {
+                //InformationManager.DisplayMessage(new InformationMessage(
+                //    $"[WoT] Skipping marriage tick for {consideringClan.StringId} — no DefaultPartyTemplate (culture: {consideringClan.Culture?.StringId ?? "null"}).",
+                //    Color.FromUint(0xFF0000FF)));
+                // Remove log once i playtest as im sure the error was my removal of a default party template
+                return;
             }
 
             if (!Hero.MainHero.CanMarry()) return;
@@ -55,9 +67,11 @@ namespace WoT_Code.Behaviours
             bool canOffer = (bool)_canOfferMarriageForClanMethod.Invoke(_vanillaBehavior, new object[] { consideringClan });
             if (!canOffer) return;
 
-            // same distance gate vanilla uses — proceed when true, matching vanilla's polarity
-            MobileParty.NavigationType navType = consideringClan.HasNavalNavigationCapability
-                ? MobileParty.NavigationType.All : MobileParty.NavigationType.Default;
+            bool hasNaval = (consideringClan.DefaultPartyTemplate?.ShipHulls?.Count ?? 0) > 0;
+            MobileParty.NavigationType navType = hasNaval
+                ? MobileParty.NavigationType.All
+                : MobileParty.NavigationType.Default;
+
             float distance = Campaign.Current.Models.MapDistanceModel.GetDistance(
                 Clan.PlayerClan.FactionMidSettlement, consideringClan.FactionMidSettlement, false, false, navType);
             float maxDistance = Campaign.Current.Models.MapDistanceModel.GetMaximumDistanceBetweenTwoConnectedSettlements(navType);

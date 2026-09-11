@@ -1,10 +1,12 @@
-﻿//   - Recruitment costs influence, not gold
+﻿//   =====================================================================
+//   - Recruitment costs influence, not gold
 //   - Cost is adjusted by player's relation with the settlement's owning clan leader
 //   - Player's current kingdom must match the settlement's faction (or player is independent)
 //   - Independent players (no kingdom) can recruit from any settlement with enough influence
 //   - Per-settlement cooldown, persisted across saves via SyncData
 //   - town_tarvalon recruits equal numbers of AesSedai3 AND Whitetower_warder2
 //   - All other settlements recruit a single troop type
+//   =====================================================================
 
 using System;
 using System.Collections.Generic;

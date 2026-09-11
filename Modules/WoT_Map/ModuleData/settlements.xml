@@ -5,7 +5,7 @@
     <Components>
       <Town id="town_comp_maradon" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_seaside_1" wait_mesh="wait_empire_town" gate_rotation="0.408" prosperity="2800">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
+          <Building id="building_settlement_fortifications" level="2" />
           <Building id="building_settlement_barracks" level="1" />
           <Building id="building_settlement_training_fields" level="2" />
           <Building id="building_settlement_guard_house" level="2" />
@@ -481,9 +481,9 @@
     <Components>
       <Town id="town_comp_arbela" is_castle="false" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="5100">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
+          <Building id="building_settlement_fortifications" level="2" />
           <Building id="building_settlement_barracks" level="1" />
-          <Building id="building_settlement_training_fields" level="0" />
+          <Building id="building_settlement_training_fields" level="1" />
           <Building id="building_settlement_guard_house" level="1" />
           <Building id="building_settlement_siege_workshop" level="0" />
           <Building id="building_settlement_tax_office" level="0" />
@@ -627,7 +627,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_arafel_1" name="{=Settlements.Settlement.name.castle_arafel_1}Tifans Well" owner="Faction.clan_khuzait_9" posX="538.109" posY="556.715" culture="Culture.khuzait" gate_posX="536.6956" gate_posY="555.608">
+  <Settlement id="castle_arafel_1" name="{=Settlements.Settlement.name.castle_arafel_1}Tifans Well" owner="Faction.clan_khuzait_9" posX="542.342" posY="554.34" culture="Culture.khuzait" gate_posX="542.1411" gate_posY="555.0618">
     <Components>
       <Town id="castle_comp_arafel_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="960">
         <Buildings>
@@ -869,8 +869,8 @@
     <Components>
       <Town id="castle_comp_shiener_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="1100">
         <Buildings>
-          <Building id="building_castle_fortifications" level="1" />
-          <Building id="building_castle_barracks" level="0" />
+          <Building id="building_castle_fortifications" level="2" />
+          <Building id="building_castle_barracks" level="1" />
           <Building id="building_castle_training_fields" level="0" />
           <Building id="building_castle_guard_house" level="1" />
           <Building id="building_castle_siege_workshop" level="1" />
@@ -2428,7 +2428,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="318.2462" posY="427.5729" culture="Culture.empire" gate_posX="320.9899" gate_posY="425.4386" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
+  <Settlement id="town_baerlon" name="{=Settlements.Settlement.name.town_baerlon}Baerlon" owner="Faction.clan_empire_west_2" posX="318.246" posY="427.573" culture="Culture.empire" gate_posX="321.2541" gate_posY="425.1846" text="{=nhmBQIC4}Baerlon sits near the Mountains of Mist far to the West of the Andor capital.  The city is used as a trading and warehouseing hub for the outputs of village enterprises in the region.  Its large gates only open during daylight hours to deter raiders from attempting to pillage its stored commodities.">
     <Components>
       <Town id="town_comp_baerlon" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_vlanda" wait_mesh="wait_vlandia_town" gate_rotation="0.308" prosperity="4200">
         <Buildings>
@@ -2665,7 +2665,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_village_dragon_2_2" name="{=Settlements.Settlement.name.castle_village_dragon_2_2}Carrmound" posX="273.796" posY="412.6812" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_dragon_2_2}Carrmound lies on the forest trails that lead to Emond's field. Villagers here dig a fine pale clay, rich in mica and feldspar, from the mountain streams.">
+  <Settlement id="castle_village_dragon_2_2" name="{=Settlements.Settlement.name.castle_village_dragon_2_2}Carrmound" posX="273.796" posY="412.681" culture="Culture.empire" text="{=Settlements.Settlement.text.castle_village_dragon_2_2}Carrmound lies on the forest trails that lead to Emond's field. Villagers here dig a fine pale clay, rich in mica and feldspar, from the mountain streams.">
     <Components>
       <Village id="castle_village_comp_dragon_2_2" village_type="VillageType.clay_mine" hearth="640" bound="Settlement.castle_dragon_2" background_crop_position="0.0" background_mesh="gui_bg_village_vlanda" wait_mesh="wait_vlandia_village" castle_background_mesh="gui_bg_castle_vlanda" />
     </Components>
@@ -2779,7 +2779,7 @@
     </CommonAreas>
   </Settlement>
   <!--Black Tower-->
-  <Settlement id="town_ashaman" name="{=Settlements.Settlement.name.town_ashaman}The Black Tower" owner="Faction.clan_empire_north_8" posX="482.855" posY="331.47" culture="Culture.black" gate_posX="483.2212" gate_posY="328.9816" text="{=UHvEEEBb}The Black Tower is the headquarters of the Asha'man, the organization of male channelers started by Rand al'Thor and trained by Mazrim Taim. It originated as a converted farmhouse located less than two leagues south of Caemlyn.">
+  <Settlement id="town_ashaman" name="{=Settlements.Settlement.name.town_ashaman}The Black Tower" owner="Faction.clan_empire_north_8" posX="482.855" posY="331.47" culture="Culture.black" gate_posX="483.3795" gate_posY="328.9274" text="{=UHvEEEBb}The Black Tower is the headquarters of the Asha'man, the organization of male channelers started by Rand al'Thor and trained by Mazrim Taim. It originated as a converted farmhouse located less than two leagues south of Caemlyn.">
     <Components>
       <Town id="town_comp_ashaman" is_castle="false" background_crop_position="0.45" background_mesh="menu_empire_seaside_2" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="4000">
         <Buildings>
@@ -3608,7 +3608,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="castle_cairhien_1" name="{=Settlements.Settlement.name.castle_cairhien_1}Rhesos Castle" owner="Faction.clan_empire_south_1" posX="618.562" posY="377.314" culture="Culture.empire" gate_posX="617.9118" gate_posY="374.8236">
+  <Settlement id="castle_cairhien_1" name="{=Settlements.Settlement.name.castle_cairhien_1}Fovrie Castle" owner="Faction.clan_empire_south_1" posX="618.562" posY="377.314" culture="Culture.empire" gate_posX="617.9118" gate_posY="374.8236">
     <Components>
       <Town id="castle_comp_cairhien_1" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="720">
         <Buildings>
@@ -3699,10 +3699,10 @@
     <Components>
       <Town id="castle_comp_cairhien_3" is_castle="true" background_crop_position="0.0" background_mesh="menu_empire_1" wait_mesh="wait_empire_town" gate_rotation="0.908" prosperity="810">
         <Buildings>
-          <Building id="building_castle_fortifications" level="1" />
-          <Building id="building_castle_barracks" level="0" />
-          <Building id="building_castle_training_fields" level="0" />
-          <Building id="building_castle_guard_house" level="0" />
+          <Building id="building_castle_fortifications" level="2" />
+          <Building id="building_castle_barracks" level="1" />
+          <Building id="building_castle_training_fields" level="1" />
+          <Building id="building_castle_guard_house" level="1" />
           <Building id="building_castle_siege_workshop" level="0" />
           <Building id="building_castle_castallans_office" level="0" />
           <Building id="building_castle_granary" level="0" />
@@ -3746,7 +3746,7 @@
     </CommonAreas>
   </Settlement>
   <!--Murandy-->
-  <Settlement id="town_ludgard" name="{=Settlements.Settlement.name.town_ludgard}Lugard" owner="Faction.clan_empire_south_6" posX="396.89" posY="260.683" culture="Culture.empire" gate_posX="396.7763" gate_posY="257.7513" text="{=n9WMUuSp}Lugard is the capital city of Murandy. Lugard is a dirty city, dusty and noisy, its gray outer walls in a state of disrepair and its inner stone walls in worse shape. Many of its broad roads are unpaved, despite the flourishing trade that brings scores of wagons trafficking through—from Illian, Ebou Dar, Ghealdan, and Andor.">
+  <Settlement id="town_ludgard" name="{=Settlements.Settlement.name.town_ludgard}Lugard" owner="Faction.clan_empire_south_6" posX="396.89" posY="260.683" culture="Culture.empire" gate_posX="399.8538" gate_posY="260.9455" text="{=n9WMUuSp}Lugard is the capital city of Murandy. Lugard is a dirty city, dusty and noisy, its gray outer walls in a state of disrepair and its inner stone walls in worse shape. Many of its broad roads are unpaved, despite the flourishing trade that brings scores of wagons trafficking through—from Illian, Ebou Dar, Ghealdan, and Andor.">
     <Components>
       <Town id="town_comp_ludgard" is_castle="false" background_crop_position="0.0" background_mesh="menu_empire_3" wait_mesh="wait_empire_town" gate_rotation="0.208" prosperity="5100">
         <Buildings>
@@ -4822,7 +4822,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="town_aiel_4" name="{=Settlements.Settlement.name.town_aiel_4}Sandy Plains Hold" owner="Faction.clan_aserai_4" posX="709.116" posY="280.463" culture="Culture.aserai" gate_posX="708.8459" gate_posY="281.9614" text="{=bnl7Va4c}Sandy Plains Hold sits at the northern edge of the Termool Desert.">
+  <Settlement id="town_aiel_4" name="{=Settlements.Settlement.name.town_aiel_4}Sandy Plains Hold" owner="Faction.clan_aserai_4" posX="727.463" posY="278.9" culture="Culture.aserai" gate_posX="725.6735" gate_posY="279.1473" text="{=bnl7Va4c}Sandy Plains Hold sits at the northern edge of the Termool Desert.">
     <Components>
       <Town id="town_comp_aiel_4" is_castle="false" background_crop_position="0.235" background_mesh="menu_aserai_1" wait_mesh="wait_aserai_town" gate_rotation="0.808" prosperity="4200">
         <Buildings>
@@ -4884,7 +4884,7 @@
       <Area type="Bog" name="{=iXA5SttU}Bog" />
     </CommonAreas>
   </Settlement>
-  <Settlement id="village_aiel_4_3" name="{=Settlements.Settlement.name.village_aiel_4_3}Termool Shade" posX="721.37" posY="279.419" culture="Culture.aserai" text="{=Settlements.Settlement.text.village_aiel_4_3}Termool Shade is the last campsite before the vast and unhospitable Termool Desert. The land is mostly desert-steppe. Barren most of the year except for scrub, it is surprisingly covered in grass and flowers in the spring and is fine grazing for horses.  This is reportably due to the Ogier influence from Stedding Shangtai to the Southwest.">
+  <Settlement id="village_aiel_4_3" name="{=Settlements.Settlement.name.village_aiel_4_3}Termool Shade" posX="741.055" posY="278.747" culture="Culture.aserai" text="{=Settlements.Settlement.text.village_aiel_4_3}Termool Shade is the last campsite before the vast and unhospitable Termool Desert. The land is mostly desert-steppe. Barren most of the year except for scrub, it is surprisingly covered in grass and flowers in the spring and is fine grazing for horses.  This is reportably due to the Ogier influence from Stedding Shangtai to the Southwest.">
     <Components>
       <Village id="village_comp_aiel_4_3" village_type="VillageType.desert_horse_ranch" hearth="243" bound="Settlement.town_aiel_4" background_crop_position="0.145" background_mesh="menu_aserai_village_2" wait_mesh="wait_aserai_village" castle_background_mesh="gui_bg_castle_aserai" />
     </Components>
@@ -5228,10 +5228,10 @@
     <Components>
       <Town id="town_comp_tear" is_castle="false" background_crop_position="0.0" background_mesh="gui_bg_town_khuzait" wait_mesh="wait_khuzait_town" gate_rotation="0.008" prosperity="1700">
         <Buildings>
-          <Building id="building_settlement_fortifications" level="1" />
-          <Building id="building_settlement_barracks" level="1" />
+          <Building id="building_settlement_fortifications" level="3" />
+          <Building id="building_settlement_barracks" level="2" />
           <Building id="building_settlement_training_fields" level="1" />
-          <Building id="building_settlement_guard_house" level="0" />
+          <Building id="building_settlement_guard_house" level="1" />
           <Building id="building_settlement_siege_workshop" level="0" />
           <Building id="building_settlement_tax_office" level="0" />
           <Building id="building_settlement_marketplace" level="0" />

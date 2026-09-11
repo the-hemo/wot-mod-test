@@ -11,6 +11,7 @@ using WoT_Code.MagicModel;
 
 namespace WoT_Code.HarmonyPatches
 {
+    /*
     [HarmonyPatch(typeof(CampaignUIHelper), nameof(CampaignUIHelper.GetHeroTraits))]
     public class GetHeroTraitsPatch
     {
@@ -21,4 +22,5 @@ namespace WoT_Code.HarmonyPatches
             __result = __result.AddItem(WoTTraits.CanChannel);
         }
     }
+    */
 }

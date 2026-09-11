@@ -1,20 +1,5 @@
 ﻿// WoTCharacterCreationBehavior.cs
 // Namespace: WoT_Code
-//
-// Architecture: Instance class inheriting CharacterCreationCampaignBehavior
-// ---------------------------------------------------------------------------------
-// Key insight from working mod (CharacterCreationRedoneSandbox.cs):
-//   The patch class MUST inherit CharacterCreationCampaignBehavior so that:
-//   - The Harmony prefix receives __instance as the concrete subclass
-//   - All NarrativeMenu character delegates are bound to THIS instance
-//   - Virtual methods (GetMotherEquipmentId, GetFatherEquipmentId,
-//     GetParentMenuNarrativeMenuCharacterArgs etc.) resolve against our instance
-//   - FaceGenUpdated and ApplyMainHeroEquipment resolve against our instance
-//
-// A static class prefix cannot satisfy these requirements — ModifyMenuCharacters
-// calls back into the registered behavior instance to resolve character args.
-// If that instance is vanilla's, it crashes on our replacement menus.
-
 using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
@@ -29,8 +14,6 @@ using TaleWorlds.Localization;
 namespace WoT_Code
 {
     // =========================================================================
-    // WoTCharacterCreationBehavior
-    //
     // Inherits CharacterCreationCampaignBehavior — the engine calls back into
     // this instance for character args, equipment resolution, FaceGenUpdated.
     // The Harmony prefix intercepts InitializeData and builds our WoT menus,
@@ -344,75 +327,6 @@ namespace WoT_Code
 
             manager.AddNewMenu(ageMenu);
         }
-
-        // =====================================================================
-        // Equipment resolution — instance method, delegate bound to __instance.
-        // =====================================================================
-
-        //public new bool TryGetEquipmentId(string occupationId, out string equipmentId)
-        //{
-
-        //    switch (occupationId)
-        //    {
-        //        // ------------------------------------------------------------------
-        //        // EQUIPMENT PLACEHOLDER TAGS
-        //        // Replace each string value with the id attribute of the corresponding
-        //        // <EquipmentRoster id="..."> entry in your module's XML files.
-        //        // ------------------------------------------------------------------
-
-        //        // Aiel
-        //        case "aiel_warriors": equipmentId = "EQUIPMENT_AIEL_WARRIORS"; return true;
-        //        case "aiel_trackers": equipmentId = "EQUIPMENT_AIEL_TRACKERS"; return true;
-        //        case "aiel_healers": equipmentId = "EQUIPMENT_AIEL_HEALERS"; return true;
-        //        case "aiel_farmers": equipmentId = "EQUIPMENT_AIEL_FARMERS"; return true;
-        //        case "aiel_hunters": equipmentId = "EQUIPMENT_AIEL_HUNTERS"; return true;
-        //        case "aiel_smiths": equipmentId = "EQUIPMENT_AIEL_SMITHS"; return true;
-
-        //        // Shadow
-        //        case "shadow_noble_soldiers": equipmentId = "EQUIPMENT_SHADOW_NOBLE_SOLDIERS"; return true;
-        //        case "shadow_thieves": equipmentId = "EQUIPMENT_SHADOW_THIEVES"; return true;
-        //        case "shadow_healers": equipmentId = "EQUIPMENT_SHADOW_HEALERS"; return true;
-        //        case "shadow_nobility": equipmentId = "EQUIPMENT_SHADOW_NOBILITY"; return true;
-        //        case "shadow_farmers": equipmentId = "EQUIPMENT_SHADOW_FARMERS"; return true;
-        //        case "shadow_peddlers": equipmentId = "EQUIPMENT_SHADOW_PEDDLERS"; return true;
-
-        //        // Borderlands
-        //        case "borderlands_noble_soldiers": equipmentId = "EQUIPMENT_BORDERLANDS_NOBLE_SOLDIERS"; return true;
-        //        case "borderlands_thieves": equipmentId = "EQUIPMENT_BORDERLANDS_THIEVES"; return true;
-        //        case "borderlands_healers": equipmentId = "EQUIPMENT_BORDERLANDS_HEALERS"; return true;
-        //        case "borderlands_nobility": equipmentId = "EQUIPMENT_BORDERLANDS_NOBILITY"; return true;
-        //        case "borderlands_farmers": equipmentId = "EQUIPMENT_BORDERLANDS_FARMERS"; return true;
-        //        case "borderlands_peddlers": equipmentId = "EQUIPMENT_BORDERLANDS_PEDDLERS"; return true;
-
-        //        // Westlands
-        //        case "westlands_noble_soldiers": equipmentId = "EQUIPMENT_WESTLANDS_NOBLE_SOLDIERS"; return true;
-        //        case "westlands_thieves": equipmentId = "EQUIPMENT_WESTLANDS_THIEVES"; return true;
-        //        case "westlands_healers": equipmentId = "EQUIPMENT_WESTLANDS_HEALERS"; return true;
-        //        case "westlands_nobility": equipmentId = "EQUIPMENT_WESTLANDS_NOBILITY"; return true;
-        //        case "westlands_farmers": equipmentId = "EQUIPMENT_WESTLANDS_FARMERS"; return true;
-        //        case "westlands_peddlers": equipmentId = "EQUIPMENT_WESTLANDS_PEDDLERS"; return true;
-
-        //        // Coastlands
-        //        case "coastlands_noble_soldiers": equipmentId = "EQUIPMENT_COASTLANDS_NOBLE_SOLDIERS"; return true;
-        //        case "coastlands_thieves": equipmentId = "EQUIPMENT_COASTLANDS_THIEVES"; return true;
-        //        case "coastlands_healers": equipmentId = "EQUIPMENT_COASTLANDS_HEALERS"; return true;
-        //        case "coastlands_nobility": equipmentId = "EQUIPMENT_COASTLANDS_NOBILITY"; return true;
-        //        case "coastlands_hunters": equipmentId = "EQUIPMENT_COASTLANDS_HUNTERS"; return true;
-        //        case "coastlands_guildsmen": equipmentId = "EQUIPMENT_COASTLANDS_GUILDSMEN"; return true;
-
-        //        // Seanchan
-        //        case "seanchan_deathguard": equipmentId = "EQUIPMENT_SEANCHAN_DEATHGUARD"; return true;
-        //        case "seanchan_thieves": equipmentId = "EQUIPMENT_SEANCHAN_THIEVES"; return true;
-        //        case "seanchan_healers": equipmentId = "EQUIPMENT_SEANCHAN_HEALERS"; return true;
-        //        case "seanchan_nobility": equipmentId = "EQUIPMENT_SEANCHAN_NOBILITY"; return true;
-        //        case "seanchan_soldiers": equipmentId = "EQUIPMENT_SEANCHAN_SOLDIERS"; return true;
-        //        case "seanchan_engineers": equipmentId = "EQUIPMENT_SEANCHAN_ENGINEERS"; return true;
-
-        //        default:
-        //            equipmentId = null;
-        //            return false;
-        //    }
-        //}
 
         // =====================================================================
         // Skill shorthands — static properties reading through to DefaultSkills
